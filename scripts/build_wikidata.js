@@ -10,7 +10,7 @@ import localeCompare from 'locale-compare';
 import LocationConflation from '@ideditor/location-conflation';
 import shell from 'shelljs';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
-import Twitter from 'Twitter';
+import Twitter from 'twitter';
 import wikibase from 'wikibase-sdk';
 import wikibaseEdit from 'wikibase-edit';
 const withLocale = localeCompare('en-US');

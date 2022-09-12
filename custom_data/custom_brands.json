@@ -1,0 +1,147 @@
+{
+  "shop/clothes|Morgan": {
+    "tags": {
+      "brand": "Morgan",
+      "name": "Morgan",
+      "shop": "clothes",
+      "brand:wikidata": "Q6911563",
+      "brand:wikipedia": "fr:Morgan_(prêt-à-porter)",
+      "clothes": "women"
+    }
+  },
+  "shop/optician|Ecouter Voir": {
+    "tags": {
+      "brand": "Écouter Voir",
+      "name": "Écouter Voir",
+      "shop": "optician",
+      "brand:wikidata": "Q18414551",
+      "brand:wikipedia": "fr:Écouter voir",
+      "clothes": "women"
+    }
+  },
+  "shop/electronics|PRO&Cie": {
+    "tags": {
+      "brand": "PRO&Cie",
+      "name": "PRO&Cie",
+      "shop": "electronics",
+      "brand:wikidata": "Q3406142",
+      "brand:wikipedia": "fr:PRO&Cie"
+    }
+  },
+  "shop/clothes|La Halle": {
+    "tags": {
+      "brand": "La Halle",
+      "name": "La Halle",
+      "shop": "clothes",
+      "brand:wikidata": "Q100728296"
+    }
+  },
+  "shop/variety_store|B&M": {
+    "tags": {
+      "brand": "B&M",
+      "name": "B&M",
+      "shop": "variety_store",
+      "brand:wikidata": "Q4836931"
+    }
+  },
+  "shop/car_repair|Mondial Pare-Brise": {
+    "tags": {
+      "brand": "Mondial Pare-Brise",
+      "name": "Mondial Pare-Brise",
+      "shop": "car_repair",
+      "brand:wikidata": "Q111442665"
+    }
+  },
+  "amenity/vehicle_inspection|Auto Control": {
+    "tags": {
+      "amenity": "vehicle_inspection",
+      "brand": "Auto Control",
+      "brand:wikidata": "Q111864574",
+      "name": "Auto Control"
+    }
+  },
+  "amenity/fast_food|Le Kiosque à Pizzas": {
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Le Kiosque à Pizzas",
+      "brand:wikidata": "Q3223839",
+      "brand:wikipedia": "fr:Le Kiosque à Pizzas",
+      "cuisine": "pizza",
+      "name": "Le Kiosque à Pizzas",
+      "takeaway": "yes"
+    }
+  },
+  "shop/car_repair|Rapid Pare-Brise": {
+    "tags": {
+      "shop": "car_repair",
+      "brand": "Rapid Pare-Brise",
+      "brand:wikidata": "Q112064766",
+      "name": "Rapid Pare-Brise"
+    }
+  },
+  "leisure/fitness_centre|KeepCool": {
+    "tags": {
+      "brand": "KeepCool",
+      "brand:wikidata": "Q100146251",
+      "leisure": "fitness_centre",
+      "name": "KeepCool"
+    }
+  },
+  "shop/second_hand|Easycash": {
+    "tags": {
+      "brand": "Easycash",
+      "brand:wikidata": "Q105395978",
+      "name": "Easycash",
+      "shop": "second_hand"
+    }
+  },
+  "shop/variety_store|Stokomani": {
+    "tags": {
+      "brand": "Stokomani",
+      "brand:wikidata": "Q22249328",
+      "brand:wikipedia": "fr:Stokomani",
+      "name": "Stokomani",
+      "shop": "variety_store"
+    }
+  },
+  "shop/alcohol|V and B": {
+    "tags": {
+      "brand": "V and B",
+      "brand:wikidata": "Q100706329",
+      "name": "V and B",
+      "shop": "alcohol"
+    }
+  },
+  "shop/wholesale|Promocash": {
+    "tags": {
+      "brand": "Promocash",
+      "brand:wikidata": "Q3407427",
+      "name": "Promocash",
+      "shop": "wholesale"
+    }
+  },
+  "shop/garden_centre|Verts Loisirs": {
+    "tags": {
+      "brand": "Verts Loisirs",
+      "brand:wikidata": "Q112208349",
+      "name": "Verts Loisirs",
+      "shop": "garden_centre"
+    }
+  },
+  "shop/convenience|Panier Sympa": {
+    "tags": {
+      "brand": "Panier Sympa",
+      "brand:wikidata": "Q112222208",
+      "name": "Panier Sympa",
+      "shop": "convenience"
+    }
+  },
+  "amenity/vehicle_inspection|Auto Sécurité": {
+    "tags": {
+      "amenity": "vehicle_inspection",
+      "brand": "Auto Sécurité",
+      "brand:wikidata": "Q111864574",
+      "name": "Auto Sécurité"
+    }
+  }
+}

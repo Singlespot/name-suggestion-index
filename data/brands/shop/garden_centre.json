@@ -175,6 +175,17 @@
       }
     },
     {
+      "displayName": "Verts Loisirs",
+      "id": "vertsloisirs-20cffa",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Verts Loisirs",
+        "brand:wikidata": "Q112208349",
+        "name": "Verts Loisirs",
+        "shop": "garden_centre"
+      }
+    },
+    {
       "displayName": "Villaverde",
       "id": "villaverde-20cffa",
       "locationSet": {"include": ["fr"]},

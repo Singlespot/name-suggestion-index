@@ -11,6 +11,17 @@
   },
   "items": [
     {
+      "displayName": "Auto Sécurité",
+      "id": "autosecurite-53baa7",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "amenity": "vehicle_inspection",
+        "brand": "Auto Sécurité",
+        "brand:wikidata": "Q110603508",
+        "name": "Auto Sécurité"
+      }
+    },
+    {
       "displayName": "Autosur",
       "id": "autosur-53baa7",
       "locationSet": {"include": ["fr"]},

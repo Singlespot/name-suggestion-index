@@ -716,6 +716,17 @@
       }
     },
     {
+      "displayName": "Mondial Pare-Brise",
+      "id": "mondialparebrise-98e3a2",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Mondial Pare-Brise",
+        "brand:wikidata": "Q111442665",
+        "name": "Mondial Pare-Brise",
+        "shop": "car_repair"
+      }
+    },
+    {
       "displayName": "Monro Muffler Brake",
       "id": "monromufflerbrake-878d90",
       "locationSet": {"include": ["us"]},
@@ -939,6 +950,17 @@
         "brand": "Quickpoint",
         "brand:wikidata": "Q110510602",
         "name": "Quickpoint",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "Rapid Pare-Brise",
+      "id": "rapidparebrise-98e3a2",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Rapid Pare-Brise",
+        "brand:wikidata": "Q112064766",
+        "name": "Rapid Pare-Brise",
         "shop": "car_repair"
       }
     },

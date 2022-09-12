@@ -1,0 +1,159 @@
+{
+  "Q6911563": {
+    "description": "clothing brand",
+    "identities": {
+      "facebook": "morgandetoi"
+    },
+    "label": "Morgan",
+    "logos": {
+      "facebook": "https://graph.facebook.com/morgandetoi/picture?type=large"
+    }
+  },
+  "Q18414551": {
+    "description": "French brand of optics and hearing aid retailers",
+    "identities": {
+      "twitter": "EcouterVoir"
+    },
+    "label": "Écouter Voir",
+    "logos": {
+      "facebook": "https://pbs.twimg.com/profile_images/1207694150986084357/HBwrgpbc_bigger.jpg"
+    }
+  },
+  "Q3406142": {
+    "identities": {
+      "twitter": "PROCie_Officiel"
+    },
+    "label": "PRO&Cie",
+    "logos": {
+      "facebook": "https://graph.facebook.com/PROetCie/picture?type=large"
+    }
+  },
+  "Q100728296": {
+    "identities": {
+      "twitter": "LaHalle"
+    },
+    "label": "La Halle",
+    "logos": {
+      "facebook": "https://graph.facebook.com/lahalle.com/picture?type=large"
+    }
+  },
+  "Q4836931": {
+    "identities": {
+      "twitter": "bmstores"
+    },
+    "label": "B&M",
+    "logos": {
+      "facebook": "https://graph.facebook.com/bmstores/picture?type=large"
+    }
+  },
+  "Q111442665": {
+    "label": "Mondial Pare-Brise",
+    "logos": {
+      "facebook": "https://graph.facebook.com/MondialPareBriseFrance/picture?type=large"
+    }
+  },
+  "Q3223839": {
+    "identities": {
+      "facebook": "lekiosqueapizzasfrance",
+      "instagram": "lekiosqueapizzasfrance",
+      "website": "https://www.le-kiosque-a-pizzas.com/"
+    },
+    "label": "Le Kiosque à Pizzas",
+    "logos": {
+      "facebook": "https://graph.facebook.com/lekiosqueapizzasfrance/picture?type=large"
+    }
+  },
+  "Q111864574": {
+    "identities": {
+      "website": "https://autocontrol-ct.fr/"
+    },
+    "label": "Auto Control",
+    "logos": {
+      "facebook": "https://www.dekra-norisko.fr/media/exe_AutoControlLOGO.jpg"
+    }
+  },
+  "Q112064766": {
+    "identities": {
+      "website": "https://www.rapidparebrise.fr/"
+    },
+    "label": "Rapid Pare-Brise",
+    "logos": {
+      "facebook": "https://www.rapidparebrise.fr/docs/templates/15/logo-rapid-pare-brise.svg"
+    }
+  },
+  "Q100146251": {
+    "description": "French fitness center chain",
+    "identities": {
+      "facebook": "keepcoolofficiel",
+      "instagram": "keep_cool_officiel",
+      "twitter": "keepcooldg",
+      "website": "https://www.keepcool.fr"
+    },
+    "label": "KeepCool",
+    "logos": {
+      "facebook": "https://graph.facebook.com/keepcoolofficiel/picture?type=large"
+    }
+  },
+  "Q105395978": {
+    "identities": {
+      "facebook": "EasyCash.fr",
+      "instagram": "easycash_fr",
+      "linkedin": "easy-cash-s.a.s",
+      "website": "https://www.easycash.fr/"
+    },
+    "label": "Easycash",
+    "logos": {
+      "facebook": "https://graph.facebook.com/EasyCash.fr/picture?type=large",
+      "wikidata": "https://commons.wikimedia.org/w/index.php?title=Special%3ARedirect%2Ffile%2FLogo%20Easycash.jpg&width=150"
+    }
+  },
+  "Q22249328": {
+    "description": "french supermarket brand",
+    "identities": {
+      "website": "http://www.stokomani.fr/"
+    },
+    "label": "Stokomani",
+    "logos": {
+      "wikidata": "https://commons.wikimedia.org/w/index.php?title=Special%3ARedirect%2Ffile%2FLogo-Stokomani.jpg&width=150"
+    }
+  },
+  "Q100706329": {
+    "description": "wine shop",
+    "identities": {
+      "facebook": "VandB.Officiel",
+      "instagram": "vandb_officiel",
+      "linkedin": "vandb",
+      "twitter": "VandBOfficiel",
+      "website": "https://vandb.fr"
+    },
+    "label": "V and B",
+    "logos": {
+      "facebook": "https://graph.facebook.com/VandB.Officiel/picture?type=large",
+      "twitter": "https://pbs.twimg.com/profile_images/1276147435115610112/Pl6N9U19_bigger.jpg"
+    }
+  },
+  "Q3407427": {
+    "label": "Promocash",
+    "logos": {
+      "facebook": "https://graph.facebook.com/PromocashFrance/picture?type=large"
+    }
+  },
+  "Q112208349": {
+    "label": "Verts Loisirs",
+    "logos": {
+      "facebook": "https://graph.facebook.com/verts.loisirs/picture?type=large"
+    }
+  },
+  "Q112222208": {
+    "label": "Panier Sympa",
+    "logos": {
+      "facebook": "http://www.codifrance.fr/codifrance/static/assets/proximite/panierSympa.jpg"
+    }
+  },
+  "Q110603508": {
+    "label": "Auto Sécurité",
+    "logos": {
+      "facebook": "https://graph.facebook.com/Autosecuritefrance/picture?type=large"
+    }
+  }
+}

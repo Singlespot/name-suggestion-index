@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "6.0.20220912",
-    "generated": "2022-09-12T03:01:02.660Z",
+    "version": "6.0.20220913",
+    "generated": "2022-09-13T08:33:58.137Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/dissolved.json",
-    "hash": "cafee7272ce2a41da728511c7eb186f5"
+    "hash": "1404a35183e3854af9b6315152e48166"
   },
   "dissolved": {
     "21d03b-98e651": [{"date": "2013-01-01T00:00:00.000Z"}],

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "6.0.20220912",
-    "generated": "2022-09-12T03:01:02.729Z",
+    "version": "6.0.20220913",
+    "generated": "2022-09-13T08:33:28.214Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/featureCollection.json",
-    "hash": "73c8ed9013c98ebb977d750a35d4608c"
+    "hash": "ed523b48952a1bcb8ee88ecc6950ea6c"
   },
   "type": "FeatureCollection",
   "features": [

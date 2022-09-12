@@ -5127,11 +5127,12 @@
     },
     {
       "displayName": "Morgan",
-      "id": "morgan-5bd015",
-      "locationSet": {"include": ["ch", "fr"]},
+      "id": "morgan-4a3e29",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "brand": "Morgan",
-        "brand:wikidata": "Q2990868",
+        "brand:wikidata": "Q6911563",
+        "clothes": "women",
         "name": "Morgan",
         "shop": "clothes"
       }

@@ -110,6 +110,17 @@
       }
     },
     {
+      "displayName": "Promocash",
+      "id": "promocash-936387",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Promocash",
+        "brand:wikidata": "Q3407427",
+        "name": "Promocash",
+        "shop": "wholesale"
+      }
+    },
+    {
       "displayName": "Sam's Club",
       "id": "samsclub-fb1de0",
       "locationSet": {"include": ["001"]},
