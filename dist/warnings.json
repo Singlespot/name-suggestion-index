@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "6.0.20230501",
-    "generated": "2023-05-01T04:17:56.519Z",
+    "version": "6.0.20230502",
+    "generated": "2023-05-02T14:03:29.468Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/warnings.json",
-    "hash": "0092d02c7c34693aba4d9cc8ac7b5ebe"
+    "hash": "7cfb40e49cfbe9ff77b3b01f682e0393"
   },
   "warnings": [
     {

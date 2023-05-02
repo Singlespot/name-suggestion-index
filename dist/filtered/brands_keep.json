@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "6.0.20230501",
-    "generated": "2023-05-01T04:18:00.759Z",
+    "version": "6.0.20230502",
+    "generated": "2023-05-02T14:03:33.199Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/filtered/brands_keep.json",
-    "hash": "4e6c3569fdc0ef23f5a43782ca4be257",
+    "hash": "b7a709139f9771293b4caec0a9090f11",
     "collectionDate": "20230429"
   },
   "keep": {

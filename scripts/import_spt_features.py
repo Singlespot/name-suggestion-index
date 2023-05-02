@@ -35,4 +35,5 @@ for path, brand in custom_brands.items():
     else:
         print('INFO: Ignoring ' + path + ' since it is already present in ' + nsi_file)
     json.dump(nsi_brands, open(nsi_file, 'wt'), ensure_ascii=False, indent=2)
+    json.dump(nsi_wikidata, open('dist/wikidata.json', 'wt'), indent=2, ensure_ascii=False, separators=(',', ':'))
     json.dump(nsi_wikidata, open('dist/wikidata.min.json', 'wt'), ensure_ascii=False, separators=(',', ':'))
