@@ -34,6 +34,15 @@
       }
     },
     {
+      "displayName": "Agentschap Natuur en Bos",
+      "id": "agentschapnatuurenbos-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Agentschap Natuur en Bos"
+      }
+    },
+    {
       "displayName": "Alaska Division of Parks & Outdoor Recreation",
       "id": "alaskadivisionofparksandoutdoorrecreation-3f6ac7",
       "locationSet": {
@@ -120,6 +129,24 @@
       }
     },
     {
+      "displayName": "Balai Konservasi Sumber Daya Alam Maluku",
+      "id": "balaikonservasisumberdayaalammaluku-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Balai Konservasi Sumber Daya Alam Maluku"
+      }
+    },
+    {
+      "displayName": "Balai Konservasi Sumber Daya Alam Sulawesi Tenggara",
+      "id": "balaikonservasisumberdayaalamsulawesitenggara-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Balai Konservasi Sumber Daya Alam Sulawesi Tenggara"
+      }
+    },
+    {
       "displayName": "Balai Konservasi Sumber Daya Alam Sumatera Barat",
       "id": "balaikonservasisumberdayaalamsumaterabarat-46e05c",
       "locationSet": {"include": ["id"]},
@@ -198,6 +225,15 @@
       }
     },
     {
+      "displayName": "Bush Heritage Australia",
+      "id": "bushheritageaustralia-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Bush Heritage Australia"
+      }
+    },
+    {
       "displayName": "California Department of Fish and Wildlife",
       "id": "californiadepartmentoffishandwildlife-6f7339",
       "locationSet": {
@@ -237,6 +273,15 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "Canberra Nature Park"
+      }
+    },
+    {
+      "displayName": "Chickaming Open Lands",
+      "id": "chickamingopenlands-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Chickaming Open Lands"
       }
     },
     {
@@ -403,6 +448,7 @@
       "displayName": "Department of Conservation",
       "id": "departmentofconservation-997671",
       "locationSet": {"include": ["nz"]},
+      "matchNames": ["doc"],
       "tags": {
         "boundary": "protected_area",
         "operator": "Department of Conservation",
@@ -506,6 +552,15 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "East Bay Regional Park District"
+      }
+    },
+    {
+      "displayName": "Essex County Greenbelt Association",
+      "id": "essexcountygreenbeltassociation-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Essex County Greenbelt Association"
       }
     },
     {
@@ -639,6 +694,18 @@
       }
     },
     {
+      "displayName": "Great Parks of Hamilton County",
+      "id": "greatparksofhamiltoncounty-73cd94",
+      "locationSet": {
+        "include": ["us-oh.geojson"]
+      },
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Great Parks of Hamilton County",
+        "operator:wikidata": "Q19863721"
+      }
+    },
+    {
       "displayName": "Grong kommune",
       "id": "grongkommune-65ea71",
       "locationSet": {"include": ["no"]},
@@ -678,6 +745,19 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "Hollis Conservation Commission"
+      }
+    },
+    {
+      "displayName": "Illinois Department of Natural Resources",
+      "id": "illinoisdepartmentofnaturalresources-8c9c28",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Illinois Department of Natural Resources",
+        "operator:short": "Illinois DNR",
+        "operator:wikidata": "Q16846582"
       }
     },
     {
@@ -901,6 +981,24 @@
       }
     },
     {
+      "displayName": "Länsstyrelsen i Östergötlands län",
+      "id": "lansstyrelseniostergotlandslan-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Länsstyrelsen i Östergötlands län"
+      }
+    },
+    {
+      "displayName": "Länsstyrelsen i Skåne län",
+      "id": "lansstyrelseniskanelan-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Länsstyrelsen i Skåne län"
+      }
+    },
+    {
       "displayName": "Länsstyrelsen i Västerbottens län",
       "id": "lansstyrelsenivasterbottenslan-c450a4",
       "locationSet": {"include": ["se"]},
@@ -916,6 +1014,15 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "Länsstyrelsen i Västernorrlands län"
+      }
+    },
+    {
+      "displayName": "Limburgs Landschap",
+      "id": "limburgslandschap-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Limburgs Landschap"
       }
     },
     {
@@ -949,6 +1056,15 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "Marin County Parks"
+      }
+    },
+    {
+      "displayName": "Maryland Department of Natural Resources, Maryland Park Service",
+      "id": "marylanddepartmentofnaturalresourcesmarylandparkservice-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Maryland Department of Natural Resources, Maryland Park Service"
       }
     },
     {
@@ -1050,6 +1166,15 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "Ministerie van Oorlog"
+      }
+    },
+    {
+      "displayName": "Minnesota Department of Natural Resources",
+      "id": "minnesotadepartmentofnaturalresources-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Minnesota Department of Natural Resources"
       }
     },
     {
@@ -2524,6 +2649,15 @@
       }
     },
     {
+      "displayName": "Town of Medfield Conservation Commission",
+      "id": "townofmedfieldconservationcommission-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Town of Medfield Conservation Commission"
+      }
+    },
+    {
       "displayName": "Town of Rye",
       "id": "townofrye-dd28c3",
       "locationSet": {
@@ -2565,6 +2699,15 @@
       "tags": {
         "boundary": "protected_area",
         "operator": "Truckee Donner Land Trust"
+      }
+    },
+    {
+      "displayName": "Trustees of Reservations",
+      "id": "trusteesofreservations-7f8cf5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "boundary": "protected_area",
+        "operator": "Trustees of Reservations"
       }
     },
     {

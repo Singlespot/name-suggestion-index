@@ -4,7 +4,7 @@
     "preserveTags": ["^name"],
     "exclude": {
       "generic": [
-        "^(optician|[oó]pti[ck]a|optical center|optyk|оптика)$"
+        "^(optician|[oó]pti[ck]a|optical center|optyk|оптика|opticien)$"
       ],
       "named": ["^(die brille|vision plus)$"]
     }
@@ -222,8 +222,10 @@
     },
     {
       "displayName": "Cubitts",
-      "id": "cubitts-e966d3",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "cubitts-e62455",
+      "locationSet": {
+        "include": ["gb-eng", "gb-sct"]
+      },
       "tags": {
         "brand": "Cubitts",
         "brand:wikidata": "Q39045283",
@@ -265,16 +267,16 @@
       }
     },
     {
-      "displayName": "eyes and more",
-      "id": "eyesandmore-60ec72",
+      "displayName": "eyes + more",
+      "id": "eyesmore-60ec72",
       "locationSet": {
         "include": ["at", "be", "de", "nl"]
       },
-      "matchNames": ["eyes+more"],
+      "matchNames": ["eyes&more"],
       "tags": {
-        "brand": "eyes and more",
+        "brand": "eyes + more",
         "brand:wikidata": "Q1385775",
-        "name": "eyes and more",
+        "name": "eyes + more",
         "shop": "optician"
       }
     },
@@ -301,6 +303,18 @@
         "brand": "Fielmann",
         "brand:wikidata": "Q457822",
         "name": "Fielmann",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "FOKUS",
+      "id": "fokus-892407",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": ["fokus optik"],
+      "tags": {
+        "brand": "FOKUS",
+        "brand:wikidata": "Q58557324",
+        "name": "FOKUS",
         "shop": "optician"
       }
     },
@@ -339,13 +353,15 @@
       }
     },
     {
-      "displayName": "Grand Optical",
-      "id": "grandoptical-997c80",
-      "locationSet": {"include": ["fr", "sk"]},
+      "displayName": "GrandOptical",
+      "id": "grandoptical-484a73",
+      "locationSet": {
+        "include": ["fr", "pt", "sk"]
+      },
       "tags": {
-        "brand": "Grand Optical",
+        "brand": "GrandOptical",
         "brand:wikidata": "Q3113677",
-        "name": "Grand Optical",
+        "name": "GrandOptical",
         "shop": "optician"
       }
     },
@@ -422,6 +438,17 @@
       }
     },
     {
+      "displayName": "Joy",
+      "id": "joy-eeb6dd",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "Joy",
+        "brand:wikidata": "Q114053926",
+        "name": "Joy",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "KRASS Optik",
       "id": "krassoptik-7fb7e9",
       "locationSet": {"include": ["de"]},
@@ -440,6 +467,17 @@
         "brand": "Krys",
         "brand:wikidata": "Q3119538",
         "name": "Krys",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Leightons",
+      "id": "leightons-610826",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Leightons",
+        "brand:wikidata": "Q117867339",
+        "name": "Leightons",
         "shop": "optician"
       }
     },
@@ -497,6 +535,18 @@
         "brand": "Lynx Optique",
         "brand:wikidata": "Q25387428",
         "name": "Lynx Optique",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "MANIA",
+      "id": "mania-32f57e",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["optika mania"],
+      "tags": {
+        "brand": "MANIA",
+        "brand:wikidata": "Q116884324",
+        "name": "MANIA",
         "shop": "optician"
       }
     },
@@ -778,6 +828,17 @@
       }
     },
     {
+      "displayName": "Pearle Studio",
+      "id": "pearlestudio-719c83",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "brand": "Pearle Studio",
+        "brand:wikidata": "Q117462110",
+        "name": "Pearle Studio",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Pearle Vision",
       "id": "pearlevision-108284",
       "locationSet": {"include": ["ca", "us"]},
@@ -797,6 +858,36 @@
         "brand": "pro optik",
         "brand:wikidata": "Q22671933",
         "name": "pro optik",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Ray-Ban",
+      "id": "rayban-ace229",
+      "locationSet": {
+        "include": [
+          "ae",
+          "at",
+          "au",
+          "br",
+          "ca",
+          "de",
+          "es",
+          "fr",
+          "ie",
+          "it",
+          "jp",
+          "my",
+          "ne",
+          "tr",
+          "uk",
+          "us"
+        ]
+      },
+      "tags": {
+        "brand": "Ray-Ban",
+        "brand:wikidata": "Q653941",
+        "name": "Ray-Ban",
         "shop": "optician"
       }
     },
@@ -846,8 +937,8 @@
     },
     {
       "displayName": "Solaris",
-      "id": "solaris-8cd79e",
-      "locationSet": {"include": ["fr"]},
+      "id": "solaris-fb98e0",
+      "locationSet": {"include": ["fr", "pt"]},
       "tags": {
         "brand": "Solaris",
         "brand:wikidata": "Q3489229",

@@ -15,6 +15,15 @@
       }
     },
     {
+      "displayName": "Abwasserzweckverband Gemeinschaftskläranlage Großenhain Abwasserzweckverband Gemeinschaftskläranlage Großenhain",
+      "id": "abwasserzweckverbandgemeinschaftsklaranlagegrossenhainabwasserzweckverbandgemeinschaftsklaranlagegrossenhain-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Abwasserzweckverband Gemeinschaftskläranlage Großenhain Abwasserzweckverband Gemeinschaftskläranlage Großenhain"
+      }
+    },
+    {
       "displayName": "ACEA",
       "id": "acea-e17829",
       "locationSet": {"include": ["it"]},
@@ -63,6 +72,15 @@
       }
     },
     {
+      "displayName": "Águas do Tejo Atlântico",
+      "id": "aguasdotejoatlantico-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Águas do Tejo Atlântico"
+      }
+    },
+    {
       "displayName": "Air Liquide",
       "id": "airliquide-143312",
       "locationSet": {"include": ["001"]},
@@ -84,6 +102,16 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Air Liquide Large Industries"
+      }
+    },
+    {
+      "displayName": "Air Products LLC",
+      "id": "airproductsllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Air Products LLC",
+        "operator:wikidata": "Q407744"
       }
     },
     {
@@ -133,6 +161,15 @@
       }
     },
     {
+      "displayName": "AMP Texas Pipelines, LLC",
+      "id": "amptexaspipelinesllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "AMP Texas Pipelines, LLC"
+      }
+    },
+    {
       "displayName": "Anglian Water",
       "id": "anglianwater-0affc0",
       "locationSet": {"include": ["gb-eng"]},
@@ -159,6 +196,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "ANR PIPELINE CO"
+      }
+    },
+    {
+      "displayName": "APLNG",
+      "id": "aplng-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "APLNG"
       }
     },
     {
@@ -206,12 +252,51 @@
       }
     },
     {
-      "displayName": "Ayto Zaragoza",
-      "id": "aytozaragoza-86ac77",
-      "locationSet": {"include": ["es"]},
+      "displayName": "Atmos Energy",
+      "id": "atmosenergy-143312",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Ayto Zaragoza"
+        "operator": "Atmos Energy"
+      }
+    },
+    {
+      "displayName": "Atmos Pipeline",
+      "id": "atmospipeline-46297b",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "matchNames": ["atmos pipeline - texas"],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Atmos Pipeline"
+      }
+    },
+    {
+      "displayName": "Avacon",
+      "id": "avacon-da7c89",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["eon_avacon"],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Avacon",
+        "operator:wikidata": "Q1273382"
+      }
+    },
+    {
+      "displayName": "Ayuntamiento de Zaragoza",
+      "id": "ayuntamientodezaragoza-86ac77",
+      "locationSet": {"include": ["es"]},
+      "matchNames": [
+        "ayto de zaragoza",
+        "ayto zaragoza",
+        "ayuntamiento zaragoza",
+        "zaragoza city council"
+      ],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Ayuntamiento de Zaragoza",
+        "operator:wikidata": "Q8210811"
       }
     },
     {
@@ -239,6 +324,15 @@
         "man_made": "pipeline",
         "operator": "BASF",
         "operator:wikidata": "Q9401"
+      }
+    },
+    {
+      "displayName": "BASF SE",
+      "id": "basfse-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "BASF SE"
       }
     },
     {
@@ -275,6 +369,17 @@
       }
     },
     {
+      "displayName": "BB-Southtex, LLC",
+      "id": "bbsouthtexllc-46297b",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "BB-Southtex, LLC"
+      }
+    },
+    {
       "displayName": "BBT Alabama Intrastate, LLC",
       "id": "bbtalabamaintrastatellc-143312",
       "locationSet": {"include": ["001"]},
@@ -285,17 +390,23 @@
     },
     {
       "displayName": "BC Hydro",
-      "id": "bchydro-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "bchydro-f62730",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
       "tags": {
         "man_made": "pipeline",
-        "operator": "BC Hydro"
+        "operator": "BC Hydro",
+        "operator:type": "government",
+        "operator:wikidata": "Q795720"
       }
     },
     {
       "displayName": "Beehive Operating, LLC",
-      "id": "beehiveoperatingllc-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "beehiveoperatingllc-46297b",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
       "tags": {
         "man_made": "pipeline",
         "operator": "Beehive Operating, LLC"
@@ -303,11 +414,13 @@
     },
     {
       "displayName": "Belgian Pipeline Organisation",
-      "id": "belgianpipelineorganisation-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "belgianpipelineorganisation-5c754e",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Belgian Pipeline Organisation"
+        "operator": "Belgian Pipeline Organisation",
+        "operator:short": "BPO",
+        "operator:wikidata": "Q105867772"
       }
     },
     {
@@ -407,6 +520,15 @@
       }
     },
     {
+      "displayName": "BP Exploration & Production",
+      "id": "bpexplorationandproduction-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "BP Exploration & Production"
+      }
+    },
+    {
       "displayName": "BPA",
       "id": "bpa-143312",
       "locationSet": {"include": ["001"]},
@@ -422,6 +544,24 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "BPX Gathering, LLC"
+      }
+    },
+    {
+      "displayName": "BPX Midstream, LLC",
+      "id": "bpxmidstreamllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "BPX Midstream, LLC"
+      }
+    },
+    {
+      "displayName": "BTC Co",
+      "id": "btcco-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "BTC Co"
       }
     },
     {
@@ -443,6 +583,15 @@
       }
     },
     {
+      "displayName": "Burlington Resources",
+      "id": "burlingtonresources-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Burlington Resources"
+      }
+    },
+    {
       "displayName": "Burlington Ressources",
       "id": "burlingtonressources-143312",
       "locationSet": {"include": ["001"]},
@@ -458,6 +607,17 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "BWSSB"
+      }
+    },
+    {
+      "displayName": "Cadent",
+      "id": "cadent-0affc0",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Cadent",
+        "operator:wikidata": "Q30688985",
+        "substance": "gas"
       }
     },
     {
@@ -479,12 +639,25 @@
       }
     },
     {
-      "displayName": "Caltex",
-      "id": "caltex-143312",
+      "displayName": "Calpine Texas Pipeline, L.P.",
+      "id": "calpinetexaspipelinelp-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Caltex"
+        "operator": "Calpine Texas Pipeline, L.P."
+      }
+    },
+    {
+      "displayName": "Caltex",
+      "id": "caltex-b8bcc2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["nz"]
+      },
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Caltex",
+        "operator:wikidata": "Q277470"
       }
     },
     {
@@ -524,6 +697,15 @@
       }
     },
     {
+      "displayName": "Canes Midstream G&P, LLC",
+      "id": "canesmidstreamgandpllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Canes Midstream G&P, LLC"
+      }
+    },
+    {
       "displayName": "Caño Limón - Coveñas",
       "id": "canolimoncovenas-143312",
       "locationSet": {"include": ["001"]},
@@ -551,6 +733,15 @@
       }
     },
     {
+      "displayName": "Carolina Gas Transmission, LLC",
+      "id": "carolinagastransmissionllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Carolina Gas Transmission, LLC"
+      }
+    },
+    {
       "displayName": "Catarina Midstream, LLC",
       "id": "catarinamidstreamllc-143312",
       "locationSet": {"include": ["001"]},
@@ -575,6 +766,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "CCWD"
+      }
+    },
+    {
+      "displayName": "CenterPoint Energy",
+      "id": "centerpointenergy-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "CenterPoint Energy"
       }
     },
     {
@@ -614,6 +814,15 @@
       }
     },
     {
+      "displayName": "Chemelot",
+      "id": "chemelot-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Chemelot"
+      }
+    },
+    {
       "displayName": "Chesapeake Operating, LLC",
       "id": "chesapeakeoperatingllc-143312",
       "locationSet": {"include": ["001"]},
@@ -632,6 +841,15 @@
       }
     },
     {
+      "displayName": "Chevron USA Inc",
+      "id": "chevronusainc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Chevron USA Inc"
+      }
+    },
+    {
       "displayName": "Cheyenne Energy Services",
       "id": "cheyenneenergyservices-143312",
       "locationSet": {"include": ["001"]},
@@ -647,6 +865,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Cinco Natural Resources Corp."
+      }
+    },
+    {
+      "displayName": "Cinco Oil & Gas, LLC",
+      "id": "cincooilandgasllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Cinco Oil & Gas, LLC"
       }
     },
     {
@@ -686,6 +913,15 @@
       }
     },
     {
+      "displayName": "City of Visalia",
+      "id": "cityofvisalia-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "City of Visalia"
+      }
+    },
+    {
       "displayName": "CityWest Homes",
       "id": "citywesthomes-143312",
       "locationSet": {"include": ["001"]},
@@ -701,15 +937,6 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Clarke - Mobile Counties Gas Distribution"
-      }
-    },
-    {
-      "displayName": "CLH",
-      "id": "clh-143312",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "CLH"
       }
     },
     {
@@ -812,6 +1039,15 @@
       }
     },
     {
+      "displayName": "Copano NGL Services LLC",
+      "id": "copanonglservicesllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Copano NGL Services LLC"
+      }
+    },
+    {
       "displayName": "Copano Pipelines",
       "id": "copanopipelines-143312",
       "locationSet": {"include": ["001"]},
@@ -821,12 +1057,31 @@
       }
     },
     {
+      "displayName": "CPS Energy",
+      "id": "cpsenergy-0a386a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "CPS Energy",
+        "operator:wikidata": "Q5013736"
+      }
+    },
+    {
       "displayName": "Crest Petroleum, LLC",
       "id": "crestpetroleumllc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Crest Petroleum, LLC"
+      }
+    },
+    {
+      "displayName": "Crimson Gulf LLC",
+      "id": "crimsongulfllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Crimson Gulf LLC"
       }
     },
     {
@@ -850,6 +1105,15 @@
       }
     },
     {
+      "displayName": "Dalkia",
+      "id": "dalkia-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Dalkia"
+      }
+    },
+    {
       "displayName": "Dallas Petroleum Group, LLC",
       "id": "dallaspetroleumgroupllc-143312",
       "locationSet": {"include": ["001"]},
@@ -865,6 +1129,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Dasmariñas Water District"
+      }
+    },
+    {
+      "displayName": "Davis Gas Processing, Inc.",
+      "id": "davisgasprocessinginc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Davis Gas Processing, Inc."
       }
     },
     {
@@ -931,6 +1204,15 @@
       }
     },
     {
+      "displayName": "Denver Water",
+      "id": "denverwater-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Denver Water"
+      }
+    },
+    {
       "displayName": "DESO",
       "id": "deso-143312",
       "locationSet": {"include": ["001"]},
@@ -946,6 +1228,25 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Deusa International"
+      }
+    },
+    {
+      "displayName": "Dhaka Wasa",
+      "id": "dhakawasa-7a1e05",
+      "locationSet": {"include": ["bd"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Dhaka Wasa",
+        "operator:wikidata": "Q13058117"
+      }
+    },
+    {
+      "displayName": "Discovery Natural Resources, LLC",
+      "id": "discoverynaturalresourcesllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Discovery Natural Resources, LLC"
       }
     },
     {
@@ -985,12 +1286,31 @@
       }
     },
     {
+      "displayName": "Dominion Energy South Carolina",
+      "id": "dominionenergysouthcarolina-143312",
+      "locationSet": {"include": ["001"]},
+      "note": "Q677464 or Q114367619?",
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Dominion Energy South Carolina"
+      }
+    },
+    {
       "displayName": "Dominion Transmission",
       "id": "dominiontransmission-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Dominion Transmission"
+      }
+    },
+    {
+      "displayName": "Double Eagle Pipeline, LLC",
+      "id": "doubleeaglepipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Double Eagle Pipeline, LLC"
       }
     },
     {
@@ -1095,6 +1415,33 @@
       }
     },
     {
+      "displayName": "Easton Energy Pipelines LLC",
+      "id": "eastonenergypipelinesllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Easton Energy Pipelines LLC"
+      }
+    },
+    {
+      "displayName": "Eastward Energy",
+      "id": "eastwardenergy-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Eastward Energy"
+      }
+    },
+    {
+      "displayName": "Echo Canyon Pipeline, LLC",
+      "id": "echocanyonpipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Echo Canyon Pipeline, LLC"
+      }
+    },
+    {
       "displayName": "EDA",
       "id": "eda-143312",
       "locationSet": {"include": ["001"]},
@@ -1128,6 +1475,16 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "EdiPower"
+      }
+    },
+    {
+      "displayName": "Edison",
+      "id": "edison-e17829",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Edison",
+        "operator:wikidata": "Q912872"
       }
     },
     {
@@ -1172,25 +1529,31 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Enagas"
+        "operator": "Enagas",
+        "operator:wikidata": "Q1124060"
       }
     },
     {
       "displayName": "Enbridge",
-      "id": "enbridge-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "enbridge-e04216",
+      "locationSet": {"include": ["ca", "us"]},
+      "matchNames": [
+        "enbridge energy partners",
+        "spectra energy"
+      ],
       "tags": {
         "man_made": "pipeline",
-        "operator": "Enbridge"
+        "operator": "Enbridge",
+        "operator:wikidata": "Q1339966"
       }
     },
     {
-      "displayName": "Enbridge Energy Partners",
-      "id": "enbridgeenergypartners-143312",
+      "displayName": "Enbridge Offshore Facilities, LLC",
+      "id": "enbridgeoffshorefacilitiesllc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Enbridge Energy Partners"
+        "operator": "Enbridge Offshore Facilities, LLC"
       }
     },
     {
@@ -1212,12 +1575,14 @@
       }
     },
     {
-      "displayName": "endesa gas",
-      "id": "endesagas-143312",
+      "displayName": "Endesa",
+      "id": "endesa-143312",
       "locationSet": {"include": ["001"]},
+      "matchNames": ["endesa gas"],
       "tags": {
         "man_made": "pipeline",
-        "operator": "endesa gas"
+        "operator": "Endesa",
+        "operator:wikidata": "Q1275336"
       }
     },
     {
@@ -1279,12 +1644,39 @@
       }
     },
     {
+      "displayName": "Energy Resource Technology",
+      "id": "energyresourcetechnology-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Energy Resource Technology"
+      }
+    },
+    {
       "displayName": "Energy Transfer Company",
       "id": "energytransfercompany-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Energy Transfer Company"
+      }
+    },
+    {
+      "displayName": "Energy Transfer Partners",
+      "id": "energytransferpartners-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Energy Transfer Partners"
+      }
+    },
+    {
+      "displayName": "Engie",
+      "id": "engie-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Engie"
       }
     },
     {
@@ -1362,15 +1754,6 @@
       }
     },
     {
-      "displayName": "EON_Avacon",
-      "id": "eonavacon-da7c89",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "EON_Avacon"
-      }
-    },
-    {
       "displayName": "EP Energy Company",
       "id": "epenergycompany-143312",
       "locationSet": {"include": ["001"]},
@@ -1389,6 +1772,15 @@
       }
     },
     {
+      "displayName": "EPAL",
+      "id": "epal-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "EPAL"
+      }
+    },
+    {
       "displayName": "Epic Consolidated Operations, LLC",
       "id": "epicconsolidatedoperationsllc-143312",
       "locationSet": {"include": ["001"]},
@@ -1404,6 +1796,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Epic Consolidated OPS, LLC"
+      }
+    },
+    {
+      "displayName": "Epic Permian Operating, LLC",
+      "id": "epicpermianoperatingllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Epic Permian Operating, LLC"
       }
     },
     {
@@ -1461,6 +1862,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Erdgas Südbayern GmbH"
+      }
+    },
+    {
+      "displayName": "Erema",
+      "id": "erema-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Erema"
       }
     },
     {
@@ -1536,12 +1946,33 @@
       }
     },
     {
+      "displayName": "EVN Топлофикция (Пловдив)",
+      "id": "c9ec9c-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "EVN Топлофикция",
+        "operator:wikidata": "Q113611221"
+      }
+    },
+    {
       "displayName": "Exolum",
-      "id": "exolum-143312",
+      "id": "exolum-0a3816",
+      "locationSet": {"include": ["es", "gb"]},
+      "matchNames": ["clh", "clh-ps", "gpss"],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Exolum",
+        "operator:wikidata": "Q5156175"
+      }
+    },
+    {
+      "displayName": "Explorer Pipeline Company",
+      "id": "explorerpipelinecompany-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Exolum"
+        "operator": "Explorer Pipeline Company"
       }
     },
     {
@@ -1554,6 +1985,15 @@
       }
     },
     {
+      "displayName": "Exxonmobil Oil Corporation",
+      "id": "exxonmobiloilcorporation-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Exxonmobil Oil Corporation"
+      }
+    },
+    {
       "displayName": "Exxonmobil Pipeline Company",
       "id": "exxonmobilpipelinecompany-143312",
       "locationSet": {"include": ["001"]},
@@ -1563,12 +2003,39 @@
       }
     },
     {
+      "displayName": "Faraday Midstream Company",
+      "id": "faradaymidstreamcompany-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Faraday Midstream Company"
+      }
+    },
+    {
+      "displayName": "Faulconer Energy, LLC",
+      "id": "faulconerenergyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Faulconer Energy, LLC"
+      }
+    },
+    {
       "displayName": "Faulconer, Vernon E., INC.",
       "id": "faulconervernoneinc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Faulconer, Vernon E., INC."
+      }
+    },
+    {
+      "displayName": "Fenaka Corporation Limited Vaikaradhoo",
+      "id": "fenakacorporationlimitedvaikaradhoo-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Fenaka Corporation Limited Vaikaradhoo"
       }
     },
     {
@@ -1645,6 +2112,24 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Flint Hills Resources"
+      }
+    },
+    {
+      "displayName": "Flint Hills Resources Port Arthur, LLC",
+      "id": "flinthillsresourcesportarthurllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Flint Hills Resources Port Arthur, LLC"
+      }
+    },
+    {
+      "displayName": "Flint Hills Resources, LLC",
+      "id": "flinthillsresourcesllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Flint Hills Resources, LLC"
       }
     },
     {
@@ -1756,6 +2241,26 @@
       }
     },
     {
+      "displayName": "GAIL",
+      "id": "gail-fbc79a",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "GAIL",
+        "operator:type": "government",
+        "operator:wikidata": "Q2512333"
+      }
+    },
+    {
+      "displayName": "Galveston Bay Refinery Logistics LLC",
+      "id": "galvestonbayrefinerylogisticsllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Galveston Bay Refinery Logistics LLC"
+      }
+    },
+    {
       "displayName": "Gas Natural",
       "id": "gasnatural-143312",
       "locationSet": {"include": ["001"]},
@@ -1766,11 +2271,12 @@
     },
     {
       "displayName": "Gas Networks Ireland",
-      "id": "gasnetworksireland-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "gasnetworksireland-d9b47c",
+      "locationSet": {"include": ["ie"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Gas Networks Ireland"
+        "operator": "Gas Networks Ireland",
+        "operator:wikidata": "Q116192448"
       }
     },
     {
@@ -1892,6 +2398,24 @@
       }
     },
     {
+      "displayName": "Gemeinde Trabitz",
+      "id": "gemeindetrabitz-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Gemeinde Trabitz"
+      }
+    },
+    {
+      "displayName": "Genesis Offshore Holdings, LLC",
+      "id": "genesisoffshoreholdingsllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Genesis Offshore Holdings, LLC"
+      }
+    },
+    {
       "displayName": "Genesis Producing Company, L.P.",
       "id": "genesisproducingcompanylp-143312",
       "locationSet": {"include": ["001"]},
@@ -1930,21 +2454,21 @@
       }
     },
     {
+      "displayName": "GOM Shelf LLC",
+      "id": "gomshelfllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "GOM Shelf LLC"
+      }
+    },
+    {
       "displayName": "GPEC",
       "id": "gpec-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "GPEC"
-      }
-    },
-    {
-      "displayName": "GPSS",
-      "id": "gpss-143312",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "GPSS"
       }
     },
     {
@@ -2008,6 +2532,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Gulf Coast Energy, INC."
+      }
+    },
+    {
+      "displayName": "Gulf South Pipeline Company, LLC",
+      "id": "gulfsouthpipelinecompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Gulf South Pipeline Company, LLC"
       }
     },
     {
@@ -2113,6 +2646,15 @@
       }
     },
     {
+      "displayName": "High Point Gas Gathering LLC",
+      "id": "highpointgasgatheringllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "High Point Gas Gathering LLC"
+      }
+    },
+    {
       "displayName": "Hilcorp Energy Company",
       "id": "hilcorpenergycompany-143312",
       "locationSet": {"include": ["001"]},
@@ -2132,47 +2674,71 @@
     },
     {
       "displayName": "Houston Pipe Line Company",
-      "id": "houstonpipelinecompany-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "houstonpipelinecompany-0a386a",
+      "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "houston pipe line company lp"
+      ],
       "tags": {
         "man_made": "pipeline",
         "operator": "Houston Pipe Line Company"
       }
     },
     {
-      "displayName": "Houston Pipe Line Company LP",
-      "id": "houstonpipelinecompanylp-143312",
+      "displayName": "HS Veitur",
+      "id": "hsveitur-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Houston Pipe Line Company LP"
+        "operator": "HS Veitur"
       }
     },
     {
       "displayName": "Hunt Crude Oil Supply Company",
-      "id": "huntcrudeoilsupplycompany-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "huntcrudeoilsupplycompany-0a386a",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Hunt Crude Oil Supply Company"
       }
     },
     {
-      "displayName": "INA",
-      "id": "ina-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Hydrocop",
+      "id": "hydrocop-02b185",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "INA"
+        "operator": "Hydrocop"
+      }
+    },
+    {
+      "displayName": "Imperial Oil",
+      "id": "imperialoil-4442fb",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Imperial Oil",
+        "operator:wikidata": "Q40650"
+      }
+    },
+    {
+      "displayName": "INA",
+      "id": "ina-d574ff",
+      "locationSet": {"include": ["hr", "it"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "INA",
+        "operator:wikidata": "Q1662137"
       }
     },
     {
       "displayName": "Ineos USA, LLC",
-      "id": "ineosusallc-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "ineosusallc-0a386a",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Ineos USA, LLC"
+        "operator": "Ineos USA, LLC",
+        "operator:wikidata": "Q673231"
       }
     },
     {
@@ -2182,16 +2748,29 @@
       "matchNames": ["infracor"],
       "tags": {
         "man_made": "pipeline",
-        "operator": "Infracor GmbH"
+        "operator": "Infracor GmbH",
+        "operator:wikidata": "Q1662650"
       }
     },
     {
       "displayName": "International Paper",
-      "id": "internationalpaper-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "internationalpaper-0a386a",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "International Paper"
+        "operator": "International Paper",
+        "operator:wikidata": "Q202972"
+      }
+    },
+    {
+      "displayName": "IOCL",
+      "id": "iocl-fbc79a",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "IOCL",
+        "operator:type": "government",
+        "operator:wikidata": "Q1289348"
       }
     },
     {
@@ -2206,12 +2785,48 @@
       }
     },
     {
+      "displayName": "Ironwood Midstream Energy Partners, LLC",
+      "id": "ironwoodmidstreamenergypartnersllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Ironwood Midstream Energy Partners, LLC"
+      }
+    },
+    {
       "displayName": "Iroquois Gas Transmission System",
       "id": "iroquoisgastransmissionsystem-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Iroquois Gas Transmission System"
+      }
+    },
+    {
+      "displayName": "Irving Oil",
+      "id": "irvingoil-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Irving Oil"
+      }
+    },
+    {
+      "displayName": "İSKİ",
+      "id": "iski-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "İSKİ"
+      }
+    },
+    {
+      "displayName": "ITC Pipeline Company LLC",
+      "id": "itcpipelinecompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "ITC Pipeline Company LLC"
       }
     },
     {
@@ -2310,6 +2925,24 @@
       }
     },
     {
+      "displayName": "Kinder Morgan Crude & Condensate LLC",
+      "id": "kindermorgancrudeandcondensatellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Kinder Morgan Crude & Condensate LLC"
+      }
+    },
+    {
+      "displayName": "Kinder Morgan Liquids Terminals LLC",
+      "id": "kindermorganliquidsterminalsllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Kinder Morgan Liquids Terminals LLC"
+      }
+    },
+    {
       "displayName": "Kinder Morgan Tejas Pipeline",
       "id": "kindermorgantejaspipeline-143312",
       "locationSet": {"include": ["001"]},
@@ -2319,21 +2952,43 @@
       }
     },
     {
-      "displayName": "Kinder Morgan Tejas Pipeline LLC",
+      "displayName": "Kinder Morgan Tejas Pipeline, LLC",
       "id": "kindermorgantejaspipelinellc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Kinder Morgan Tejas Pipeline LLC"
+        "operator": "Kinder Morgan Tejas Pipeline, LLC"
       }
     },
     {
       "displayName": "Kinder Morgan Texas Pipeline LLC",
-      "id": "kindermorgantexaspipelinellc-143312",
+      "id": "kindermorgantexaspipelinellc-0a386a",
+      "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "kinder morgan texas pipeline"
+      ],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Kinder Morgan Texas Pipeline LLC",
+        "operator:wikidata": "Q110987354"
+      }
+    },
+    {
+      "displayName": "Kinder Morgan Treating, LP",
+      "id": "kindermorgantreatinglp-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Kinder Morgan Texas Pipeline LLC"
+        "operator": "Kinder Morgan Treating, LP"
+      }
+    },
+    {
+      "displayName": "Kinetica Partners, LLC",
+      "id": "kineticapartnersllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Kinetica Partners, LLC"
       }
     },
     {
@@ -2389,6 +3044,15 @@
       }
     },
     {
+      "displayName": "Lakeshore Operating, LLC",
+      "id": "lakeshoreoperatingllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Lakeshore Operating, LLC"
+      }
+    },
+    {
       "displayName": "Lamar Oil & Gas, INC.",
       "id": "lamaroilandgasinc-143312",
       "locationSet": {"include": ["001"]},
@@ -2413,6 +3077,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Latvijas gāze"
+      }
+    },
+    {
+      "displayName": "Lavaca Midstream, L.L.C.",
+      "id": "lavacamidstreamllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Lavaca Midstream, L.L.C."
       }
     },
     {
@@ -2454,6 +3127,15 @@
       }
     },
     {
+      "displayName": "Linde Inc.",
+      "id": "lindeinc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Linde Inc."
+      }
+    },
+    {
       "displayName": "Linn Operating, LLC",
       "id": "linnoperatingllc-143312",
       "locationSet": {"include": ["001"]},
@@ -2469,6 +3151,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "LMWD"
+      }
+    },
+    {
+      "displayName": "Lonestar Operating, LLC",
+      "id": "lonestaroperatingllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Lonestar Operating, LLC"
       }
     },
     {
@@ -2510,6 +3201,33 @@
       }
     },
     {
+      "displayName": "Magellan Crude Oil Pipeline Company, LLC",
+      "id": "magellancrudeoilpipelinecompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Magellan Crude Oil Pipeline Company, LLC"
+      }
+    },
+    {
+      "displayName": "Magellan Pipeline Company, L.P.",
+      "id": "magellanpipelinecompanylp-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Magellan Pipeline Company, L.P."
+      }
+    },
+    {
+      "displayName": "Magellan Terminals Holdings, L.P.",
+      "id": "magellanterminalsholdingslp-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Magellan Terminals Holdings, L.P."
+      }
+    },
+    {
       "displayName": "Mainline Pipelines Limited",
       "id": "mainlinepipelineslimited-143312",
       "locationSet": {"include": ["001"]},
@@ -2537,12 +3255,30 @@
       }
     },
     {
+      "displayName": "Marathon Oil EF, LLC",
+      "id": "marathonoilefllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Marathon Oil EF, LLC"
+      }
+    },
+    {
       "displayName": "Marathon Oil, LLC",
       "id": "marathonoilllc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Marathon Oil, LLC"
+      }
+    },
+    {
+      "displayName": "Marathon Pipe Line LLC",
+      "id": "marathonpipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Marathon Pipe Line LLC"
       }
     },
     {
@@ -2591,12 +3327,39 @@
       }
     },
     {
+      "displayName": "Max Midstream Texas, LLC",
+      "id": "maxmidstreamtexasllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Max Midstream Texas, LLC"
+      }
+    },
+    {
       "displayName": "Maynilad Water Services",
       "id": "mayniladwaterservices-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Maynilad Water Services"
+      }
+    },
+    {
+      "displayName": "MEGAL Mittel-Europäische Gasleitungsgesellschaft mbH & Co. KG",
+      "id": "megalmitteleuropaischegasleitungsgesellschaftmbhandcokg-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "MEGAL Mittel-Europäische Gasleitungsgesellschaft mbH & Co. KG"
+      }
+    },
+    {
+      "displayName": "Memorial University",
+      "id": "memorialuniversity-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Memorial University"
       }
     },
     {
@@ -2615,6 +3378,37 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Meridian Energy"
+      }
+    },
+    {
+      "displayName": "Metro Vancouver",
+      "id": "metrovancouver-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Metro Vancouver"
+      }
+    },
+    {
+      "displayName": "Metropolitan Water District of Southern California",
+      "id": "metropolitanwaterdistrictofsoutherncalifornia-3e913e",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Metropolitan Water District of Southern California",
+        "operator:short": "MWD",
+        "operator:wikidata": "Q6825323"
+      }
+    },
+    {
+      "displayName": "Midcontinent Express Pipeline LLC",
+      "id": "midcontinentexpresspipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Midcontinent Express Pipeline LLC"
       }
     },
     {
@@ -2695,12 +3489,57 @@
       }
     },
     {
+      "displayName": "Monroe Gas Storage Company, LLC",
+      "id": "monroegasstoragecompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Monroe Gas Storage Company, LLC"
+      }
+    },
+    {
+      "displayName": "Monument Pipeline, LP",
+      "id": "monumentpipelinelp-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Monument Pipeline, LP"
+      }
+    },
+    {
+      "displayName": "Motiva Enterprises LLC",
+      "id": "motivaenterprisesllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Motiva Enterprises LLC"
+      }
+    },
+    {
+      "displayName": "MPEC Rzeszów",
+      "id": "mpecrzeszow-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "MPEC Rzeszów"
+      }
+    },
+    {
       "displayName": "MPEC S.A",
       "id": "mpecsa-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "MPEC S.A"
+      }
+    },
+    {
+      "displayName": "Murphy Exploration & Production",
+      "id": "murphyexplorationandproduction-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Murphy Exploration & Production"
       }
     },
     {
@@ -2760,12 +3599,15 @@
       }
     },
     {
-      "displayName": "National Grid",
-      "id": "nationalgrid-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "National Gas",
+      "id": "nationalgas-f2d4b6",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": ["national grid", "transco"],
       "tags": {
         "man_made": "pipeline",
-        "operator": "National Grid"
+        "operator": "National Gas",
+        "operator:wikidata": "Q116544806",
+        "substance": "gas"
       }
     },
     {
@@ -2793,6 +3635,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Natural Gas Pipeline Company of Amar, LLC"
+      }
+    },
+    {
+      "displayName": "Natural Gas Pipeline Company of America, LLC",
+      "id": "naturalgaspipelinecompanyofamericallc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Natural Gas Pipeline Company of America, LLC"
       }
     },
     {
@@ -2913,6 +3764,16 @@
       }
     },
     {
+      "displayName": "Nicor Gas",
+      "id": "nicorgas-0a386a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Nicor Gas",
+        "operator:wikidata": "Q1987272"
+      }
+    },
+    {
       "displayName": "NiSource",
       "id": "nisource-143312",
       "locationSet": {"include": ["001"]},
@@ -2945,6 +3806,26 @@
         "operator": "Nord-West Oelleitung GmbH",
         "operator:short": "NWO",
         "operator:wikidata": "Q1997452"
+      }
+    },
+    {
+      "displayName": "Norðurorka",
+      "id": "nordhurorka-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Norðurorka"
+      }
+    },
+    {
+      "displayName": "Northern Gas Networks",
+      "id": "northerngasnetworks-0affc0",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Northern Gas Networks",
+        "operator:wikidata": "Q7058365",
+        "substance": "gas"
       }
     },
     {
@@ -2984,12 +3865,30 @@
       }
     },
     {
+      "displayName": "Nova Scotia Power",
+      "id": "novascotiapower-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Nova Scotia Power"
+      }
+    },
+    {
       "displayName": "Nowega",
       "id": "nowega-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Nowega"
+      }
+    },
+    {
+      "displayName": "NSWDB",
+      "id": "nswdb-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "NSWDB"
       }
     },
     {
@@ -3055,6 +3954,15 @@
       }
     },
     {
+      "displayName": "Occidental Permian Ltd.",
+      "id": "occidentalpermianltd-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Occidental Permian Ltd."
+      }
+    },
+    {
       "displayName": "Oiltanking Deutschland GmbH & Co. KG",
       "id": "oiltankingdeutschlandgmbhandcokg-da7c89",
       "locationSet": {"include": ["de"]},
@@ -3082,6 +3990,33 @@
         "man_made": "pipeline",
         "operator": "OMV AG",
         "operator:wikidata": "Q168238"
+      }
+    },
+    {
+      "displayName": "OMV Refining & Marketing GmbH",
+      "id": "omvrefiningandmarketinggmbh-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "OMV Refining & Marketing GmbH"
+      }
+    },
+    {
+      "displayName": "Oneok Hydrocarbon Southwest, LLC",
+      "id": "oneokhydrocarbonsouthwestllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Oneok Hydrocarbon Southwest, LLC"
+      }
+    },
+    {
+      "displayName": "Oneok NGL Pipeline, LLC",
+      "id": "oneoknglpipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Oneok NGL Pipeline, LLC"
       }
     },
     {
@@ -3121,6 +4056,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Orange"
+      }
+    },
+    {
+      "displayName": "Orka náttúrunnar",
+      "id": "orkanatturunnar-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Orka náttúrunnar"
       }
     },
     {
@@ -3166,6 +4110,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "OXY USA INC."
+      }
+    },
+    {
+      "displayName": "Ozona Pipeline Energy Company, LLC",
+      "id": "ozonapipelineenergycompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Ozona Pipeline Energy Company, LLC"
       }
     },
     {
@@ -3243,6 +4196,15 @@
       }
     },
     {
+      "displayName": "Penn Virginia Oil & Gas",
+      "id": "pennvirginiaoilandgas-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Penn Virginia Oil & Gas"
+      }
+    },
+    {
       "displayName": "Peoples Gas System",
       "id": "peoplesgassystem-143312",
       "locationSet": {"include": ["001"]},
@@ -3267,6 +4229,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Petrobras"
+      }
+    },
+    {
+      "displayName": "Petrobras Transporte SA",
+      "id": "petrobrastransportesa-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Petrobras Transporte SA"
       }
     },
     {
@@ -3342,6 +4313,18 @@
       }
     },
     {
+      "displayName": "Piedmont Natural Gas Company",
+      "id": "piedmontnaturalgascompany-eefa9c",
+      "locationSet": {
+        "include": ["it", "us-nc.geojson"]
+      },
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Piedmont Natural Gas Company",
+        "operator:wikidata": "Q17143933"
+      }
+    },
+    {
       "displayName": "Pintail Oil & Gas, LLC",
       "id": "pintailoilandgasllc-143312",
       "locationSet": {"include": ["001"]},
@@ -3378,6 +4361,16 @@
       }
     },
     {
+      "displayName": "Plantation Pipeline Company",
+      "id": "plantationpipelinecompany-0a386a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Plantation Pipeline Company",
+        "operator:wikidata": "Q17085634"
+      }
+    },
+    {
       "displayName": "Plinacro",
       "id": "plinacro-143312",
       "locationSet": {"include": ["001"]},
@@ -3387,12 +4380,22 @@
       }
     },
     {
-      "displayName": "Plzeňská teplárenská, a.s.",
-      "id": "plzenskateplarenskaas-143312",
+      "displayName": "PLTP Patuha",
+      "id": "pltppatuha-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Plzeňská teplárenská, a.s."
+        "operator": "PLTP Patuha"
+      }
+    },
+    {
+      "displayName": "Plzeňská teplárenská, a.s.",
+      "id": "plzenskateplarenskaas-446620",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Plzeňská teplárenská, a.s.",
+        "operator:wikidata": "Q58206548"
       }
     },
     {
@@ -3408,11 +4411,12 @@
     },
     {
       "displayName": "Preem",
-      "id": "preem-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "preem-febfa2",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Preem"
+        "operator": "Preem",
+        "operator:wikidata": "Q598835"
       }
     },
     {
@@ -3461,6 +4465,24 @@
       }
     },
     {
+      "displayName": "QGC",
+      "id": "qgc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "QGC"
+      }
+    },
+    {
+      "displayName": "Quail Creek Oil Corporation",
+      "id": "quailcreekoilcorporation-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Quail Creek Oil Corporation"
+      }
+    },
+    {
       "displayName": "RAG Austria",
       "id": "ragaustria-9c8423",
       "locationSet": {"include": ["at"]},
@@ -3469,6 +4491,15 @@
         "man_made": "pipeline",
         "operator": "RAG Austria",
         "operator:wikidata": "Q1666157"
+      }
+    },
+    {
+      "displayName": "Recoil Resources Operating, Inc.",
+      "id": "recoilresourcesoperatinginc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Recoil Resources Operating, Inc."
       }
     },
     {
@@ -3527,12 +4558,30 @@
       }
     },
     {
+      "displayName": "Renaissance Offshore LLC",
+      "id": "renaissanceoffshorellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Renaissance Offshore LLC"
+      }
+    },
+    {
       "displayName": "Repsol Oil & Gas USA, LLC",
       "id": "repsoloilandgasusallc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Repsol Oil & Gas USA, LLC"
+      }
+    },
+    {
+      "displayName": "Republic Coast Pipeline, LLC",
+      "id": "republiccoastpipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Republic Coast Pipeline, LLC"
       }
     },
     {
@@ -3749,12 +4798,12 @@
       }
     },
     {
-      "displayName": "Scotland Gas Networks",
-      "id": "scotlandgasnetworks-143312",
+      "displayName": "Schluchseewerk AG",
+      "id": "schluchseewerkag-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Scotland Gas Networks"
+        "operator": "Schluchseewerk AG"
       }
     },
     {
@@ -3782,6 +4831,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Sea Eagle Ford, LLC"
+      }
+    },
+    {
+      "displayName": "Sea Robin Pipeline Company LLC",
+      "id": "searobinpipelinecompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Sea Robin Pipeline Company LLC"
       }
     },
     {
@@ -3830,6 +4888,15 @@
       }
     },
     {
+      "displayName": "Servicio Municipal de Agua Potable y Alcantarillado",
+      "id": "serviciomunicipaldeaguapotableyalcantarillado-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Servicio Municipal de Agua Potable y Alcantarillado"
+      }
+    },
+    {
       "displayName": "SEV",
       "id": "sev-143312",
       "locationSet": {"include": ["001"]},
@@ -3857,12 +4924,31 @@
       }
     },
     {
-      "displayName": "SGN Natural Gas",
-      "id": "sgnnaturalgas-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "SGN",
+      "id": "sgn-e248bd",
+      "locationSet": {
+        "include": ["gb-eng", "gb-sct"]
+      },
+      "matchNames": [
+        "scotia gas networks",
+        "scotland gas networks"
+      ],
       "tags": {
         "man_made": "pipeline",
-        "operator": "SGN Natural Gas"
+        "operator": "SGN",
+        "operator:wikidata": "Q7435584",
+        "substance": "gas"
+      }
+    },
+    {
+      "displayName": "SGN Natural Gas",
+      "id": "sgnnaturalgas-caca88",
+      "locationSet": {"include": ["gb-nir"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "SGN Natural Gas",
+        "operator:wikidata": "Q116562155",
+        "substance": "gas"
       }
     },
     {
@@ -3881,6 +4967,24 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Shell Deutschland Oil GmbH"
+      }
+    },
+    {
+      "displayName": "Shell Offshore Inc.",
+      "id": "shelloffshoreinc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Shell Offshore Inc."
+      }
+    },
+    {
+      "displayName": "Shell Pipeline Company",
+      "id": "shellpipelinecompany-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Shell Pipeline Company"
       }
     },
     {
@@ -3962,6 +5066,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Société du Pipeline Sud-Européen"
+      }
+    },
+    {
+      "displayName": "SONATRACH",
+      "id": "sonatrach-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "SONATRACH"
       }
     },
     {
@@ -4055,6 +5168,15 @@
       }
     },
     {
+      "displayName": "Southeast Supply Header, LLC",
+      "id": "southeastsupplyheaderllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Southeast Supply Header, LLC"
+      }
+    },
+    {
       "displayName": "Southern Natural Gas",
       "id": "southernnaturalgas-143312",
       "locationSet": {"include": ["001"]},
@@ -4087,15 +5209,6 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "SPDC"
-      }
-    },
-    {
-      "displayName": "Spectra Energy",
-      "id": "spectraenergy-143312",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "Spectra Energy"
       }
     },
     {
@@ -4276,6 +5389,24 @@
       }
     },
     {
+      "displayName": "Stingray Pipeline Company LLC",
+      "id": "stingraypipelinecompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Stingray Pipeline Company LLC"
+      }
+    },
+    {
+      "displayName": "Stonewater Pipeline Company",
+      "id": "stonewaterpipelinecompany-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Stonewater Pipeline Company"
+      }
+    },
+    {
       "displayName": "STW",
       "id": "stw-d75ea7",
       "locationSet": {
@@ -4284,6 +5415,24 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "STW"
+      }
+    },
+    {
+      "displayName": "Sulphur River Exploration, Inc.",
+      "id": "sulphurriverexplorationinc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Sulphur River Exploration, Inc."
+      }
+    },
+    {
+      "displayName": "Sunoco Pipeline L.P.",
+      "id": "sunocopipelinelp-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Sunoco Pipeline L.P."
       }
     },
     {
@@ -4324,21 +5473,34 @@
       }
     },
     {
-      "displayName": "TC Energy",
-      "id": "tcenergy-143312",
+      "displayName": "Targa NGL Pipeline Company LLC",
+      "id": "targanglpipelinecompanyllc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "TC Energy"
+        "operator": "Targa NGL Pipeline Company LLC"
       }
     },
     {
       "displayName": "TC Energy Corporation",
-      "id": "tcenergycorporation-143312",
+      "id": "tcenergycorporation-45a322",
+      "locationSet": {
+        "include": ["ca", "mx", "us"]
+      },
+      "matchNames": ["tc energy", "transcanada"],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "TC Energy Corporation",
+        "operator:wikidata": "Q1516108"
+      }
+    },
+    {
+      "displayName": "TC Offshore LLC",
+      "id": "tcoffshorellc-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "TC Energy Corporation"
+        "operator": "TC Offshore LLC"
       }
     },
     {
@@ -4351,21 +5513,36 @@
       }
     },
     {
-      "displayName": "Tennessee Gas Pipeline",
-      "id": "tennesseegaspipeline-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Tennessee Gas Pipeline Company",
+      "id": "tennesseegaspipelinecompany-0a386a",
+      "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "tennessee gas pipeline",
+        "tennessee gas pipeline company llc"
+      ],
       "tags": {
         "man_made": "pipeline",
-        "operator": "Tennessee Gas Pipeline"
+        "operator": "Tennessee Gas Pipeline Company",
+        "operator:wikidata": "Q7700085",
+        "substance": "gas"
       }
     },
     {
-      "displayName": "Tennessee Gas Pipeline Company",
-      "id": "tennesseegaspipelinecompany-143312",
+      "displayName": "TENP Trans Europa Naturgas Pipeline GmbH & Co. KG",
+      "id": "tenptranseuropanaturgaspipelinegmbhandcokg-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Tennessee Gas Pipeline Company"
+        "operator": "TENP Trans Europa Naturgas Pipeline GmbH & Co. KG"
+      }
+    },
+    {
+      "displayName": "TEOL",
+      "id": "teol-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "TEOL"
       }
     },
     {
@@ -4468,6 +5645,15 @@
       }
     },
     {
+      "displayName": "Thames Water Utilities Ltd.",
+      "id": "thameswaterutilitiesltd-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Thames Water Utilities Ltd."
+      }
+    },
+    {
       "displayName": "The Dow Chemical Company",
       "id": "thedowchemicalcompany-143312",
       "locationSet": {"include": ["001"]},
@@ -4564,6 +5750,15 @@
       }
     },
     {
+      "displayName": "TPC Group LLC",
+      "id": "tpcgroupllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "TPC Group LLC"
+      }
+    },
+    {
       "displayName": "TPL Southtex Midstream LLC",
       "id": "tplsouthtexmidstreamllc-143312",
       "locationSet": {"include": ["001"]},
@@ -4618,21 +5813,21 @@
       }
     },
     {
-      "displayName": "TransCanada",
-      "id": "transcanada-143312",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "TransCanada"
-      }
-    },
-    {
       "displayName": "Transcontinental Gas Pipeline Company",
       "id": "transcontinentalgaspipelinecompany-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Transcontinental Gas Pipeline Company"
+      }
+    },
+    {
+      "displayName": "Transitgas AG",
+      "id": "transitgasag-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Transitgas AG"
       }
     },
     {
@@ -4744,6 +5939,24 @@
       }
     },
     {
+      "displayName": "UEM",
+      "id": "uem-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "UEM"
+      }
+    },
+    {
+      "displayName": "UKOP",
+      "id": "ukop-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "UKOP"
+      }
+    },
+    {
       "displayName": "UN - ES",
       "id": "unes-143312",
       "locationSet": {"include": ["001"]},
@@ -4816,6 +6029,15 @@
       }
     },
     {
+      "displayName": "Union Oil Company of California",
+      "id": "unionoilcompanyofcalifornia-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Union Oil Company of California"
+      }
+    },
+    {
       "displayName": "Uniper",
       "id": "uniper-143312",
       "locationSet": {"include": ["001"]},
@@ -4853,12 +6075,43 @@
       }
     },
     {
+      "displayName": "Unitil",
+      "id": "unitil-dda696",
+      "locationSet": {
+        "include": [
+          "us-ma.geojson",
+          "us-me.geojson",
+          "us-nh.geojson"
+        ]
+      },
+      "matchNames": [
+        "fitchburg gas and electric light company",
+        "granite state gas transmission",
+        "northern utilities",
+        "portland gas light company"
+      ],
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Unitil",
+        "operator:wikidata": "Q17144598"
+      }
+    },
+    {
       "displayName": "UPM-Kymmene",
       "id": "upmkymmene-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "UPM-Kymmene"
+      }
+    },
+    {
+      "displayName": "UPP Operating, LLC",
+      "id": "uppoperatingllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "UPP Operating, LLC"
       }
     },
     {
@@ -4880,12 +6133,39 @@
       }
     },
     {
+      "displayName": "Valence Operating Company",
+      "id": "valenceoperatingcompany-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Valence Operating Company"
+      }
+    },
+    {
+      "displayName": "Valero Houston Refinery",
+      "id": "valerohoustonrefinery-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Valero Houston Refinery"
+      }
+    },
+    {
       "displayName": "Valero Refining - Texas, L.P.",
       "id": "valerorefiningtexaslp-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Valero Refining - Texas, L.P."
+      }
+    },
+    {
+      "displayName": "Validus NRG Aquilas Assetco, LLC",
+      "id": "validusnrgaquilasassetcollc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Validus NRG Aquilas Assetco, LLC"
       }
     },
     {
@@ -4959,12 +6239,30 @@
       }
     },
     {
+      "displayName": "Verdun Oil & Gas, LLC",
+      "id": "verdunoilandgasllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Verdun Oil & Gas, LLC"
+      }
+    },
+    {
       "displayName": "Vivaqua",
       "id": "vivaqua-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Vivaqua"
+      }
+    },
+    {
+      "displayName": "W&T Offshore, Inc.",
+      "id": "wandtoffshoreinc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "W&T Offshore, Inc."
       }
     },
     {
@@ -4978,11 +6276,15 @@
     },
     {
       "displayName": "Wales & West Utilities",
-      "id": "walesandwestutilities-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "walesandwestutilities-834d77",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
       "tags": {
         "man_made": "pipeline",
-        "operator": "Wales & West Utilities"
+        "operator": "Wales & West Utilities",
+        "operator:wikidata": "Q7961745",
+        "substance": "gas"
       }
     },
     {
@@ -5076,11 +6378,21 @@
     },
     {
       "displayName": "Williams",
-      "id": "williams-143312",
+      "id": "williams-0a386a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Williams",
+        "operator:wikidata": "Q930639"
+      }
+    },
+    {
+      "displayName": "Williams Field Services",
+      "id": "williamsfieldservices-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "Williams"
+        "operator": "Williams Field Services"
       }
     },
     {
@@ -5112,6 +6424,15 @@
       }
     },
     {
+      "displayName": "Wink to Webster Pipeline LLC",
+      "id": "winktowebsterpipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Wink to Webster Pipeline LLC"
+      }
+    },
+    {
       "displayName": "Wisconsin Public Service Corporation",
       "id": "wisconsinpublicservicecorporation-143312",
       "locationSet": {"include": ["001"]},
@@ -5121,12 +6442,48 @@
       }
     },
     {
+      "displayName": "Woodway Bluebonnet Pipeline LLC",
+      "id": "woodwaybluebonnetpipelinellc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Woodway Bluebonnet Pipeline LLC"
+      }
+    },
+    {
       "displayName": "WSD",
       "id": "wsd-143312",
       "locationSet": {"include": ["001"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "WSD"
+      }
+    },
+    {
+      "displayName": "WTG Gas Transmission Company, LLC",
+      "id": "wtggastransmissioncompanyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "WTG Gas Transmission Company, LLC"
+      }
+    },
+    {
+      "displayName": "WTG South Permian Midstream, LLC",
+      "id": "wtgsouthpermianmidstreamllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "WTG South Permian Midstream, LLC"
+      }
+    },
+    {
+      "displayName": "Wuppertaler Stadtwerke",
+      "id": "wuppertalerstadtwerke-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Wuppertaler Stadtwerke"
       }
     },
     {
@@ -5157,6 +6514,15 @@
       }
     },
     {
+      "displayName": "Zarvonia Energy, LLC",
+      "id": "zarvoniaenergyllc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Zarvonia Energy, LLC"
+      }
+    },
+    {
       "displayName": "Zweckverband Bodensee-Wasserversorgung",
       "id": "zweckverbandbodenseewasserversorgung-0b5f1c",
       "locationSet": {
@@ -5179,12 +6545,17 @@
       }
     },
     {
-      "displayName": "Булгаргаз ЕАД",
-      "id": "d87471-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Булгартрансгаз ЕАД",
+      "id": "bb4e91-324985",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": [
+        "булгаргаз",
+        "булгаргаз еад"
+      ],
       "tags": {
         "man_made": "pipeline",
-        "operator": "Булгаргаз ЕАД"
+        "operator": "Булгартрансгаз ЕАД",
+        "operator:wikidata": "Q4996377"
       }
     },
     {
@@ -5207,8 +6578,8 @@
     },
     {
       "displayName": "ІЗС",
-      "id": "77b345-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "77b345-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ІЗС"
@@ -5216,8 +6587,8 @@
     },
     {
       "displayName": "Київгаз",
-      "id": "f651f5-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "f651f5-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Київгаз"
@@ -5225,8 +6596,8 @@
     },
     {
       "displayName": "Минские тепловые сети - РУП \"Минскэнерго\" РТС-6",
-      "id": "0497e7-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "0497e7-640b83",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Минские тепловые сети - РУП \"Минскэнерго\" РТС-6"
@@ -5234,8 +6605,8 @@
     },
     {
       "displayName": "Минские тепловые сети - РУП \"Минскэнерго\" РТС-8",
-      "id": "e7cae4-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "e7cae4-640b83",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Минские тепловые сети - РУП \"Минскэнерго\" РТС-8"
@@ -5243,8 +6614,8 @@
     },
     {
       "displayName": "Михайловское тепловое хозяйство",
-      "id": "97ff9d-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "97ff9d-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Михайловское тепловое хозяйство"
@@ -5252,8 +6623,8 @@
     },
     {
       "displayName": "НорильскГазпром",
-      "id": "60840b-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "60840b-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "НорильскГазпром"
@@ -5261,8 +6632,8 @@
     },
     {
       "displayName": "ОАО \"Гомельтранснефть Дружба\"",
-      "id": "0e50c9-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "0e50c9-e76619",
+      "locationSet": {"include": ["by", "ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ОАО \"Гомельтранснефть Дружба\""
@@ -5270,8 +6641,8 @@
     },
     {
       "displayName": "ОАО \"Трансаммиак\"",
-      "id": "13afd2-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "13afd2-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ОАО \"Трансаммиак\""
@@ -5279,17 +6650,26 @@
     },
     {
       "displayName": "ОКВП \"Дніпро-Кіровоград\"",
-      "id": "5845cb-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "5845cb-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ОКВП \"Дніпро-Кіровоград\""
       }
     },
     {
+      "displayName": "ООО \"Газпром трансгаз Сургут\"",
+      "id": "689785-a0c8bd",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "ООО \"Газпром трансгаз Сургут\""
+      }
+    },
+    {
       "displayName": "ООО \"Газпром трансгаз Югорск\"",
-      "id": "8a9d59-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "8a9d59-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ООО \"Газпром трансгаз Югорск\""
@@ -5305,18 +6685,9 @@
       }
     },
     {
-      "displayName": "ООО\"Газпром трансгаз Сургут\"",
-      "id": "689785-143312",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "ООО\"Газпром трансгаз Сургут\""
-      }
-    },
-    {
       "displayName": "СКРУ-3 АО «Уралкалий»",
-      "id": "d20da1-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "d20da1-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "СКРУ-3 АО «Уралкалий»"
@@ -5324,8 +6695,8 @@
     },
     {
       "displayName": "Тальнівське УЕГГ",
-      "id": "fa87c8-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "fa87c8-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Тальнівське УЕГГ"
@@ -5333,8 +6704,8 @@
     },
     {
       "displayName": "Тальнівське УЕГГ ПАТ «Черкасигаз»",
-      "id": "e1a516-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "e1a516-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Тальнівське УЕГГ ПАТ «Черкасигаз»"
@@ -5342,8 +6713,8 @@
     },
     {
       "displayName": "Татэнерго",
-      "id": "fa25fa-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "fa25fa-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Татэнерго"
@@ -5351,8 +6722,8 @@
     },
     {
       "displayName": "ТГК-11",
-      "id": "514ea7-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "514ea7-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ТГК-11"
@@ -5360,8 +6731,8 @@
     },
     {
       "displayName": "ТГК-14",
-      "id": "d5bc82-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "d5bc82-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ТГК-14"
@@ -5369,8 +6740,8 @@
     },
     {
       "displayName": "Теплосети",
-      "id": "590bdb-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "590bdb-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Теплосети"
@@ -5386,9 +6757,89 @@
       }
     },
     {
+      "displayName": "Топлофикация Бургас",
+      "id": "dac849-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация Бургас",
+        "operator:wikidata": "Q113611230"
+      }
+    },
+    {
+      "displayName": "Топлофикация Враца",
+      "id": "e23d2f-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация Враца",
+        "operator:wikidata": "Q113611296"
+      }
+    },
+    {
+      "displayName": "Топлофикация Перник",
+      "id": "71a366-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация Перник",
+        "operator:wikidata": "Q113611306"
+      }
+    },
+    {
+      "displayName": "Топлофикация Плевен",
+      "id": "2cd3dd-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация Плевен",
+        "operator:wikidata": "Q113611303"
+      }
+    },
+    {
+      "displayName": "Топлофикация Русе",
+      "id": "520b86-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация Русе",
+        "operator:wikidata": "Q113611300"
+      }
+    },
+    {
+      "displayName": "Топлофикация Сливен",
+      "id": "b92d89-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация Сливен",
+        "operator:wikidata": "Q113611307"
+      }
+    },
+    {
+      "displayName": "Топлофикация София",
+      "id": "d08e33-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация София",
+        "operator:wikidata": "Q61116364"
+      }
+    },
+    {
+      "displayName": "Топлофикация София ЕАД",
+      "id": "b8ef5a-324985",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Топлофикация София ЕАД",
+        "operator:wikidata": "Q114246908"
+      }
+    },
+    {
       "displayName": "Транснефть",
-      "id": "8dc88a-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "8dc88a-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Транснефть"
@@ -5396,8 +6847,8 @@
     },
     {
       "displayName": "ТЭЦ-2",
-      "id": "a73f21-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "a73f21-e76619",
+      "locationSet": {"include": ["by", "ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ТЭЦ-2"
@@ -5405,8 +6856,8 @@
     },
     {
       "displayName": "Укртрансгаз",
-      "id": "fa3399-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "fa3399-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Укртрансгаз"
@@ -5414,8 +6865,8 @@
     },
     {
       "displayName": "Укртранснафта",
-      "id": "23cf93-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "23cf93-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Укртранснафта"
@@ -5423,8 +6874,8 @@
     },
     {
       "displayName": "Ульбинская гидроэлектростанция",
-      "id": "ce6be5-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "ce6be5-51ed47",
+      "locationSet": {"include": ["kz"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Ульбинская гидроэлектростанция"
@@ -5432,8 +6883,8 @@
     },
     {
       "displayName": "Ухта-Торжок",
-      "id": "f54129-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "f54129-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Ухта-Торжок"
@@ -5441,8 +6892,8 @@
     },
     {
       "displayName": "ФГУП УЭВ",
-      "id": "f383ea-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "f383ea-a0c8bd",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ФГУП УЭВ"
@@ -5450,17 +6901,26 @@
     },
     {
       "displayName": "Черкаситрансгаз",
-      "id": "da6f01-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "da6f01-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "Черкаситрансгаз"
       }
     },
     {
+      "displayName": "临沂富源热电有限公司",
+      "id": "48d7b3-8e8c5b",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "临沂富源热电有限公司"
+      }
+    },
+    {
       "displayName": "曹妃甸港",
-      "id": "e40afb-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "e40afb-8e8c5b",
+      "locationSet": {"include": ["cn"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "曹妃甸港"
@@ -5468,11 +6928,14 @@
     },
     {
       "displayName": "横浜市水道局",
-      "id": "fb51a7-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "yokohamawaterworksbureau-9676b4",
+      "locationSet": {"include": ["jp"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "横浜市水道局"
+        "operator": "横浜市水道局",
+        "operator:en": "Yokohama Waterworks Bureau",
+        "operator:ja": "横浜市水道局",
+        "operator:wikidata": "Q27928104"
       }
     }
   ]

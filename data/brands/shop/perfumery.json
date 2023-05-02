@@ -18,6 +18,16 @@
       }
     },
     {
+      "displayName": "Ahmed Al Maghribi",
+      "id": "ahmedalmaghribi-024293",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Ahmed Al Maghribi",
+        "name": "Ahmed Al Maghribi",
+        "shop": "perfumery"
+      }
+    },
+    {
       "displayName": "Diptyque'",
       "id": "diptyque-024293",
       "locationSet": {"include": ["001"]},
@@ -30,7 +40,7 @@
     },
     {
       "displayName": "Douglas",
-      "id": "douglas-4a1f51",
+      "id": "douglas-f751d3",
       "locationSet": {
         "include": [
           "at",
@@ -41,6 +51,7 @@
           "it",
           "nl",
           "pl",
+          "pt",
           "sk"
         ]
       },
@@ -155,8 +166,21 @@
     },
     {
       "displayName": "O Boticário",
-      "id": "oboticario-411801",
-      "locationSet": {"include": ["br"]},
+      "id": "oboticario-40d28a",
+      "locationSet": {
+        "include": [
+          "ao",
+          "br",
+          "co",
+          "jp",
+          "mz",
+          "pt",
+          "py",
+          "sa",
+          "us",
+          "ve"
+        ]
+      },
       "tags": {
         "brand": "O Boticário",
         "brand:wikidata": "Q7073219",
@@ -229,6 +253,17 @@
         "brand": "The Fragrance Shop",
         "brand:wikidata": "Q105337125",
         "name": "The Fragrance Shop",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "displayName": "The Perfume Garden",
+      "id": "theperfumegarden-f5d3fd",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "The Perfume Garden",
+        "brand:wikidata": "Q116462359",
+        "name": "The Perfume Garden",
         "shop": "perfumery"
       }
     },

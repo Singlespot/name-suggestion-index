@@ -5,6 +5,16 @@
   },
   "items": [
     {
+      "displayName": "arbre",
+      "id": "arbre-1be067",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "arbre",
+        "name": "arbre",
+        "shop": "herbalist"
+      }
+    },
+    {
       "displayName": "Eu Yan Sang",
       "id": "euyansang-7be159",
       "locationSet": {
@@ -18,6 +28,28 @@
         "name": "Eu Yan Sang",
         "name:en": "Eu Yan Sang",
         "name:zh": "余仁生",
+        "shop": "herbalist"
+      }
+    },
+    {
+      "displayName": "L'Erbolario",
+      "id": "lerbolario-ed4a79",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "L'Erbolario",
+        "brand:wikidata": "Q116304294",
+        "name": "L'Erbolario",
+        "shop": "herbalist"
+      }
+    },
+    {
+      "displayName": "Revive Herbal Health",
+      "id": "reviveherbalhealth-455c0f",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Revive Herbal Health",
+        "brand:wikidata": "Q116498098",
+        "name": "Revive Herbal Health",
         "shop": "herbalist"
       }
     },

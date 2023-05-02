@@ -17,11 +17,39 @@
         "^vending machine$",
         "^zigarettenautomat$",
         "^自販機$"
-      ],
-      "named": ["^tobaccoland$"]
+      ]
     }
   },
   "items": [
+    {
+      "displayName": "7 Up",
+      "id": "7up-ff8484",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "7 Up",
+        "brand:wikidata": "Q270059",
+        "drink:soft_drink": "yes",
+        "name": "7 Up",
+        "vending": "drinks"
+      }
+    },
+    {
+      "displayName": "7up",
+      "id": "7up-54a292",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["ca", "us"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "7up",
+        "brand:wikidata": "Q270059",
+        "drink:soft_drink": "yes",
+        "name": "7up",
+        "vending": "drinks"
+      }
+    },
     {
       "displayName": "Abendzeitung",
       "id": "abendzeitung-a242c5",
@@ -60,6 +88,20 @@
       }
     },
     {
+      "displayName": "belloo",
+      "id": "belloo-6ba58e",
+      "locationSet": {
+        "include": ["at", "ch", "de"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "belloo",
+        "brand:wikidata": "Q98526006",
+        "name": "belloo",
+        "vending": "excrement_bags"
+      }
+    },
+    {
       "displayName": "Best Buy Express",
       "id": "bestbuyexpress-7e3927",
       "locationSet": {"include": ["us"]},
@@ -87,6 +129,17 @@
       }
     },
     {
+      "displayName": "BioBag",
+      "id": "biobag-ff8484",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "BioBag",
+        "brand:wikidata": "Q115613513",
+        "vending": "excrement_bags"
+      }
+    },
+    {
       "displayName": "BKK-automata",
       "id": "bkkautomata-1490d1",
       "locationSet": {"include": ["hu"]},
@@ -109,6 +162,16 @@
         "fuel:lpg": "yes",
         "name": "Blue Rhino",
         "vending": "gas"
+      }
+    },
+    {
+      "displayName": "Boss",
+      "id": "boss-ceeccb",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Boss",
+        "name": "Boss"
       }
     },
     {
@@ -143,6 +206,28 @@
       }
     },
     {
+      "displayName": "BWT Aqua",
+      "id": "bwtaqua-9e3915",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "BWT Aqua",
+        "brand:wikidata": "Q117351226",
+        "name": "BWT Aqua",
+        "vending": "water"
+      }
+    },
+    {
+      "displayName": "Casa dell'Acqua",
+      "id": "casadellacqua-ceeccb",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Casa dell'Acqua",
+        "name": "Casa dell'Acqua"
+      }
+    },
+    {
       "displayName": "Chaqwa",
       "id": "chaqwa-a242c5",
       "locationSet": {"include": ["de"]},
@@ -151,6 +236,23 @@
         "brand": "Chaqwa",
         "brand:wikidata": "Q109265856",
         "vending": "coffee"
+      }
+    },
+    {
+      "displayName": "Coca-Cola",
+      "id": "cocacola-8953a4",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["jp"]
+      },
+      "matchNames": ["coke"],
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Coca-Cola",
+        "brand:wikidata": "Q2813",
+        "drink:cola": "yes",
+        "name": "Coca-Cola",
+        "vending": "drinks"
       }
     },
     {
@@ -172,7 +274,7 @@
       "tags": {
         "amenity": "vending_machine",
         "brand": "Costa Express",
-        "brand:wikidata": "Q608845",
+        "brand:wikidata": "Q113556385",
         "name": "Costa Express",
         "vending": "coffee"
       }
@@ -283,6 +385,28 @@
       }
     },
     {
+      "displayName": "Doggie Walk Bags",
+      "id": "doggiewalkbags-7e3927",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Doggie Walk Bags",
+        "brand:wikidata": "Q115613320",
+        "vending": "excrement_bags"
+      }
+    },
+    {
+      "displayName": "DogiPot",
+      "id": "dogipot-ff8484",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "DogiPot",
+        "brand:wikidata": "Q115613289",
+        "vending": "excrement_bags"
+      }
+    },
+    {
       "displayName": "Durex",
       "id": "durex-ceeccb",
       "locationSet": {"include": ["001"]},
@@ -307,9 +431,23 @@
       }
     },
     {
+      "displayName": "Fido House",
+      "id": "fidohouse-ff8484",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Fido House",
+        "brand:wikidata": "Q115613857",
+        "vending": "excrement_bags"
+      }
+    },
+    {
       "displayName": "Flowbird",
-      "id": "flowbird-ceeccb",
-      "locationSet": {"include": ["001"]},
+      "id": "flowbird-5c6913",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "jp", "kp", "kr"]
+      },
       "tags": {
         "amenity": "vending_machine",
         "brand": "Flowbird",
@@ -340,6 +478,18 @@
         "brand:wikidata": "Q109371103",
         "name": "Glacier Water",
         "vending": "water"
+      }
+    },
+    {
+      "displayName": "Hall Tabakwaren",
+      "id": "halltabakwaren-a242c5",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["hall"],
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Hall Tabakwaren",
+        "brand:wikidata": "Q113470149",
+        "vending": "cigarettes"
       }
     },
     {
@@ -431,6 +581,18 @@
       }
     },
     {
+      "displayName": "Lavazza",
+      "id": "lavazza-ceeccb",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Lavazza",
+        "brand:wikidata": "Q543750",
+        "name": "Lavazza",
+        "vending": "coffee"
+      }
+    },
+    {
       "displayName": "Lego",
       "id": "lego-ceeccb",
       "locationSet": {"include": ["001"]},
@@ -440,6 +602,18 @@
         "brand:wikidata": "Q170484",
         "name": "Lego",
         "vending": "toys"
+      }
+    },
+    {
+      "displayName": "LEON",
+      "id": "leon-a7479d",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "LEON",
+        "brand:wikidata": "Q6524851",
+        "name": "LEON",
+        "vending": "coffee"
       }
     },
     {
@@ -475,6 +649,30 @@
         "brand:wikidata": "Q108726953",
         "name": "Minute Key",
         "vending": "key"
+      }
+    },
+    {
+      "displayName": "Münchner Merkur",
+      "id": "munchnermerkur-a242c5",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Münchner Merkur",
+        "brand:wikidata": "Q279832",
+        "vending": "newspapers"
+      }
+    },
+    {
+      "displayName": "Mutt Mitt",
+      "id": "muttmitt-89b7c8",
+      "locationSet": {
+        "include": ["ca", "ie", "us"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Mutt Mitt",
+        "brand:wikidata": "Q6944063",
+        "vending": "excrement_bags"
       }
     },
     {
@@ -554,7 +752,9 @@
         "amenity": "vending_machine",
         "brand": "Pepsi",
         "brand:wikidata": "Q47719",
-        "name": "Pepsi"
+        "drink:cola": "yes",
+        "name": "Pepsi",
+        "vending": "drinks"
       }
     },
     {
@@ -630,6 +830,26 @@
       }
     },
     {
+      "displayName": "Regiomat",
+      "id": "regiomat-a242c5",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Regiomat",
+        "name": "Regiomat"
+      }
+    },
+    {
+      "displayName": "RMV",
+      "id": "rmv-a242c5",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "RMV",
+        "name": "RMV"
+      }
+    },
+    {
       "displayName": "Robidog",
       "id": "robidog-742585",
       "locationSet": {"include": ["ch"]},
@@ -696,6 +916,18 @@
       }
     },
     {
+      "displayName": "Smart Café",
+      "id": "smartcafe-7dc505",
+      "locationSet": {"include": ["es", "us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Smart Café",
+        "brand:wikidata": "Q117448428",
+        "name": "Smart Café",
+        "vending": "coffee"
+      }
+    },
+    {
       "displayName": "Süddeutsche Zeitung",
       "id": "suddeutschezeitung-a242c5",
       "locationSet": {"include": ["de"]},
@@ -708,17 +940,29 @@
       }
     },
     {
+      "displayName": "Teika",
+      "id": "teika-9a306d",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["teica"],
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "teika",
+        "brand:wikidata": "Q115475314"
+      }
+    },
+    {
       "displayName": "Tobaccoland",
       "id": "tobaccoland-a242c5",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["tobaccoland"],
+      "preserveTags": ["vending"],
       "tags": {
         "amenity": "vending_machine",
         "brand": "tobaccoland",
         "brand:wikidata": "Q1439872",
         "min_age": "18",
         "operator": "Tobaccoland Automatengesellschaft",
-        "operator:wikidata": "Q1439872"
+        "operator:wikidata": "Q1439872",
+        "vending": "cigarettes"
       }
     },
     {

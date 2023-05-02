@@ -13,6 +13,7 @@
         "^gov$",
         "^health (sub )?center$",
         "^ministerio de salud$",
+        "^moh$",
         "^ngo$",
         "^unidade?( básica)? de (saúde|salud)$",
         "^амбулатор[иі]я$",
@@ -24,6 +25,29 @@
     }
   },
   "items": [
+    {
+      "displayName": "ACES Porto Ocidental",
+      "id": "acesportoocidental-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "ACES Porto Ocidental"
+      }
+    },
+    {
+      "displayName": "AFC Urgent Care",
+      "id": "afcurgentcare-0ca787",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "AFC Urgent Care",
+        "operator": "AFC Urgent Care",
+        "operator:wikidata": "Q110552174",
+        "urgent_care": "yes"
+      }
+    },
     {
       "displayName": "Aid Post",
       "id": "aidpost-912d5b",
@@ -46,6 +70,16 @@
         "operator:short": "ACH",
         "operator:type": "private",
         "operator:wikidata": "Q4701673"
+      }
+    },
+    {
+      "displayName": "Ascension",
+      "id": "ascension-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Ascension"
       }
     },
     {
@@ -125,6 +159,16 @@
       }
     },
     {
+      "displayName": "Azienda Unità Sanitaria Locale Umbria 1",
+      "id": "aziendaunitasanitarialocaleumbria1-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Azienda Unità Sanitaria Locale Umbria 1"
+      }
+    },
+    {
       "displayName": "Banner Health",
       "id": "bannerhealth-0ca787",
       "locationSet": {"include": ["us"]},
@@ -133,6 +177,16 @@
         "healthcare": "clinic",
         "operator": "Banner Health",
         "operator:wikidata": "Q4856918"
+      }
+    },
+    {
+      "displayName": "Capio",
+      "id": "capio-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Capio"
       }
     },
     {
@@ -154,6 +208,24 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "Central Australia Health Service"
+      }
+    },
+    {
+      "displayName": "ChristianaCare",
+      "id": "christianacare-751657",
+      "locationSet": {
+        "include": [
+          "us-de.geojson",
+          "us-md.geojson",
+          "us-nj.geojson",
+          "us-pa.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "ChristianaCare",
+        "operator:wikidata": "Q16987253"
       }
     },
     {
@@ -181,6 +253,16 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "Cleveland Clinic"
+      }
+    },
+    {
+      "displayName": "Clinica Sante",
+      "id": "clinicasante-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Clinica Sante"
       }
     },
     {
@@ -239,7 +321,7 @@
       "tags": {
         "amenity": "clinic",
         "healthcare": "dialysis",
-        "healthcare:speciality": "dialysis",
+        "healthcare:speciality": "nephrology",
         "name": "DaVita Dialysis",
         "operator": "DaVita Dialysis",
         "operator:wikidata": "Q5207184"
@@ -286,11 +368,28 @@
       "tags": {
         "amenity": "clinic",
         "healthcare": "dialysis",
-        "healthcare:speciality": "dialysis",
+        "healthcare:speciality": "nephrology",
         "name": "Dialysis Clinic",
         "operator": "Dialysis Clinic",
         "operator:wikidata": "Q5270633",
         "short_name": "DCI"
+      }
+    },
+    {
+      "displayName": "Dignity Health",
+      "id": "dignityhealth-781184",
+      "locationSet": {
+        "include": [
+          "us-az.geojson",
+          "us-ca.geojson",
+          "us-nv.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Dignity Health",
+        "operator:wikidata": "Q5276334"
       }
     },
     {
@@ -304,6 +403,16 @@
         "healthcare": "clinic",
         "operator": "Dorset HealthCare University NHS Foundation Trust",
         "operator:wikidata": "Q16988978"
+      }
+    },
+    {
+      "displayName": "Dr. Bögel und Völk und Kollegen MVZ",
+      "id": "drbogelundvolkundkollegenmvz-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Dr. Bögel und Völk und Kollegen MVZ"
       }
     },
     {
@@ -325,6 +434,21 @@
       }
     },
     {
+      "displayName": "Eastern Cape Department of Health",
+      "id": "easterncapedepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "eastern cape health department"
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Eastern Cape Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648805"
+      }
+    },
+    {
       "displayName": "Essalud",
       "id": "essalud-aa2e69",
       "locationSet": {"include": ["pe"]},
@@ -336,13 +460,28 @@
       }
     },
     {
+      "displayName": "Free State Department of Health",
+      "id": "freestatedepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "free state health department"
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Free State Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648781"
+      }
+    },
+    {
       "displayName": "Fresenius Kidney Care",
       "id": "freseniuskidneycare-0ca787",
       "locationSet": {"include": ["us"]},
       "tags": {
         "amenity": "clinic",
         "healthcare": "dialysis",
-        "healthcare:speciality": "dialysis",
+        "healthcare:speciality": "nephrology",
         "name": "Fresenius Kidney Care",
         "operator": "Fresenius Kidney Care",
         "operator:wikidata": "Q650259"
@@ -355,7 +494,7 @@
       "tags": {
         "amenity": "clinic",
         "healthcare": "dialysis",
-        "healthcare:speciality": "dialysis",
+        "healthcare:speciality": "nephrology",
         "name": "Fresenius Medical Care",
         "operator": "Fresenius Medical Care",
         "operator:wikidata": "Q650259"
@@ -372,6 +511,19 @@
       }
     },
     {
+      "displayName": "Gauteng Department of Health",
+      "id": "gautengdepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["gauteng health department"],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Gauteng Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650582"
+      }
+    },
+    {
       "displayName": "Generalitat Valenciana",
       "id": "generalitatvalenciana-edc4ef",
       "locationSet": {"include": ["es"]},
@@ -379,6 +531,7 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "Generalitat Valenciana",
+        "operator:type": "public",
         "operator:wikidata": "Q2477285"
       }
     },
@@ -395,8 +548,8 @@
     },
     {
       "displayName": "Gobierno Autónomo Municipal de Cochabamba",
-      "id": "gobiernoautonomomunicipaldecochabamba-55c168",
-      "locationSet": {"include": ["001"]},
+      "id": "gobiernoautonomomunicipaldecochabamba-6d7468",
+      "locationSet": {"include": ["bo"]},
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
@@ -464,6 +617,19 @@
       }
     },
     {
+      "displayName": "Hartford HealthCare",
+      "id": "hartfordhealthcare-190c2f",
+      "locationSet": {
+        "include": ["us-ct.geojson"]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Hartford HealthCare",
+        "operator:wikidata": "Q110282557"
+      }
+    },
+    {
       "displayName": "Hattiesburg Clinic",
       "id": "hattiesburgclinic-0ca787",
       "locationSet": {"include": ["us"]},
@@ -512,6 +678,19 @@
       }
     },
     {
+      "displayName": "Henry Ford Health System",
+      "id": "henryfordhealthsystem-5a0195",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Henry Ford Health System",
+        "operator:wikidata": "Q5721418"
+      }
+    },
+    {
       "displayName": "Imperial College Healthcare NHS Trust",
       "id": "imperialcollegehealthcarenhstrust-3be3d3",
       "locationSet": {
@@ -532,6 +711,19 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "IMSS",
+        "operator:wikidata": "Q904999"
+      }
+    },
+    {
+      "displayName": "Instituto Mexicano del Seguro Social",
+      "id": "institutomexicanodelsegurosocial-093f43",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Instituto Mexicano del Seguro Social",
+        "operator:en": "Mexican Social Security Institute",
+        "operator:es": "Instituto Mexicano del Seguro Social",
         "operator:wikidata": "Q904999"
       }
     },
@@ -596,12 +788,13 @@
     },
     {
       "displayName": "Klinik Hietzing",
-      "id": "klinikhietzing-55c168",
-      "locationSet": {"include": ["001"]},
+      "id": "klinikhietzing-faa12c",
+      "locationSet": {"include": ["at"]},
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
-        "operator": "Klinik Hietzing"
+        "operator": "Klinik Hietzing",
+        "operator:wikidata": "Q1786533"
       }
     },
     {
@@ -620,6 +813,39 @@
       }
     },
     {
+      "displayName": "KwaZulu-Natal Department of Health",
+      "id": "kwazulunataldepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "kwazulu-natal health department",
+        "kzn department of health",
+        "kzn health department"
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "KwaZulu-Natal Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116647976"
+      }
+    },
+    {
+      "displayName": "Legacy Health",
+      "id": "legacyhealth-a30f15",
+      "locationSet": {
+        "include": [
+          "us-or.geojson",
+          "us-wa.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Legacy Health",
+        "operator:wikidata": "Q6517244"
+      }
+    },
+    {
       "displayName": "Lehigh Valley Health Network",
       "id": "lehighvalleyhealthnetwork-0ca787",
       "locationSet": {"include": ["us"]},
@@ -628,6 +854,19 @@
         "healthcare": "clinic",
         "operator": "Lehigh Valley Health Network",
         "operator:wikidata": "Q30280680"
+      }
+    },
+    {
+      "displayName": "Limpopo Department of Health",
+      "id": "limpopodepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["limpopo health department"],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Limpopo Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650591"
       }
     },
     {
@@ -678,6 +917,16 @@
       }
     },
     {
+      "displayName": "Medic-Center Nürnberg",
+      "id": "mediccenternurnberg-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Medic-Center Nürnberg"
+      }
+    },
+    {
       "displayName": "Medische Zending",
       "id": "medischezending-903c7c",
       "locationSet": {"include": ["sr"]},
@@ -689,6 +938,23 @@
         "operator:short": "MZPHCS;MZ",
         "operator:type": "public",
         "operator:wikidata": "Q25230853"
+      }
+    },
+    {
+      "displayName": "Mercy",
+      "id": "mercy-0636e2",
+      "locationSet": {
+        "include": [
+          "us-ar.geojson",
+          "us-mo.geojson",
+          "us-ok.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Mercy",
+        "operator:wikidata": "Q19896177"
       }
     },
     {
@@ -749,6 +1015,17 @@
         "healthcare": "clinic",
         "operator": "Ministério da Saúde",
         "operator:wikidata": "Q4294357"
+      }
+    },
+    {
+      "displayName": "Ministerio de Salud (El Salvador)",
+      "id": "ministeriodesalud-5a45cd",
+      "locationSet": {"include": ["sv"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Ministerio de Salud",
+        "operator:short": "MINSAL"
       }
     },
     {
@@ -847,23 +1124,18 @@
       }
     },
     {
-      "displayName": "MINSAL",
-      "id": "minsal-55c168",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Mpumalanga Deparment of Health",
+      "id": "mpumalangadeparmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "mpumalanga health department"
+      ],
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
-        "operator": "MINSAL"
-      }
-    },
-    {
-      "displayName": "moh",
-      "id": "moh-55c168",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "operator": "moh"
+        "operator": "Mpumalanga Deparment of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648411"
       }
     },
     {
@@ -874,6 +1146,16 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "MTI"
+      }
+    },
+    {
+      "displayName": "Municipalidad de Lomas de Zamora",
+      "id": "municipalidaddelomasdezamora-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Municipalidad de Lomas de Zamora"
       }
     },
     {
@@ -905,6 +1187,67 @@
         "healthcare": "clinic",
         "operator": "NHS",
         "operator:wikidata": "Q918396"
+      }
+    },
+    {
+      "displayName": "North West Department of Health",
+      "id": "northwestdepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "north west health department"
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "North West Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650993"
+      }
+    },
+    {
+      "displayName": "Northern Cape Department of Health",
+      "id": "northerncapedepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "northern cape health department"
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Northern Cape Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648560"
+      }
+    },
+    {
+      "displayName": "Northwell Health",
+      "id": "northwellhealth-a74a54",
+      "locationSet": {
+        "include": ["us-ny.geojson"]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Northwell Health",
+        "operator:wikidata": "Q7056650"
+      }
+    },
+    {
+      "displayName": "Novant Health",
+      "id": "novanthealth-524bbb",
+      "locationSet": {
+        "include": [
+          "us-ga.geojson",
+          "us-nc.geojson",
+          "us-sc.geojson",
+          "us-va.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Novant Health",
+        "operator:wikidata": "Q14956815"
       }
     },
     {
@@ -953,7 +1296,7 @@
     },
     {
       "displayName": "One Medical",
-      "id": "onemedical-0ca787",
+      "id": "1lifehealthcare-0ca787",
       "locationSet": {"include": ["us"]},
       "tags": {
         "amenity": "clinic",
@@ -1151,6 +1494,16 @@
       }
     },
     {
+      "displayName": "Prefeitura Municipal de Catanduva",
+      "id": "prefeituramunicipaldecatanduva-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Prefeitura Municipal de Catanduva"
+      }
+    },
+    {
       "displayName": "Prefeitura Municipal de Chapecó",
       "id": "prefeituramunicipaldechapeco-5f4b12",
       "locationSet": {"include": ["br"]},
@@ -1171,6 +1524,16 @@
       }
     },
     {
+      "displayName": "Prefeitura Municipal de Pomerode",
+      "id": "prefeituramunicipaldepomerode-5f4b12",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Prefeitura Municipal de Pomerode"
+      }
+    },
+    {
       "displayName": "Prefeitura Municipal de Seropédica",
       "id": "prefeituramunicipaldeseropedica-5f4b12",
       "locationSet": {"include": ["br"]},
@@ -1178,6 +1541,18 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "Prefeitura Municipal de Seropédica"
+      }
+    },
+    {
+      "displayName": "ProCare",
+      "id": "procare-ada481",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "ProCare",
+        "operator:type": "private",
+        "operator:wikidata": "Q96132634"
       }
     },
     {
@@ -1321,7 +1696,7 @@
       "tags": {
         "amenity": "clinic",
         "healthcare": "dialysis",
-        "healthcare:speciality": "dialysis",
+        "healthcare:speciality": "nephrology",
         "name": "Satellite Healthcare",
         "operator": "Satellite Healthcare",
         "operator:wikidata": "Q50039787"
@@ -1370,8 +1745,8 @@
     },
     {
       "displayName": "Secretaria Municipal da Saúde",
-      "id": "secretariamunicipaldasaude-55c168",
-      "locationSet": {"include": ["001"]},
+      "id": "secretariamunicipaldasaude-5f4b12",
+      "locationSet": {"include": ["br"]},
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
@@ -1653,7 +2028,7 @@
     },
     {
       "displayName": "VA Clinic",
-      "id": "vaclinic-0ca787",
+      "id": "va-0ca787",
       "locationSet": {"include": ["us"]},
       "matchNames": [
         "department of veterans affairs clinic",
@@ -1694,6 +2069,22 @@
         "healthcare": "clinic",
         "operator": "Vivantes",
         "operator:wikidata": "Q878059"
+      }
+    },
+    {
+      "displayName": "Western Cape Department of Health",
+      "id": "westerncapedepartmentofhealth-0d0fcb",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "department of health and wellness",
+        "western cape health department"
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Western Cape Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650992"
       }
     },
     {

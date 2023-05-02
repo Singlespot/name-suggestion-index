@@ -34,18 +34,8 @@
       "locationSet": {"include": ["ba", "hr"]},
       "tags": {
         "brand": "iNovine",
+        "brand:wikidata": "Q115137198",
         "name": "iNovine",
-        "shop": "kiosk"
-      }
-    },
-    {
-      "displayName": "k kiosk",
-      "id": "kkiosk-14c8a0",
-      "locationSet": {"include": ["ch"]},
-      "tags": {
-        "brand": "k kiosk",
-        "brand:wikidata": "Q60381703",
-        "name": "k kiosk",
         "shop": "kiosk"
       }
     },
@@ -92,6 +82,20 @@
       "tags": {
         "brand": "Maxi Kiosco",
         "name": "Maxi Kiosco",
+        "shop": "kiosk"
+      }
+    },
+    {
+      "displayName": "Moj Kiosk",
+      "id": "mojkiosk-86ee53",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Мој киоск",
+        "brand:wikidata": "Q65064541",
+        "name": "Мој киоск",
+        "name:en": "Moj Kiosk",
+        "name:sr": "Мој киоск",
+        "name:sr-Latn": "Moj kiosk",
         "shop": "kiosk"
       }
     },
@@ -195,6 +199,16 @@
       }
     },
     {
+      "displayName": "Белсаюздрук",
+      "id": "28555b-332be8",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Белсаюздрук",
+        "name": "Белсаюздрук",
+        "shop": "kiosk"
+      }
+    },
+    {
       "displayName": "Роспечать",
       "id": "5506ed-332be8",
       "locationSet": {"include": ["001"]},
@@ -216,6 +230,22 @@
         "name": "キヨスク",
         "name:en": "KIOSK",
         "name:ja": "キヨスク",
+        "shop": "kiosk"
+      }
+    },
+    {
+      "displayName": "ローソンプラストークス",
+      "id": "lawsontoks-84165a",
+      "locationSet": {"include": ["jp"]},
+      "note": "LAWSON+toks has two types of stores: convenience store and kiosk.",
+      "tags": {
+        "brand": "LAWSON+toks",
+        "brand:en": "LAWSON+toks",
+        "brand:ja": "ローソンプラストークス",
+        "brand:wikidata": "Q115868119",
+        "name": "ローソン+トークス",
+        "name:en": "Lawson+toks",
+        "name:ja": "ローソンプラストークス",
         "shop": "kiosk"
       }
     }

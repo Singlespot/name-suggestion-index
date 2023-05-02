@@ -46,6 +46,17 @@
       }
     },
     {
+      "displayName": "Arnold Clark",
+      "id": "arnoldclark-42e946",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Arnold Clark",
+        "brand:wikidata": "Q29344371",
+        "name": "Arnold Clark",
+        "shop": "car"
+      }
+    },
+    {
       "displayName": "Aston Martin",
       "id": "astonmartin-13eeb7",
       "locationSet": {"include": ["001"]},
@@ -102,6 +113,17 @@
       }
     },
     {
+      "displayName": "Bristol Street Motors",
+      "id": "bristolstreetmotors-5338a7",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "brand": "Bristol Street Motors",
+        "brand:wikidata": "Q117319414",
+        "name": "Bristol Street Motors",
+        "shop": "car"
+      }
+    },
+    {
       "displayName": "Buick",
       "id": "buick-738dde",
       "locationSet": {
@@ -111,6 +133,21 @@
         "brand": "Buick",
         "brand:wikidata": "Q27415",
         "name": "Buick",
+        "shop": "car"
+      }
+    },
+    {
+      "displayName": "BYD",
+      "id": "byd-c7952c",
+      "locationSet": {
+        "include": ["001", "hk", "mo"],
+        "exclude": ["cn"]
+      },
+      "matchNames": ["build your dreams"],
+      "tags": {
+        "brand": "BYD Auto",
+        "brand:wikidata": "Q27423",
+        "name": "BYD",
         "shop": "car"
       }
     },
@@ -263,6 +300,17 @@
       }
     },
     {
+      "displayName": "Ferrari",
+      "id": "ferrari-13eeb7",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Ferrari",
+        "brand:wikidata": "Q27586",
+        "name": "Ferrari",
+        "shop": "car"
+      }
+    },
+    {
       "displayName": "Fiat",
       "id": "fiat-13eeb7",
       "locationSet": {"include": ["001"]},
@@ -406,7 +454,7 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "Jaguar",
-        "brand:wikidata": "Q26742231",
+        "brand:wikidata": "Q21170490",
         "name": "Jaguar",
         "shop": "car"
       }
@@ -877,8 +925,8 @@
     },
     {
       "displayName": "Smart",
-      "id": "smart-f30ed8",
-      "locationSet": {"include": ["150"]},
+      "id": "smart-b77732",
+      "locationSet": {"include": ["150", "cn"]},
       "tags": {
         "brand": "Smart",
         "brand:wikidata": "Q156490",
@@ -925,9 +973,9 @@
     },
     {
       "displayName": "Tesla",
-      "id": "tesla-b90e31",
+      "id": "tesla-8ae848",
       "locationSet": {
-        "include": ["001"],
+        "include": ["001", "hk", "mo"],
         "exclude": ["cn", "tw"]
       },
       "matchNames": ["tesla motors"],
@@ -1087,6 +1135,36 @@
       }
     },
     {
+      "displayName": "ネクステージ",
+      "id": "nextage-27c9bc",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "ネクステージ",
+        "brand:en": "NEXTAGE",
+        "brand:ja": "ネクステージ",
+        "brand:wikidata": "Q18338759",
+        "name": "ネクステージ",
+        "name:en": "Nextage",
+        "name:ja": "ネクステージ",
+        "shop": "car"
+      }
+    },
+    {
+      "displayName": "ビッグモーター",
+      "id": "bigmotor-27c9bc",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "ビッグモーター",
+        "brand:en": "BIGMOTOR",
+        "brand:ja": "ビッグモーター",
+        "brand:wikidata": "Q11330789",
+        "name": "ビッグモーター",
+        "name:en": "Bigmotor",
+        "name:ja": "ビッグモーター",
+        "shop": "car"
+      }
+    },
+    {
       "displayName": "ホンダ",
       "id": "honda-27c9bc",
       "locationSet": {"include": ["jp"]},
@@ -1102,17 +1180,17 @@
       }
     },
     {
-      "displayName": "小鹏汽车",
+      "displayName": "小鹏",
       "id": "xpeng-115502",
       "locationSet": {"include": ["cn"]},
       "tags": {
-        "brand": "小鹏汽车",
+        "brand": "小鹏",
         "brand:en": "Xpeng",
         "brand:wikidata": "Q63035278",
-        "brand:zh": "小鹏汽车",
-        "name": "小鹏汽车",
+        "brand:zh": "小鹏",
+        "name": "小鹏",
         "name:en": "Xpeng",
-        "name:zh": "小鹏汽车",
+        "name:zh": "小鹏",
         "shop": "car"
       }
     },
@@ -1132,9 +1210,46 @@
       }
     },
     {
+      "displayName": "极氪",
+      "id": "zeekr-115502",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "brand": "极氪",
+        "brand:en": "Zeekr",
+        "brand:wikidata": "Q106621124",
+        "brand:zh": "极氪",
+        "name": "极氪",
+        "name:en": "Zeekr",
+        "name:zh": "极氪",
+        "shop": "car"
+      }
+    },
+    {
+      "displayName": "比亚迪",
+      "id": "byd-985889",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "matchNames": ["比亚迪汽车"],
+      "tags": {
+        "brand": "比亚迪",
+        "brand:en": "BYD",
+        "brand:wikidata": "Q27423",
+        "brand:zh": "比亚迪",
+        "name": "比亚迪",
+        "name:en": "BYD",
+        "name:zh": "比亚迪",
+        "shop": "car"
+      }
+    },
+    {
       "displayName": "特斯拉",
-      "id": "tesla-085584",
-      "locationSet": {"include": ["cn", "tw"]},
+      "id": "tesla-7e0cc6",
+      "locationSet": {
+        "include": ["cn", "tw"],
+        "exclude": ["hk", "mo"]
+      },
       "tags": {
         "brand": "特斯拉",
         "brand:en": "Tesla",
@@ -1147,17 +1262,17 @@
       }
     },
     {
-      "displayName": "理想汽车",
+      "displayName": "理想",
       "id": "liauto-115502",
       "locationSet": {"include": ["cn"]},
       "tags": {
-        "brand": "理想汽车",
+        "brand": "理想",
         "brand:en": "Li Auto",
         "brand:wikidata": "Q98139925",
-        "brand:zh": "理想汽车",
-        "name": "理想汽车",
+        "brand:zh": "理想",
+        "name": "理想",
         "name:en": "Li Auto",
-        "name:zh": "理想汽车",
+        "name:zh": "理想",
         "shop": "car"
       }
     },
@@ -1166,10 +1281,10 @@
       "id": "niohouse-115502",
       "locationSet": {"include": ["cn"]},
       "tags": {
-        "brand": "蔚来中心",
-        "brand:en": "Nio House",
+        "brand": "蔚来",
+        "brand:en": "Nio",
         "brand:wikidata": "Q29921278",
-        "brand:zh": "蔚来中心",
+        "brand:zh": "蔚来",
         "name": "蔚来中心",
         "name:en": "Nio House",
         "name:zh": "蔚来中心",
@@ -1181,13 +1296,28 @@
       "id": "niospace-115502",
       "locationSet": {"include": ["cn"]},
       "tags": {
-        "brand": "蔚来空间",
-        "brand:en": "Nio Space",
+        "brand": "蔚来",
+        "brand:en": "Nio",
         "brand:wikidata": "Q29921278",
-        "brand:zh": "蔚来空间",
+        "brand:zh": "蔚来",
         "name": "蔚来空间",
         "name:en": "Nio Space",
         "name:zh": "蔚来空间",
+        "shop": "car"
+      }
+    },
+    {
+      "displayName": "零跑汽车",
+      "id": "leapmotor-115502",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "brand": "零跑汽车",
+        "brand:en": "LeapMotor",
+        "brand:wikidata": "Q99510294",
+        "brand:zh": "零跑汽车",
+        "name": "零跑汽车",
+        "name:en": "LeapMotor",
+        "name:zh": "零跑汽车",
         "shop": "car"
       }
     }

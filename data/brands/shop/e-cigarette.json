@@ -5,6 +5,29 @@
   },
   "items": [
     {
+      "displayName": "Cloud 9 Smoke Shop Australia",
+      "id": "cloud9smokeshopaustralia-c033a6",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Cloud 9 Smoke Shop Australia",
+        "brand:wikidata": "Q117822054",
+        "name": "Cloud 9 Smoke Shop Australia",
+        "shop": "e-cigarette"
+      }
+    },
+    {
+      "displayName": "E-cig City",
+      "id": "ecigcity-1253ad",
+      "locationSet": {"include": ["gb-eng"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "E-cig City",
+        "brand:wikidata": "Q115442266",
+        "name": "E-cig City",
+        "shop": "e-cigarette"
+      }
+    },
+    {
       "displayName": "E-Cigarette Direct",
       "id": "ecigarettedirect-a06c95",
       "locationSet": {"include": ["gb"]},
@@ -22,6 +45,18 @@
       "tags": {
         "brand": "E-Dym",
         "name": "E-Dym",
+        "shop": "e-cigarette"
+      }
+    },
+    {
+      "displayName": "Evapo",
+      "id": "evapo-a06c95",
+      "locationSet": {"include": ["gb"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Evapo",
+        "brand:wikidata": "Q115461510",
+        "name": "Evapo",
         "shop": "e-cigarette"
       }
     },
@@ -47,6 +82,17 @@
       }
     },
     {
+      "displayName": "IQOS",
+      "id": "iqos-721085",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "IQOS",
+        "brand:wikidata": "Q48744311",
+        "name": "IQOS",
+        "shop": "e-cigarette"
+      }
+    },
+    {
       "displayName": "Q Store",
       "id": "qstore-e48cdb",
       "locationSet": {"include": ["ru"]},
@@ -64,6 +110,41 @@
       "tags": {
         "brand": "SigaretNet.by",
         "name": "SigaretNet.by",
+        "shop": "e-cigarette"
+      }
+    },
+    {
+      "displayName": "Umbrella",
+      "id": "umbrella-1bb1e0",
+      "locationSet": {
+        "include": ["ba", "me", "mk", "rs"]
+      },
+      "tags": {
+        "brand": "Umbrella",
+        "brand:wikidata": "Q116453605",
+        "name": "Umbrella",
+        "shop": "e-cigarette"
+      }
+    },
+    {
+      "displayName": "VapeStore",
+      "id": "vapestore-a06c95",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "VapeStore",
+        "brand:wikidata": "Q116710778",
+        "name": "VapeStore",
+        "shop": "e-cigarette"
+      }
+    },
+    {
+      "displayName": "VAPO",
+      "id": "vapo-1ac9df",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "brand": "VAPO",
+        "brand:wikidata": "Q117236856",
+        "name": "VAPO",
         "shop": "e-cigarette"
       }
     },

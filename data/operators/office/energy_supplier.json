@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "displayName": "E-REDES",
+      "id": "eredes-3edaec",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "name": "E-REDES",
+        "office": "energy_supplier",
+        "operator": "E-REDES",
+        "operator:wikidata": "Q111843687"
+      }
+    },
+    {
       "displayName": "Elpedison",
       "id": "elpedison-d62fd2",
       "locationSet": {"include": ["gr"]},
@@ -39,6 +50,18 @@
         "office": "energy_supplier",
         "operator": "Enel",
         "operator:wikidata": "Q651222"
+      }
+    },
+    {
+      "displayName": "EVN България",
+      "id": "02fa7d-8661b0",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["evn"],
+      "tags": {
+        "name": "EVN България",
+        "office": "energy_supplier",
+        "operator": "EVN България",
+        "operator:wikidata": "Q20498243"
       }
     },
     {
@@ -162,6 +185,31 @@
       "tags": {
         "office": "energy_supplier",
         "operator": "АО «Петроэлектросбыт»"
+      }
+    },
+    {
+      "displayName": "Електрохолд",
+      "id": "0d7f82-8661b0",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["чез"],
+      "tags": {
+        "alt_name": "ЕРМ Запад",
+        "name": "Електрохолд",
+        "office": "energy_supplier",
+        "official_name": "Електрохолд Продажби",
+        "operator": "Електрохолд",
+        "operator:wikidata": "Q61140077"
+      }
+    },
+    {
+      "displayName": "Енерго-Про",
+      "id": "2dfabb-8661b0",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "name": "Енерго-Про",
+        "office": "energy_supplier",
+        "operator": "Енерго-Про",
+        "operator:wikidata": "Q115592513"
       }
     },
     {

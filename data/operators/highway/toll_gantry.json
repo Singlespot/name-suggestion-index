@@ -51,6 +51,18 @@
       }
     },
     {
+      "displayName": "Illinois Tollway",
+      "id": "illinoistollway-6b4377",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "highway": "toll_gantry",
+        "operator": "Illinois Tollway",
+        "operator:wikidata": "Q1071617"
+      }
+    },
+    {
       "displayName": "Montgomery County Toll Road Authority",
       "id": "montgomerycountytollroadauthority-2ee94d",
       "locationSet": {
@@ -127,6 +139,17 @@
         "operator:wikidata": "Q112700221",
         "payment:license_plate": "yes",
         "payment:txtag": "yes"
+      }
+    },
+    {
+      "displayName": "Агенция \"Пътна инфраструктура\"",
+      "id": "7a1d9d-4a1371",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["апи"],
+      "tags": {
+        "highway": "toll_gantry",
+        "operator": "Агенция \"Пътна инфраструктура\"",
+        "operator:wikidata": "Q12271140"
       }
     }
   ]

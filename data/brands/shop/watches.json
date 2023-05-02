@@ -99,6 +99,63 @@
       }
     },
     {
+      "displayName": "Just Watches",
+      "id": "justwatches-3643f6",
+      "locationSet": {"include": ["in"]},
+      "matchTags": ["shop/jewelry"],
+      "tags": {
+        "brand": "Just Watches",
+        "brand:wikidata": "Q117822349",
+        "name": "Just Watches",
+        "shop": "watches"
+      }
+    },
+    {
+      "displayName": "Longines",
+      "id": "longines-691196",
+      "locationSet": {
+        "include": [
+          "ar",
+          "au",
+          "be",
+          "ca",
+          "ch",
+          "cl",
+          "cn",
+          "de",
+          "dk",
+          "es",
+          "fi",
+          "fr",
+          "gr",
+          "in",
+          "it",
+          "jp",
+          "kr",
+          "mx",
+          "my",
+          "nl",
+          "no",
+          "pt",
+          "se",
+          "sg",
+          "th",
+          "tr",
+          "tw",
+          "uk",
+          "us",
+          "za"
+        ]
+      },
+      "matchTags": ["shop/jewelry"],
+      "tags": {
+        "brand": "Longines",
+        "brand:wikidata": "Q603698",
+        "name": "Longines",
+        "shop": "watches"
+      }
+    },
+    {
       "displayName": "Montres and Co",
       "id": "montresandco-95ec93",
       "locationSet": {"include": ["fr"]},

@@ -94,6 +94,17 @@
       }
     },
     {
+      "displayName": "Beauty Success",
+      "id": "beautysuccess-6051ce",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Beauty Success",
+        "brand:wikidata": "Q60964499",
+        "name": "Beauty Success",
+        "shop": "cosmetics"
+      }
+    },
+    {
       "displayName": "bluemercury",
       "id": "bluemercury-7d6f1e",
       "locationSet": {"include": ["us"]},
@@ -153,9 +164,20 @@
       }
     },
     {
-      "displayName": "Eva",
-      "id": "eva-b8d09c",
-      "locationSet": {"include": ["ru", "ua"]},
+      "displayName": "Dermacol",
+      "id": "dermacol-85d8c2",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "brand": "Dermacol",
+        "brand:wikidata": "Q67810810",
+        "name": "Dermacol",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "displayName": "Eva (Россия)",
+      "id": "eva-882961",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Eva",
         "name": "Eva",
@@ -192,6 +214,28 @@
         "brand": "Gratis",
         "brand:wikidata": "Q28605813",
         "name": "Gratis",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "displayName": "Havlíkova apotéka",
+      "id": "havlikovaapoteka-85d8c2",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "brand": "Havlíkova apotéka",
+        "brand:wikidata": "Q67814393",
+        "name": "Havlíkova apotéka",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "displayName": "Inglot",
+      "id": "inglot-a08666",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Inglot",
+        "brand:wikidata": "Q5420712",
+        "name": "Inglot",
         "shop": "cosmetics"
       }
     },
@@ -328,7 +372,7 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "Morphe",
-        "brand:wikidata": "Q106946553",
+        "brand:wikidata": "Q85944707",
         "name": "Morphe",
         "shop": "cosmetics"
       }
@@ -400,6 +444,19 @@
       }
     },
     {
+      "displayName": "Primor",
+      "id": "primor-16394a",
+      "locationSet": {
+        "include": ["ad", "es", "pt"]
+      },
+      "tags": {
+        "brand": "Primor",
+        "brand:wikidata": "Q101113141",
+        "name": "Primor",
+        "shop": "cosmetics"
+      }
+    },
+    {
       "displayName": "PUPA Milano",
       "id": "pupamilano-a08666",
       "locationSet": {"include": ["001"]},
@@ -423,19 +480,8 @@
     },
     {
       "displayName": "Rituals",
-      "id": "rituals-6bd843",
-      "locationSet": {
-        "include": [
-          "be",
-          "ch",
-          "de",
-          "es",
-          "gb",
-          "nl",
-          "se",
-          "us"
-        ]
-      },
+      "id": "rituals-a08666",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "Rituals",
         "brand:wikidata": "Q62874140",
@@ -511,6 +557,19 @@
       }
     },
     {
+      "displayName": "Signature Cosmetics & Fragrances",
+      "id": "signaturecosmeticsandfragrances-28fda4",
+      "locationSet": {
+        "include": ["bw", "mz", "na", "za"]
+      },
+      "tags": {
+        "brand": "Signature Cosmetics & Fragrances",
+        "brand:wikidata": "Q116894514",
+        "name": "Signature Cosmetics & Fragrances",
+        "shop": "cosmetics"
+      }
+    },
+    {
       "displayName": "Soeder",
       "id": "soeder-1b5c42",
       "locationSet": {"include": ["ch"]},
@@ -579,6 +638,38 @@
       }
     },
     {
+      "displayName": "Ziaja",
+      "id": "ziaja-a2d805",
+      "locationSet": {
+        "include": [
+          "at",
+          "cz",
+          "de",
+          "es",
+          "hu",
+          "ie",
+          "pl",
+          "sk"
+        ]
+      },
+      "tags": {
+        "brand": "Ziaja",
+        "brand:wikidata": "Q9390905",
+        "name": "Ziaja",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "displayName": "Белорусская косметика",
+      "id": "e49d24-882961",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Белорусская косметика",
+        "name": "Белорусская косметика",
+        "shop": "cosmetics"
+      }
+    },
+    {
       "displayName": "Золотое яблоко",
       "id": "goldapple-882961",
       "locationSet": {"include": ["ru"]},
@@ -605,8 +696,8 @@
     },
     {
       "displayName": "Подружка",
-      "id": "95c47a-b8d09c",
-      "locationSet": {"include": ["ru", "ua"]},
+      "id": "95c47a-882961",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Подружка",
         "brand:wikidata": "Q101646588",

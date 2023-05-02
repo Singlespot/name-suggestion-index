@@ -4,7 +4,8 @@
     "exclude": {
       "generic": [
         "^(obuwie|shoes?)$",
-        "^(ремонт )?(обуви|обувь)$"
+        "^(ремонт )?(обуви|обувь)$",
+        "^взуття$"
       ]
     }
   },
@@ -111,6 +112,17 @@
         "brand": "Arche",
         "brand:wikidata": "Q105063522",
         "name": "Arche",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Archive",
+      "id": "archive-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Archive",
+        "brand:wikidata": "Q116431114",
+        "name": "Archive",
         "shop": "shoes"
       }
     },
@@ -231,6 +243,17 @@
       }
     },
     {
+      "displayName": "Botticelli",
+      "id": "botticelli-d6114e",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Botticelli",
+        "brand:wikidata": "Q116164524",
+        "name": "Botticelli",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Brantano",
       "id": "brantano-12213a",
       "locationSet": {
@@ -301,6 +324,17 @@
       }
     },
     {
+      "displayName": "Chaussexpo",
+      "id": "chaussexpo-c57706",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Chaussexpo",
+        "brand:wikidata": "Q117814070",
+        "name": "Chaussexpo",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Christian Louboutin",
       "id": "christianlouboutin-eede13",
       "locationSet": {"include": ["gb"]},
@@ -335,12 +369,24 @@
     },
     {
       "displayName": "Cole Haan",
-      "id": "colehaan-c5ede1",
-      "locationSet": {"include": ["us"]},
+      "id": "colehaan-9b62dc",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "Cole Haan",
         "brand:wikidata": "Q4356504",
         "name": "Cole Haan",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Constance",
+      "id": "constance-7c075c",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "brand": "Constance",
+        "brand:wikidata": "Q116046493",
+        "name": "Constance",
+        "shoes": "women",
         "shop": "shoes"
       }
     },
@@ -368,8 +414,8 @@
     },
     {
       "displayName": "Courir",
-      "id": "courir-c57706",
-      "locationSet": {"include": ["fr"]},
+      "id": "courir-423d6f",
+      "locationSet": {"include": ["be", "fr"]},
       "tags": {
         "brand": "Courir",
         "brand:wikidata": "Q3001258",
@@ -420,6 +466,34 @@
         "brand": "Dosenbach",
         "brand:wikidata": "Q2677329",
         "name": "Dosenbach",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Dr. Kong",
+      "id": "drkong-2bd793",
+      "locationSet": {
+        "include": [
+          "az",
+          "bn",
+          "bu",
+          "cn",
+          "es",
+          "id",
+          "mn",
+          "my",
+          "ph",
+          "sg",
+          "th",
+          "uz"
+        ]
+      },
+      "matchNames": ["江博士"],
+      "tags": {
+        "brand": "Dr. Kong",
+        "brand:wikidata": "Q116547631",
+        "name": "Dr. Kong",
+        "name:en": "Dr. Kong",
         "shop": "shoes"
       }
     },
@@ -571,6 +645,17 @@
         "brand": "Footaction",
         "brand:wikidata": "Q71022064",
         "name": "Footaction",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Footgear",
+      "id": "footgear-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Footgear",
+        "brand:wikidata": "Q116290280",
+        "name": "Footgear",
         "shop": "shoes"
       }
     },
@@ -996,6 +1081,17 @@
       }
     },
     {
+      "displayName": "Mayer’s Markenschuhe",
+      "id": "mayersmarkenschuhe-0833e2",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Mayer’s Markenschuhe",
+        "brand:wikidata": "Q115310242",
+        "name": "Mayer’s Markenschuhe",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Megatop",
       "id": "megatop-bc0473",
       "locationSet": {"include": ["by"]},
@@ -1018,8 +1114,8 @@
     },
     {
       "displayName": "Merrell",
-      "id": "merrell-c5ede1",
-      "locationSet": {"include": ["us"]},
+      "id": "merrell-9b62dc",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "Merrell",
         "brand:wikidata": "Q1921997",
@@ -1090,6 +1186,7 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "brand": "Nelson",
+        "brand:wikidata": "Q114905305",
         "name": "Nelson",
         "shop": "shoes"
       }
@@ -1198,6 +1295,7 @@
       },
       "tags": {
         "brand": "PittaRosso",
+        "brand:wikidata": "Q105643314",
         "name": "PittaRosso",
         "shop": "shoes"
       }
@@ -1211,6 +1309,18 @@
         "brand:wikidata": "Q17636958",
         "name": "Pom d'Api",
         "shoes": "children",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Primadonna",
+      "id": "primadonna-5548d3",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Primadonna",
+        "brand:wikidata": "Q116774671",
+        "name": "Primadonna",
+        "shoes": "women",
         "shop": "shoes"
       }
     },
@@ -1244,6 +1354,17 @@
         "brand": "Rack Room Shoes",
         "brand:wikidata": "Q17109937",
         "name": "Rack Room Shoes",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Rage",
+      "id": "rage-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Rage",
+        "brand:wikidata": "Q116377890",
+        "name": "Rage",
         "shop": "shoes"
       }
     },
@@ -1320,6 +1441,17 @@
       }
     },
     {
+      "displayName": "Robel",
+      "id": "robel-26b6c7",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Robel",
+        "brand:wikidata": "Q116869813",
+        "name": "Robel",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Rockport",
       "id": "rockport-9b62dc",
       "locationSet": {"include": ["001"]},
@@ -1342,6 +1474,30 @@
       }
     },
     {
+      "displayName": "Ryłko",
+      "id": "rylko-aa42f1",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Ryłko",
+        "brand:wikidata": "Q9325152",
+        "name": "Ryłko",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Sacha",
+      "id": "sacha-854638",
+      "locationSet": {
+        "include": ["be", "lu", "nl"]
+      },
+      "tags": {
+        "brand": "Sacha",
+        "brand:wikidata": "Q116414246",
+        "name": "Sacha",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Salamander",
       "id": "salamander-9b62dc",
       "locationSet": {"include": ["001"]},
@@ -1349,6 +1505,17 @@
         "brand": "Salamander",
         "brand:wikidata": "Q878354",
         "name": "Salamander",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Salvador Artesano",
+      "id": "salvadorartesano-d6114e",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Salvador Artesano",
+        "brand:wikidata": "Q116166821",
+        "name": "Salvador Artesano",
         "shop": "shoes"
       }
     },
@@ -1382,6 +1549,18 @@
         "brand": "Scapino",
         "brand:wikidata": "Q2298792",
         "name": "Scapino",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Scarpe&Scarpe",
+      "id": "scarpeandscarpe-5548d3",
+      "locationSet": {"include": ["it"]},
+      "matchNames": ["scarpe e scarpe"],
+      "tags": {
+        "brand": "Scarpe&Scarpe",
+        "brand:wikidata": "Q114723045",
+        "name": "Scarpe&Scarpe",
         "shop": "shoes"
       }
     },
@@ -1432,6 +1611,16 @@
       }
     },
     {
+      "displayName": "Seaside",
+      "id": "seaside-9b62dc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Seaside",
+        "name": "Seaside",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Shagovita",
       "id": "shagovita-18cb77",
       "locationSet": {
@@ -1451,6 +1640,38 @@
         "brand": "Shoe Carnival",
         "brand:wikidata": "Q7500007",
         "name": "Shoe Carnival",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Shoe City (California)",
+      "id": "shoecity-c5ede1",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Shoe City",
+        "brand:wikidata": "Q116643717",
+        "name": "Shoe City",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Shoe City (Southern Africa)",
+      "id": "shoecity-423275",
+      "locationSet": {"include": ["na", "za"]},
+      "tags": {
+        "brand": "Shoe City",
+        "brand:wikidata": "Q116620945",
+        "name": "Shoe City",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Shoe Dept. Encore",
+      "id": "shoedeptencore-9b62dc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Shoe Dept. Encore",
+        "name": "Shoe Dept. Encore",
         "shop": "shoes"
       }
     },
@@ -1495,6 +1716,19 @@
         "brand": "shoe4you",
         "brand:wikidata": "Q108006445",
         "name": "shoe4you",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Side Step",
+      "id": "sidestep-76fee2",
+      "locationSet": {
+        "include": ["bw", "ls", "na", "za"]
+      },
+      "tags": {
+        "brand": "Side Step",
+        "brand:wikidata": "Q116894527",
+        "name": "Side Step",
         "shop": "shoes"
       }
     },
@@ -1555,11 +1789,23 @@
       }
     },
     {
+      "displayName": "Sneaker Factory",
+      "id": "sneakerfactory-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "The Sneaker Factory",
+        "brand:wikidata": "Q116290301",
+        "name": "Sneaker Factory",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Snipes",
-      "id": "snipes-679af4",
+      "id": "snipes-12472c",
       "locationSet": {
         "include": [
           "at",
+          "be",
           "ch",
           "de",
           "es",
@@ -1600,6 +1846,17 @@
       }
     },
     {
+      "displayName": "Spitz",
+      "id": "spitz-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Spitz",
+        "brand:wikidata": "Q116620967",
+        "name": "Spitz",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Steve Madden",
       "id": "stevemadden-22ceb3",
       "locationSet": {"include": ["ca", "us"]},
@@ -1607,6 +1864,17 @@
         "brand": "Steve Madden",
         "brand:wikidata": "Q25352034",
         "name": "Steve Madden",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Street Fever",
+      "id": "streetfever-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Street Fever",
+        "brand:wikidata": "Q116894504",
+        "name": "Street Fever",
         "shop": "shoes"
       }
     },
@@ -1668,6 +1936,19 @@
       }
     },
     {
+      "displayName": "Tekkie Town",
+      "id": "tekkietown-bf67c5",
+      "locationSet": {
+        "include": ["ls", "na", "za"]
+      },
+      "tags": {
+        "brand": "Tekkie Town",
+        "brand:wikidata": "Q116620895",
+        "name": "Tekkie Town",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "The Shoe Company",
       "id": "theshoecompany-189a70",
       "locationSet": {"include": ["ca"]},
@@ -1699,6 +1980,22 @@
         "brand": "Tod's",
         "brand:wikidata": "Q1342350",
         "name": "Tod's",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Torfs",
+      "id": "schoenentorfs-9a105b",
+      "locationSet": {"include": ["be"]},
+      "matchNames": [
+        "chaussures torfs",
+        "torfs",
+        "torfs schoenen"
+      ],
+      "tags": {
+        "brand": "Schoenen Torfs",
+        "brand:wikidata": "Q2547484",
+        "name": "Schoenen Torfs",
         "shop": "shoes"
       }
     },
@@ -1828,16 +2125,6 @@
       }
     },
     {
-      "displayName": "Взуття",
-      "id": "f815e6-587627",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "brand": "Взуття",
-        "name": "Взуття",
-        "shop": "shoes"
-      }
-    },
-    {
       "displayName": "Мегатоп",
       "id": "c5e558-bc0473",
       "locationSet": {"include": ["by"]},
@@ -1849,10 +2136,8 @@
     },
     {
       "displayName": "ЦентрОбувь",
-      "id": "6c57c6-ea44e5",
-      "locationSet": {
-        "include": ["by", "ru", "ua"]
-      },
+      "id": "6c57c6-886255",
+      "locationSet": {"include": ["by", "ru"]},
       "tags": {
         "brand": "ЦентрОбувь",
         "brand:wikidata": "Q4504072",

@@ -10,10 +10,23 @@
         "^veterinary( hospital)?$",
         "^ветеринарная клиника$",
         "^ветлечебница$"
-      ]
+      ],
+      "named": ["^ветаптека$"]
     }
   },
   "items": [
+    {
+      "displayName": "Animates Vetcare",
+      "id": "animatesvetcare-023837",
+      "locationSet": {"include": ["nz"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "veterinary",
+        "brand": "Animates",
+        "brand:wikidata": "Q110299350",
+        "name": "Animates Vetcare"
+      }
+    },
     {
       "displayName": "Banfield Pet Hospital",
       "id": "banfieldpethospital-146b24",
@@ -104,19 +117,12 @@
       }
     },
     {
-      "displayName": "Ветаптека",
-      "id": "8c25b2-ae5565",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "veterinary",
-        "brand": "Ветаптека",
-        "name": "Ветаптека"
-      }
-    },
-    {
       "displayName": "Ветеринарная аптека",
-      "id": "181b3f-ae5565",
-      "locationSet": {"include": ["001"]},
+      "id": "181b3f-cf2593",
+      "locationSet": {
+        "include": ["by", "kz", "ru", "ua"]
+      },
+      "note": "Maybe generic name in Russian/Belarusian/Ukrainian",
       "tags": {
         "amenity": "veterinary",
         "brand": "Ветеринарная аптека",

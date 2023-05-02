@@ -72,6 +72,33 @@
       }
     },
     {
+      "displayName": "Barrique",
+      "id": "barrique-c5afd8",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-be.geojson",
+          "de-bw.geojson",
+          "de-he.geojson",
+          "de-hh.geojson",
+          "de-mv.geojson",
+          "de-ni.geojson",
+          "de-nw.geojson",
+          "de-sh.geojson",
+          "de-sl.geojson",
+          "de-sn.geojson",
+          "de-th.geojson",
+          "nl"
+        ]
+      },
+      "tags": {
+        "brand": "Barrique",
+        "brand:wikidata": "Q114133164",
+        "name": "Barrique",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "BC Liquor Store",
       "id": "bcliquorstore-0c8640",
       "locationSet": {
@@ -121,6 +148,50 @@
       }
     },
     {
+      "displayName": "Blue Bottle Liquors",
+      "id": "bluebottleliquors-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Blue Bottle Liquors",
+        "brand:wikidata": "Q116861688",
+        "name": "Blue Bottle Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Blue Bottle Liquors Express",
+      "id": "bluebottleliquorsexpress-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Blue Bottle Liquors",
+        "brand:wikidata": "Q116861688",
+        "name": "Blue Bottle Liquors Express",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Blue Bottle Liquors Platinum",
+      "id": "bluebottleliquorsplatinum-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Blue Bottle Liquors",
+        "brand:wikidata": "Q116861688",
+        "name": "Blue Bottle Liquors Platinum",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Blue Bottle Liquors XL",
+      "id": "bluebottleliquorsxl-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Blue Bottle Liquors",
+        "brand:wikidata": "Q116861688",
+        "name": "Blue Bottle Liquors XL",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Bottlemart",
       "id": "bottlemart-cb3c62",
       "locationSet": {"include": ["au"]},
@@ -132,6 +203,17 @@
       }
     },
     {
+      "displayName": "Boxer Liquors",
+      "id": "boxerliquors-a774d1",
+      "locationSet": {"include": ["sz", "za"]},
+      "tags": {
+        "brand": "Boxer",
+        "brand:wikidata": "Q116586275",
+        "name": "Boxer Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "BWS",
       "id": "bws-cb3c62",
       "locationSet": {"include": ["au"]},
@@ -139,6 +221,17 @@
         "brand": "BWS",
         "brand:wikidata": "Q4836848",
         "name": "BWS",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Carry Out",
+      "id": "carryout-986e1f",
+      "locationSet": {"include": ["ie"]},
+      "tags": {
+        "brand": "Carry Out",
+        "brand:wikidata": "Q116645699",
+        "name": "Carry Out",
         "shop": "alcohol"
       }
     },
@@ -257,6 +350,18 @@
       }
     },
     {
+      "displayName": "Hop Hey",
+      "id": "hophey-345467",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["море пива"],
+      "tags": {
+        "brand": "Hop Hey",
+        "brand:wikidata": "Q104829481",
+        "name": "Hop Hey",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "La Cervoiserie",
       "id": "lacervoiserie-99d8dc",
       "locationSet": {"include": ["fr"]},
@@ -284,6 +389,27 @@
       }
     },
     {
+      "displayName": "Legion Co",
+      "id": "legionco-91a82c",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Legion Co",
+        "name": "Legion Co",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Liquor City",
+      "id": "liquorcity-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Liquor City",
+        "brand:wikidata": "Q116620538",
+        "name": "Liquor City",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Liquor Depot",
       "id": "liquordepot-ca0076",
       "locationSet": {
@@ -295,6 +421,19 @@
       "tags": {
         "brand": "Liquor Depot",
         "name": "Liquor Depot",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Liquor Shop Checkers",
+      "id": "liquorshopcheckers-588b80",
+      "locationSet": {
+        "include": ["bw", "na", "za"]
+      },
+      "tags": {
+        "brand": "Checkers",
+        "brand:wikidata": "Q5089126",
+        "name": "Liquor Shop Checkers",
         "shop": "alcohol"
       }
     },
@@ -336,6 +475,17 @@
       }
     },
     {
+      "displayName": "Market Liquors",
+      "id": "marketliquors-4c7c64",
+      "locationSet": {"include": ["na", "za"]},
+      "tags": {
+        "brand": "Market Liquors",
+        "brand:wikidata": "Q116895063",
+        "name": "Market Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Mitra",
       "id": "mitra-e09280",
       "locationSet": {"include": ["nl"]},
@@ -343,6 +493,17 @@
         "brand": "Mitra",
         "brand:wikidata": "Q109186241",
         "name": "Mitra",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Mr Liquor",
+      "id": "mrliquor-cb3c62",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Mr Liquor",
+        "brand:wikidata": "Q117822077",
+        "name": "Mr Liquor",
         "shop": "alcohol"
       }
     },
@@ -391,6 +552,17 @@
       }
     },
     {
+      "displayName": "O'Briens Wine",
+      "id": "obriens-986e1f",
+      "locationSet": {"include": ["ie"]},
+      "tags": {
+        "brand": "O'Briens",
+        "brand:wikidata": "Q113151266",
+        "name": "O'Briens",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Oddbins",
       "id": "oddbins-30632a",
       "locationSet": {"include": ["gb"]},
@@ -398,6 +570,41 @@
         "brand": "Oddbins",
         "brand:wikidata": "Q7077472",
         "name": "Oddbins",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "OK Liquor",
+      "id": "okliquor-fbe625",
+      "locationSet": {
+        "include": ["na", "sz", "za"]
+      },
+      "tags": {
+        "brand": "OK Liquor",
+        "brand:wikidata": "Q116520424",
+        "name": "OK Liquor",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Pick n Pay Liquor",
+      "id": "picknpayliquor-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Pick n Pay",
+        "brand:wikidata": "Q7190735",
+        "name": "Pick n Pay Liquor",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Prestons",
+      "id": "prestons-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Prestons Liquor Stores",
+        "brand:wikidata": "Q116861728",
+        "name": "Prestons",
         "shop": "alcohol"
       }
     },
@@ -449,6 +656,19 @@
       }
     },
     {
+      "displayName": "Shoprite LiquorShop",
+      "id": "shopriteliquorshop-af1a8e",
+      "locationSet": {
+        "include": ["ls", "mz", "na", "za"]
+      },
+      "tags": {
+        "brand": "Shoprite LiquorShop",
+        "brand:wikidata": "Q1857639",
+        "name": "Shoprite LiquorShop",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Spec's",
       "id": "specs-a9ed82",
       "locationSet": {
@@ -467,6 +687,7 @@
       "locationSet": {"include": ["nz"]},
       "tags": {
         "brand": "Super Liquor",
+        "brand:wikidata": "Q112038718",
         "name": "Super Liquor",
         "shop": "alcohol"
       }
@@ -528,13 +749,17 @@
       }
     },
     {
-      "displayName": "Tops",
-      "id": "tops-cebc42",
-      "locationSet": {"include": ["za"]},
+      "displayName": "Tops at Spar",
+      "id": "topsatspar-67025f",
+      "locationSet": {
+        "include": ["bw", "na", "sz", "za", "zm"]
+      },
       "tags": {
-        "brand": "Tops",
-        "name": "Tops",
-        "shop": "alcohol"
+        "brand": "Tops at Spar",
+        "brand:wikidata": "Q116377563",
+        "name": "Tops at Spar",
+        "shop": "alcohol",
+        "short_name": "Tops"
       }
     },
     {
@@ -546,6 +771,30 @@
         "brand:wikidata": "Q7828084",
         "name": "Total Wine",
         "official_name": "Total Wine & More",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Ultra Liquors",
+      "id": "ultraliquors-cebc42",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Ultra Liquors",
+        "brand:wikidata": "Q116620602",
+        "name": "Ultra Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Usave Liquorshop",
+      "id": "usaveliquorshop-3d1ece",
+      "locationSet": {
+        "include": ["ls", "na", "za"]
+      },
+      "tags": {
+        "brand": "Usave Liquorshop",
+        "brand:wikidata": "Q115696368",
+        "name": "Usave Liquorshop",
         "shop": "alcohol"
       }
     },
@@ -575,6 +824,17 @@
       }
     },
     {
+      "displayName": "Vintage Cellars",
+      "id": "vintagecellars-cb3c62",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Vintage Cellars",
+        "brand:wikidata": "Q7932815",
+        "name": "Vintage Cellars",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Virginia ABC",
       "id": "virginiaabc-85cc28",
       "locationSet": {
@@ -584,6 +844,18 @@
         "brand": "Virginia ABC",
         "brand:wikidata": "Q7934236",
         "name": "Virginia ABC",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "WINETIME",
+      "id": "winetime-345467",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "brand": "WINETIME",
+        "brand:wikidata": "Q116698397",
+        "name": "WINETIME",
+        "name:en": "WINETIME",
         "shop": "alcohol"
       }
     },
@@ -723,12 +995,29 @@
       }
     },
     {
-      "displayName": "Море пива",
-      "id": "d94189-345467",
-      "locationSet": {"include": ["ua"]},
+      "displayName": "Мавт-Винотека",
+      "id": "5f2571-b9f2fe",
+      "locationSet": {"include": ["ru"]},
       "tags": {
-        "brand": "Море пива",
-        "name": "Море пива",
+        "brand": "Мавт-Винотека",
+        "name": "Мавт-Винотека",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Минск Кристалл",
+      "id": "minskkristall-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Минск Кристалл",
+        "brand:be": "Мінск Крышталь",
+        "brand:en": "Minsk Kristall",
+        "brand:ru": "Минск Кристалл",
+        "brand:wikidata": "Q6869455",
+        "name": "Минск Кристалл",
+        "name:be": "Мінск Крышталь",
+        "name:en": "Minsk Kristall",
+        "name:ru": "Минск Кристалл",
         "shop": "alcohol"
       }
     },
@@ -804,6 +1093,16 @@
         "brand": "РосАл",
         "brand:wikidata": "Q110137999",
         "name": "РосАл",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Русалка",
+      "id": "84cfca-b9f2fe",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Русалка",
+        "name": "Русалка",
         "shop": "alcohol"
       }
     },

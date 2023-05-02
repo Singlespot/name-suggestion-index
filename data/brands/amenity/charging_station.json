@@ -7,12 +7,53 @@
   },
   "items": [
     {
+      "displayName": "BP Pulse",
+      "id": "bppulse-ed9b3b",
+      "locationSet": {
+        "include": ["au", "gb", "nz"]
+      },
+      "matchNames": [
+        "bp chargemaster",
+        "chargemaster"
+      ],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "BP Pulse",
+        "brand:wikidata": "Q39057719",
+        "operator": "BP Pulse",
+        "operator:wikidata": "Q39057719"
+      }
+    },
+    {
+      "displayName": "char.gy",
+      "id": "chargy-cc3397",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "char.gy",
+        "brand:wikidata": "Q113465698"
+      }
+    },
+    {
       "displayName": "Charge365",
       "id": "charge365-054d0f",
       "locationSet": {"include": ["no"]},
       "tags": {
         "amenity": "charging_station",
-        "operator": "Charge365"
+        "brand": "Charge365"
+      }
+    },
+    {
+      "displayName": "Chargy",
+      "id": "chargy-e87a7c",
+      "locationSet": {"include": ["lu"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Chargy",
+        "brand:wikidata": "Q62702950",
+        "name": "Chargy",
+        "operator": "Chargy",
+        "operator:wikidata": "Q62702950"
       }
     },
     {
@@ -48,7 +89,7 @@
       "locationSet": {"include": ["no"]},
       "tags": {
         "amenity": "charging_station",
-        "operator": "Ishavsveien"
+        "brand": "Ishavsveien"
       }
     },
     {
@@ -95,6 +136,18 @@
         "brand:wikidata": "Q29921278",
         "name": "Nio Power",
         "name:en": "Nio Power"
+      }
+    },
+    {
+      "displayName": "OpenLoop",
+      "id": "openloop-dd8b2e",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "OpenLoop",
+        "brand:wikidata": "Q113289213",
+        "network": "OpenLoop",
+        "network:wikidata": "Q113289213"
       }
     },
     {
@@ -163,6 +216,43 @@
         "brand": "Tesla",
         "brand:wikidata": "Q478214",
         "name": "Tesla Supercharger"
+      }
+    },
+    {
+      "displayName": "WINK Charging",
+      "id": "wink-59a92d",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "WINK",
+        "brand:wikidata": "Q117706556",
+        "name": "WINK"
+      }
+    },
+    {
+      "displayName": "Zero",
+      "id": "zero-dd8b2e",
+      "locationSet": {"include": ["nz"]},
+      "matchNames": ["meridian"],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Zero",
+        "brand:wikidata": "Q115065783",
+        "operator": "Meridian Energy",
+        "operator:wikidata": "Q6819305"
+      }
+    },
+    {
+      "displayName": "ZSE Drive",
+      "id": "zsedrive-8610f2",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["zse"],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ZSE Drive",
+        "brand:wikidata": "Q116450454",
+        "operator": "Západoslovenská energetika",
+        "operator:wikidata": "Q246921"
       }
     },
     {

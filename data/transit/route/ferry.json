@@ -37,6 +37,12 @@
       }
     },
     {
+      "displayName": "AT",
+      "id": "at-95f6e9",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "AT", "route": "ferry"}
+    },
+    {
       "displayName": "Baltimore Harbor Connector",
       "id": "baltimoreharborconnector-c8cea8",
       "locationSet": {
@@ -114,6 +120,19 @@
       "tags": {
         "network": "CGN",
         "network:wikidata": "Q676230",
+        "route": "ferry"
+      }
+    },
+    {
+      "displayName": "Consorcio Metropolitano de Transportes de la Bahía de Cádiz",
+      "id": "consorciometropolitanodetransportesdelabahiadecadiz-9985a2",
+      "locationSet": {
+        "include": [[-6, 36.5, 60]]
+      },
+      "tags": {
+        "network": "Consorcio Metropolitano de Transportes de la Bahía de Cádiz",
+        "network:short": "CMTBC",
+        "network:wikidata": "Q5784325",
         "route": "ferry"
       }
     },
@@ -263,6 +282,20 @@
       "tags": {
         "network": "NY Waterway",
         "network:wikidata": "Q6956135",
+        "route": "ferry"
+      }
+    },
+    {
+      "displayName": "Personenvervoer over water Rotterdam-Drechtsteden",
+      "id": "personenvervoeroverwaterrotterdamdrechtsteden-6f1a78",
+      "locationSet": {"include": ["nl"]},
+      "matchNames": [
+        "waterbus rotterdam-drechtsteden"
+      ],
+      "tags": {
+        "network": "Personenvervoer over water Rotterdam-Drechtsteden",
+        "network:wikidata": "Q115121369",
+        "operator": "Blue Amigo",
         "route": "ferry"
       }
     },
@@ -470,6 +503,17 @@
       }
     },
     {
+      "displayName": "Virgin Islands Transit",
+      "id": "virginislandstransit-279e1d",
+      "locationSet": {"include": ["us-vi"]},
+      "matchNames": ["vitran"],
+      "tags": {
+        "network": "Virgin Islands Transit",
+        "network:wikidata": "Q116925354",
+        "route": "ferry"
+      }
+    },
+    {
       "displayName": "VVO",
       "id": "vvo-079be8",
       "locationSet": {"include": ["de"]},
@@ -495,17 +539,6 @@
       }
     },
     {
-      "displayName": "Waterbus Rotterdam-Drechtsteden",
-      "id": "waterbusrotterdamdrechtsteden-6f1a78",
-      "locationSet": {"include": ["nl"]},
-      "tags": {
-        "network": "Waterbus Rotterdam-Drechtsteden",
-        "network:wikidata": "Q1845402",
-        "operator": "Blue Amigo",
-        "route": "ferry"
-      }
-    },
-    {
       "displayName": "Waxholmsbolaget",
       "id": "waxholmsbolaget-db6623",
       "locationSet": {"include": ["se"]},
@@ -516,12 +549,12 @@
       }
     },
     {
-      "displayName": "Zürcher Verkehrsverbund",
-      "id": "zurcherverkehrsverbund-ae05bd",
+      "displayName": "ZVV",
+      "id": "zvv-ae05bd",
       "locationSet": {"include": ["ch"]},
+      "matchNames": ["zürcher verkehrsverbund"],
       "tags": {
-        "network": "Zürcher Verkehrsverbund",
-        "network:short": "ZVV",
+        "network": "ZVV",
         "network:wikidata": "Q201977",
         "route": "ferry"
       }
@@ -533,6 +566,8 @@
       "tags": {
         "network": "广州水上巴士",
         "network:en": "Guangzhou Water Bus",
+        "network:wikidata": "Q17163985",
+        "network:zh": "广州水上巴士",
         "operator": "广州公交集团客轮有限公司",
         "route": "ferry"
       }

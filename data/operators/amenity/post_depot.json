@@ -32,6 +32,20 @@
       }
     },
     {
+      "displayName": "Centro de Distribuição dos Correios",
+      "id": "empresabrasileiradecorreiosetelegrafos-28fd5c",
+      "locationSet": {"include": ["br"]},
+      "matchNames": ["ebct", "ect"],
+      "tags": {
+        "amenity": "post_depot",
+        "name": "Centro de Distribuição dos Correios",
+        "operator": "Empresa Brasileira de Correios e Telégrafos",
+        "operator:short": "Correios",
+        "operator:type": "public",
+        "operator:wikidata": "Q3375004"
+      }
+    },
+    {
       "displayName": "Deutsche Post",
       "id": "deutschepost-6fd7ff",
       "locationSet": {"include": ["de"]},
@@ -42,6 +56,17 @@
         "operator": "Deutsche Post",
         "operator:type": "private",
         "operator:wikidata": "Q157645"
+      }
+    },
+    {
+      "displayName": "Evri",
+      "id": "evri-a473cc",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": ["hermes"],
+      "tags": {
+        "amenity": "post_depot",
+        "operator": "Evri",
+        "operator:wikidata": "Q115200168"
       }
     },
     {

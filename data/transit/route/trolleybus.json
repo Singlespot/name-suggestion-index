@@ -63,6 +63,18 @@
       }
     },
     {
+      "displayName": "GSP Beograd",
+      "id": "58b493-de010c",
+      "locationSet": {"include": ["rs"]},
+      "matchNames": ["gsp beograd"],
+      "tags": {
+        "network": "БГ Превоз",
+        "operator": "ГСП Београд",
+        "operator:wikidata": "Q8227578",
+        "route": "trolleybus"
+      }
+    },
+    {
       "displayName": "IDS JMK",
       "id": "idsjmk-706c20",
       "locationSet": {"include": ["cz"]},
@@ -256,8 +268,6 @@
       "tags": {
         "network": "Mobilis",
         "network:wikidata": "Q2394222",
-        "operator": "TL",
-        "operator:wikidata": "Q675718",
         "route": "trolleybus"
       }
     },
@@ -306,8 +316,6 @@
         "network": "Passepartout",
         "network:short": "TVLU",
         "network:wikidata": "Q2394205",
-        "operator": "Verkehrsbetriebe Luzern",
-        "operator:wikidata": "Q450886",
         "route": "trolleybus"
       }
     },
@@ -318,6 +326,15 @@
       "tags": {
         "network": "RAT Brașov",
         "network:wikidata": "Q7258031",
+        "route": "trolleybus"
+      }
+    },
+    {
+      "displayName": "Regia Transport Electric Chișinău",
+      "id": "regiatransportelectricchisinau-f9d453",
+      "locationSet": {"include": ["md"]},
+      "tags": {
+        "network": "Regia Transport Electric Chișinău",
         "route": "trolleybus"
       }
     },
@@ -429,6 +446,16 @@
       }
     },
     {
+      "displayName": "TPER",
+      "id": "tper-a22f82",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "network": "TPER",
+        "network:wikidata": "Q3997843",
+        "route": "trolleybus"
+      }
+    },
+    {
       "displayName": "TransLink (British Columbia)",
       "id": "translink-c54f8a",
       "locationSet": {
@@ -461,15 +488,18 @@
       "tags": {
         "network": "Unireso",
         "network:wikidata": "Q1312883",
-        "operator": "Transports publics genevois",
-        "operator:wikidata": "Q677004",
         "route": "trolleybus"
       }
     },
     {
       "displayName": "Verkehrsverbund Berlin-Brandenburg",
-      "id": "verkehrsverbundberlinbrandenburg-54cb1f",
-      "locationSet": {"include": ["de"]},
+      "id": "verkehrsverbundberlinbrandenburg-d2c91d",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-be.geojson"
+        ]
+      },
       "tags": {
         "network": "Verkehrsverbund Berlin-Brandenburg",
         "network:wikidata": "Q315451",
@@ -491,8 +521,10 @@
     },
     {
       "displayName": "VRR",
-      "id": "vrr-54cb1f",
-      "locationSet": {"include": ["de"]},
+      "id": "vrr-d636b2",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "network": "VRR",
         "network:wikidata": "Q448199",
@@ -504,8 +536,10 @@
     },
     {
       "displayName": "VVS",
-      "id": "vvs-54cb1f",
-      "locationSet": {"include": ["de"]},
+      "id": "vvs-1e551f",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "network": "VVS",
         "network:wikidata": "Q2516108",
@@ -593,6 +627,7 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Вінницька мережа громадського транспорту",
+        "operator": "Вінницька транспортна компанія",
         "route": "trolleybus"
       }
     },
@@ -620,6 +655,9 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Івано-Франківський тролейбус",
+        "network:wikidata": "Q4195894",
+        "operator": "Електроавтотранс",
+        "operator:wikidata": "Q12099262",
         "route": "trolleybus"
       }
     },
@@ -629,6 +667,19 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Київський тролейбус",
+        "network:wikidata": "Q3400178",
+        "operator": "Київпастранс",
+        "operator:wikidata": "Q12110155",
+        "route": "trolleybus"
+      }
+    },
+    {
+      "displayName": "Комитет по Транспорту Санкт-Петербурга",
+      "id": "saintpetersburgtransportcommittee-ea4a14",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "network": "Комитет по Транспорту Санкт-Петербурга",
+        "network:en": "Saint-Petersburg Transport Committee",
         "route": "trolleybus"
       }
     },
@@ -682,11 +733,24 @@
       }
     },
     {
+      "displayName": "평양 무궤도전차",
+      "id": "c69a61-a90e51",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "network": "평양 무궤도전차",
+        "network:ko": "평양 무궤도전차",
+        "route": "trolleybus"
+      }
+    },
+    {
       "displayName": "上海公交",
-      "id": "03182b-95023b",
+      "id": "shanghaibus-95023b",
       "locationSet": {"include": ["cn"]},
       "tags": {
         "network": "上海公交",
+        "network:en": "Shanghai Bus",
+        "network:wikidata": "Q7488407",
+        "network:zh": "上海公交",
         "route": "trolleybus"
       }
     },

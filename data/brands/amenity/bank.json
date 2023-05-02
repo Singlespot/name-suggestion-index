@@ -6,6 +6,7 @@
         "^(atm|bank|credit union)$",
         "^(银行|銀行)$",
         "^cajero automatico bancared$",
+        "^банк$",
         "^بانک$"
       ],
       "named": [
@@ -21,13 +22,35 @@
   },
   "items": [
     {
-      "displayName": "12º Batalhão de Polícia Militar",
-      "id": "e3af53-b7a026",
-      "locationSet": {"include": ["001"]},
+      "displayName": "1st Security Bank",
+      "id": "1stsecuritybank-181391",
+      "locationSet": {
+        "include": [
+          "us-or.geojson",
+          "us-wa.geojson"
+        ]
+      },
       "tags": {
         "amenity": "bank",
-        "brand": "12º Batalhão de Polícia Militar",
-        "name": "12º Batalhão de Polícia Militar"
+        "brand": "1st Security Bank",
+        "brand:wikidata": "Q116890483",
+        "name": "1st Security Bank"
+      }
+    },
+    {
+      "displayName": "3 Banka",
+      "id": "3bank-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "3 Банка",
+        "brand:sr": "3 Банка",
+        "brand:sr-Latn": "3 Banka",
+        "brand:wikidata": "Q114345230",
+        "name": "3 Банка",
+        "name:en": "3 Bank",
+        "name:sr": "3 Банка",
+        "name:sr-Latn": "3 Banka"
       }
     },
     {
@@ -38,7 +61,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "365.bank",
-        "brand:wikidata": "Q108123694",
+        "brand:wikidata": "Q7237158",
         "name": "365.bank",
         "official_name": "365.bank, a.s."
       }
@@ -109,9 +132,12 @@
       "locationSet": {"include": ["am"]},
       "tags": {
         "amenity": "bank",
-        "brand": "ACBA",
+        "brand": "ԱԿԲԱ",
         "brand:wikidata": "Q55602923",
-        "name": "ACBA"
+        "name": "ԱԿԲԱ",
+        "name:en": "ACBA",
+        "name:hy": "ԱԿԲԱ",
+        "name:ru": "АКБА"
       }
     },
     {
@@ -185,6 +211,28 @@
       }
     },
     {
+      "displayName": "African Bank",
+      "id": "africanbank-50d637",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "African Bank Limited",
+        "brand:wikidata": "Q4689703",
+        "name": "African Bank"
+      }
+    },
+    {
+      "displayName": "Agibank",
+      "id": "agibank-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Agibank",
+        "brand:wikidata": "Q51882324",
+        "name": "Agibank"
+      }
+    },
+    {
       "displayName": "Agribank (USA)",
       "id": "agribank-ea2e2d",
       "locationSet": {"include": ["us"]},
@@ -244,6 +292,21 @@
         "brand:wikidata": "Q1642179",
         "name": "AIB",
         "official_name": "Allied Irish Banks"
+      }
+    },
+    {
+      "displayName": "AIK banka",
+      "id": "aikbanka-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "matchNames": ["аик банк"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "AIK banka",
+        "brand:wikidata": "Q293650",
+        "name": "AIK banka",
+        "name:en": "AIK bank",
+        "name:sr": "АИК банка",
+        "name:sr-Latn": "AIK banka"
       }
     },
     {
@@ -337,18 +400,15 @@
     },
     {
       "displayName": "Allied Bank (Pakistan)",
-      "id": "alliedbank-da5806",
-      "locationSet": {"include": ["pk"]},
-      "matchNames": ["allied bank limited"],
+      "id": "alliedbank-4c5401",
+      "locationSet": {"include": ["bh", "pk"]},
       "tags": {
         "amenity": "bank",
-        "brand": "Allied Bank",
-        "brand:ar": "الائیڈ بینک لمیٹڈ",
-        "brand:en": "Allied Bank",
-        "brand:ur": "الائیڈ بینک",
+        "brand": "Allied Bank Limited",
+        "brand:en": "Allied Bank Limited",
+        "brand:ur": "الائیڈ بینک لمیٹڈ",
         "brand:wikidata": "Q4732553",
         "name": "Allied Bank",
-        "name:ar": "الائیڈ بینک لمیٹڈ",
         "name:en": "Allied Bank",
         "name:ur": "الائیڈ بینک"
       }
@@ -424,6 +484,20 @@
         "brand": "AMEN",
         "brand:wikidata": "Q2842699",
         "name": "AMEN"
+      }
+    },
+    {
+      "displayName": "Ameriabank",
+      "id": "ameriabank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Ամերիաբանկ",
+        "brand:wikidata": "Q4742492",
+        "name": "Ամերիաբանկ",
+        "name:en": "Ameriabank",
+        "name:hy": "Ամերիաբանկ",
+        "name:ru": "Америабанк"
       }
     },
     {
@@ -521,6 +595,34 @@
       }
     },
     {
+      "displayName": "Araratbank",
+      "id": "araratbank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Արարատբանկ",
+        "brand:wikidata": "Q56000968",
+        "name": "Արարատբանկ",
+        "name:en": "Araratbank",
+        "name:hy": "Արարատբանկ",
+        "name:ru": "Араратбанк"
+      }
+    },
+    {
+      "displayName": "Ardshinbank",
+      "id": "ardshinbank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Արդշինբանկ",
+        "brand:wikidata": "Q4787755",
+        "name": "Արդշինբանկ",
+        "name:en": "Ardshinbank",
+        "name:hy": "Արդշինբանկ",
+        "name:ru": "Ардшинбанк"
+      }
+    },
+    {
       "displayName": "Argenta",
       "id": "argenta-c47d60",
       "locationSet": {
@@ -531,6 +633,34 @@
         "brand": "Argenta",
         "brand:wikidata": "Q932856",
         "name": "Argenta"
+      }
+    },
+    {
+      "displayName": "Armbusinessbank",
+      "id": "armbusinessbank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Հայբիզնեսբանկ",
+        "brand:wikidata": "Q111109064",
+        "name": "Հայբիզնեսբանկ",
+        "name:en": "Armbusinessbank",
+        "name:hy": "Հայբիզնեսբանկ",
+        "name:ru": "Армбизнессбанк"
+      }
+    },
+    {
+      "displayName": "Armeconombank",
+      "id": "armeconombank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Հայէկոնոմբանկ",
+        "brand:wikidata": "Q60609529",
+        "name": "Հայէկոնոմբանկ",
+        "name:en": "Armeconombank",
+        "name:hy": "Հայէկոնոմբանկ",
+        "name:ru": "Армэкономбанк"
       }
     },
     {
@@ -754,12 +884,35 @@
       }
     },
     {
+      "displayName": "Banca Afirme",
+      "id": "bancaafirme-574575",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banca Afirme",
+        "brand:wikidata": "Q60825526",
+        "name": "Banca Afirme"
+      }
+    },
+    {
+      "displayName": "Banca Agricola Popolare di Ragusa",
+      "id": "bancaagricolapopolarediragusa-7b36b5",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banca Agricola Popolare di Ragusa",
+        "brand:wikidata": "Q3633687",
+        "name": "Banca Agricola Popolare di Ragusa"
+      }
+    },
+    {
       "displayName": "Banca Carige",
-      "id": "bancacarige-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "bancacarige-7b36b5",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "amenity": "bank",
         "brand": "Banca Carige",
+        "brand:wikidata": "Q3633695",
         "name": "Banca Carige"
       }
     },
@@ -1019,12 +1172,23 @@
       }
     },
     {
+      "displayName": "Banco BMG",
+      "id": "bancobmg-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banco BMG",
+        "brand:wikidata": "Q16496437",
+        "name": "Banco BMG"
+      }
+    },
+    {
       "displayName": "Banco BPI (Portugal)",
       "id": "bancobpi-4028ed",
       "locationSet": {"include": ["pt"]},
       "tags": {
         "amenity": "bank",
-        "brand": "Branco BPI",
+        "brand": "Banco BPI",
         "brand:wikidata": "Q537886",
         "name": "Banco BPI",
         "official_name": "Banco Português de Investimento",
@@ -1103,6 +1267,17 @@
       }
     },
     {
+      "displayName": "Banco da Amazônia",
+      "id": "bancodaamazonia-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banco da Amazônia",
+        "brand:wikidata": "Q16496429",
+        "name": "Banco da Amazônia"
+      }
+    },
+    {
       "displayName": "Banco de Bogotá",
       "id": "bancodebogota-d049bf",
       "locationSet": {"include": ["co"]},
@@ -1121,7 +1296,8 @@
         "amenity": "bank",
         "brand": "BRB",
         "brand:wikidata": "Q4854119",
-        "name": "Banco de Brasília"
+        "name": "Banco de Brasília",
+        "short_name": "BRB"
       }
     },
     {
@@ -1272,6 +1448,17 @@
       }
     },
     {
+      "displayName": "Banco Desio",
+      "id": "bancodesio-7b36b5",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banco Desio",
+        "brand:wikidata": "Q3633825",
+        "name": "Banco Desio"
+      }
+    },
+    {
       "displayName": "Banco di Napoli",
       "id": "bancodinapoli-7b36b5",
       "locationSet": {"include": ["it"]},
@@ -1323,7 +1510,8 @@
         "amenity": "bank",
         "brand": "Banco do Nordeste",
         "brand:wikidata": "Q4854137",
-        "name": "Banco do Nordeste"
+        "name": "Banco do Nordeste",
+        "short_name": "BNB"
       }
     },
     {
@@ -1489,6 +1677,17 @@
       }
     },
     {
+      "displayName": "Banco Mercantil do Brasil",
+      "id": "bancomercantildobrasil-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banco Mercantil do Brasil",
+        "brand:wikidata": "Q9645252",
+        "name": "Banco Mercantil do Brasil"
+      }
+    },
+    {
       "displayName": "Banco Metropolitano",
       "id": "bancometropolitano-23df77",
       "locationSet": {"include": ["cu"]},
@@ -1639,6 +1838,17 @@
       }
     },
     {
+      "displayName": "Banco Safra",
+      "id": "bancosafra-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banco Safra",
+        "brand:wikidata": "Q4116096",
+        "name": "Banco Safra"
+      }
+    },
+    {
       "displayName": "Banco Santa Fe",
       "id": "bancosantafe-841353",
       "locationSet": {"include": ["ar"]},
@@ -1652,8 +1862,11 @@
     },
     {
       "displayName": "Banco Santander",
-      "id": "bancosantander-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "bancosantander-a7b4fd",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Banco Santander",
@@ -1753,6 +1966,17 @@
       }
     },
     {
+      "displayName": "Banese",
+      "id": "banese-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banese",
+        "brand:wikidata": "Q16496452",
+        "name": "Banese"
+      }
+    },
+    {
       "displayName": "Banestes",
       "id": "banestes-0ed44d",
       "locationSet": {"include": ["br"]},
@@ -1791,6 +2015,21 @@
         "name": "Bank Al Habib",
         "name:en": "Bank Al Habib",
         "name:ur": "بينک الحبيب"
+      }
+    },
+    {
+      "displayName": "Bank Al-Maghrib (بنك المغرب)",
+      "id": "2f0a35-11534a",
+      "locationSet": {"include": ["ma"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Bank Al-Maghrib بنك المغرب",
+        "brand:ar": "بنك المغرب",
+        "brand:fr": "Bank Al-Maghrib",
+        "brand:wikidata": "Q328198",
+        "name": "Bank Al-Maghrib بنك المغرب",
+        "name:ar": "بنك المغرب",
+        "name:fr": "Bank Al-Maghrib"
       }
     },
     {
@@ -1849,11 +2088,12 @@
     },
     {
       "displayName": "Bank Bukopin",
-      "id": "bankbukopin-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "bankbukopin-aa7852",
+      "locationSet": {"include": ["id"]},
       "tags": {
         "amenity": "bank",
         "brand": "Bank Bukopin",
+        "brand:wikidata": "Q806620",
         "name": "Bank Bukopin"
       }
     },
@@ -2004,14 +2244,15 @@
     },
     {
       "displayName": "Bank of Cyprus",
-      "id": "bankofcyprus-d6ed4a",
-      "locationSet": {"include": ["cy", "gr"]},
+      "id": "bankofcyprus-fe69e8",
+      "locationSet": {"include": ["cy"]},
       "tags": {
         "amenity": "bank",
         "brand": "Bank of Cyprus",
         "brand:wikidata": "Q806678",
         "name": "Bank of Cyprus",
         "name:el": "Τράπεζα Κύπρου",
+        "name:en": "Bank of Cyprus",
         "name:tr": "Kıbrıs Bankası"
       }
     },
@@ -2080,6 +2321,7 @@
       "id": "bankofnewzealand-279fc5",
       "locationSet": {"include": ["nz"]},
       "matchNames": ["bnz", "bnz bank"],
+      "preserveTags": ["^name"],
       "tags": {
         "amenity": "bank",
         "brand": "Bank of New Zealand",
@@ -2146,6 +2388,21 @@
         "brand": "Bank Rakyat",
         "brand:wikidata": "Q4855964",
         "name": "Bank Rakyat"
+      }
+    },
+    {
+      "displayName": "Bank RBK",
+      "id": "bankrbk-033b31",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Bank RBK",
+        "brand:wikidata": "Q21843640",
+        "name": "Bank RBK",
+        "name:kk": "РБК Банкі",
+        "name:ru": "Банк РБК",
+        "official_name:kk": "«Bank RBK» АҚ",
+        "official_name:ru": "АО «Bank RBK»"
       }
     },
     {
@@ -2275,6 +2532,17 @@
         "brand": "Banpais",
         "brand:wikidata": "Q99196579",
         "name": "Banpais"
+      }
+    },
+    {
+      "displayName": "Banpará",
+      "id": "banpara-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banpará",
+        "brand:wikidata": "Q16496450",
+        "name": "Banpará"
       }
     },
     {
@@ -2859,6 +3127,20 @@
       }
     },
     {
+      "displayName": "BDL, بنك التنمية المحلية",
+      "id": "bdl-47c9bd",
+      "locationSet": {"include": ["dz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "بنك التنمية المحلية",
+        "brand:fr": "Banque de Développement Local",
+        "brand:wikidata": "Q64410371",
+        "name": "BDL",
+        "official_name": "بنك التنمية المحلية",
+        "official_name:fr": "Banque de Développement Local"
+      }
+    },
+    {
       "displayName": "BDM",
       "id": "bdm-edd991",
       "locationSet": {"include": ["ml"]},
@@ -2954,6 +3236,21 @@
         "brand": "Beobank",
         "brand:wikidata": "Q14911971",
         "name": "Beobank"
+      }
+    },
+    {
+      "displayName": "Bereke Bank",
+      "id": "berekebank-033b31",
+      "locationSet": {"include": ["kz"]},
+      "matchNames": ["сбер", "сбербанк"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Bereke Bank",
+        "name": "Bereke Bank",
+        "name:ru": "Береке Банк",
+        "official_name": "Bereke Bank JSC",
+        "official_name:kk": "«Bereke Bank» АҚ",
+        "official_name:ru": "АО «Bereke Bank»"
       }
     },
     {
@@ -3233,10 +3530,58 @@
     },
     {
       "displayName": "BNP Paribas",
-      "id": "bnpparibas-a7b4fd",
+      "id": "bnpparibas-42efac",
       "locationSet": {
-        "include": ["001"],
-        "exclude": ["pl"]
+        "include": [
+          "ae",
+          "af",
+          "ar",
+          "at",
+          "bf",
+          "bg",
+          "bh",
+          "br",
+          "ca",
+          "ch",
+          "ci",
+          "cl",
+          "co",
+          "cz",
+          "de",
+          "dk",
+          "dz",
+          "es",
+          "fi",
+          "fr",
+          "gb",
+          "gf",
+          "gp",
+          "hu",
+          "ie",
+          "il",
+          "it",
+          "kw",
+          "lu",
+          "ma",
+          "ml",
+          "mq",
+          "mx",
+          "nl",
+          "no",
+          "pe",
+          "pt",
+          "qa",
+          "re",
+          "ro",
+          "ru",
+          "sa",
+          "se",
+          "sk",
+          "sn",
+          "tn",
+          "tr",
+          "us"
+        ]
       },
       "tags": {
         "amenity": "bank",
@@ -3474,6 +3819,33 @@
       }
     },
     {
+      "displayName": "Cadence Bank",
+      "id": "cadencebank-e05e09",
+      "locationSet": {
+        "include": [
+          "us-al.geojson",
+          "us-ar.geojson",
+          "us-fl.geojson",
+          "us-ga.geojson",
+          "us-il.geojson",
+          "us-la.geojson",
+          "us-ms.geojson",
+          "us-tn.geojson",
+          "us-tx.geojson"
+        ]
+      },
+      "matchNames": [
+        "bankcorpsouth",
+        "bankcorpsouth bank"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Cadence Bank",
+        "brand:wikidata": "Q4854138",
+        "name": "Cadence Bank"
+      }
+    },
+    {
       "displayName": "Caisse d'Épargne",
       "id": "caissedepargne-b7a026",
       "locationSet": {"include": ["001"]},
@@ -3482,6 +3854,34 @@
         "brand": "Caisse d'Épargne",
         "brand:wikidata": "Q1547738",
         "name": "Caisse d'Épargne"
+      }
+    },
+    {
+      "displayName": "Caixa Altea",
+      "id": "caixaaltea-ce59ab",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["caja altea"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Caixa Altea",
+        "brand:wikidata": "Q115774046",
+        "name": "Caixa Altea",
+        "name:ca": "Caixa Altea",
+        "official_name": "Caixa Rural d'Altea"
+      }
+    },
+    {
+      "displayName": "Caixa Callosa",
+      "id": "caixacallosa-ce59ab",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["caja callosa"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Caixa Callosa",
+        "brand:wikidata": "Q115774219",
+        "name": "Caixa Callosa",
+        "name:ca": "Caixa Callosa",
+        "official_name": "Caixa Rural de Callosa d'en Sarrià"
       }
     },
     {
@@ -3506,7 +3906,39 @@
         "amenity": "bank",
         "brand": "Caixa Geral de Depósitos",
         "brand:wikidata": "Q1026044",
-        "name": "Caixa Geral de Depósitos"
+        "name": "Caixa Geral de Depósitos",
+        "short_name": "CGD"
+      }
+    },
+    {
+      "displayName": "Caixa Ontinyent",
+      "id": "caixaontinyent-ce59ab",
+      "locationSet": {"include": ["es"]},
+      "matchNames": [
+        "caixa ontinient",
+        "caixa ontiniente",
+        "caja ontinient",
+        "caja ontiniente",
+        "caja ontinyent"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Caixa Ontinyent",
+        "brand:wikidata": "Q8254941",
+        "name": "Caixa Ontinyent",
+        "name:ca": "Caixa Ontinyent"
+      }
+    },
+    {
+      "displayName": "Caixa Popular",
+      "id": "caixapopular-ce59ab",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["caja popular"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Caixa Popular",
+        "brand:wikidata": "Q8254944",
+        "name": "Caixa Popular"
       }
     },
     {
@@ -3774,6 +4206,28 @@
         "brand": "Centennial Bank",
         "brand:wikidata": "Q92384230",
         "name": "Centennial Bank"
+      }
+    },
+    {
+      "displayName": "CenterCredit",
+      "id": "bankcentercredit-033b31",
+      "locationSet": {"include": ["kz"]},
+      "matchNames": [
+        "bcc",
+        "альфа",
+        "альфа-банк",
+        "бцк"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Bank CenterCredit",
+        "brand:wikidata": "Q806624",
+        "name": "Bank CenterCredit",
+        "name:kk": "Банк ЦентрКредит",
+        "name:ru": "Банк ЦентрКредит",
+        "official_name": "Bank CenterCredit JSC",
+        "official_name:kk": "«Банк ЦентрКредит» АҚ",
+        "official_name:ru": "АО «Банк ЦентрКредит»"
       }
     },
     {
@@ -4313,6 +4767,20 @@
       }
     },
     {
+      "displayName": "Converse Bank",
+      "id": "conversebank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Կոնվերս Բանկ",
+        "brand:wikidata": "Q116032580",
+        "name": "Կոնվերս Բանկ",
+        "name:en": "Converse Bank",
+        "name:hy": "Կոնվերս Բանկ",
+        "name:ru": "Конверс Банк"
+      }
+    },
+    {
       "displayName": "Corporation Bank",
       "id": "corporationbank-34f411",
       "locationSet": {"include": ["in"]},
@@ -4376,8 +4844,11 @@
     },
     {
       "displayName": "Crédit Agricole",
-      "id": "creditagricole-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "creditagricole-23021c",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["rs"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Crédit Agricole",
@@ -4386,14 +4857,44 @@
       }
     },
     {
-      "displayName": "Crédit coopératif",
+      "displayName": "Crédit agricole du Maroc (القرض الفلاحي)",
+      "id": "77b207-11534a",
+      "locationSet": {"include": ["ma"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Crédit agricole du Maroc القرض الفلاحي",
+        "brand:ar": "القرض الفلاحي المغربي",
+        "brand:fr": "Crédit agricole du Maroc",
+        "brand:wikidata": "Q3006193",
+        "name": "Crédit agricole du Maroc القرض الفلاحي",
+        "name:ar": "القرض الفلاحي",
+        "name:fr": "Crédit agricole du Maroc"
+      }
+    },
+    {
+      "displayName": "Crédit Coopératif",
       "id": "creditcooperatif-ad79d4",
       "locationSet": {"include": ["fr"]},
       "tags": {
         "amenity": "bank",
-        "brand": "Crédit coopératif",
+        "brand": "Crédit Coopératif",
         "brand:wikidata": "Q3006190",
-        "name": "Crédit coopératif"
+        "name": "Crédit Coopératif"
+      }
+    },
+    {
+      "displayName": "Crédit du Maroc (مصرف المغرب)",
+      "id": "baf583-11534a",
+      "locationSet": {"include": ["ma"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Crédit du Maroc مصرف المغرب",
+        "brand:ar": "مصرف المغرب",
+        "brand:fr": "Crédit du Maroc",
+        "brand:wikidata": "Q3006205",
+        "name": "Crédit du Maroc مصرف المغرب",
+        "name:ar": "مصرف المغرب",
+        "name:fr": "Crédit du Maroc"
       }
     },
     {
@@ -4493,6 +4994,17 @@
         "brand": "Crelan",
         "brand:wikidata": "Q389872",
         "name": "Crelan"
+      }
+    },
+    {
+      "displayName": "Crnogorska Komercijalna Banka",
+      "id": "crnogorskakomercijalnabanka-529d4b",
+      "locationSet": {"include": ["me"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Crnogorska Komercijalna Banka",
+        "brand:wikidata": "Q869855",
+        "name": "Crnogorska Komercijalna Banka"
       }
     },
     {
@@ -4670,10 +5182,14 @@
       "tags": {
         "amenity": "bank",
         "brand": "Dubai Islamic Bank",
-        "brand:ar": "دبئی اسلامی بینک",
+        "brand:ar": "بنك دبي الإسلامي",
         "brand:en": "Dubai Islamic Bank",
+        "brand:ur": "دبئی اسلامی بینک",
         "brand:wikidata": "Q5310570",
-        "name": "Dubai Islamic Bank"
+        "name": "Dubai Islamic Bank",
+        "name:ar": "بنك دبي الإسلامي",
+        "name:en": "Dubai Islamic Bank",
+        "name:ur": "دبئی اسلامی بینک"
       }
     },
     {
@@ -4853,6 +5369,22 @@
       }
     },
     {
+      "displayName": "Eurasian Bank",
+      "id": "eurasianbank-033b31",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Eurasian Bank",
+        "brand:wikidata": "Q143852",
+        "name": "Eurasian Bank",
+        "name:kk": "Еуразиялық банк",
+        "name:ru": "Евразийский банк",
+        "official_name": "Eurasian Bank JSC",
+        "official_name:kk": "«Еуразиялық банк» АҚ",
+        "official_name:ru": "АО «Евразийский Банк»"
+      }
+    },
+    {
       "displayName": "Eurobank (Србија)",
       "id": "eurobank-e9ea45",
       "locationSet": {"include": ["rs"]},
@@ -4888,6 +5420,20 @@
         "brand:wikidata": "Q806175",
         "name": "EuroBic",
         "official_name": "Banco BIC Português"
+      }
+    },
+    {
+      "displayName": "Evocabank",
+      "id": "evocabank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Էվոկաբանկ",
+        "brand:wikidata": "Q17765349",
+        "name": "Էվոկաբանկ",
+        "name:en": "Evocabank",
+        "name:hy": "Էվոկաբանկ",
+        "name:ru": "Евокабанк"
       }
     },
     {
@@ -4944,6 +5490,7 @@
       "displayName": "Fibank",
       "id": "fibank-126296",
       "locationSet": {"include": ["bg"]},
+      "matchNames": ["фибанк"],
       "tags": {
         "amenity": "bank",
         "brand": "Първа инвестиционна банка",
@@ -5021,6 +5568,17 @@
         "brand:wikidata": "Q1411810",
         "name": "Fifth Third Bank",
         "short_name": "5/3 Bank"
+      }
+    },
+    {
+      "displayName": "Fineco",
+      "id": "fineco-7b36b5",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Fineco",
+        "brand:wikidata": "Q3745690",
+        "name": "Fineco"
       }
     },
     {
@@ -5117,18 +5675,20 @@
       "tags": {
         "amenity": "bank",
         "brand": "First Citizens Bank",
-        "brand:wikidata": "Q5452733",
+        "brand:wikidata": "Q117419474",
         "name": "First Citizens Bank"
       }
     },
     {
-      "displayName": "First Community Bank",
-      "id": "firstcommunitybank-b7a026",
-      "locationSet": {"include": ["001"]},
+      "displayName": "First Community Bank (Kenya)",
+      "id": "firstcommunitybank-8efa9d",
+      "locationSet": {"include": ["ke"]},
       "tags": {
         "amenity": "bank",
         "brand": "First Community Bank",
-        "name": "First Community Bank"
+        "brand:wikidata": "Q5452774",
+        "name": "First Community Bank",
+        "short_name": "FCB"
       }
     },
     {
@@ -5285,6 +5845,32 @@
       }
     },
     {
+      "displayName": "First Security Bank Arkansas",
+      "id": "firstsecuritybank-8dd6a4",
+      "locationSet": {
+        "include": ["us-ak.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "First Security Bank",
+        "brand:wikidata": "Q5453784",
+        "name": "First Security Bank"
+      }
+    },
+    {
+      "displayName": "First Security Bank Montana",
+      "id": "firstsecuritybank-d96d23",
+      "locationSet": {
+        "include": ["us-mt.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "First Security Bank",
+        "brand:wikidata": "Q5453785",
+        "name": "First Security Bank"
+      }
+    },
+    {
       "displayName": "First State Bank (East Nebraska)",
       "id": "firststatebank-727e4e",
       "locationSet": {
@@ -5434,6 +6020,16 @@
       }
     },
     {
+      "displayName": "Flagstar Bank",
+      "id": "flagstarbank-b7a026",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Flagstar Bank",
+        "name": "Flagstar Bank"
+      }
+    },
+    {
       "displayName": "FNB (South Africa)",
       "id": "fnb-154feb",
       "locationSet": {
@@ -5474,6 +6070,20 @@
         "brand": "ForteBank",
         "brand:wikidata": "Q1336498",
         "name": "ForteBank"
+      }
+    },
+    {
+      "displayName": "Freedom Bank",
+      "id": "freedombank-033b31",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Freedom Bank",
+        "brand:wikidata": "Q21843099",
+        "name": "Freedom Bank",
+        "name:ru": "Фридом Банк",
+        "official_name:kk": "«Банк Фридом Финанс Қазақстан» АҚ",
+        "official_name:ru": "АО «Банк Фридом Финанс Казахстан»"
       }
     },
     {
@@ -5683,13 +6293,51 @@
     },
     {
       "displayName": "Halkbank",
-      "id": "halkbank-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "halkbank-a30806",
+      "locationSet": {"include": ["tr"]},
       "tags": {
         "amenity": "bank",
         "brand": "Halkbank",
         "brand:wikidata": "Q3593818",
         "name": "Halkbank"
+      }
+    },
+    {
+      "displayName": "Halkbank (Serbia)",
+      "id": "halkbank-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Halkbank",
+        "brand:wikidata": "Q3593818",
+        "name": "Halkbank",
+        "name:mk": "Халк Банка"
+      }
+    },
+    {
+      "displayName": "Halyk Bank",
+      "id": "halykbank-93fd52",
+      "locationSet": {
+        "include": [
+          "ge",
+          "kg",
+          "kz",
+          "ru",
+          "tj",
+          "uz"
+        ]
+      },
+      "matchNames": ["казкоммерцбанк"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Halyk Bank",
+        "brand:wikidata": "Q1046186",
+        "name": "Halyk Bank",
+        "name:kk": "Халық Банкі",
+        "name:ru": "Халык банк",
+        "official_name:kk": "«Қазақстан Халық Банкі» АҚ",
+        "official_name:ru": "АО «Народный Банк Казахстана»",
+        "old_name": "Народный банк"
       }
     },
     {
@@ -5702,6 +6350,17 @@
         "brand:wikidata": "Q1573140",
         "name": "Hamburger Sparkasse",
         "short_name": "Haspa"
+      }
+    },
+    {
+      "displayName": "Hamkorbank",
+      "id": "hamkorbank-99790d",
+      "locationSet": {"include": ["uz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Hamkorbank",
+        "brand:wikidata": "Q12166841",
+        "name": "Hamkorbank"
       }
     },
     {
@@ -5914,9 +6573,28 @@
       }
     },
     {
+      "displayName": "Horizon Credit Union",
+      "id": "horizoncreditunion-420495",
+      "locationSet": {
+        "include": [
+          "us-id.geojson",
+          "us-mt.geojson",
+          "us-or.geojson",
+          "us-wa.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Horizon Credit Union",
+        "brand:wikidata": "Q115677986",
+        "name": "Horizon Credit Union"
+      }
+    },
+    {
       "displayName": "Hrvatska poštanska banka",
       "id": "hrvatskapostanskabanka-6f3d3b",
       "locationSet": {"include": ["hr"]},
+      "matchNames": ["hpb"],
       "tags": {
         "amenity": "bank",
         "brand": "Hrvatska poštanska banka",
@@ -6029,6 +6707,20 @@
       }
     },
     {
+      "displayName": "ID Bank",
+      "id": "idbank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ԱյԴի Բանկ",
+        "brand:wikidata": "Q19604320",
+        "name": "ԱյԴի Բանկ",
+        "name:en": "ID Bank",
+        "name:hy": "ԱյԴի Բանկ",
+        "name:ru": "АйДи Банк"
+      }
+    },
+    {
       "displayName": "IDBI Bank",
       "id": "idbibank-34f411",
       "locationSet": {"include": ["in"]},
@@ -6038,6 +6730,21 @@
         "brand:wikidata": "Q3633485",
         "name": "IDBI Bank",
         "short_name": "IDBI"
+      }
+    },
+    {
+      "displayName": "Idea Bank (Україна)",
+      "id": "ideabank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Ідея Банк",
+        "brand:en": "Idea Bank",
+        "brand:uk": "Ідея Банк",
+        "brand:wikidata": "Q47502068",
+        "name": "Ідея Банк",
+        "name:en": "Idea Bank",
+        "name:uk": "Ідея Банк"
       }
     },
     {
@@ -6111,6 +6818,20 @@
       }
     },
     {
+      "displayName": "Inecobank",
+      "id": "inecobank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Ինեկոբանկ",
+        "brand:wikidata": "Q55614443",
+        "name": "Ինեկոբանկ",
+        "name:en": "Inecobank",
+        "name:hy": "Ինեկոբանկ",
+        "name:ru": "Инекобанк"
+      }
+    },
+    {
       "displayName": "ING",
       "id": "ing-b7a026",
       "locationSet": {"include": ["001"]},
@@ -6156,8 +6877,11 @@
     },
     {
       "displayName": "Intesa Sanpaolo",
-      "id": "intesasanpaolo-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "intesasanpaolo-efe23b",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["ua"]
+      },
       "matchNames": ["intesa sanpaolo s.p.a."],
       "tags": {
         "amenity": "bank",
@@ -6203,9 +6927,11 @@
       }
     },
     {
-      "displayName": "Itaú (Brasil)",
-      "id": "itau-0ed44d",
-      "locationSet": {"include": ["br"]},
+      "displayName": "Itaú",
+      "id": "itau-1923f1",
+      "locationSet": {
+        "include": ["ar", "br", "py"]
+      },
       "matchNames": ["banco itau"],
       "tags": {
         "amenity": "bank",
@@ -6215,9 +6941,9 @@
       }
     },
     {
-      "displayName": "Itaú (Chile)",
-      "id": "itau-dbf1ad",
-      "locationSet": {"include": ["cl"]},
+      "displayName": "Itaú Corpbanca",
+      "id": "itau-891146",
+      "locationSet": {"include": ["cl", "co"]},
       "matchNames": ["banco itau"],
       "tags": {
         "amenity": "bank",
@@ -6519,6 +7245,21 @@
       }
     },
     {
+      "displayName": "KredoBank",
+      "id": "kredobank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Кредобанк",
+        "brand:en": "KredoBank",
+        "brand:uk": "Кредобанк",
+        "brand:wikidata": "Q4239997",
+        "name": "Кредобанк",
+        "name:en": "KredoBank",
+        "name:uk": "Кредобанк"
+      }
+    },
+    {
       "displayName": "Kuda Bank",
       "id": "kudamicrofinancebank-db0de1",
       "locationSet": {"include": ["ng"]},
@@ -6673,8 +7414,10 @@
     },
     {
       "displayName": "Lloyds Bank",
-      "id": "lloydsbank-a49192",
-      "locationSet": {"include": ["gb", "im"]},
+      "id": "lloydsbank-28a61d",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls", "im"]
+      },
       "matchNames": ["lloyds", "lloyds tsb"],
       "tags": {
         "amenity": "bank",
@@ -6996,6 +7739,23 @@
       }
     },
     {
+      "displayName": "Mobi banka",
+      "id": "mobibanka-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "matchNames": [
+        "telenor banka",
+        "теленор банка"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Mobi banka",
+        "brand:wikidata": "Q39022656",
+        "name": "Mobi banka",
+        "name:sr": "Моби банка",
+        "name:sr-Latn": "Mobi banka"
+      }
+    },
+    {
       "displayName": "Moldindconbank",
       "id": "moldindconbank-59fea4",
       "locationSet": {"include": ["md"]},
@@ -7032,6 +7792,10 @@
       "displayName": "Monobank",
       "id": "monobank-c8dc19",
       "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "монобанк",
+        "точка видачі monobank"
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "Monobank",
@@ -7080,6 +7844,21 @@
       }
     },
     {
+      "displayName": "MTB Bank",
+      "id": "mtbbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "МТБ Банк",
+        "brand:en": "MTB Bank",
+        "brand:uk": "МТБ Банк",
+        "brand:wikidata": "Q110223628",
+        "name": "МТБ Банк",
+        "name:en": "MTB Bank",
+        "name:uk": "МТБ Банк"
+      }
+    },
+    {
       "displayName": "NAB",
       "id": "nab-f304bd",
       "locationSet": {"include": ["au"]},
@@ -7088,6 +7867,17 @@
         "brand": "NAB",
         "brand:wikidata": "Q1430985",
         "name": "NAB"
+      }
+    },
+    {
+      "displayName": "Nainital Bank",
+      "id": "nainitalbank-34f411",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Nainital Bank",
+        "brand:wikidata": "Q6959715",
+        "name": "Nainital Bank"
       }
     },
     {
@@ -7207,8 +7997,10 @@
     },
     {
       "displayName": "NLB",
-      "id": "nlb-30392e",
-      "locationSet": {"include": ["si"]},
+      "id": "nlb-c48f09",
+      "locationSet": {
+        "include": ["ba", "me", "rs", "si", "xk"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "NLB",
@@ -7254,8 +8046,10 @@
     },
     {
       "displayName": "Nord-Ostsee Sparkasse",
-      "id": "nordostseesparkasse-1180cf",
-      "locationSet": {"include": ["de"]},
+      "id": "nordostseesparkasse-a957a3",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "Nord-Ostsee Sparkasse",
@@ -7265,8 +8059,21 @@
     },
     {
       "displayName": "Nordea",
-      "id": "nordea-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "nordea-0318fc",
+      "locationSet": {
+        "include": [
+          "dk",
+          "ee",
+          "fi",
+          "gb",
+          "lt",
+          "lv",
+          "no",
+          "pl",
+          "se",
+          "us"
+        ]
+      },
       "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
@@ -7315,6 +8122,22 @@
         "brand": "NSB",
         "brand:wikidata": "Q12500189",
         "name": "NSB"
+      }
+    },
+    {
+      "displayName": "Nurbank",
+      "id": "nurbank-033b31",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Nurbank",
+        "brand:wikidata": "Q1638772",
+        "name": "Nurbank",
+        "name:kk": "Нурбанк",
+        "name:ru": "Нурбанк",
+        "official_name": "Nurbank JSC",
+        "official_name:kk": "«Нұрбанк» АҚ",
+        "official_name:ru": "АО «Нурбанк»"
       }
     },
     {
@@ -7381,6 +8204,20 @@
         "brand": "Occidental de Descuento",
         "brand:wikidata": "Q4854108",
         "name": "Occidental de Descuento"
+      }
+    },
+    {
+      "displayName": "OCCU",
+      "id": "occu-4ac31a",
+      "locationSet": {
+        "include": ["us-or.geojson"]
+      },
+      "tags": {
+        "alt_name": "Oregon Community Credit Union",
+        "amenity": "bank",
+        "brand": "OCCU",
+        "brand:wikidata": "Q7101148",
+        "name": "OCCU"
       }
     },
     {
@@ -7458,6 +8295,19 @@
       }
     },
     {
+      "displayName": "Oregon State Credit Union",
+      "id": "oregonstatecreditunion-4ac31a",
+      "locationSet": {
+        "include": ["us-or.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Oregon State Credit Union",
+        "brand:wikidata": "Q116506780",
+        "name": "Oregon State Credit Union"
+      }
+    },
+    {
       "displayName": "Oriental",
       "id": "oriental-ea2e2d",
       "locationSet": {"include": ["us"]},
@@ -7493,17 +8343,37 @@
     },
     {
       "displayName": "OTP Bank",
-      "id": "otpbank-1ae004",
+      "id": "otpbank-675816",
       "locationSet": {
-        "include": ["001"],
-        "exclude": ["pl", "ru", "ua"]
+        "include": ["al", "hr", "md", "ro", "rs"]
       },
+      "matchNames": [
+        "vojvođanska banka",
+        "војвођанска банка"
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "OTP Bank",
         "brand:wikidata": "Q912778",
         "name": "OTP Bank",
+        "name:hr": "OTP banka",
+        "name:sr": "ОТП банка",
         "short_name": "OTP"
+      }
+    },
+    {
+      "displayName": "OTP Bank (Україна)",
+      "id": "otpbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ОТП Банк",
+        "brand:en": "OTP Bank",
+        "brand:uk": "ОТП Банк",
+        "brand:wikidata": "Q16688676",
+        "name": "ОТП Банк",
+        "name:en": "OTP Bank",
+        "name:uk": "ОТП Банк"
       }
     },
     {
@@ -7539,6 +8409,20 @@
         "brand:wikidata": "Q3374885",
         "name": "PenFed Credit Union",
         "short_name": "PenFed"
+      }
+    },
+    {
+      "displayName": "Pennsylvania State Employees Credit Union",
+      "id": "psecu-7bc61e",
+      "locationSet": {
+        "include": ["us-pa.geojson"]
+      },
+      "tags": {
+        "alt_name": "Pennsylvania State Employees Credit Union",
+        "amenity": "bank",
+        "brand": "PSECU",
+        "brand:wikidata": "Q7120626",
+        "name": "PSECU"
       }
     },
     {
@@ -7665,6 +8549,21 @@
       }
     },
     {
+      "displayName": "Piraeus Bank (Україна)",
+      "id": "piraeusbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Піреус Банк",
+        "brand:en": "Piraeus Bank",
+        "brand:uk": "Піреус Банк",
+        "brand:wikidata": "Q116871201",
+        "name": "Піреус Банк",
+        "name:en": "Piraeus Bank",
+        "name:uk": "Піреус Банк"
+      }
+    },
+    {
       "displayName": "PKO BP",
       "id": "pkobp-68054b",
       "locationSet": {"include": ["pl"]},
@@ -7732,6 +8631,23 @@
       }
     },
     {
+      "displayName": "Poštanska štedionica",
+      "id": "postanskastedionica-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Поштанска штедионица",
+        "brand:en": "Postanska stedionica",
+        "brand:sr": "Поштанска штедионица",
+        "brand:sr-Latn": "Poštanska štedionica",
+        "brand:wikidata": "Q2882644",
+        "name": "Поштанска штедионица",
+        "name:en": "Postanska stedionica",
+        "name:sr": "Поштанска штедионица",
+        "name:sr-Latn": "Poštanska štedionica"
+      }
+    },
+    {
       "displayName": "Postbank (Deutschland)",
       "id": "postbank-1180cf",
       "locationSet": {"include": ["de"]},
@@ -7794,6 +8710,21 @@
         "brand": "Privatbanka",
         "brand:wikidata": "Q12774628",
         "name": "Privatbanka"
+      }
+    },
+    {
+      "displayName": "ProCredit Bank (Україна)",
+      "id": "procreditbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ПроКредит Банк",
+        "brand:en": "ProCredit Bank",
+        "brand:uk": "ПроКредит Банк",
+        "brand:wikidata": "Q20091911",
+        "name": "ПроКредит Банк",
+        "name:en": "ProCredit Bank",
+        "name:uk": "ПроКредит Банк"
       }
     },
     {
@@ -7989,6 +8920,18 @@
       }
     },
     {
+      "displayName": "Raiffeisen Bank (Österreich)",
+      "id": "raiffeisen-694ab5",
+      "locationSet": {"include": ["at"]},
+      "matchNames": ["raiffeisenbank", "raika"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Raiffeisen",
+        "brand:wikidata": "Q2127528",
+        "name": "Raiffeisen"
+      }
+    },
+    {
       "displayName": "Raiffeisen Bank (România)",
       "id": "raiffeisenbank-9a9a30",
       "locationSet": {"include": ["ro"]},
@@ -8010,6 +8953,29 @@
         "brand": "Raiffeisen Bank",
         "brand:wikidata": "Q2127541",
         "name": "Raiffeisen Bank"
+      }
+    },
+    {
+      "displayName": "Raiffeisen Bank (Україна)",
+      "id": "raiffeisenbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "raiffeisen bank aval",
+        "аваль",
+        "банк аваль",
+        "райффайзен банк аваль"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Райффайзен Банк",
+        "brand:en": "Raiffeisen Bank",
+        "brand:ru": "Райффайзен Банк",
+        "brand:uk": "Райффайзен Банк",
+        "brand:wikidata": "Q4389243",
+        "name": "Райффайзен Банк",
+        "name:en": "Raiffeisen Bank",
+        "name:ru": "Райффайзен Банк",
+        "name:uk": "Райффайзен Банк"
       }
     },
     {
@@ -8064,6 +9030,25 @@
         "brand": "Raiffeisenbank",
         "brand:wikidata": "Q24282825",
         "name": "Raiffeisenbank"
+      }
+    },
+    {
+      "displayName": "RBA banka",
+      "id": "f02b23-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "matchNames": [
+        "crédit agricole",
+        "kredit agrikol"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "РБА банка",
+        "brand:sr": "РБА банка",
+        "brand:sr-Latn": "RBA banka",
+        "brand:wikidata": "Q5191472",
+        "name": "РБА банка",
+        "name:sr": "РБА банка",
+        "name:sr-Latn": "RBA banka"
       }
     },
     {
@@ -8250,6 +9235,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "Robinsons Bank",
+        "brand:wikidata": "Q30639182",
         "name": "Robinsons Bank"
       }
     },
@@ -8270,6 +9256,17 @@
         "brand": "Rogue Credit Union",
         "brand:wikidata": "Q23926666",
         "name": "Rogue Credit Union"
+      }
+    },
+    {
+      "displayName": "Royal Business Bank",
+      "id": "royalbusinessbank-ea2e2d",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Royal Business Bank",
+        "brand:wikidata": "Q54959147",
+        "name": "Royal Business Bank"
       }
     },
     {
@@ -8321,13 +9318,24 @@
     },
     {
       "displayName": "Santander",
-      "id": "santander-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "santander-ea2e2d",
+      "locationSet": {"include": ["us"]},
       "matchNames": ["santander consumer bank"],
       "tags": {
         "amenity": "bank",
         "brand": "Santander",
         "brand:wikidata": "Q5835668",
+        "name": "Santander"
+      }
+    },
+    {
+      "displayName": "Santander (PL)",
+      "id": "santander-68054b",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Santander",
+        "brand:wikidata": "Q806653",
         "name": "Santander"
       }
     },
@@ -8522,6 +9530,22 @@
       }
     },
     {
+      "displayName": "Sense Bank",
+      "id": "sensebank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["alfa-bank", "альфа-банк"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Сенс Банк",
+        "brand:en": "Sense Bank",
+        "brand:uk": "Сенс Банк",
+        "brand:wikidata": "Q16691757",
+        "name": "Сенс Банк",
+        "name:en": "Sense Bank",
+        "name:uk": "Сенс Банк"
+      }
+    },
+    {
       "displayName": "Service Credit Union",
       "id": "servicecreditunion-f961e2",
       "locationSet": {"include": ["de", "us"]},
@@ -8589,6 +9613,17 @@
       }
     },
     {
+      "displayName": "SKB Banka",
+      "id": "skbbanka-30392e",
+      "locationSet": {"include": ["si"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "SKB Banka",
+        "brand:wikidata": "Q93363069",
+        "name": "SKB Banka"
+      }
+    },
+    {
       "displayName": "Skipton Building Society",
       "id": "skiptonbuildingsociety-e1e9d0",
       "locationSet": {"include": ["gb"]},
@@ -8636,16 +9671,35 @@
     },
     {
       "displayName": "Société Générale",
-      "id": "societegenerale-2a7aac",
+      "id": "societegenerale-aca06c",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["bg"]
+        "exclude": ["bg", "ma"]
       },
       "tags": {
         "amenity": "bank",
         "brand": "Société Générale",
         "brand:wikidata": "Q270363",
         "name": "Société Générale"
+      }
+    },
+    {
+      "displayName": "Société Générale (الشركة العامة)",
+      "id": "576e54-11534a",
+      "locationSet": {"include": ["ma"]},
+      "matchNames": [
+        "société générale سوسيتيه جنرال",
+        "سوسيتيه جنرال"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Société générale Maroc الشركة العامة",
+        "brand:ar": "الشركة العامة",
+        "brand:fr": "Société générale Maroc",
+        "brand:wikidata": "Q3488352",
+        "name": "Société générale Maroc الشركة العامة",
+        "name:ar": "الشركة العامة",
+        "name:fr": "Société générale Maroc"
       }
     },
     {
@@ -8660,16 +9714,6 @@
         "name": "Société générale Côte d’Ivoire",
         "name:fr": "Société générale Côte d’Ivoire",
         "old_name": "SGBCI"
-      }
-    },
-    {
-      "displayName": "Société Générale سوسيتيه جنرال",
-      "id": "ae07f9-11534a",
-      "locationSet": {"include": ["ma"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Société Générale سوسيتيه جنرال",
-        "name": "Société Générale سوسيتيه جنرال"
       }
     },
     {
@@ -8847,6 +9891,19 @@
       }
     },
     {
+      "displayName": "Sparkassen",
+      "id": "sparkassen-975383",
+      "locationSet": {
+        "include": ["ba", "hr", "me", "rs", "si"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Sparkassen",
+        "brand:wikidata": "Q1555572",
+        "name": "Sparkassen"
+      }
+    },
+    {
       "displayName": "St. Galler Kantonalbank",
       "id": "stgallerkantonalbank-74b036",
       "locationSet": {"include": ["ch"]},
@@ -8909,8 +9966,11 @@
     },
     {
       "displayName": "State Bank of India",
-      "id": "statebankofindia-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "statebankofindia-f20878",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "pl"]
+      },
       "matchNames": ["sbi atm"],
       "tags": {
         "amenity": "bank",
@@ -9043,6 +10103,19 @@
         "brand": "Swedbank",
         "brand:wikidata": "Q1145493",
         "name": "Swedbank"
+      }
+    },
+    {
+      "displayName": "Sydbank",
+      "id": "sydbank-9eeba7",
+      "locationSet": {
+        "include": ["de", "dk", "se"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Sydbank",
+        "brand:wikidata": "Q825159",
+        "name": "Sydbank"
       }
     },
     {
@@ -9416,6 +10489,37 @@
       }
     },
     {
+      "displayName": "Ukreximbank",
+      "id": "ukreximbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Укрексімбанк",
+        "brand:en": "Ukreximbank",
+        "brand:uk": "Укрексімбанк",
+        "brand:wikidata": "Q4470728",
+        "name": "Укрексімбанк",
+        "name:en": "Ukreximbank",
+        "name:uk": "Укрексімбанк"
+      }
+    },
+    {
+      "displayName": "UkrSibbank",
+      "id": "ukrsibbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["bnp paribas"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "УкрСиббанк",
+        "brand:en": "UkrSibbank",
+        "brand:uk": "УкрСиббанк",
+        "brand:wikidata": "Q1976290",
+        "name": "УкрСиббанк",
+        "name:en": "UkrSibbank",
+        "name:uk": "УкрСиббанк"
+      }
+    },
+    {
       "displayName": "Ulster Bank",
       "id": "ulsterbank-018fb8",
       "locationSet": {"include": ["gb", "ie"]},
@@ -9449,6 +10553,21 @@
       }
     },
     {
+      "displayName": "Unex Bank",
+      "id": "unexbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Юнекс Банк",
+        "brand:en": "Unex Bank",
+        "brand:uk": "Юнекс Банк",
+        "brand:wikidata": "Q97305672",
+        "name": "Юнекс Банк",
+        "name:en": "Unex Bank",
+        "name:uk": "Юнекс Банк"
+      }
+    },
+    {
       "displayName": "UNI",
       "id": "uni-e1345b",
       "locationSet": {"include": ["ca"]},
@@ -9465,6 +10584,20 @@
       }
     },
     {
+      "displayName": "Unibank",
+      "id": "unibank-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Յունիբանկ",
+        "brand:wikidata": "Q116033349",
+        "name": "Յունիբանկ",
+        "name:en": "Unibank",
+        "name:hy": "Յունիբանկ",
+        "name:ru": "Юнибанк"
+      }
+    },
+    {
       "displayName": "Unicaja Banco",
       "id": "unicajabanco-ce59ab",
       "locationSet": {"include": ["es"]},
@@ -9477,11 +10610,31 @@
       }
     },
     {
+      "displayName": "Unicred",
+      "id": "unicred-0ed44d",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Unicred",
+        "brand:wikidata": "Q10387649",
+        "name": "Unicred"
+      }
+    },
+    {
       "displayName": "UniCredit Bank",
-      "id": "unicreditbank-2a7aac",
+      "id": "unicreditbank-ff6e1c",
       "locationSet": {
-        "include": ["001"],
-        "exclude": ["bg"]
+        "include": [
+          "ba",
+          "cz",
+          "hu",
+          "it",
+          "ro",
+          "rs",
+          "ru",
+          "si",
+          "sk"
+        ]
       },
       "matchNames": [
         "unicredit",
@@ -9608,6 +10761,41 @@
       }
     },
     {
+      "displayName": "United Federal Credit Union",
+      "id": "unitedfederalcreditunion-2e0d3f",
+      "locationSet": {
+        "include": [
+          "us-ar.geojson",
+          "us-in.geojson",
+          "us-mi.geojson",
+          "us-nc.geojson",
+          "us-nv.geojson",
+          "us-oh.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "United Federal Credit Union",
+        "brand:wikidata": "Q7887758",
+        "name": "United Federal Credit Union"
+      }
+    },
+    {
+      "displayName": "Universal Bank",
+      "id": "universalbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Універсал Банк",
+        "brand:en": "Universal Bank",
+        "brand:uk": "Універсал Банк",
+        "brand:wikidata": "Q12164628",
+        "name": "Універсал Банк",
+        "name:en": "Universal Bank",
+        "name:uk": "Універсал Банк"
+      }
+    },
+    {
       "displayName": "UOB",
       "id": "uob-dadccc",
       "locationSet": {
@@ -9724,6 +10912,16 @@
       }
     },
     {
+      "displayName": "VeloBank",
+      "id": "velobank-68054b",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "VeloBank",
+        "name": "VeloBank"
+      }
+    },
+    {
       "displayName": "Veneto Banca",
       "id": "venetobanca-7b36b5",
       "locationSet": {"include": ["it"]},
@@ -9732,6 +10930,17 @@
         "brand": "Veneto Banca",
         "brand:wikidata": "Q3127221",
         "name": "Veneto Banca"
+      }
+    },
+    {
+      "displayName": "Victoriabank",
+      "id": "victoriabank-59fea4",
+      "locationSet": {"include": ["md"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Victoriabank",
+        "brand:wikidata": "Q4052675",
+        "name": "Victoriabank"
       }
     },
     {
@@ -9972,6 +11181,22 @@
       }
     },
     {
+      "displayName": "Zaman-Bank",
+      "id": "zamanbank-033b31",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Zaman-Bank",
+        "brand:wikidata": "Q4185641",
+        "name": "Zaman-Bank",
+        "name:kk": "Заман-Банк",
+        "name:ru": "Заман-Банк",
+        "official_name": "Islamic Bank “Zaman-Bank” JSC",
+        "official_name:kk": "«Заман-Банк «Ислам банкі» АҚ",
+        "official_name:ru": "АО «Исламский банк «Заман-Банк»"
+      }
+    },
+    {
       "displayName": "Zenith Bank",
       "id": "zenithbank-603eac",
       "locationSet": {
@@ -10006,6 +11231,7 @@
       "displayName": "Ziraat Bankası",
       "id": "ziraatbankasi-a30806",
       "locationSet": {"include": ["tr"]},
+      "matchNames": ["t.c. ziraat bankası"],
       "tags": {
         "amenity": "bank",
         "brand": "Ziraat Bankası",
@@ -10154,6 +11380,17 @@
       }
     },
     {
+      "displayName": "Акордбанк",
+      "id": "6e762a-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Акордбанк",
+        "brand:wikidata": "Q116871518",
+        "name": "Акордбанк"
+      }
+    },
+    {
       "displayName": "Альфа-Банк (Беларусь)",
       "id": "alfabank-4aad73",
       "locationSet": {"include": ["by"]},
@@ -10172,8 +11409,8 @@
     },
     {
       "displayName": "Альфа-Банк (Россия)",
-      "id": "alfabank-be9928",
-      "locationSet": {"include": ["kz", "ru"]},
+      "id": "alfabank-0eb427",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "bank",
         "brand": "Альфа-Банк",
@@ -10183,23 +11420,6 @@
         "name": "Альфа-Банк",
         "name:en": "Alfa-Bank",
         "name:ru": "Альфа-Банк"
-      }
-    },
-    {
-      "displayName": "Альфа-Банк (Украина)",
-      "id": "alfabank-c8dc19",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Альфа-Банк",
-        "brand:en": "Alfa-Bank",
-        "brand:ru": "Альфа-Банк",
-        "brand:uk": "Альфа-Банк",
-        "brand:wikidata": "Q16691757",
-        "name": "Альфа-Банк",
-        "name:en": "Alfa-Bank",
-        "name:ru": "Альфа-Банк",
-        "name:uk": "Альфа-Банк"
       }
     },
     {
@@ -10239,6 +11459,33 @@
       }
     },
     {
+      "displayName": "Банк Кредит Дніпро",
+      "id": "bankcreditdnipro-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Банк Кредит Дніпро",
+        "brand:en": "Bank Credit Dnipro",
+        "brand:uk": "Банк Кредит Дніпро",
+        "brand:wikidata": "Q61374251",
+        "name": "Банк Кредит Дніпро",
+        "name:en": "Bank Credit Dnipro",
+        "name:uk": "Банк Кредит Дніпро"
+      }
+    },
+    {
+      "displayName": "Банк Львів",
+      "id": "7e03ec-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["львів"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Банк Львів",
+        "brand:wikidata": "Q12119076",
+        "name": "Банк Львів"
+      }
+    },
+    {
       "displayName": "Банк Решение",
       "id": "resheniebank-4aad73",
       "locationSet": {"include": ["by"]},
@@ -10259,6 +11506,7 @@
       "displayName": "Банк Санкт-Петербург",
       "id": "bankofsaintpetersburg-0eb427",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["санкт-петербург"],
       "tags": {
         "amenity": "bank",
         "brand": "Банк Санкт-Петербург",
@@ -10429,7 +11677,7 @@
       }
     },
     {
-      "displayName": "БТА Банк",
+      "displayName": "БТА Банк (Беларусь)",
       "id": "btabank-4aad73",
       "locationSet": {"include": ["by"]},
       "tags": {
@@ -10443,6 +11691,21 @@
         "name:be": "БТА Банк",
         "name:en": "BTA Bank",
         "name:ru": "БТА Банк"
+      }
+    },
+    {
+      "displayName": "БТА Банк (Україна)",
+      "id": "btabank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "БТА Банк",
+        "brand:en": "BTA Bank",
+        "brand:uk": "БТА Банк",
+        "brand:wikidata": "Q797060",
+        "name": "БТА Банк",
+        "name:en": "BTA Bank",
+        "name:uk": "БТА Банк"
       }
     },
     {
@@ -10495,20 +11758,6 @@
         "brand": "ВТБ",
         "brand:en": "VTB Bank",
         "brand:wikidata": "Q1549389",
-        "name": "ВТБ",
-        "name:en": "VTB Bank"
-      }
-    },
-    {
-      "displayName": "ВТБ (Украина)",
-      "id": "vtbbank-c8dc19",
-      "locationSet": {"include": ["ua"]},
-      "matchNames": ["втб банк"],
-      "tags": {
-        "amenity": "bank",
-        "brand": "ВТБ",
-        "brand:en": "VTB Bank",
-        "brand:wikidata": "Q16628820",
         "name": "ВТБ",
         "name:en": "VTB Bank"
       }
@@ -10601,16 +11850,14 @@
       }
     },
     {
-      "displayName": "Казкоммерцбанк",
-      "id": "kazkommertsbank-033b31",
-      "locationSet": {"include": ["kz"]},
+      "displayName": "Індустріалбанк",
+      "id": "ba3edf-c8dc19",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "amenity": "bank",
-        "brand": "Казкоммерцбанк",
-        "brand:en": "Kazkommertsbank",
-        "brand:wikidata": "Q1168179",
-        "name": "Казкоммерцбанк",
-        "name:en": "Kazkommertsbank"
+        "brand": "Індустріалбанк",
+        "brand:wikidata": "Q12074471",
+        "name": "Індустріалбанк"
       }
     },
     {
@@ -10621,6 +11868,20 @@
         "amenity": "bank",
         "brand": "Кит Групп",
         "name": "Кит Групп"
+      }
+    },
+    {
+      "displayName": "Комерцијална банка",
+      "id": "a53bba-39118c",
+      "locationSet": {"include": ["mk"]},
+      "matchNames": [
+        "комерцијална банка ад скопје"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Комерцијална банка",
+        "brand:wikidata": "Q114290410",
+        "name": "Комерцијална банка"
       }
     },
     {
@@ -10690,16 +11951,29 @@
       }
     },
     {
-      "displayName": "Народный банк",
-      "id": "f25812-894181",
-      "locationSet": {
-        "include": ["kg", "kz", "uz"]
-      },
+      "displayName": "МТС Банк",
+      "id": "334acf-0eb427",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "bank",
-        "brand": "Народный банк",
-        "brand:wikidata": "Q1046186",
-        "name": "Народный банк"
+        "brand": "МТС Банк",
+        "brand:en": "МТS Bank",
+        "brand:wikidata": "Q1667422",
+        "name": "МТС Банк",
+        "name:en": "МТS Bank"
+      }
+    },
+    {
+      "displayName": "НЛБ Тутунска Банка",
+      "id": "nlbtutunskabanka-39118c",
+      "locationSet": {"include": ["mk"]},
+      "matchNames": ["нлб"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "NLB",
+        "brand:wikidata": "Q114289559",
+        "name": "НЛБ Тутунска Банка",
+        "name:en": "NLB Tutunska Banka"
       }
     },
     {
@@ -10745,9 +12019,9 @@
       }
     },
     {
-      "displayName": "ОТП Банк",
-      "id": "otpbank-8647e9",
-      "locationSet": {"include": ["ru", "ua"]},
+      "displayName": "ОТП Банк (Россия)",
+      "id": "otpbank-0eb427",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "bank",
         "brand": "ОТП Банк",
@@ -10764,6 +12038,12 @@
       "displayName": "Ощадбанк",
       "id": "oschadbank-c8dc19",
       "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "joint stock company \"state savings bank of ukraine\"",
+        "jsc \"oschadbank\"",
+        "акціонерне товариство \"державний ощадний банк україни\"",
+        "ат \"ощадбанк\""
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "Ощадбанк",
@@ -10772,13 +12052,7 @@
         "brand:wikidata": "Q4340839",
         "name": "Ощадбанк",
         "name:en": "Oschadbank",
-        "name:uk": "Ощадбанк",
-        "official_name": "Акціонерне товариство \"Державний ощадний банк України\"",
-        "official_name:en": "Joint Stock Company \"State Savings Bank of Ukraine\"",
-        "official_name:uk": "Акціонерне товариство \"Державний ощадний банк України\"",
-        "short_name": "АТ \"Ощадбанк\"",
-        "short_name:en": "JSC \"Oschadbank\"",
-        "short_name:uk": "АТ \"Ощадбанк\""
+        "name:uk": "Ощадбанк"
       }
     },
     {
@@ -10796,6 +12070,18 @@
         "name:be": "Парытэтбанк",
         "name:en": "Paritetbank",
         "name:ru": "Паритетбанк"
+      }
+    },
+    {
+      "displayName": "Південний",
+      "id": "05291e-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["банк південний"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Південний",
+        "brand:wikidata": "Q4362353",
+        "name": "Південний"
       }
     },
     {
@@ -10821,6 +12107,22 @@
         "brand:wikidata": "Q7234083",
         "name": "Пощенска банка",
         "name:en": "Postbank"
+      }
+    },
+    {
+      "displayName": "Правекс-Банк",
+      "id": "pravexbank-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["intesa sanpaolo"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Правекс-Банк",
+        "brand:en": "Pravex Bank",
+        "brand:uk": "Правекс-Банк",
+        "brand:wikidata": "Q7238870",
+        "name": "Правекс-Банк",
+        "name:en": "Pravex Bank",
+        "name:uk": "Правекс-Банк"
       }
     },
     {
@@ -10872,7 +12174,7 @@
       }
     },
     {
-      "displayName": "ПроКредит Банк",
+      "displayName": "ПроКредит Банк (Бългaрия)",
       "id": "procreditbank-126296",
       "locationSet": {"include": ["bg"]},
       "matchNames": ["procredit", "прокредит"],
@@ -10929,29 +12231,6 @@
       }
     },
     {
-      "displayName": "Райффайзен Банк",
-      "id": "raiffeisenbank-c8dc19",
-      "locationSet": {"include": ["ua"]},
-      "matchNames": [
-        "raiffeisen bank aval",
-        "аваль",
-        "банк аваль",
-        "райффайзен банк аваль"
-      ],
-      "tags": {
-        "amenity": "bank",
-        "brand": "Райффайзен Банк",
-        "brand:en": "Raiffeisen Bank",
-        "brand:ru": "Райффайзен Банк",
-        "brand:uk": "Райффайзен Банк",
-        "brand:wikidata": "Q4389243",
-        "name": "Райффайзен Банк",
-        "name:en": "Raiffeisen Bank",
-        "name:ru": "Райффайзен Банк",
-        "name:uk": "Райффайзен Банк"
-      }
-    },
-    {
       "displayName": "РГС Банк",
       "id": "rgsbank-0eb427",
       "locationSet": {"include": ["ru"]},
@@ -10987,8 +12266,8 @@
     },
     {
       "displayName": "РНКБ",
-      "id": "f27cb2-8647e9",
-      "locationSet": {"include": ["ru", "ua"]},
+      "id": "f27cb2-0eb427",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "bank",
         "brand": "РНКБ",
@@ -11077,11 +12356,12 @@
     },
     {
       "displayName": "Сбербанк",
-      "id": "sberbank-be9928",
-      "locationSet": {"include": ["kz", "ru"]},
+      "id": "sberbank-0eb427",
+      "locationSet": {"include": ["ru"]},
       "matchNames": [
         "cбербанк",
         "cбербанк россии",
+        "сбер",
         "сбербанк россии"
       ],
       "tags": {
@@ -11128,6 +12408,42 @@
       }
     },
     {
+      "displayName": "Стопанска банка Битола",
+      "id": "c62c01-39118c",
+      "locationSet": {"include": ["mk"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Стопанска банка Битола",
+        "brand:wikidata": "Q114289630",
+        "name": "Стопанска банка Битола"
+      }
+    },
+    {
+      "displayName": "Стопанска банка Скопје",
+      "id": "67eeb1-39118c",
+      "locationSet": {"include": ["mk"]},
+      "matchNames": [
+        "стопанска банка ад - скопје"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Стопанска банка Скопје",
+        "brand:wikidata": "Q114289637",
+        "name": "Стопанска банка Скопје"
+      }
+    },
+    {
+      "displayName": "Таскомбанк",
+      "id": "a70483-c8dc19",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Таскомбанк",
+        "brand:wikidata": "Q28669246",
+        "name": "Таскомбанк"
+      }
+    },
+    {
       "displayName": "Технобанк",
       "id": "technobank-4aad73",
       "locationSet": {"include": ["by"]},
@@ -11163,16 +12479,6 @@
       }
     },
     {
-      "displayName": "Точка видачі monobank",
-      "id": "c0188f-b7a026",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Точка видачі monobank",
-        "name": "Точка видачі monobank"
-      }
-    },
-    {
       "displayName": "Төрийн банк",
       "id": "statebank-031586",
       "locationSet": {"include": ["mn"]},
@@ -11203,33 +12509,15 @@
       }
     },
     {
-      "displayName": "УкрСиббанк",
-      "id": "ukrsibbank-c8dc19",
-      "locationSet": {"include": ["ua"]},
+      "displayName": "УНИБанка",
+      "id": "unibank-39118c",
+      "locationSet": {"include": ["mk"]},
       "tags": {
         "amenity": "bank",
-        "brand": "УкрСиббанк",
-        "brand:en": "UkrSibbank",
-        "brand:uk": "УкрСиббанк",
-        "brand:wikidata": "Q1976290",
-        "name": "УкрСиббанк",
-        "name:en": "UkrSibbank",
-        "name:uk": "УкрСиббанк"
-      }
-    },
-    {
-      "displayName": "Укрсоцбанк",
-      "id": "ukrsotsbank-c8dc19",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "Укрсоцбанк",
-        "brand:en": "Ukrsotsbank",
-        "brand:uk": "Укрсоцбанк",
-        "brand:wikidata": "Q3547885",
-        "name": "Укрсоцбанк",
-        "name:en": "Ukrsotsbank",
-        "name:uk": "Укрсоцбанк"
+        "brand": "УНИБанка",
+        "brand:wikidata": "Q114289571",
+        "name": "УНИБанка",
+        "name:en": "UNIBank"
       }
     },
     {
@@ -11311,6 +12599,19 @@
       }
     },
     {
+      "displayName": "Халк Банка (Северна Македонија)",
+      "id": "halkbank-39118c",
+      "locationSet": {"include": ["mk"]},
+      "matchNames": ["халкбанк"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Halkbank",
+        "brand:wikidata": "Q3593818",
+        "name": "Halkbank",
+        "name:mk": "Халк Банка"
+      }
+    },
+    {
       "displayName": "Хоум Кредит",
       "id": "homecreditandfinancebank-0eb427",
       "locationSet": {"include": ["ru"]},
@@ -11343,6 +12644,23 @@
       }
     },
     {
+      "displayName": "Централна Кооперативна Банка Скопје",
+      "id": "centralcooperativebank-39118c",
+      "locationSet": {"include": ["mk"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Централна Кооперативна Банка",
+        "brand:en": "Central Cooperative Bank",
+        "brand:mk": "Централна Кооперативна Банка",
+        "brand:wikidata": "Q114290462",
+        "name": "Централна Кооперативна Банка",
+        "name:en": "Central Cooperative Bank",
+        "name:mk": "Централна Кооперативна Банка",
+        "short_name:en": "CCBank",
+        "short_name:mk": "ЦКБ"
+      }
+    },
+    {
       "displayName": "Цептер Банк",
       "id": "zepterbank-4aad73",
       "locationSet": {"include": ["by"]},
@@ -11360,6 +12678,22 @@
       }
     },
     {
+      "displayName": "Шпаркасе",
+      "id": "120ff6-39118c",
+      "locationSet": {"include": ["mk"]},
+      "matchNames": [
+        "охридска банка",
+        "шпаркасе банка"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Шпаркасе",
+        "brand:wikidata": "Q1555572",
+        "name": "Шпаркасе",
+        "name:mk": "Sparkassen"
+      }
+    },
+    {
       "displayName": "ЮниКредит Банк",
       "id": "unicreditbank-0eb427",
       "locationSet": {"include": ["ru"]},
@@ -11372,6 +12706,71 @@
         "name": "ЮниКредит Банк",
         "name:en": "UniCredit Bank",
         "name:ru": "ЮниКредит Банк"
+      }
+    },
+    {
+      "displayName": "ბაზისბანკი",
+      "id": "basisbank-293074",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ბაზისბანკი",
+        "brand:en": "Basisbank",
+        "brand:ka": "ბაზისბანკი",
+        "brand:wikidata": "Q16365625",
+        "name": "ბაზისბანკი"
+      }
+    },
+    {
+      "displayName": "თიბისი ბანკი",
+      "id": "tbcbank-293074",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "თიბისი ბანკი",
+        "brand:en": "TBC Bank",
+        "brand:ka": "თიბისი ბანკი",
+        "brand:wikidata": "Q2620975",
+        "name": "თიბისი ბანკი"
+      }
+    },
+    {
+      "displayName": "ლიბერთი ბანკი",
+      "id": "libertybank-293074",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ლიბერთი ბანკი",
+        "brand:en": "Liberty Bank",
+        "brand:ka": "ლიბერთი ბანკი",
+        "brand:wikidata": "Q6541585",
+        "name": "ლიბერთი ბანკი"
+      }
+    },
+    {
+      "displayName": "საქართველოს ბანკი",
+      "id": "bankofgeorgia-293074",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "საქართველოს ბანკი",
+        "brand:en": "Bank of Georgia",
+        "brand:ka": "საქართველოს ბანკი",
+        "brand:wikidata": "Q2469733",
+        "name": "საქართველოს ბანკი"
+      }
+    },
+    {
+      "displayName": "ՎՏԲ",
+      "id": "42e367-9c44ae",
+      "locationSet": {"include": ["am"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ՎՏԲ",
+        "brand:hy": "ՎՏԲ",
+        "brand:wikidata": "Q85983660",
+        "name": "ՎՏԲ",
+        "name:hy": "ՎՏԲ"
       }
     },
     {
@@ -11643,6 +13042,16 @@
         "name": "البنك السعودي للاستثمار",
         "name:ar": "البنك السعودي للاستثمار",
         "name:en": "Saudi Investment Bank"
+      }
+    },
+    {
+      "displayName": "البنك العربي",
+      "id": "9c3298-b7a026",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "البنك العربي",
+        "name": "البنك العربي"
       }
     },
     {
@@ -12101,12 +13510,19 @@
     },
     {
       "displayName": "سوسيتيه جنرال",
-      "id": "3f29c7-b7a026",
-      "locationSet": {"include": ["001"]},
+      "id": "societegenerale-3601cd",
+      "locationSet": {
+        "include": ["ae", "qa", "sa"]
+      },
       "tags": {
         "amenity": "bank",
         "brand": "سوسيتيه جنرال",
-        "name": "سوسيتيه جنرال"
+        "brand:ar": "سوسيتيه جنرال",
+        "brand:en": "Societé Génerale",
+        "brand:wikidata": "Q270363",
+        "name": "سوسيتيه جنرال",
+        "name:ar": "سوسيتيه جنرال",
+        "name:en": "Societé Génerale"
       }
     },
     {
@@ -12284,6 +13700,20 @@
         "name": "সোনালী ব্যাংক লিমিটেড",
         "name:bn": "সোনালী ব্যাংক লিমিটেড",
         "name:en": "Sonali Bank"
+      }
+    },
+    {
+      "displayName": "กรุงศรี",
+      "id": "983e55-3229f1",
+      "locationSet": {"include": ["th"]},
+      "note": "Is this 'Krungsri' actually Bank of Ayudhya?",
+      "tags": {
+        "amenity": "bank",
+        "brand": "กรุงศรี",
+        "brand:th": "กรุงศรี",
+        "brand:wikidata": "Q782537",
+        "name": "กรุงศรี",
+        "name:th": "กรุงศรี"
       }
     },
     {
@@ -12864,10 +14294,10 @@
     },
     {
       "displayName": "中国工商银行",
-      "id": "industrialandcommercialbankofchina-267261",
+      "id": "industrialandcommercialbankofchina-d2dfa9",
       "locationSet": {
         "include": ["cn"],
-        "exclude": ["hk"]
+        "exclude": ["hk", "mo"]
       },
       "matchNames": ["工商银行", "工行"],
       "tags": {
@@ -12883,10 +14313,10 @@
     },
     {
       "displayName": "中国建设银行",
-      "id": "chinaconstructionbank-267261",
+      "id": "chinaconstructionbank-d2dfa9",
       "locationSet": {
         "include": ["cn"],
-        "exclude": ["hk"]
+        "exclude": ["hk", "mo"]
       },
       "matchNames": ["建行", "建设银行"],
       "tags": {
@@ -13006,6 +14436,28 @@
       }
     },
     {
+      "displayName": "中國建設銀行 Banco de Construção da China",
+      "id": "chinaconstructionbank-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "matchNames": ["ccb", "建行", "建設銀行"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "中國建設銀行 Banco de Construção da China",
+        "brand:en": "China Construction Bank",
+        "brand:pt": "Banco de Construção da China",
+        "brand:wikidata": "Q26299",
+        "brand:zh": "中國建設銀行",
+        "brand:zh-Hans": "中国建设银行",
+        "brand:zh-Hant": "中國建設銀行",
+        "name": "中國建設銀行 Banco de Construção da China",
+        "name:en": "China Construction Bank",
+        "name:pt": "Banco de Construção da China",
+        "name:zh": "中國建設銀行",
+        "name:zh-Hans": "中国建设银行",
+        "name:zh-Hant": "中國建設銀行"
+      }
+    },
+    {
       "displayName": "中國建設銀行（亞洲） China Construction Bank (Asia)",
       "id": "ccbasia-442838",
       "locationSet": {"include": ["hk"]},
@@ -13077,6 +14529,25 @@
         "name:zh": "中國銀行（香港）",
         "name:zh-Hans": "中国银行（香港）",
         "name:zh-Hant": "中國銀行（香港）"
+      }
+    },
+    {
+      "displayName": "云南省农村信用社",
+      "id": "yunnanruralcreditcooperatives-d2dfa9",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "云南省农村信用社",
+        "brand:en": "Yunnan Rural Credit Cooperatives",
+        "brand:wikidata": "Q114321959",
+        "brand:zh": "云南省农村信用社",
+        "name": "云南省农村信用社",
+        "name:en": "Yunnan Rural Credit Cooperatives",
+        "name:zh": "云南省农村信用社",
+        "official_name": "云南省农村信用社联合社"
       }
     },
     {
@@ -13402,6 +14873,21 @@
       }
     },
     {
+      "displayName": "十六銀行",
+      "id": "jurokubank-d7a9e7",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "十六銀行",
+        "brand:en": "Juroku Bank",
+        "brand:ja": "十六銀行",
+        "brand:wikidata": "Q11404883",
+        "name": "十六銀行",
+        "name:en": "Juroku Bank",
+        "name:ja": "十六銀行"
+      }
+    },
+    {
       "displayName": "千葉興業銀行",
       "id": "chibakogyobank-d7a9e7",
       "locationSet": {"include": ["jp"]},
@@ -13723,6 +15209,39 @@
       }
     },
     {
+      "displayName": "大西洋銀行 Banco Nacional Ultramarino",
+      "id": "2997e9-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "matchNames": ["bnu"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "大西洋銀行 Banco Nacional Ultramarino",
+        "brand:pt": "Banco Nacional Ultramarino",
+        "brand:wikidata": "Q806190",
+        "brand:zh": "大西洋銀行",
+        "name": "大西洋銀行 Banco Nacional Ultramarino",
+        "name:pt": "Banco Nacional Ultramarino",
+        "name:zh": "大西洋銀行"
+      }
+    },
+    {
+      "displayName": "大豐銀行 Banco Tai Fung",
+      "id": "taifungbank-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "大豐銀行 Banco Tai Fung",
+        "brand:en": "Tai Fung Bank",
+        "brand:pt": "Banco Tai Fung",
+        "brand:wikidata": "Q10938051",
+        "brand:zh": "大豐銀行",
+        "name": "大豐銀行 Banco Tai Fung",
+        "name:en": "Tai Fung Bank",
+        "name:pt": "Banco Tai Fung",
+        "name:zh": "大豐銀行"
+      }
+    },
+    {
       "displayName": "天津银行",
       "id": "bankoftianjin-da74c0",
       "locationSet": {"include": ["cn"]},
@@ -13808,6 +15327,31 @@
         "name": "山梨中央銀行",
         "name:en": "Yamanashi Chuo Bank",
         "name:ja": "山梨中央銀行"
+      }
+    },
+    {
+      "displayName": "工銀澳門 ICBC",
+      "id": "icbc-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "matchNames": [
+        "中國工商銀行（澳門）",
+        "工商銀行",
+        "工行",
+        "工銀"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "中國工商銀行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中國工商銀行",
+        "brand:zh-Hans": "中国工商银行",
+        "brand:zh-Hant": "中國工商銀行",
+        "name": "工銀澳門 ICBC",
+        "name:en": "ICBC",
+        "name:zh": "工銀澳門",
+        "name:zh-Hans": "工银澳门",
+        "name:zh-Hant": "工銀澳門"
       }
     },
     {
@@ -13917,7 +15461,14 @@
       "displayName": "恒生銀行 Hang Seng Bank",
       "id": "hangsengbank-075cf6",
       "locationSet": {"include": ["hk", "mo"]},
-      "matchNames": ["恒生"],
+      "matchNames": [
+        "hang sang bank",
+        "hase",
+        "hsb",
+        "恆生",
+        "恆生銀行",
+        "恒生"
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "恒生銀行 Hang Seng Bank",
@@ -13952,7 +15503,14 @@
       "displayName": "招商永隆銀行 CMB Wing Lung Bank",
       "id": "cmbwinglungbank-442838",
       "locationSet": {"include": ["hk"]},
-      "matchNames": ["永隆", "永隆銀行"],
+      "matchNames": [
+        "cmb",
+        "wing lung bank",
+        "wlb",
+        "招商永隆",
+        "永隆",
+        "永隆銀行"
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "招商永隆銀行 CMB Wing Lung Bank",
@@ -14075,6 +15633,28 @@
         "name": "星展銀行 DBS",
         "name:en": "DBS",
         "name:zh": "星展銀行",
+        "name:zh-Hans": "星展银行",
+        "name:zh-Hant": "星展銀行"
+      }
+    },
+    {
+      "displayName": "星展银行",
+      "id": "dbs-d2dfa9",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "星展银行",
+        "brand:en": "DBS",
+        "brand:wikidata": "Q705417",
+        "brand:zh": "星展银行",
+        "brand:zh-Hans": "星展银行",
+        "brand:zh-Hant": "星展銀行",
+        "name": "星展银行",
+        "name:en": "DBS",
+        "name:zh": "星展银行",
         "name:zh-Hans": "星展银行",
         "name:zh-Hant": "星展銀行"
       }
@@ -14397,6 +15977,39 @@
       }
     },
     {
+      "displayName": "澳門商業銀行 Banco Comercial de Macau",
+      "id": "f9b3fb-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "matchNames": ["bcm"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "澳門商業銀行 Banco Comercial de Macau",
+        "brand:pt": "Banco Comercial de Macau",
+        "brand:wikidata": "Q22099041",
+        "brand:zh": "澳門商業銀行",
+        "name": "澳門商業銀行 Banco Comercial de Macau",
+        "name:pt": "Banco Comercial de Macau",
+        "name:zh": "澳門商業銀行"
+      }
+    },
+    {
+      "displayName": "澳門國際銀行 Banco Luso Internacional",
+      "id": "lusointernationalbanking-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "澳門國際銀行 Banco Luso Internacional",
+        "brand:en": "Luso International Banking",
+        "brand:pt": "Banco Luso Internacional",
+        "brand:wikidata": "Q15934810",
+        "brand:zh": "澳門國際銀行",
+        "name": "澳門國際銀行 Banco Luso Internacional",
+        "name:en": "Luso International Banking",
+        "name:pt": "Banco Luso Internacional",
+        "name:zh": "澳門國際銀行"
+      }
+    },
+    {
       "displayName": "玉山商業銀行",
       "id": "esuncommercialbank-47d9e2",
       "locationSet": {"include": ["tw"]},
@@ -14474,6 +16087,24 @@
         "name:zh": "盤谷銀行",
         "name:zh-Hans": "盘谷银行",
         "name:zh-Hant": "盤谷銀行"
+      }
+    },
+    {
+      "displayName": "立橋銀行 Well Link Bank",
+      "id": "welllinkbank-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "matchNames": ["wlb", "wlbank"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "立橋銀行 Well Link Bank",
+        "brand:en": "Well Link Bank",
+        "brand:pt": "Banco Well Link",
+        "brand:wikidata": "Q117599325",
+        "brand:zh": "立橋銀行",
+        "name": "立橋銀行 Well Link Bank",
+        "name:en": "Well Link Bank",
+        "name:pt": "Banco Well Link",
+        "name:zh": "立橋銀行"
       }
     },
     {
@@ -14689,11 +16320,43 @@
       }
     },
     {
+      "displayName": "華僑永亨銀行 Banco OCBC Weng Hang",
+      "id": "ocbcwinghangbank-fa24a7",
+      "locationSet": {"include": ["mo"]},
+      "matchNames": [
+        "banco weng hang",
+        "ocbc",
+        "whb",
+        "wing hang bank",
+        "永亨",
+        "永亨銀行",
+        "華僑",
+        "華僑銀行"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "華僑永亨銀行 Banco OCBC Weng Hang",
+        "brand:en": "OCBC Wing Hang Bank",
+        "brand:pt": "Banco OCBC Weng Hang",
+        "brand:wikidata": "Q837147",
+        "brand:zh": "華僑永亨銀行",
+        "brand:zh-Hans": "华侨永亨银行",
+        "brand:zh-Hant": "華僑永亨銀行",
+        "name": "華僑永亨銀行 Banco OCBC Weng Hang",
+        "name:en": "OCBC Wing Hang Bank",
+        "name:pt": "Banco OCBC Weng Hang",
+        "name:zh": "華僑永亨銀行",
+        "name:zh-Hans": "华侨永亨银行",
+        "name:zh-Hant": "華僑永亨銀行"
+      }
+    },
+    {
       "displayName": "華僑永亨銀行 OCBC Wing Hang Bank",
       "id": "ocbcwinghangbank-442838",
       "locationSet": {"include": ["hk"]},
       "matchNames": [
         "ocbc",
+        "whb",
         "wing hang bank",
         "永亨",
         "永亨銀行",

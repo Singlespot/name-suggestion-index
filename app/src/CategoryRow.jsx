@@ -29,6 +29,8 @@ export default function CategoryRow(props) {
 
   if (t === 'brands') {
     n = item.tags.brand || item.tags.name;
+    if (n != null)
+      n = n.replaceAll('"','\\\"');
     kvn = `${k}/${v}|${n}`;
     tags = item.tags || {};
     qid = tags['brand:wikidata'];
@@ -54,6 +56,8 @@ relation[${k}=${v}][brand=${bn}][brand:wikidata=${qid}]
 
   } else if (t === 'flags') {
     n = item.tags['flag:name'];
+    if (n != null)
+      n = n.replaceAll('"','\\\"');
     kvn = `${k}/${v}|${n}`;
     tags = item.tags || {};
     qid = tags['flag:wikidata'];
@@ -63,6 +67,8 @@ out center;`;
 
   } else if (t === 'operators') {
     n = item.tags.operator;
+    if (n != null)
+      n = n.replaceAll('"','\\\"');
     kvn = `${k}/${v}|${n}`;
     tags = item.tags || {};
     qid = tags['operator:wikidata'];
@@ -87,6 +93,8 @@ relation[${k}=${v}][operator:wikidata=${qid}]
 
   } else if (t === 'transit') {
     n = item.tags.network;
+    if (n != null)
+      n = n.replaceAll('"','\\\"');
     kvn = `${k}/${v}|${n}`;
     tags = item.tags || {};
     qid = tags['network:wikidata'];
@@ -131,7 +139,10 @@ relation[${k}=${v}][network:wikidata=${qid}]
         <div className='viewlink'>
           { searchOverpassLink(n, overpassQuery) }<br/>
           { searchGoogleLink(n) }<br/>
+          <strong>Search:&nbsp;</strong>
           { searchWikipediaLink(n) }
+          &nbsp;/&nbsp;
+          { searchWikidataLink(n) }
         </div>
       </td>
       <td className='tags'><pre className='tags' dangerouslySetInnerHTML={ highlight(tt, displayTags(tags)) } /></td>
@@ -157,7 +168,10 @@ relation[${k}=${v}][network:wikidata=${qid}]
         <div className='viewlink'>
           { searchOverpassLink(n, overpassQuery) }<br/>
           { searchGoogleLink(n) }<br/>
+          <strong>Search:&nbsp;</strong>
           { searchWikipediaLink(n) }
+          &nbsp;/&nbsp;
+          { searchWikidataLink(n) }
         </div>
       </td>
       <td className='tags'><pre className='tags' dangerouslySetInnerHTML={ highlight(tt, displayTags(tags)) } /></td>
@@ -170,7 +184,6 @@ relation[${k}=${v}][network:wikidata=${qid}]
       </td>
       <td className='logo'>{ logo(logos.wikidata) }</td>
       <td className='logo'>{ fblogo(identities.facebook, logos.facebook) }</td>
-      <td className='logo'>{ logo(logos.twitter) }</td>
       </tr>
     );
   }
@@ -190,6 +203,7 @@ relation[${k}=${v}][network:wikidata=${qid}]
   function highlight(needle, haystack) {
     let html = haystack;
     if (needle) {
+      needle = needle.replaceAll('+', '\\+'); // escape the + symbol.
       const re = new RegExp('\(' + needle + '\)', 'gi');
       html = html.replace(re, '<mark>$1</mark>');
     }
@@ -208,9 +222,15 @@ relation[${k}=${v}][network:wikidata=${qid}]
     const q = encodeURIComponent(name);
     const href = `https://google.com/search?q=${q}+site%3Awikipedia.org`;
     const title = `Search Wikipedia for ${name}`;
-    return (<a target='_blank' href={href} title={title}>Search Wikipedia</a>);
+    return (<a target='_blank' href={href} title={title}>Wikipedia</a>);
   }
 
+  function searchWikidataLink(name) {
+    const q = encodeURIComponent(name);
+    const href = `https://google.com/search?q=${q}+site%3Awikidata.org`;
+    const title = `Search Wikidata for ${name}`;
+    return (<a target='_blank' href={href} title={title}>Wikidata</a>);
+  }
 
   function searchOverpassLink(name, overpassQuery) {
     const q = encodeURIComponent(overpassQuery);
@@ -263,14 +283,63 @@ relation[${k}=${v}][network:wikidata=${qid}]
 `;
     });
 
-    result += '<hr/>';
+    /* Add an <hr/> line break only if addational information will be displayed. */
+    if (item.matchNames || item.matchTags || item.note || item.preserveTags || item.fromTemplate)
+      result += '<hr/>';
+
+    /* Are the items being drawn from a template? 'item.fromTemplate' is set to true in nsi.json if templated. */
+    if (item.fromTemplate) {
+      let url,text;
+
+      /* Brands */
+      if ((t=='brands') && (k=='amenity') && (v=='atm'))
+        {url = '/index.html?t=brands&amp;k=amenity&amp;v=bank'; text = '/brands/amenity/bank.json';}
+
+      /* Operators */
+      if ((t=='operators') && (k=='leisure') && (v=='nature_reserve'))
+        {url = '/index.html?t=operators&amp;k=leisure&amp;v=park'; text = '/operators/leisure/park.json';}
+
+      if ((t=='operators') && (k=='power') && ((v=='minor_line') || (v=='pole') || (v=='tower')))
+        {url = '/index.html?t=operators&amp;k=power&amp;v=line'; text = '/operators/power/line.json';}
+      if ((t=='operators') && (k=='power') && (v=='transformer'))
+        {url = '/index.html?t=operators&amp;k=power&amp;v=substation'; text = '/operators/power/substation.json';}
+
+      if ((t=='operators') && (k=='pipeline') && (v=='substation'))
+        {url = '/index.html?t=operators&amp;k=man_made&amp;v=pipeline'; text = 'operators/man_made/pipeline.json';}
+
+      if ((t=='operators') && (k=='man_made') && ((v=='water_tower') || (v=='water_works')))
+        {url = '/index.html?t=operators&amp;k=office&amp;v=water_utility'; text = '/operators/office/water_utility.json';}
+
+      /* Transit */
+      if ((t=='transit') && (k=='highway') && (v=='bus_stop'))
+        {url = '/index.html?t=transit&amp;k=route&amp;v=bus'; text = '/transit/route/bus.json';}
+
+      if ((t=='transit') && (k=='amenity') && (v=='ferry_terminal'))
+        {url = '/index.html?t=transit&amp;k=route&amp;v=ferry'; text = '/transit/route/ferry.json';}
+
+      if ((t=='operators') && (k=='amenity') && (v=='post_box')) {
+        /* Post Boxes use multiple templates */
+        result += '<strong>Master templates:</strong><br/>';
+        result += '<a href="/index.html?t=brands&amp;k=amenity&amp;v=post_office">/brands/amenity/post_office.json</a><br/>';
+        result += 'Search brands template master for <a href="/index.html?t=brands&amp;k=amenity&amp;v=post_office&amp;tt=' + item.displayName + '">' + item.displayName + '</a><br/>';
+        result += '<a href="/index.html?t=operators&amp;k=amenity&amp;v=post_office">/operators/amenity/post_office.json</a><br/>';
+        result += 'Search operators template master for <a href="/index.html?t=operators&amp;k=amenity&amp;v=post_office&amp;tt=' + item.displayName + '">' + item.displayName + '</a><br/>';
+      } else {
+        /* All the rest use a single template */
+        result += '<strong>Master template:</strong><br/>';
+        result += '<a href="' + url + '">' + text + '</a><br/>';
+        result += 'Search template master for <a href="' + url + '&amp;tt=' + item.displayName + '">' + item.displayName + '</a><br/>';
+      }
+    }
 
     if (item.matchNames)
       result += '<strong>matchNames</strong>:<br/>' + item.matchNames + '<br/>';
     if (item.matchTags)
       result += '<strong>matchTags</strong>:<br/>' + item.matchTags + '<br/>';
     if (item.note)
-      result += '<strong>Note</strong>:<br/>' + item.note;
+      result += '<strong>Note</strong>:<br/>' + item.note + '<br/>';
+    if (item.preserveTags)
+      result += '<strong>preserveTags</strong>:<br/>' + item.preserveTags;
 
     return result;
   }

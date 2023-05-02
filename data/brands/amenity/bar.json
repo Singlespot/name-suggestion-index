@@ -21,6 +21,19 @@
       }
     },
     {
+      "displayName": "Barrio",
+      "id": "barrio-f3bc39",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
+      "tags": {
+        "amenity": "bar",
+        "brand": "Barrio",
+        "brand:wikidata": "Q114670989",
+        "name": "Barrio"
+      }
+    },
+    {
       "displayName": "Be At One",
       "id": "beatone-60d62f",
       "locationSet": {"include": ["gb"]},
@@ -110,6 +123,45 @@
         "brand": "Simmons Bars",
         "brand:wikidata": "Q109991573",
         "name": "Simmons"
+      }
+    },
+    {
+      "displayName": "The Cocktail Club",
+      "id": "thecocktailclub-149b5d",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "london cocktail club",
+        "the london cocktail club"
+      ],
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "bar",
+        "brand": "The Cocktail Club",
+        "brand:wikidata": "Q117280652",
+        "cocktails": "yes",
+        "name": "The Cocktail Club"
+      }
+    },
+    {
+      "displayName": "Vagabond",
+      "id": "vagabond-149b5d",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "bar",
+        "brand": "Vagabond",
+        "brand:wikidata": "Q115139492",
+        "name": "Vagabond"
+      }
+    },
+    {
+      "displayName": "Vino Volo",
+      "id": "vinovolo-197df4",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "amenity": "bar",
+        "brand": "Vino Volo",
+        "brand:wikidata": "Q7932710",
+        "name": "Vino Volo"
       }
     }
   ]

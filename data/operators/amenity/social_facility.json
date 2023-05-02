@@ -44,6 +44,15 @@
       }
     },
     {
+      "displayName": "advita Pflegedienst GmbH",
+      "id": "advitapflegedienstgmbh-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "advita Pflegedienst GmbH"
+      }
+    },
+    {
       "displayName": "AEIM",
       "id": "aeim-704240",
       "locationSet": {"include": ["fx"]},
@@ -109,6 +118,15 @@
       }
     },
     {
+      "displayName": "Anglicare",
+      "id": "anglicare-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Anglicare"
+      }
+    },
+    {
       "displayName": "Armonea",
       "id": "armonea-5c0b3d",
       "locationSet": {"include": ["be"]},
@@ -124,6 +142,27 @@
       "tags": {
         "amenity": "social_facility",
         "operator": "Arpavie"
+      }
+    },
+    {
+      "displayName": "Arvida",
+      "id": "arvida-97ad99",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Arvida",
+        "operator:wikidata": "Q115565733",
+        "social_facility": "group_home",
+        "social_facility:for": "senior"
+      }
+    },
+    {
+      "displayName": "Associação de Pais e Amigos dos Excepcionais",
+      "id": "associacaodepaiseamigosdosexcepcionais-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Associação de Pais e Amigos dos Excepcionais"
       }
     },
     {
@@ -167,6 +206,15 @@
       }
     },
     {
+      "displayName": "BC Housing",
+      "id": "bchousing-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "BC Housing"
+      }
+    },
+    {
       "displayName": "Brookdale Senior Living",
       "id": "brookdaleseniorliving-04bb0a",
       "locationSet": {"include": ["us"]},
@@ -196,25 +244,6 @@
       }
     },
     {
-      "displayName": "Canadian Red Cross",
-      "id": "canadianredcross-4dbadb",
-      "locationSet": {"include": ["ca"]},
-      "matchNames": [
-        "canadian red cross society",
-        "croix-rouge",
-        "la société canadienne de la croix-rouge",
-        "red cross"
-      ],
-      "tags": {
-        "amenity": "social_facility",
-        "operator": "Canadian Red Cross",
-        "operator:en": "Canadian Red Cross",
-        "operator:fr": "Croix-Rouge canadienne",
-        "operator:short": "CRC",
-        "operator:wikidata": "Q5030521"
-      }
-    },
-    {
       "displayName": "Care UK",
       "id": "careuk-bdda3a",
       "locationSet": {"include": ["gb"]},
@@ -222,6 +251,15 @@
         "amenity": "social_facility",
         "operator": "Care UK",
         "operator:wikidata": "Q5038862"
+      }
+    },
+    {
+      "displayName": "Caritasverband",
+      "id": "caritasverband-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Caritasverband"
       }
     },
     {
@@ -278,62 +316,6 @@
       "tags": {
         "amenity": "social_facility",
         "operator": "Comunidad de Madrid"
-      }
-    },
-    {
-      "displayName": "Croix Rouge",
-      "id": "croixrouge-a8d9e2",
-      "locationSet": {
-        "include": ["001"],
-        "exclude": ["be", "ca", "fr", "lu"]
-      },
-      "tags": {
-        "amenity": "social_facility",
-        "operator": "Croix Rouge"
-      }
-    },
-    {
-      "displayName": "Croix-Rouge de Belgique",
-      "id": "croixrougedebelgique-5c0b3d",
-      "locationSet": {"include": ["be"]},
-      "matchNames": [
-        "croix-rouge",
-        "croix-rouge belge"
-      ],
-      "tags": {
-        "amenity": "social_facility",
-        "operator": "Croix-Rouge de Belgique",
-        "operator:short": "CRB",
-        "operator:wikidata": "Q2537361"
-      }
-    },
-    {
-      "displayName": "Croix-Rouge Française",
-      "id": "croixrougefrancaise-d425ed",
-      "locationSet": {"include": ["fr"]},
-      "matchNames": ["croix-rouge"],
-      "tags": {
-        "amenity": "social_facility",
-        "operator": "Croix-Rouge Française",
-        "operator:short": "CRF",
-        "operator:wikidata": "Q3003244"
-      }
-    },
-    {
-      "displayName": "Croix-Rouge luxembourgeoise",
-      "id": "croixrougeluxembourgeoise-57c96b",
-      "locationSet": {"include": ["lu"]},
-      "matchNames": [
-        "croix-rouge",
-        "rotes kreuz"
-      ],
-      "tags": {
-        "amenity": "social_facility",
-        "operator": "Croix-Rouge luxembourgeoise",
-        "operator:de": "Luxemburgisches Rotes Kreuz",
-        "operator:fr": "Croix-Rouge luxembourgeoise",
-        "operator:lb": "Lëtzebuergesche Roude Kräiz",
-        "operator:wikidata": "Q13102234"
       }
     },
     {
@@ -450,6 +432,15 @@
       }
     },
     {
+      "displayName": "Esperi",
+      "id": "esperi-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Esperi"
+      }
+    },
+    {
       "displayName": "Evangelische Heimstiftung",
       "id": "evangelischeheimstiftung-86cc42",
       "locationSet": {
@@ -542,6 +533,15 @@
       }
     },
     {
+      "displayName": "Fundação de Ação Social",
+      "id": "fundacaodeacaosocial-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Fundação de Ação Social"
+      }
+    },
+    {
       "displayName": "Generalitat de Catalunya",
       "id": "generalitatdecatalunya-a8af6f",
       "locationSet": {"include": ["es"]},
@@ -558,6 +558,15 @@
         "amenity": "social_facility",
         "operator": "Genesis HealthCare",
         "operator:wikidata": "Q5532813"
+      }
+    },
+    {
+      "displayName": "Göteborgs Stad",
+      "id": "goteborgsstad-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Göteborgs Stad"
       }
     },
     {
@@ -671,6 +680,15 @@
       }
     },
     {
+      "displayName": "Kirkens Korshær",
+      "id": "kirkenskorshaer-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Kirkens Korshær"
+      }
+    },
+    {
       "displayName": "Kleeblatt Pflegeheime gGmbH",
       "id": "kleeblattpflegeheimeggmbh-86cc42",
       "locationSet": {
@@ -750,6 +768,15 @@
       }
     },
     {
+      "displayName": "Marente",
+      "id": "marente-01cce6",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Marente"
+      }
+    },
+    {
       "displayName": "McCarthy & Stone",
       "id": "mccarthyandstone-bdda3a",
       "locationSet": {"include": ["gb"]},
@@ -804,6 +831,18 @@
         "operator": "Norwegian Refugee Council",
         "operator:short": "NRC",
         "operator:wikidata": "Q3307397"
+      }
+    },
+    {
+      "displayName": "Oceania Healthcare",
+      "id": "oceaniahealthcare-97ad99",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Oceania Healthcare",
+        "operator:wikidata": "Q109627069",
+        "social_facility": "group_home",
+        "social_facility:for": "senior"
       }
     },
     {
@@ -1008,6 +1047,18 @@
       }
     },
     {
+      "displayName": "Summerset",
+      "id": "summerset-97ad99",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "Summerset",
+        "operator:wikidata": "Q22909162",
+        "social_facility": "group_home",
+        "social_facility:for": "senior"
+      }
+    },
+    {
       "displayName": "Sunrise Senior Living",
       "id": "sunriseseniorliving-01cce6",
       "locationSet": {"include": ["001"]},
@@ -1055,6 +1106,18 @@
         "operator": "The Salvation Army",
         "operator:short": "TSA",
         "operator:wikidata": "Q188307"
+      }
+    },
+    {
+      "displayName": "The Trussell Trust",
+      "id": "thetrusselltrust-bdda3a",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "The Trussell Trust",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q15621299",
+        "social_facility": "food_bank"
       }
     },
     {
@@ -1122,6 +1185,18 @@
       "tags": {
         "amenity": "social_facility",
         "operator": "WVO Zorg"
+      }
+    },
+    {
+      "displayName": "はぴねす福祉会",
+      "id": "happinesswelfareassociation-51378b",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "social_facility",
+        "operator": "はぴねす福祉会",
+        "operator:en": "Happiness Welfare Association",
+        "operator:ja": "はぴねす福祉会",
+        "operator:wikidata": "Q116986439"
       }
     },
     {

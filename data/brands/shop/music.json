@@ -41,6 +41,18 @@
       }
     },
     {
+      "displayName": "Oxfam Books & Music",
+      "id": "oxfambooksandmusic-0f8099",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Oxfam Books & Music",
+        "brand:wikidata": "Q117838013",
+        "name": "Oxfam Books & Music",
+        "second_hand": "only",
+        "shop": "music"
+      }
+    },
+    {
       "displayName": "Sunrise Records",
       "id": "sunriserecords-d8c1af",
       "locationSet": {"include": ["ca", "gb"]},

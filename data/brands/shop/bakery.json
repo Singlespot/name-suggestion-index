@@ -20,6 +20,32 @@
   },
   "items": [
     {
+      "displayName": "A Padaria Portuguesa",
+      "id": "apadariaportuguesa-6fa785",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "brand": "A Padaria Portuguesa",
+        "brand:wikidata": "Q113951278",
+        "name": "A Padaria Portuguesa",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "A-1 Bakery",
+      "id": "a1bakery-d71ca5",
+      "locationSet": {"include": ["hk", "jp"]},
+      "tags": {
+        "brand": "A-1 Bakery",
+        "brand:en": "A-1 Bakery",
+        "brand:ja": "エーワンベーカリー",
+        "brand:wikidata": "Q117270360",
+        "name": "A-1 Bakery",
+        "name:en": "A-1 Bakery",
+        "name:ja": "エーワンベーカリー",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "AILI",
       "id": "aili-c0ca1d",
       "locationSet": {"include": ["cn"]},
@@ -716,6 +742,28 @@
       }
     },
     {
+      "displayName": "Ferguson Plarre's Bakehouse",
+      "id": "fergusonplarresbakehouse-4fc062",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
+      "tags": {
+        "brand": "Ferguson Plarre's Bakehouse",
+        "name": "Ferguson Plarre's Bakehouse",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Festival des Pains",
+      "id": "festivaldespains-09ad2c",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Festival des Pains",
+        "brand:wikidata": "Q3070334",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Fornetti",
       "id": "fornetti-0c6f37",
       "locationSet": {
@@ -1163,6 +1211,17 @@
       }
     },
     {
+      "displayName": "Le Pain du Jour",
+      "id": "lepaindujour-731a34",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Le Pain du Jour",
+        "brand:wikidata": "Q114432625",
+        "name": "Le Pain du Jour",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Le Pétrin Ribeïrou",
       "id": "lepetrinribeirou-731a34",
       "locationSet": {"include": ["fr"]},
@@ -1226,6 +1285,29 @@
         "brand": "Löwenbäcker Schaper",
         "brand:wikidata": "Q62075965",
         "name": "Löwenbäcker Schaper",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Luca",
+      "id": "luca-fd5747",
+      "locationSet": {"include": ["ro"]},
+      "matchNames": ["simigeria luca"],
+      "tags": {
+        "brand": "Luca",
+        "brand:wikidata": "Q114647790",
+        "name": "Luca",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Maison Planchot",
+      "id": "maisonplanchot-731a34",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Maison Planchot",
+        "brand:wikidata": "Q117814025",
+        "name": "Maison Planchot",
         "shop": "bakery"
       }
     },
@@ -1309,6 +1391,17 @@
       }
     },
     {
+      "displayName": "Minit",
+      "id": "minit-3ca1fa",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Minit",
+        "brand:wikidata": "Q116681166",
+        "name": "Minit",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Mlinar",
       "id": "mlinar-f94504",
       "locationSet": {
@@ -1387,6 +1480,17 @@
       "tags": {
         "brand": "Oebel",
         "name": "Oebel",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Ogi Berri",
+      "id": "ogiberri-e3bb42",
+      "locationSet": {"include": ["es", "fr"]},
+      "tags": {
+        "brand": "Ogi Berri",
+        "brand:wikidata": "Q116009401",
+        "name": "Ogi Berri",
         "shop": "bakery"
       }
     },
@@ -1545,6 +1649,16 @@
         "brand": "Piekarnia Szwajcarska",
         "brand:wikidata": "Q113308253",
         "name": "Piekarnia Szwajcarska",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Pod Telegrafem",
+      "id": "podtelegrafem-4f9c7f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Pod Telegrafem",
+        "name": "Pod Telegrafem",
         "shop": "bakery"
       }
     },
@@ -1823,7 +1937,18 @@
       }
     },
     {
-      "displayName": "Tous Les Jours",
+      "displayName": "The Cheesecake Shop",
+      "id": "thecheesecakeshop-4d3be5",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "The Cheesecake Shop",
+        "brand:wikidata": "Q117717103",
+        "name": "The Cheesecake Shop",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Tous les Jours",
       "id": "touslesjours-e39ddb",
       "locationSet": {
         "include": [
@@ -1836,9 +1961,22 @@
         ]
       },
       "tags": {
-        "brand": "Tous Les Jours",
+        "brand": "Tous les Jours",
         "brand:wikidata": "Q3535609",
-        "name": "Tous Les Jours",
+        "name": "Tous les Jours",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Uncle Tetsu's Cheesecake",
+      "id": "uncletetsuscheesecake-4f9c7f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Uncle Tetsu's Cheesecake",
+        "brand:wikidata": "Q28153939",
+        "name": "Uncle Tetsu's Cheesecake",
+        "name:en": "Uncle Tetsu's Cheesecake",
+        "name:ja": "てつおじさんの店",
         "shop": "bakery"
       }
     },
@@ -2007,6 +2145,16 @@
       }
     },
     {
+      "displayName": "Жар свежар",
+      "id": "0c0c80-44faa4",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Жар свежар",
+        "name": "Жар свежар",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Київхліб",
       "id": "3d7cfd-3664c0",
       "locationSet": {"include": ["ua"]},
@@ -2028,22 +2176,27 @@
       }
     },
     {
-      "displayName": "Кулиничи",
-      "id": "e5a0f8-3664c0",
+      "displayName": "Кулиничі",
+      "id": "kulinichi-3664c0",
       "locationSet": {"include": ["ua"]},
       "tags": {
-        "brand": "Кулиничи",
-        "name": "Кулиничи",
+        "brand": "Кулиничі",
+        "brand:wikidata": "Q117003960",
+        "name": "Кулиничі",
+        "name:en": "Kulinichi",
+        "name:ru": "Кулиничи",
+        "name:uk": "Кулиничі",
         "shop": "bakery"
       }
     },
     {
-      "displayName": "Кулиничі",
-      "id": "8a7f93-3664c0",
+      "displayName": "Сімейна пекарня",
+      "id": "a93233-3664c0",
       "locationSet": {"include": ["ua"]},
       "tags": {
-        "brand": "Кулиничі",
-        "name": "Кулиничі",
+        "brand": "Сімейна пекарня",
+        "brand:wikidata": "Q117705965",
+        "name": "Сімейна пекарня",
         "shop": "bakery"
       }
     },
@@ -2066,6 +2219,21 @@
         "brand": "Хлебник",
         "brand:wikidata": "Q110085956",
         "name": "Хлебник",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "מאפה נאמן",
+      "id": "neemanbakery-2a1629",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "מאפה נאמן",
+        "brand:en": "Neeman Bakery",
+        "brand:he": "מאפה נאמן",
+        "brand:wikidata": "Q117711642",
+        "name": "מאפה נאמן",
+        "name:en": "Neeman Bakery",
+        "name:he": "מאפה נאמן",
         "shop": "bakery"
       }
     },
@@ -2126,11 +2294,11 @@
       "matchNames": ["뚜레주르"],
       "tags": {
         "brand": "뚜레쥬르",
-        "brand:en": "Tous Les Jours",
+        "brand:en": "Tous les Jours",
         "brand:ko": "뚜레쥬르",
         "brand:wikidata": "Q3535609",
         "name": "뚜레쥬르",
-        "name:en": "Tous Les Jours",
+        "name:en": "Tous les Jours",
         "name:ko": "뚜레쥬르",
         "shop": "bakery"
       }
@@ -2307,11 +2475,11 @@
       "locationSet": {"include": ["cn"]},
       "tags": {
         "brand": "多乐之日",
-        "brand:en": "Tous Les Jours",
+        "brand:en": "Tous les Jours",
         "brand:wikidata": "Q3535609",
         "brand:zh": "多乐之日",
         "name": "多乐之日",
-        "name:en": "Tous Les Jours",
+        "name:en": "Tous les Jours",
         "name:zh": "多乐之日",
         "shop": "bakery"
       }
@@ -2501,8 +2669,8 @@
     },
     {
       "displayName": "聖安娜餅屋 Saint Honore Cake Shop",
-      "id": "sainthonorecakeshop-ebd86c",
-      "locationSet": {"include": ["hk"]},
+      "id": "sainthonorecakeshop-757d2b",
+      "locationSet": {"include": ["hk", "mo"]},
       "tags": {
         "brand": "聖安娜餅屋 Saint Honore Cake Shop",
         "brand:en": "Saint Honore Cake Shop",
@@ -2541,6 +2709,24 @@
         "name": "馬可先生",
         "name:en": "Mr. Mark",
         "name:zh": "馬可先生",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "鲍师傅",
+      "id": "baospastry-4517b3",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "brand": "鲍师傅",
+        "brand:en": "Bao's Pastry",
+        "brand:wikidata": "Q115000221",
+        "brand:zh": "鲍师傅",
+        "name": "鲍师傅",
+        "name:en": "Bao's Pastry",
+        "name:zh": "鲍师傅",
         "shop": "bakery"
       }
     }

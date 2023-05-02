@@ -104,6 +104,17 @@
       }
     },
     {
+      "displayName": "Dial-a-Bed",
+      "id": "dialabed-d8cd0b",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Dial-a-Bed",
+        "brand:wikidata": "Q116429178",
+        "name": "Dial-a-Bed",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Dreams",
       "id": "dreams-d088e6",
       "locationSet": {"include": ["gb"]},
@@ -250,6 +261,16 @@
       }
     },
     {
+      "displayName": "Ormatek",
+      "id": "ormatek-e3cd64",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Ormatek",
+        "name": "Ormatek",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Ortobom",
       "id": "ortobom-4b84fc",
       "locationSet": {"include": ["br"]},
@@ -306,6 +327,17 @@
       }
     },
     {
+      "displayName": "Sleepmasters",
+      "id": "sleepmasters-d8cd0b",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Sleepmasters",
+        "brand:wikidata": "Q116475002",
+        "name": "Sleepmasters",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Swiss Sense",
       "id": "swisssense-80dbc6",
       "locationSet": {
@@ -326,6 +358,17 @@
         "brand": "Tempur-Pedic",
         "brand:wikidata": "Q1756920",
         "name": "Tempur-Pedic",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "The Bed Store",
+      "id": "thebedstore-d8cd0b",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "The Bed Store",
+        "brand:wikidata": "Q116429563",
+        "name": "The Bed Store",
         "shop": "bed"
       }
     },

@@ -22,6 +22,18 @@
       }
     },
     {
+      "displayName": "CSD",
+      "id": "csd-c54d89",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["тов сі ес ді лаб"],
+      "tags": {
+        "brand": "CSD",
+        "brand:wikidata": "Q117382737",
+        "healthcare": "sample_collection",
+        "name": "CSD"
+      }
+    },
+    {
       "displayName": "Diagnostyka",
       "id": "diagnostyka-42d0f5",
       "locationSet": {"include": ["pl"]},

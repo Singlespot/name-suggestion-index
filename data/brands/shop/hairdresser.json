@@ -24,6 +24,7 @@
         "^biguine$",
         "^espace coiffure$",
         "^glamour$",
+        "^ihr friseur$",
         "^new look$",
         "^schnittpunkt$"
       ]
@@ -67,6 +68,18 @@
       }
     },
     {
+      "displayName": "BrainWash",
+      "id": "brainwash-7f2667",
+      "locationSet": {"include": ["nl"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "BrainWash",
+        "brand:wikidata": "Q114905133",
+        "name": "BrainWash",
+        "shop": "hairdresser"
+      }
+    },
+    {
       "displayName": "Camille Albane",
       "id": "camillealbane-40f1cc",
       "locationSet": {"include": ["fr"]},
@@ -90,10 +103,13 @@
     },
     {
       "displayName": "Coiff&Co",
-      "id": "coiffandco-40f1cc",
-      "locationSet": {"include": ["fr"]},
+      "id": "coiffandco-232a64",
+      "locationSet": {
+        "include": ["be", "ch", "fr"]
+      },
       "tags": {
         "brand": "Coiff&Co",
+        "brand:wikidata": "Q115013410",
         "name": "Coiff&Co",
         "shop": "hairdresser"
       }
@@ -337,14 +353,27 @@
     },
     {
       "displayName": "Jean Louis David",
-      "id": "jeanlouisdavid-c24876",
+      "id": "jeanlouisdavid-b4b07d",
       "locationSet": {
-        "include": ["es", "fr", "it", "pl"]
+        "include": ["es", "fr", "it", "pl", "pt"]
       },
       "tags": {
         "brand": "Jean Louis David",
         "brand:wikidata": "Q64445174",
         "name": "Jean Louis David",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "Just Cuts",
+      "id": "justcuts-f77181",
+      "locationSet": {
+        "include": ["au", "gb", "nz", "tw"]
+      },
+      "tags": {
+        "brand": "Just Cuts",
+        "brand:wikidata": "Q116784479",
+        "name": "Just Cuts",
         "shop": "hairdresser"
       }
     },
@@ -379,6 +408,21 @@
         "brand": "Klipp",
         "brand:wikidata": "Q1737304",
         "name": "Klipp",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "Legends Barber",
+      "id": "legendsbarber-5e2ac6",
+      "locationSet": {
+        "include": ["bw", "ls", "na", "za"]
+      },
+      "matchNames": ["legends barbershop"],
+      "tags": {
+        "brand": "Legends Barber",
+        "brand:wikidata": "Q116895407",
+        "male": "yes",
+        "name": "Legends Barber",
         "shop": "hairdresser"
       }
     },
@@ -455,6 +499,17 @@
         "brand": "Passaró",
         "brand:wikidata": "Q109264394",
         "name": "Passaró",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "Peluquería Low Cost",
+      "id": "peluquerialowcost-5e03c5",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Peluquería Low Cost",
+        "brand:wikidata": "Q115775082",
+        "name": "Peluquería Low Cost",
         "shop": "hairdresser"
       }
     },
@@ -732,6 +787,16 @@
       }
     },
     {
+      "displayName": "Светлана",
+      "id": "e18b4b-ece769",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Светлана",
+        "name": "Светлана",
+        "shop": "hairdresser"
+      }
+    },
+    {
       "displayName": "Фея",
       "id": "95dd71-8106f0",
       "locationSet": {"include": ["ru", "ua"]},
@@ -748,6 +813,16 @@
       "tags": {
         "brand": "Чио Чио",
         "name": "Чио Чио",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "Эконом",
+      "id": "0c3de9-ece769",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Эконом",
+        "name": "Эконом",
         "shop": "hairdresser"
       }
     },

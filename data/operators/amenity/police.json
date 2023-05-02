@@ -8,7 +8,8 @@
         "^中华人民共和国公安部"
       ],
       "named": [
-        "(corpo forestale dello stato|polizia stradale)"
+        "^corpo forestale dello stato$",
+        "^polizia (locale|municipale)$"
       ]
     }
   },
@@ -319,9 +320,12 @@
     },
     {
       "displayName": "Devon and Cornwall Police",
-      "id": "devonandcornwallpolice-64bb71",
+      "id": "devonandcornwallpolice-4da082",
       "locationSet": {
-        "include": ["gb-devon-cornwall.geojson"]
+        "include": [
+          "gb-con.geojson",
+          "gb-dev.geojson"
+        ]
       },
       "tags": {
         "amenity": "police",
@@ -1544,6 +1548,26 @@
       }
     },
     {
+      "displayName": "Polícia Civil do Estado de Minas Gerais",
+      "id": "policiacivildoestadodeminasgerais-f7f40a",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Polícia Civil do Estado de Minas Gerais",
+        "operator:wikidata": "Q10350987"
+      }
+    },
+    {
+      "displayName": "Polícia Civil do Estado de Santa Catarina",
+      "id": "policiacivildoestadodesantacatarina-f7f40a",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Polícia Civil do Estado de Santa Catarina",
+        "operator:wikidata": "Q10350990"
+      }
+    },
+    {
       "displayName": "Polícia Civil do Estado de São Paulo",
       "id": "policiacivildoestadodesaopaulo-f7f40a",
       "locationSet": {"include": ["br"]},
@@ -1551,6 +1575,16 @@
         "amenity": "police",
         "operator": "Polícia Civil do Estado de São Paulo",
         "operator:wikidata": "Q10350993"
+      }
+    },
+    {
+      "displayName": "Polícia Civil do Estado do Espírito Santo",
+      "id": "policiacivildoestadodoespiritosanto-f7f40a",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Polícia Civil do Estado do Espírito Santo",
+        "operator:wikidata": "Q10350997"
       }
     },
     {
@@ -1584,6 +1618,16 @@
       }
     },
     {
+      "displayName": "Policía de la Provincia de Córdoba",
+      "id": "policiadelaprovinciadecordoba-e73d55",
+      "locationSet": {"include": ["ar"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Policía de la Provincia de Córdoba",
+        "operator:wikidata": "Q5202729"
+      }
+    },
+    {
       "displayName": "Policía de la Provincia de Entre Ríos",
       "id": "policiadelaprovinciadeentrerios-e73d55",
       "locationSet": {"include": ["ar"]},
@@ -1611,6 +1655,16 @@
         "amenity": "police",
         "operator": "Policía de la Provincia de Neuquén",
         "operator:wikidata": "Q21003376"
+      }
+    },
+    {
+      "displayName": "Policía de la Provincia de Santa Fe",
+      "id": "policiadelaprovinciadesantafe-e73d55",
+      "locationSet": {"include": ["ar"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Policía de la Provincia de Santa Fe",
+        "operator:wikidata": "Q11699942"
       }
     },
     {
@@ -2136,6 +2190,16 @@
       }
     },
     {
+      "displayName": "Polis Diraja Malaysia",
+      "id": "polisdirajamalaysia-6c0ab9",
+      "locationSet": {"include": ["my"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Polis Diraja Malaysia",
+        "operator:wikidata": "Q1664804"
+      }
+    },
+    {
       "displayName": "Polizei Baden-Württemberg",
       "id": "polizeibadenwurttemberg-d0f2fb",
       "locationSet": {
@@ -2333,32 +2397,14 @@
       "displayName": "Polizia di Stato",
       "id": "poliziadistato-f71f16",
       "locationSet": {"include": ["it"]},
-      "matchNames": ["polizia"],
+      "matchNames": [
+        "polizia",
+        "polizia stradale"
+      ],
       "tags": {
         "amenity": "police",
         "operator": "Polizia di Stato",
         "operator:wikidata": "Q897817"
-      }
-    },
-    {
-      "displayName": "Polizia Locale",
-      "id": "polizialocale-f71f16",
-      "locationSet": {"include": ["it"]},
-      "tags": {
-        "amenity": "police",
-        "operator": "Polizia Locale",
-        "operator:wikidata": "Q61634147"
-      }
-    },
-    {
-      "displayName": "Polizia Municipale",
-      "id": "poliziamunicipale-f71f16",
-      "locationSet": {"include": ["it"]},
-      "matchNames": ["vigili urbani"],
-      "tags": {
-        "amenity": "police",
-        "operator": "Polizia Municipale",
-        "operator:wikidata": "Q1431981"
       }
     },
     {
@@ -2416,6 +2462,19 @@
       }
     },
     {
+      "displayName": "Royal Newfoundland Constabulary",
+      "id": "royalnewfoundlandconstabulary-40e165",
+      "locationSet": {
+        "include": ["ca-nl.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "Royal Newfoundland Constabulary",
+        "operator:short": "RNC",
+        "operator:wikidata": "Q3560901"
+      }
+    },
+    {
       "displayName": "Royal Papua New Guinea Constabulary",
       "id": "royalpapuanewguineaconstabulary-2d366c",
       "locationSet": {"include": ["pg"]},
@@ -2437,6 +2496,19 @@
         "operator:short": "RTP",
         "operator:th": "ตำรวจแห่งชาติ",
         "operator:wikidata": "Q1831399"
+      }
+    },
+    {
+      "displayName": "San Bernardino County Sheriff's Department",
+      "id": "sanbernardinocountysheriffsdepartment-5ab5b5",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "San Bernardino County Sheriff's Department",
+        "operator:short": "SBSD",
+        "operator:wikidata": "Q7413430"
       }
     },
     {
@@ -2811,10 +2883,14 @@
     },
     {
       "displayName": "Wiltshire Police",
-      "id": "wiltshirepolice-e37317",
+      "id": "wiltshirepolice-b499c8",
       "locationSet": {
-        "include": ["gb-south-west.geojson"]
+        "include": [
+          "gb-swd.geojson",
+          "gb-wil.geojson"
+        ]
       },
+      "matchNames": ["wiltshire constabulary"],
       "tags": {
         "amenity": "police",
         "operator": "Wiltshire Police",
@@ -2851,6 +2927,7 @@
       "displayName": "Министерство на вътрешните работи",
       "id": "8bb510-7ca227",
       "locationSet": {"include": ["bg"]},
+      "matchNames": ["мвр"],
       "tags": {
         "amenity": "police",
         "operator": "Министерство на вътрешните работи",
@@ -2980,6 +3057,18 @@
       }
     },
     {
+      "displayName": "山形県警察",
+      "id": "yamagataprefecturalpolice-ae5e65",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "山形県警察",
+        "operator:en": "Yamagata Prefectural Police",
+        "operator:ja": "山形県警察",
+        "operator:wikidata": "Q11468579"
+      }
+    },
+    {
       "displayName": "岩手県警察本部",
       "id": "iwateprefecturalpolice-ae5e65",
       "locationSet": {"include": ["jp"]},
@@ -3008,6 +3097,16 @@
         "operator:en": "New Taipei City Police Department",
         "operator:wikidata": "Q11081385",
         "operator:zh": "新北市政府警察局"
+      }
+    },
+    {
+      "displayName": "新庄警察署",
+      "id": "0a5e2f-ae5e65",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "新庄警察署",
+        "operator:wikidata": "Q11502228"
       }
     },
     {
@@ -3176,6 +3275,16 @@
       "tags": {
         "amenity": "police",
         "operator": "那覇警察署"
+      }
+    },
+    {
+      "displayName": "酒田警察署",
+      "id": "241ff3-ae5e65",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "酒田警察署",
+        "operator:wikidata": "Q11644362"
       }
     },
     {

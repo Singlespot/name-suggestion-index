@@ -5,6 +5,11 @@
       "amenity/gambling",
       "leisure/adult_gaming_centre"
     ],
+    "bar": [
+      "amenity/bar",
+      "amenity/pub",
+      "amenity/restaurant"
+    ],
     "beauty": [
       "shop/beauty",
       "shop/hairdresser_supply"
@@ -100,11 +105,9 @@
       "leisure/sports_center"
     ],
     "food": [
-      "amenity/bar",
       "amenity/cafe",
       "amenity/fast_food",
       "amenity/ice_cream",
-      "amenity/pub",
       "amenity/restaurant",
       "shop/bakery",
       "shop/candy",
@@ -216,7 +219,9 @@
       "amenity/truck_rental",
       "amenity/vehicle_rental",
       "shop/kiosk",
-      "shop/rental"
+      "shop/plant_hire",
+      "shop/rental",
+      "shop/tool_hire"
     ],
     "school": [
       "amenity/childcare",
@@ -243,6 +248,11 @@
       "shop/grocery",
       "shop/supermarket",
       "shop/wholesale"
+    ],
+    "thrift": [
+      "shop/charity",
+      "shop/clothes",
+      "shop/second_hand"
     ],
     "variety_store": [
       "shop/variety_store",

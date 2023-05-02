@@ -4,7 +4,8 @@
     "exclude": {
       "generic": [
         "^(edicola|newsagent|tabac presse|trafika?)$",
-        "^(печать|пресса|табак(ерка)?)$"
+        "^(печать|пресса|табак(ерка)?)$",
+        "^преса$"
       ]
     }
   },
@@ -57,6 +58,18 @@
       }
     },
     {
+      "displayName": "GECO",
+      "id": "geco-5d4c3a",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": ["geco tabak"],
+      "tags": {
+        "brand": "GECO",
+        "brand:wikidata": "Q12017963",
+        "name": "GECO",
+        "shop": "newsagent"
+      }
+    },
+    {
       "displayName": "Hudson News",
       "id": "hudsonnews-a0252c",
       "locationSet": {"include": ["ca", "us"]},
@@ -65,6 +78,17 @@
         "brand": "Hudson News",
         "brand:wikidata": "Q5928787",
         "name": "Hudson News",
+        "shop": "newsagent"
+      }
+    },
+    {
+      "displayName": "inmedio",
+      "id": "inmedio-1fb2fe",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "inmedio",
+        "brand:wikidata": "Q114053635",
+        "name": "inmedio",
         "shop": "newsagent"
       }
     },
@@ -83,8 +107,10 @@
     },
     {
       "displayName": "k kiosk",
-      "id": "kkiosk-49035c",
-      "locationSet": {"include": ["ch"]},
+      "id": "kkiosk-3673ad",
+      "locationSet": {
+        "include": ["ch", "de", "li", "lu"]
+      },
       "tags": {
         "brand": "k kiosk",
         "brand:wikidata": "Q60381703",
@@ -131,15 +157,17 @@
       "locationSet": {"include": ["gb"]},
       "tags": {
         "brand": "Martin's",
-        "brand:wikidata": "Q16997477",
+        "brand:wikidata": "Q116779207",
         "name": "Martin's",
         "shop": "newsagent"
       }
     },
     {
       "displayName": "Press & Books",
-      "id": "pressandbooks-ae6a07",
-      "locationSet": {"include": ["de"]},
+      "id": "pressandbooks-b35c93",
+      "locationSet": {
+        "include": ["at", "ch", "de", "lu"]
+      },
       "matchNames": ["p&k"],
       "tags": {
         "brand": "Press & Books",
@@ -182,6 +210,18 @@
       }
     },
     {
+      "displayName": "Tabak Press",
+      "id": "tabakpress-5d4c3a",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": ["gg tabak"],
+      "tags": {
+        "brand": "Tabak Press",
+        "brand:wikidata": "Q110264693",
+        "name": "Tabak Press",
+        "shop": "newsagent"
+      }
+    },
+    {
       "displayName": "WHSmith",
       "id": "whsmith-e6d891",
       "locationSet": {"include": ["001"]},
@@ -209,6 +249,26 @@
       }
     },
     {
+      "displayName": "Белсаюздрук",
+      "id": "28555b-e6d891",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Белсаюздрук",
+        "name": "Белсаюздрук",
+        "shop": "newsagent"
+      }
+    },
+    {
+      "displayName": "Віцебскаблсаюздрук",
+      "id": "e998e8-e6d891",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Віцебскаблсаюздрук",
+        "name": "Віцебскаблсаюздрук",
+        "shop": "newsagent"
+      }
+    },
+    {
       "displayName": "Первая полоса",
       "id": "f363b9-313f17",
       "locationSet": {"include": ["ru"]},
@@ -216,16 +276,6 @@
         "brand": "Первая полоса",
         "brand:wikidata": "Q62736412",
         "name": "Первая полоса",
-        "shop": "newsagent"
-      }
-    },
-    {
-      "displayName": "Преса",
-      "id": "6007bd-0307ab",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "brand": "Преса",
-        "name": "Преса",
         "shop": "newsagent"
       }
     },

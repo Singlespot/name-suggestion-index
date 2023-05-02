@@ -438,7 +438,7 @@
     },
     {
       "displayName": "Columbia Asia Hospital",
-      "id": "columbiaasiahospital-fcf381",
+      "id": "columbiaasia-fcf381",
       "locationSet": {
         "include": ["id", "my", "vn"]
       },
@@ -609,6 +609,17 @@
       }
     },
     {
+      "displayName": "Dr. Agarwal's Eye Hospital",
+      "id": "dragarwalseyehospital-585fc8",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Dr. Agarwal's Eye Hospital",
+        "operator:wikidata": "Q17052044"
+      }
+    },
+    {
       "displayName": "Dr. Becker Klinikgruppe",
       "id": "drbeckerklinikgruppe-8bb61e",
       "locationSet": {"include": ["de"]},
@@ -617,6 +628,21 @@
         "healthcare": "hospital",
         "operator": "Dr. Becker Klinikgruppe",
         "operator:wikidata": "Q1253817"
+      }
+    },
+    {
+      "displayName": "Eastern Cape Department of Health",
+      "id": "easterncapedepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "eastern cape health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Eastern Cape Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648805"
       }
     },
     {
@@ -643,7 +669,7 @@
     },
     {
       "displayName": "Employees' State Insurance (India)",
-      "id": "esihospital-585fc8",
+      "id": "employeesstateinsurance-585fc8",
       "locationSet": {"include": ["in"]},
       "tags": {
         "amenity": "hospital",
@@ -723,6 +749,46 @@
         "healthcare": "hospital",
         "operator": "Fraser Health Authority",
         "operator:wikidata": "Q5493608"
+      }
+    },
+    {
+      "displayName": "Free State Department of Health",
+      "id": "freestatedepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "free state health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Free State Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648781"
+      }
+    },
+    {
+      "displayName": "Gauteng Department of Health",
+      "id": "gautengdepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["gauteng health department"],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Gauteng Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650582"
+      }
+    },
+    {
+      "displayName": "Generalitat Valenciana",
+      "id": "generalitatvalenciana-34fe48",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Generalitat Valenciana",
+        "operator:type": "public",
+        "operator:wikidata": "Q2477285"
       }
     },
     {
@@ -828,6 +894,16 @@
         "healthcare": "hospital",
         "operator": "Helios Kliniken",
         "operator:wikidata": "Q1254151"
+      }
+    },
+    {
+      "displayName": "Hospital Kuala Lumpur (HKL)",
+      "id": "hospitalkualalumpurhkl-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Hospital Kuala Lumpur (HKL)"
       }
     },
     {
@@ -1017,6 +1093,23 @@
       }
     },
     {
+      "displayName": "KwaZulu-Natal Department of Health",
+      "id": "kwazulunataldepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "kwazulu-natal health department",
+        "kzn department of health",
+        "kzn health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "KwaZulu-Natal Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116647976"
+      }
+    },
+    {
       "displayName": "Legacy Medical Group",
       "id": "legacyhealth-6cad9c",
       "locationSet": {
@@ -1033,6 +1126,20 @@
       }
     },
     {
+      "displayName": "Lenmed",
+      "id": "lenmed-56725c",
+      "locationSet": {
+        "include": ["bw", "mz", "za"]
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Lenmed",
+        "operator:type": "private",
+        "operator:wikidata": "Q116712300"
+      }
+    },
+    {
       "displayName": "Life Healthcare",
       "id": "lifehealthcare-650276",
       "locationSet": {"include": ["za"]},
@@ -1041,6 +1148,19 @@
         "healthcare": "hospital",
         "operator": "Life Health Care",
         "operator:wikidata": "Q6458636"
+      }
+    },
+    {
+      "displayName": "Limpopo Department of Health",
+      "id": "limpopodepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["limpopo health department"],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Limpopo Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650591"
       }
     },
     {
@@ -1069,6 +1189,16 @@
         "healthcare": "hospital",
         "operator": "Maidstone and Tunbridge Wells NHS Trust",
         "operator:wikidata": "Q16997207"
+      }
+    },
+    {
+      "displayName": "MALC",
+      "id": "malc-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "MALC"
       }
     },
     {
@@ -1147,6 +1277,18 @@
         "healthcare": "hospital",
         "operator": "Mediclinic",
         "operator:wikidata": "Q1916123"
+      }
+    },
+    {
+      "displayName": "Medicross",
+      "id": "medicross-650276",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Medicross",
+        "operator:type": "private",
+        "operator:wikidata": "Q116711654"
       }
     },
     {
@@ -1464,6 +1606,19 @@
       }
     },
     {
+      "displayName": "Ministerstvo zdravotníctva Slovenskej republiky",
+      "id": "ministerstvozdravotnictvaslovenskejrepubliky-ecf182",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Ministerstvo zdravotníctva Slovenskej republiky",
+        "operator:short": "MZ SR",
+        "operator:type": "public",
+        "operator:wikidata": "Q12771754"
+      }
+    },
+    {
       "displayName": "Ministry of Health (Kenya)",
       "id": "ministryofhealth-aa1e94",
       "locationSet": {"include": ["ke"]},
@@ -1573,6 +1728,21 @@
       }
     },
     {
+      "displayName": "Mpumalanga Deparment of Health",
+      "id": "mpumalangadeparmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "mpumalanga health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Mpumalanga Deparment of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648411"
+      }
+    },
+    {
       "displayName": "MS",
       "id": "ms-8532a9",
       "locationSet": {"include": ["bf"]},
@@ -1662,6 +1832,36 @@
       }
     },
     {
+      "displayName": "North West Department of Health",
+      "id": "northwestdepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "north west health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "North West Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650993"
+      }
+    },
+    {
+      "displayName": "Northern Cape Department of Health",
+      "id": "northerncapedepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "northern cape health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Northern Cape Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116648560"
+      }
+    },
+    {
       "displayName": "Northwell Health",
       "id": "northwellhealth-27bc64",
       "locationSet": {
@@ -1672,6 +1872,22 @@
         "healthcare": "hospital",
         "operator": "Northwell Health",
         "operator:wikidata": "Q7056650"
+      }
+    },
+    {
+      "displayName": "Northwestern Medicine",
+      "id": "northwesternmedicine-1d2216",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "matchNames": [
+        "northwestern memorial healthcare"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Northwestern Medicine",
+        "operator:wikidata": "Q50036890"
       }
     },
     {
@@ -1718,6 +1934,16 @@
         "healthcare": "hospital",
         "operator": "OhioHealth",
         "operator:wikidata": "Q7080724"
+      }
+    },
+    {
+      "displayName": "Osakidetza",
+      "id": "osakidetza-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Osakidetza"
       }
     },
     {
@@ -1813,8 +2039,8 @@
     },
     {
       "displayName": "QRDSM",
-      "id": "qrdsm-fbd4f5",
-      "locationSet": {"include": ["001"]},
+      "id": "qrdsm-dcd498",
+      "locationSet": {"include": ["uz"]},
       "tags": {
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -1867,12 +2093,22 @@
     },
     {
       "displayName": "RSUD Selayar",
-      "id": "rsudselayar-fbd4f5",
-      "locationSet": {"include": ["001"]},
+      "id": "rsudselayar-03d8c5",
+      "locationSet": {"include": ["id"]},
       "tags": {
         "amenity": "hospital",
         "healthcare": "hospital",
         "operator": "RSUD Selayar"
+      }
+    },
+    {
+      "displayName": "SACYL",
+      "id": "sacyl-34fe48",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "SACYL"
       }
     },
     {
@@ -1944,6 +2180,16 @@
       }
     },
     {
+      "displayName": "Secretaria da Saúde",
+      "id": "secretariadasaude-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Secretaria da Saúde"
+      }
+    },
+    {
       "displayName": "Secretaria da Saúde do Estado do Ceará",
       "id": "secretariadasaudedoestadodoceara-d30bb4",
       "locationSet": {"include": ["br"]},
@@ -1951,6 +2197,16 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "operator": "Secretaria da Saúde do Estado do Ceará"
+      }
+    },
+    {
+      "displayName": "Secretaria de Estado da Saúde",
+      "id": "secretariadeestadodasaude-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Secretaria de Estado da Saúde"
       }
     },
     {
@@ -2007,6 +2263,16 @@
         "healthcare": "hospital",
         "operator": "Sentara Healthcare",
         "operator:wikidata": "Q7451179"
+      }
+    },
+    {
+      "displayName": "Servicio Andaluz de Salud",
+      "id": "servicioandaluzdesalud-34fe48",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Servicio Andaluz de Salud"
       }
     },
     {
@@ -2148,6 +2414,18 @@
         "healthcare": "hospital",
         "operator": "Sutter Health",
         "operator:wikidata": "Q7650154"
+      }
+    },
+    {
+      "displayName": "Svet zdravia",
+      "id": "svetzdravia-ecf182",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Svet zdravia",
+        "operator:type": "private",
+        "operator:wikidata": "Q96137636"
       }
     },
     {
@@ -2298,7 +2576,7 @@
     },
     {
       "displayName": "VA Medical Center",
-      "id": "vamedicalcenter-888e5a",
+      "id": "veteranshealthadministration-888e5a",
       "locationSet": {"include": ["us"]},
       "matchNames": [
         "department of veterans affairs medical center",
@@ -2322,6 +2600,16 @@
       }
     },
     {
+      "displayName": "Västra Götalandsregionen",
+      "id": "vastragotalandsregionen-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Västra Götalandsregionen"
+      }
+    },
+    {
       "displayName": "Vivantes",
       "id": "vivantes-8bb61e",
       "locationSet": {"include": ["de"]},
@@ -2330,6 +2618,22 @@
         "healthcare": "hospital",
         "operator": "Vivantes",
         "operator:wikidata": "Q878059"
+      }
+    },
+    {
+      "displayName": "Western Cape Department of Health",
+      "id": "westerncapedepartmentofhealth-650276",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "department of health and wellness",
+        "western cape health department"
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Western Cape Department of Health",
+        "operator:type": "government",
+        "operator:wikidata": "Q116650992"
       }
     },
     {
@@ -2369,8 +2673,8 @@
     },
     {
       "displayName": "Городская клиническая больница №20 им. И.С. Берзона",
-      "id": "58dff7-fbd4f5",
-      "locationSet": {"include": ["001"]},
+      "id": "58dff7-7b7c97",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -2381,10 +2685,33 @@
       "displayName": "وزارة الصحة",
       "id": "1d9246-fbd4f5",
       "locationSet": {"include": ["001"]},
+      "note": "Translation says this means Ministry of Health, may be generic name, but found in multiple countries.",
       "tags": {
         "amenity": "hospital",
         "healthcare": "hospital",
         "operator": "وزارة الصحة"
+      }
+    },
+    {
+      "displayName": "وزارة الصحه",
+      "id": "134872-fbd4f5",
+      "locationSet": {"include": ["001"]},
+      "note": "Translation says this means Ministry of Health, may be generic name, but found in multiple countries.",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "وزارة الصحه"
+      }
+    },
+    {
+      "displayName": "哈尔滨医科大学",
+      "id": "f5a5f0-618ef1",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "哈尔滨医科大学",
+        "operator:wikidata": "Q10921986"
       }
     },
     {
@@ -2401,6 +2728,19 @@
         "operator:zh": "醫院管理局",
         "operator:zh-Hans": "医院管理局",
         "operator:zh-Hant": "醫院管理局"
+      }
+    },
+    {
+      "displayName": "首都医科大学",
+      "id": "capitalmedicaluniversity-618ef1",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "首都医科大学",
+        "operator:en": "Capital Medical University",
+        "operator:wikidata": "Q5035687",
+        "operator:zh": "首都医科大学"
       }
     }
   ]

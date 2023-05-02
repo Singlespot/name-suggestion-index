@@ -99,6 +99,12 @@
       }
     },
     {
+      "displayName": "AT",
+      "id": "at-44bbb3",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "AT", "route": "train"}
+    },
+    {
       "displayName": "Augsburger Verkehrs- und Tarifverbund",
       "id": "augsburgerverkehrsundtarifverbund-edce54",
       "locationSet": {
@@ -432,6 +438,7 @@
       "displayName": "Elizabeth line",
       "id": "elizabethline-67e2a7",
       "locationSet": {"include": ["gb"]},
+      "matchNames": ["tfl rail"],
       "tags": {
         "network": "Elizabeth line",
         "network:wikidata": "Q111297173",
@@ -530,6 +537,16 @@
       "locationSet": {"include": ["it"]},
       "tags": {
         "network": "Ferrovie Nord",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Fertagus",
+      "id": "fertagus-3ee463",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "operator": "Fertagus",
+        "operator:wikidata": "Q1408210",
         "route": "train"
       }
     },
@@ -698,6 +715,22 @@
       }
     },
     {
+      "displayName": "Iryo",
+      "id": "iryo-8dd936",
+      "locationSet": {"include": ["es"]},
+      "matchNames": [
+        "intermodalidad del levante"
+      ],
+      "tags": {
+        "network": "Iryo",
+        "network:wikidata": "Q104884461",
+        "operator": "Intermodalidad de Levante",
+        "operator:short": "ILSA",
+        "operator:wikidata": "Q111296380",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "JR",
       "id": "jr-717a77",
       "locationSet": {"include": ["jp"]},
@@ -710,6 +743,26 @@
       "locationSet": {"include": ["ch"]},
       "tags": {
         "network": "Jungfraubahnen",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "KAI",
+      "id": "kai-305460",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "network": "KAI",
+        "network:wikidata": "Q2745027",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "KAI Commuter",
+      "id": "kaicommuter-305460",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "network": "KAI Commuter",
+        "network:wikidata": "Q12501611",
         "route": "train"
       }
     },
@@ -815,6 +868,17 @@
       }
     },
     {
+      "displayName": "Łódzka Kolej Aglomeracyjna",
+      "id": "lodzkakolejaglomeracyjna-7a26af",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "network": "Łódzka Kolej Aglomeracyjna",
+        "network:short": "ŁKA",
+        "network:wikidata": "Q9395008",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "London Overground",
       "id": "londonoverground-18208c",
       "locationSet": {"include": ["gb-eng"]},
@@ -868,6 +932,16 @@
       "tags": {
         "network": "MBTA",
         "network:wikidata": "Q171985",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Merseyrail",
+      "id": "merseyrail-67e2a7",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "network": "Merseyrail",
+        "network:wikidata": "Q1922100",
         "route": "train"
       }
     },
@@ -1170,8 +1244,15 @@
       "displayName": "Northern",
       "id": "northern-18208c",
       "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "northern trains",
+        "northern trains limited"
+      ],
       "tags": {
         "network": "Northern",
+        "network:wikidata": "Q85789775",
+        "operator": "Northern",
+        "operator:wikidata": "Q85789775",
         "route": "train"
       }
     },
@@ -1396,6 +1477,16 @@
       }
     },
     {
+      "displayName": "Rete celere del Canton Ticino",
+      "id": "reteceleredelcantonticino-66b763",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "network": "Rete celere del Canton Ticino",
+        "network:wikidata": "Q472259",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Rhein-Main-Verkehrsverbund",
       "id": "rheinmainverkehrsverbund-da20e0",
       "locationSet": {"include": ["de"]},
@@ -1554,6 +1645,16 @@
       "tags": {
         "network": "SITAM",
         "network:wikidata": "Q3943669",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "SJ",
+      "id": "sj-ce5db4",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "network": "SJ",
+        "network:wikidata": "Q8301325",
         "route": "train"
       }
     },
@@ -1827,18 +1928,6 @@
       }
     },
     {
-      "displayName": "TfL Rail",
-      "id": "tflrail-18208c",
-      "locationSet": {"include": ["gb-eng"]},
-      "tags": {
-        "network": "TfL Rail",
-        "network:wikidata": "Q18160926",
-        "operator": "Transport for London",
-        "operator:wikidata": "Q682520",
-        "route": "train"
-      }
-    },
-    {
       "displayName": "TGV",
       "id": "tgv-7d2d57",
       "locationSet": {
@@ -1876,11 +1965,13 @@
     },
     {
       "displayName": "TNW",
-      "id": "tarifverbundnordwestschweiz-d5549f",
+      "id": "tnw-d5549f",
       "locationSet": {"include": ["ch"]},
+      "matchNames": [
+        "tarifverbund nordwestschweiz"
+      ],
       "tags": {
-        "network": "Tarifverbund Nordwestschweiz",
-        "network:short": "TNW",
+        "network": "TNW",
         "network:wikidata": "Q1479394",
         "route": "train"
       }
@@ -1939,13 +2030,25 @@
       }
     },
     {
-      "displayName": "Transpennine",
+      "displayName": "Transpennine Express",
       "id": "transpennine-67e2a7",
       "locationSet": {"include": ["gb"]},
+      "matchNames": ["tpe"],
       "tags": {
         "network": "Transpennine",
+        "network:wikidata": "Q23925190",
         "operator": "Transpennine Express",
         "operator:wikidata": "Q23925190",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Transperth",
+      "id": "transperth-cffedd",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "network": "Transperth",
+        "network:wikidata": "Q1503488",
         "route": "train"
       }
     },
@@ -2222,6 +2325,17 @@
       }
     },
     {
+      "displayName": "Verkehrsverbund Vorarlberg",
+      "id": "verkehrsverbundvorarlberg-70a9a9",
+      "locationSet": {"include": ["at"]},
+      "tags": {
+        "network": "Verkehrsverbund Vorarlberg",
+        "network:short": "VVV",
+        "network:wikidata": "Q2516495",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "VIA Rail",
       "id": "viarail-11f910",
       "locationSet": {"include": ["ca"]},
@@ -2310,11 +2424,10 @@
     },
     {
       "displayName": "West Somerset Railway",
-      "id": "westsomersetrailway-2ffdd6",
+      "id": "westsomersetrailway-2c56d6",
       "locationSet": {
-        "include": [[-3.21, 51.12]]
+        "include": ["gb-som.geojson"]
       },
-      "note": "Located in Somerset (gb-som), England (gb-eng)",
       "tags": {
         "network": "West Somerset Railway",
         "network:wikidata": "Q12072724",
@@ -2324,12 +2437,34 @@
       }
     },
     {
-      "displayName": "Zürcher Verkehrsverbund",
-      "id": "zurcherverkehrsverbund-91ea8f",
-      "locationSet": {"include": ["ch", "de"]},
+      "displayName": "ZSSK",
+      "id": "zssk-b6707b",
+      "locationSet": {"include": ["sk"]},
       "tags": {
-        "network": "Zürcher Verkehrsverbund",
-        "network:short": "ZVV",
+        "network": "ZSSK",
+        "network:wikidata": "Q837019",
+        "operator": "ZSSK",
+        "operator:wikidata": "Q393557",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "ZTM Warszawa",
+      "id": "ztmwarszawa-7a26af",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "network": "ZTM Warszawa",
+        "network:wikidata": "Q8066998",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "ZVV",
+      "id": "zvv-91ea8f",
+      "locationSet": {"include": ["ch", "de"]},
+      "matchNames": ["zürcher verkehrsverbund"],
+      "tags": {
+        "network": "ZVV",
         "network:wikidata": "Q201977",
         "route": "train"
       }
@@ -2366,6 +2501,18 @@
       }
     },
     {
+      "displayName": "Октябрьская железная дорога",
+      "id": "oktyabrskayarailway-4f6875",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "network": "Октябрьская железная дорога",
+        "network:en": "Oktyabrskaya Railway",
+        "network:ru": "Октябрьская железная дорога",
+        "network:wikidata": "Q1327441",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "РЖД",
       "id": "rzd-4f6875",
       "locationSet": {"include": ["ru"]},
@@ -2386,6 +2533,15 @@
         "network:en": "Ukrzaliznytsia",
         "network:uk": "Укрзалізниця",
         "network:wikidata": "Q923337",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "სს \"საქართველოს რკინიგზა\"",
+      "id": "dd43c0-44bbb3",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "სს \"საქართველოს რკინიგზა\"",
         "route": "train"
       }
     },
@@ -2447,10 +2603,27 @@
     },
     {
       "displayName": "台灣高鐵",
-      "id": "1bbfa9-acc966",
+      "id": "taiwanhighspeedrail-acc966",
       "locationSet": {"include": ["tw"]},
       "tags": {
         "network": "台灣高鐵",
+        "network:en": "Taiwan High Speed Rail",
+        "network:nan": "Tâi-oân Ko-thih",
+        "network:nan-HJ": "台灣高鐵",
+        "network:nan-POJ": "Tâi-oân Ko-thih",
+        "network:nan-TL": "Tâi-uân Ko-thih",
+        "network:short_name": "THSR",
+        "network:wikidata": "Q706198",
+        "network:zh": "台灣高鐵",
+        "operator": "台灣高速鐵路股份有限公司",
+        "operator:en": "Taiwan High Speed Rail Corporation",
+        "operator:nan": "Tâi-oân Ko-sok-thih-lō͘ Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-HJ": "台灣高速鐵路股份有限公司",
+        "operator:nan-POJ": "Tâi-oân Ko-sok-thih-lō͘ Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-TL": "Tâi-uân Ko-sok Thih-lōo Iú-hān Kong-si",
+        "operator:short": "台灣高鐵公司",
+        "operator:wikidata": "Q10915767",
+        "operator:zh": "台灣高速鐵路股份有限公司",
         "route": "train"
       }
     },
@@ -2553,6 +2726,31 @@
       "locationSet": {"include": ["jp"]},
       "tags": {
         "network": "池袋線系統",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "臺鐵",
+      "id": "taiwanrailway-acc966",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "network": "臺鐵",
+        "network:en": "Taiwan Railway",
+        "network:nan": "Tâi-thih",
+        "network:nan-HJ": "臺鐵",
+        "network:nan-POJ": "Tâi-thih",
+        "network:nan-TL": "Tâi-thih",
+        "network:wikidata": "Q30941702",
+        "network:zh": "臺鐵",
+        "operator": "臺灣鐵路管理局",
+        "operator:en": "Taiwan Railway Administration",
+        "operator:nan": "Tâi-oân Thih-lō͘ Koán-lí-kio̍k",
+        "operator:nan-HJ": "臺灣鐵路管理局",
+        "operator:nan-POJ": "Tâi-oân Thih-lō͘ Koán-lí-kio̍k",
+        "operator:nan-TL": "Tâi-uân Thih-lōo Kuán-lí-kio̍k",
+        "operator:short": "台鐵局",
+        "operator:wikidata": "Q697926",
+        "operator:zh": "臺灣鐵路管理局",
         "route": "train"
       }
     },

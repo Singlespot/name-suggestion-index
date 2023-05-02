@@ -354,9 +354,10 @@
       "displayName": "ESB Networks",
       "id": "esbnetworks-0db0d4",
       "locationSet": {"include": ["ie"]},
+      "matchNames": ["esb"],
       "tags": {
         "operator": "ESB Networks",
-        "operator:wikidata": "Q3050566",
+        "operator:wikidata": "Q115224013",
         "route": "power"
       }
     },
@@ -387,6 +388,27 @@
       "tags": {
         "operator": "Evergy",
         "operator:wikidata": "Q7987107",
+        "route": "power"
+      }
+    },
+    {
+      "displayName": "EVN (Europe)",
+      "id": "evn-4a3826",
+      "locationSet": {"include": ["eu"]},
+      "tags": {
+        "operator": "EVN",
+        "operator:wikidata": "Q872140",
+        "route": "power"
+      }
+    },
+    {
+      "displayName": "EVN (Vietnam)",
+      "id": "evn-2a64cf",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "operator": "EVN",
+        "operator:official": "Vietnam Energy",
+        "operator:wikidata": "Q3558046",
         "route": "power"
       }
     },
@@ -501,6 +523,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "operator": "Mitnetz Strom",
+        "operator:wikidata": "Q56199578",
         "route": "power"
       }
     },
@@ -689,6 +712,15 @@
       }
     },
     {
+      "displayName": "Sunflower Electric Power Corporation",
+      "id": "sunflowerelectricpowercorporation-6a8196",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Sunflower Electric Power Corporation",
+        "route": "power"
+      }
+    },
+    {
       "displayName": "Süwag",
       "id": "suwag-6070b7",
       "locationSet": {"include": ["de"]},
@@ -818,6 +850,18 @@
         "operator:en": "TEPCO",
         "operator:ja": "東京電力",
         "operator:wikidata": "Q333894",
+        "route": "power"
+      }
+    },
+    {
+      "displayName": "東京電力パワーグリッド",
+      "id": "tepcopowergrid-15f210",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "operator": "東京電力パワーグリッド",
+        "operator:en": "TEPCO Power Grid",
+        "operator:ja": "東京電力パワーグリッド",
+        "operator:wikidata": "Q21032324",
         "route": "power"
       }
     }

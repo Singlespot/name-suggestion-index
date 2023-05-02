@@ -10,6 +10,15 @@
   },
   "items": [
     {
+      "displayName": "ABO Wind",
+      "id": "abowind-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "ABO Wind",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Acciona Energía",
       "id": "accionaenergia-d14bb1",
       "locationSet": {"include": ["es"]},
@@ -121,6 +130,15 @@
       }
     },
     {
+      "displayName": "Ameren",
+      "id": "ameren-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Ameren",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "American Mun Power-Ohio, Inc",
       "id": "americanmunpowerohioinc-e6c8aa",
       "locationSet": {"include": ["001"]},
@@ -136,6 +154,15 @@
       "tags": {
         "operator": "Anesco",
         "operator:wikidata": "Q108565133",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Apex Energies",
+      "id": "apexenergies-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Apex Energies",
         "power": "plant"
       }
     },
@@ -259,6 +286,15 @@
       "tags": {
         "operator": "Canadian Solar",
         "operator:wikidata": "Q1032353",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "CD Global Solar Holdings, LLC",
+      "id": "cdglobalsolarholdingsllc-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "CD Global Solar Holdings, LLC",
         "power": "plant"
       }
     },
@@ -441,12 +477,31 @@
       }
     },
     {
+      "displayName": "Duke Energy Progress",
+      "id": "dukeenergyprogress-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Duke Energy Progress",
+        "operator:wikidata": "Q1264404",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "E.ON",
       "id": "eon-e6c8aa",
       "locationSet": {"include": ["001"]},
       "tags": {
         "operator": "E.ON",
         "operator:wikidata": "Q270223",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "E.ON Wasserkraft GmbH",
+      "id": "eonwasserkraftgmbh-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "E.ON Wasserkraft GmbH",
         "power": "plant"
       }
     },
@@ -582,6 +637,15 @@
       "tags": {
         "operator": "EGAT",
         "operator:wikidata": "Q3050569",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "EgeHaina",
+      "id": "egehaina-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "EgeHaina",
         "power": "plant"
       }
     },
@@ -814,6 +878,15 @@
       "locationSet": {"include": ["fx"]},
       "tags": {
         "operator": "Eole RES",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Eolus Vind AB",
+      "id": "eolusvindab-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Eolus Vind AB",
         "power": "plant"
       }
     },
@@ -1082,6 +1155,15 @@
       }
     },
     {
+      "displayName": "Greencoat Renewables",
+      "id": "greencoatrenewables-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Greencoat Renewables",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "GroenLeven",
       "id": "groenleven-789671",
       "locationSet": {"include": ["nl"]},
@@ -1111,11 +1193,38 @@
       }
     },
     {
+      "displayName": "Heelstone Energy Holdings, LLC",
+      "id": "heelstoneenergyholdingsllc-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Heelstone Energy Holdings, LLC",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Helgeland Kraft Vannkraft",
+      "id": "helgelandkraftvannkraft-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Helgeland Kraft Vannkraft",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "HEP Proizvodnja d.o.o.",
       "id": "hepproizvodnjadoo-63d2ac",
       "locationSet": {"include": ["hr"]},
       "tags": {
         "operator": "HEP Proizvodnja d.o.o.",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Hydro Energi",
+      "id": "hydroenergi-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Hydro Energi",
         "power": "plant"
       }
     },
@@ -1245,6 +1354,24 @@
       }
     },
     {
+      "displayName": "Initiatives et Énergies Locales",
+      "id": "initiativesetenergieslocales-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Initiatives et Énergies Locales",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Innergex",
+      "id": "innergex-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Innergex",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Innogy Spain, S.A.U",
       "id": "innogyspainsau-d14bb1",
       "locationSet": {"include": ["es"]},
@@ -1341,6 +1468,15 @@
         "operator": "Los Angeles Department of Water and Power",
         "operator:short": "LADWP",
         "operator:wikidata": "Q3259704",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Landsvirkjun",
+      "id": "landsvirkjun-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Landsvirkjun",
         "power": "plant"
       }
     },
@@ -1472,6 +1608,15 @@
       }
     },
     {
+      "displayName": "Ministry of Electricity",
+      "id": "ministryofelectricity-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Ministry of Electricity",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "National Grid Renewables",
       "id": "nationalgridrenewables-e6c8aa",
       "locationSet": {"include": ["001"]},
@@ -1500,6 +1645,15 @@
       }
     },
     {
+      "displayName": "NB Power",
+      "id": "nbpower-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "NB Power",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Neoen",
       "id": "neoen-e6c8aa",
       "locationSet": {"include": ["001"]},
@@ -1517,6 +1671,24 @@
         "operator": "New York Power Authority",
         "operator:short": "NYPA",
         "operator:wikidata": "Q269610",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Newfoundland and Labrador Hydro",
+      "id": "newfoundlandandlabradorhydro-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Newfoundland and Labrador Hydro",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Newfoundland Power",
+      "id": "newfoundlandpower-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Newfoundland Power",
         "power": "plant"
       }
     },
@@ -1540,6 +1712,24 @@
       }
     },
     {
+      "displayName": "Nordkraft Energidrift",
+      "id": "nordkraftenergidrift-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Nordkraft Energidrift",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "North Carolina Mun Power Agency #1",
+      "id": "northcarolinamunpoweragency1-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "North Carolina Mun Power Agency #1",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Northern States Power Co - Minnesota",
       "id": "northernstatespowercominnesota-e6c8aa",
       "locationSet": {"include": ["001"]},
@@ -1558,12 +1748,30 @@
       }
     },
     {
+      "displayName": "Northwest Territories Power Corporation",
+      "id": "northwestterritoriespowercorporation-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Northwest Territories Power Corporation",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "NorthWestern Energy",
       "id": "northwesternenergy-2ac081",
       "locationSet": {"include": ["us"]},
       "tags": {
         "operator": "NorthWestern Energy",
         "operator:wikidata": "Q7053620",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Nova Scotia Power",
+      "id": "novascotiapower-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Nova Scotia Power",
         "power": "plant"
       }
     },
@@ -1647,6 +1855,15 @@
       }
     },
     {
+      "displayName": "Oppidum Renewables USA, LLC",
+      "id": "oppidumrenewablesusallc-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Oppidum Renewables USA, LLC",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Ormat Nevada Inc",
       "id": "ormatnevadainc-684f2b",
       "locationSet": {
@@ -1711,6 +1928,15 @@
       }
     },
     {
+      "displayName": "Pattern Operators LP",
+      "id": "patternoperatorslp-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Pattern Operators LP",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "PGE Energia Odnawialna S.A.",
       "id": "pgeenergiaodnawialnasa-73b00d",
       "locationSet": {"include": ["pl"]},
@@ -1728,6 +1954,15 @@
         "operator": "PGE Polska Grupa Energetyczna S.A.",
         "operator:short": "PGE",
         "operator:wikidata": "Q787714",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Photosol",
+      "id": "photosol-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Photosol",
         "power": "plant"
       }
     },
@@ -1904,20 +2139,34 @@
       }
     },
     {
+      "displayName": "Safari Energy, LLC",
+      "id": "safarienergyllc-b3811d",
+      "locationSet": {
+        "include": ["us-ga.geojson"]
+      },
+      "tags": {
+        "operator": "Safari Energy, LLC",
+        "operator:wikidata": "Q116483821",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Salt River Project",
-      "id": "saltriverproject-e6c8aa",
-      "locationSet": {"include": ["001"]},
+      "id": "saltriverproject-2ac081",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "operator": "Salt River Project",
+        "operator:wikidata": "Q7405933",
         "power": "plant"
       }
     },
     {
       "displayName": "Salten Kraftsamband Produksjon",
-      "id": "saltenkraftsambandproduksjon-e6c8aa",
-      "locationSet": {"include": ["001"]},
+      "id": "saltenkraftsambandproduksjon-7f89ba",
+      "locationSet": {"include": ["no", "se"]},
       "tags": {
         "operator": "Salten Kraftsamband Produksjon",
+        "operator:wikidata": "Q7406074",
         "power": "plant"
       }
     },
@@ -1928,6 +2177,15 @@
       "tags": {
         "operator": "Salzburg AG",
         "operator:wikidata": "Q2215905",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Sarawak Energy",
+      "id": "sarawakenergy-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Sarawak Energy",
         "power": "plant"
       }
     },
@@ -1948,6 +2206,15 @@
       "tags": {
         "operator": "Saudi Electricity Company",
         "operator:wikidata": "Q12188903",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Scotian Wind",
+      "id": "scotianwind-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Scotian Wind",
         "power": "plant"
       }
     },
@@ -2032,6 +2299,15 @@
       }
     },
     {
+      "displayName": "Sol Systems",
+      "id": "solsystems-2ac081",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "operator": "Sol Systems",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Solairedirect",
       "id": "solairedirect-a6c8fe",
       "locationSet": {"include": ["fx"]},
@@ -2068,11 +2344,31 @@
       }
     },
     {
+      "displayName": "Southern Power",
+      "id": "southernpower-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Southern Power",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Southern Power Co",
       "id": "southernpowerco-e6c8aa",
       "locationSet": {"include": ["001"]},
       "tags": {
         "operator": "Southern Power Co",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "SRE Utility Solar 1, LLC",
+      "id": "sreutilitysolar1llc-dc663d",
+      "locationSet": {
+        "include": ["us-de.geojson"]
+      },
+      "tags": {
+        "operator": "SRE Utility Solar 1, LLC",
         "power": "plant"
       }
     },
@@ -2242,6 +2538,24 @@
       }
     },
     {
+      "displayName": "UEM",
+      "id": "uem-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "UEM",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "UNE",
+      "id": "une-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "UNE",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Union Electric Co - (MO)",
       "id": "unionelectriccomo-e6c8aa",
       "locationSet": {"include": ["001"]},
@@ -2357,6 +2671,15 @@
       }
     },
     {
+      "displayName": "Vattenfall Europe AG",
+      "id": "vattenfalleuropeag-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Vattenfall Europe AG",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "Veolia",
       "id": "veolia-e6c8aa",
       "locationSet": {"include": ["001"]},
@@ -2429,6 +2752,24 @@
       "tags": {
         "operator": "Wien Energie",
         "operator:wikidata": "Q2568787",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Windkraft Simonsfeld",
+      "id": "windkraftsimonsfeld-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Windkraft Simonsfeld",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "Wisconsin Electric Power Co",
+      "id": "wisconsinelectricpowerco-e6c8aa",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Wisconsin Electric Power Co",
         "power": "plant"
       }
     },
@@ -2901,6 +3242,19 @@
       }
     },
     {
+      "displayName": "東京発電株式会社",
+      "id": "tokyoelectricgenerationcompany-083ddd",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "operator": "東京発電株式会社",
+        "operator:en": "Tokyo Electric Generation Company",
+        "operator:ja": "東京発電株式会社",
+        "operator:short": "東京発電",
+        "operator:wikidata": "Q11525044",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "東京電力",
       "id": "tokyoelectricpowercompany-083ddd",
       "locationSet": {"include": ["jp"]},
@@ -2939,12 +3293,30 @@
       }
     },
     {
+      "displayName": "江永县水利水电责任公司",
+      "id": "7f3ec1-42ff7b",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "operator": "江永县水利水电责任公司",
+        "power": "plant"
+      }
+    },
+    {
       "displayName": "浙能电力",
       "id": "4bfddc-42ff7b",
       "locationSet": {"include": ["cn"]},
       "tags": {
         "operator": "浙能电力",
         "operator:wikidata": "Q106241128",
+        "power": "plant"
+      }
+    },
+    {
+      "displayName": "玖龙纸业",
+      "id": "0fff43-42ff7b",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "operator": "玖龙纸业",
         "power": "plant"
       }
     },

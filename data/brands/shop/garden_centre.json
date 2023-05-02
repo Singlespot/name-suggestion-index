@@ -7,6 +7,17 @@
   },
   "items": [
     {
+      "displayName": "Aveve",
+      "id": "aveve-4760e0",
+      "locationSet": {"include": ["be", "nl"]},
+      "tags": {
+        "brand": "Aveve",
+        "brand:wikidata": "Q790683",
+        "name": "Aveve",
+        "shop": "garden_centre"
+      }
+    },
+    {
       "displayName": "Bellaflora",
       "id": "bellaflora-fd70bd",
       "locationSet": {"include": ["at"]},
@@ -87,8 +98,10 @@
     },
     {
       "displayName": "Intratuin",
-      "id": "intratuin-4760e0",
-      "locationSet": {"include": ["be", "nl"]},
+      "id": "intratuin-c9b478",
+      "locationSet": {
+        "include": ["be", "de", "nl"]
+      },
       "tags": {
         "brand": "Intratuin",
         "brand:wikidata": "Q2927176",
@@ -104,6 +117,17 @@
         "brand": "Jardiland",
         "brand:wikidata": "Q3162276",
         "name": "Jardiland",
+        "shop": "garden_centre"
+      }
+    },
+    {
+      "displayName": "Kärcher",
+      "id": "karcher-2d5cad",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Kärcher",
+        "brand:wikidata": "Q696798",
+        "name": "Kärcher",
         "shop": "garden_centre"
       }
     },
@@ -137,6 +161,17 @@
       "tags": {
         "brand": "Otter Garden Centres",
         "brand:wikidata": "Q81095450",
+        "shop": "garden_centre"
+      }
+    },
+    {
+      "displayName": "Palmers",
+      "id": "palmers-aac937",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "brand": "Palmers Gardenworld",
+        "brand:wikidata": "Q7128292",
+        "name": "Palmers",
         "shop": "garden_centre"
       }
     },

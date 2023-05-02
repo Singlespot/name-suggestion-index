@@ -37,6 +37,27 @@
       }
     },
     {
+      "displayName": "MarketPlace Fresh",
+      "id": "marketplacefresh-edd24e",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "MarketPlace Fresh",
+        "brand:wikidata": "Q117847717",
+        "name": "MarketPlace Fresh",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "displayName": "Meyvə Tərəvəz",
+      "id": "42a2a0-99d278",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Meyvə Tərəvəz",
+        "name": "Meyvə Tərəvəz",
+        "shop": "greengrocer"
+      }
+    },
+    {
       "displayName": "Produce Junction",
       "id": "producejunction-c8a79f",
       "locationSet": {"include": ["us"]},
@@ -44,6 +65,17 @@
         "brand": "Produce Junction",
         "brand:wikidata": "Q60583541",
         "name": "Produce Junction",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "displayName": "SuperVerd",
+      "id": "superverd-949784",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Superverd",
+        "brand:wikidata": "Q11950546",
+        "name": "Superverd",
         "shop": "greengrocer"
       }
     },

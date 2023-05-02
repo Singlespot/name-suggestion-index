@@ -54,6 +54,15 @@
       }
     },
     {
+      "displayName": "APG",
+      "id": "apg-2be02b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "telephone",
+        "operator": "APG"
+      }
+    },
+    {
       "displayName": "Arqiva",
       "id": "arqiva-190dbf",
       "locationSet": {"include": ["gb"]},
@@ -335,7 +344,10 @@
       "locationSet": {
         "include": ["jp-ntt-west.geojson"]
       },
-      "matchNames": ["ntt西日本 (ntt east)"],
+      "matchNames": [
+        "ntt西日本 (ntt east)",
+        "西日本電信電話"
+      ],
       "tags": {
         "amenity": "telephone",
         "operator": "西日本電信電話株式会社",

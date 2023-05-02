@@ -1,6 +1,7 @@
 {
   "properties": {
     "path": "brands/amenity/social_facility",
+    "skipCollection": true,
     "exclude": {
       "generic": [
         "^(有料老人|老人|日)?ホーム$",
@@ -120,15 +121,48 @@
       }
     },
     {
+      "displayName": "Canadian Red Cross",
+      "id": "canadianredcross-cf1346",
+      "locationSet": {"include": ["ca"]},
+      "matchNames": [
+        "canadian red cross society",
+        "croix rouge",
+        "la société canadienne de la croix rouge",
+        "red cross"
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "Canadian Red Cross",
+        "brand:en": "Canadian Red Cross",
+        "brand:fr": "Croix-Rouge canadienne",
+        "brand:short": "CRC",
+        "brand:wikidata": "Q5030521",
+        "operator": "Canadian Red Cross",
+        "operator:en": "Canadian Red Cross",
+        "operator:fr": "Croix-Rouge canadienne",
+        "operator:short": "CRC",
+        "operator:wikidata": "Q5030521"
+      }
+    },
+    {
       "displayName": "Caritas",
-      "id": "caritas-0f574d",
+      "id": "caritas-c8e87f",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["at", "ch", "de", "sk"]
+        "exclude": [
+          "at",
+          "ch",
+          "de",
+          "hk",
+          "mo",
+          "sk",
+          "ua"
+        ]
       },
       "tags": {
         "amenity": "social_facility",
         "brand": "Caritas",
+        "brand:wikidata": "Q533143",
         "name": "Caritas"
       }
     },
@@ -214,11 +248,76 @@
       }
     },
     {
+      "displayName": "Croix-Rouge de Belgique",
+      "id": "croixrougedebelgique-8298e5",
+      "locationSet": {"include": ["be"]},
+      "matchNames": [
+        "croix rouge",
+        "croix rouge belge"
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "Croix-Rouge de Belgique",
+        "brand:short": "CRB",
+        "brand:wikidata": "Q2537361",
+        "operator": "Croix-Rouge de Belgique",
+        "operator:wikidata": "Q2537361"
+      }
+    },
+    {
+      "displayName": "Croix-Rouge Française",
+      "id": "croixrougefrancaise-8d024d",
+      "locationSet": {"include": ["fr"]},
+      "matchNames": ["croix rouge"],
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "Croix-Rouge Française",
+        "brand:wikidata": "Q3003244",
+        "operator": "Croix-Rouge Française",
+        "operator:short": "CRF",
+        "operator:wikidata": "Q3003244"
+      }
+    },
+    {
+      "displayName": "Croix-Rouge luxembourgeoise",
+      "id": "croixrougeluxembourgeoise-090a38",
+      "locationSet": {"include": ["lu"]},
+      "matchNames": [
+        "croix rouge",
+        "rotes kreuz"
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "Croix-Rouge luxembourgeoise",
+        "brand:de": "Luxemburgisches Rotes Kreuz",
+        "brand:fr": "Croix-Rouge luxembourgeoise",
+        "brand:lb": "Lëtzebuergesche Roude Kräiz",
+        "brand:wikidata": "Q13102234",
+        "operator": "Croix-Rouge luxembourgeoise",
+        "operator:de": "Luxemburgisches Rotes Kreuz",
+        "operator:fr": "Croix-Rouge luxembourgeoise",
+        "operator:lb": "Lëtzebuergesche Roude Kräiz",
+        "operator:wikidata": "Q13102234"
+      }
+    },
+    {
+      "displayName": "Deutscher Kinderschutzbund",
+      "id": "deutscherkinderschutzbund-da0ff2",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["kinderschutzbund"],
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "Deutscher Kinderschutzbund",
+        "brand:short": "DKSB",
+        "brand:wikidata": "Q1205011"
+      }
+    },
+    {
       "displayName": "Deutsches Rotes Kreuz",
       "id": "deutschesroteskreuz-da0ff2",
       "locationSet": {"include": ["de"]},
       "matchNames": ["drk", "rotes kreuz"],
-      "preserveTags": ["^name", "^short_name"],
+      "preserveTags": ["^name"],
       "tags": {
         "amenity": "social_facility",
         "brand": "Deutsches Rotes Kreuz",
@@ -454,6 +553,22 @@
       }
     },
     {
+      "displayName": "Карітас України",
+      "id": "caritas-0fc399",
+      "locationSet": {"include": ["ua"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "Карітас",
+        "brand:en": "Caritas",
+        "brand:uk": "Карітас",
+        "brand:wikidata": "Q114195342",
+        "name": "Карітас",
+        "name:en": "Caritas",
+        "name:uk": "Карітас"
+      }
+    },
+    {
       "displayName": "ツクイ",
       "id": "tsukui-58dbc8",
       "locationSet": {"include": ["jp"]},
@@ -502,6 +617,21 @@
         "name:ja": "レコードブック",
         "social_facility": "day_care",
         "social_facility:for": "senior"
+      }
+    },
+    {
+      "displayName": "明愛會 Caritas",
+      "id": "caritas-c6051e",
+      "locationSet": {"include": ["hk", "mo"]},
+      "tags": {
+        "amenity": "social_facility",
+        "brand": "明愛會 Caritas",
+        "brand:en": "Caritas",
+        "brand:wikidata": "Q533143",
+        "brand:zh": "明愛會",
+        "name": "明愛會 Caritas",
+        "name:en": "Caritas",
+        "name:zh": "明愛會"
       }
     }
   ]

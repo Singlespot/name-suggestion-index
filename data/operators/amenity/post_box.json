@@ -13,14 +13,20 @@
   },
   "items": [
     {
-      "note": "Auto create post boxes for all brand post offices except FedEx, UPSStore",
-      "templateExclude": ["fedex", "upsstore"],
+      "note": "Auto create post boxes for all brand post offices - a few exceptions",
+      "templateExclude": [
+        "correios",
+        "fedex",
+        "orlen",
+        "upsstore"
+      ],
       "templateSource": "brands/amenity/post_office",
       "templateTags": {
         "amenity": "post_box",
         "name": "",
         "operator": "{source.tags.brand}",
-        "operator:wikidata": "{source.tags.brand:wikidata}"
+        "operator:wikidata": "{source.tags.brand:wikidata}",
+        "shop": ""
       }
     },
     {
@@ -29,7 +35,8 @@
       "templateSource": "operators/amenity/post_office",
       "templateTags": {
         "amenity": "post_box",
-        "name": ""
+        "name": "",
+        "shop": ""
       }
     },
     {
@@ -40,6 +47,18 @@
         "amenity": "post_box",
         "colour": "yellow",
         "name": ""
+      }
+    },
+    {
+      "displayName": "Caixa dos Correios",
+      "id": "empresabrasileiradecorreiosetelegrafos-a9f49f",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Empresa Brasileira de Correios e Telégrafos",
+        "operator:short": "Correios",
+        "operator:type": "public",
+        "operator:wikidata": "Q3375004"
       }
     },
     {
@@ -66,6 +85,16 @@
         "operator": "PIN Mail",
         "operator:type": "private",
         "operator:wikidata": "Q1342288"
+      }
+    },
+    {
+      "displayName": "Royal Mail",
+      "id": "royalmail-f65bfd",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098"
       }
     },
     {

@@ -5,13 +5,29 @@
   },
   "items": [
     {
-      "displayName": "E-REDES",
-      "id": "eredes-c668c9",
-      "locationSet": {"include": ["pt"]},
+      "displayName": "CEF",
+      "id": "cef-7c8ef7",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": ["city electrical factors"],
+      "preserveTags": ["^name"],
       "tags": {
-        "brand": "E-REDES",
-        "brand:wikidata": "Q111843687",
-        "name": "E-REDES",
+        "brand": "CEF",
+        "brand:wikidata": "Q116495226",
+        "name": "CEF",
+        "shop": "electrical"
+      }
+    },
+    {
+      "displayName": "Denmans",
+      "id": "denmans-00236e",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Denmans",
+        "brand:wikidata": "Q116508855",
+        "name": "Denmans",
         "shop": "electrical"
       }
     },
@@ -23,6 +39,43 @@
         "brand": "Kafkas",
         "brand:wikidata": "Q68201770",
         "name": "Kafkas",
+        "shop": "electrical"
+      }
+    },
+    {
+      "displayName": "Rexel",
+      "id": "rexel-091354",
+      "locationSet": {
+        "include": [
+          "at",
+          "au",
+          "be",
+          "ca",
+          "ch",
+          "cn",
+          "de",
+          "es",
+          "fi",
+          "fr",
+          "gb",
+          "ie",
+          "in",
+          "it",
+          "lu",
+          "me",
+          "nl",
+          "no",
+          "nz",
+          "pt",
+          "se",
+          "si",
+          "us"
+        ]
+      },
+      "tags": {
+        "brand": "Rexel",
+        "brand:wikidata": "Q962489",
+        "name": "Rexel",
         "shop": "electrical"
       }
     },

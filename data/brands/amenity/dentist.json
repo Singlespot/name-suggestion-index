@@ -10,8 +10,11 @@
         "^dental( (clinic|surgery))?$",
         "^family dentistry$",
         "^zahnarzt(praxis)?$",
-        "^стоматолог"
-      ]
+        "^стоматолог$",
+        "^стоматология$",
+        "^стоматологія$"
+      ],
+      "named": ["^стоматологическая поликлиника$"]
     }
   },
   "items": [
@@ -229,10 +232,10 @@
       "locationSet": {"include": ["gb"]},
       "tags": {
         "amenity": "dentist",
-        "brand": "My Dentist",
+        "brand": "mydentist",
         "brand:wikidata": "Q65118035",
         "healthcare": "dentist",
-        "name": "My Dentist"
+        "name": "mydentist"
       }
     },
     {
@@ -324,8 +327,14 @@
     },
     {
       "displayName": "Willamette Dental Group",
-      "id": "willamettedentalgroup-708bdc",
-      "locationSet": {"include": ["us"]},
+      "id": "willamettedentalgroup-cbc6dc",
+      "locationSet": {
+        "include": [
+          "us-id.geojson",
+          "us-or.geojson",
+          "us-wa.geojson"
+        ]
+      },
       "tags": {
         "amenity": "dentist",
         "brand": "Willamette Dental Group",
@@ -344,6 +353,17 @@
         "brand:wikidata": "Q110775866",
         "healthcare": "dentist",
         "name": "Мой Зубной"
+      }
+    },
+    {
+      "displayName": "Улыбка",
+      "id": "a1a834-1194d5",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "dentist",
+        "brand": "Улыбка",
+        "healthcare": "dentist",
+        "name": "Улыбка"
       }
     }
   ]

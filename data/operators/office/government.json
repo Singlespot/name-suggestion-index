@@ -13,6 +13,24 @@
   },
   "items": [
     {
+      "displayName": "Autobahn GmbH",
+      "id": "autobahngmbh-7429f2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "office": "government",
+        "operator": "Autobahn GmbH"
+      }
+    },
+    {
+      "displayName": "Autoridad Nacional del Agua",
+      "id": "autoridadnacionaldelagua-7429f2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "office": "government",
+        "operator": "Autoridad Nacional del Agua"
+      }
+    },
+    {
       "displayName": "Ayuntamiento de Málaga",
       "id": "ayuntamientodemalaga-f19bf1",
       "locationSet": {"include": ["es"]},
@@ -151,6 +169,28 @@
       }
     },
     {
+      "displayName": "Corpo de Bombeiros Militar de Santa Catarina",
+      "id": "corpodebombeirosmilitardesantacatarina-efa52e",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "office": "government",
+        "operator": "Corpo de Bombeiros Militar de Santa Catarina",
+        "operator:wikidata": "Q768967"
+      }
+    },
+    {
+      "displayName": "Department of Home Affairs",
+      "id": "departmentofhomeaffairs-efe93a",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["home affairs"],
+      "tags": {
+        "name": "Department of Home Affairs",
+        "office": "government",
+        "operator": "Department of Home Affairs",
+        "operator:wikidata": "Q4294313"
+      }
+    },
+    {
       "displayName": "Department of Homeland Security",
       "id": "departmentofhomelandsecurity-eaa288",
       "locationSet": {"include": ["us"]},
@@ -160,6 +200,16 @@
         "operator": "Department of Homeland Security",
         "operator:short": "DHS",
         "operator:wikidata": "Q11231"
+      }
+    },
+    {
+      "displayName": "Department of Transport and Main Roads",
+      "id": "departmentoftransportandmainroads-1b54b2",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "office": "government",
+        "operator": "Department of Transport and Main Roads",
+        "operator:wikidata": "Q1191482"
       }
     },
     {
@@ -228,6 +278,17 @@
       }
     },
     {
+      "displayName": "Driver and Vehicle Standards Agency (DVSA)",
+      "id": "driverandvehiclestandardsagency-3cd046",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "office": "government",
+        "operator": "Driver and Vehicle Standards Agency",
+        "operator:short": "DVSA",
+        "operator:wikidata": "Q16974184"
+      }
+    },
+    {
       "displayName": "Federal Bureau of Investigation",
       "id": "federalbureauofinvestigation-eaa288",
       "locationSet": {"include": ["us"]},
@@ -237,6 +298,16 @@
         "operator": "Federal Bureau of Investigation",
         "operator:short": "FBI",
         "operator:wikidata": "Q8333"
+      }
+    },
+    {
+      "displayName": "Finančná správa Slovenskej republiky",
+      "id": "financnaspravaslovenskejrepubliky-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "office": "government",
+        "operator": "Finančná správa Slovenskej republiky",
+        "operator:wikidata": "Q15111229"
       }
     },
     {
@@ -283,7 +354,8 @@
       "locationSet": {"include": ["cl"]},
       "tags": {
         "office": "government",
-        "operator": "Gendarmería"
+        "operator": "Gendarmería",
+        "operator:wikidata": "Q3100431"
       }
     },
     {
@@ -292,7 +364,8 @@
       "locationSet": {"include": ["es"]},
       "tags": {
         "office": "government",
-        "operator": "Generalitat de Catalunya"
+        "operator": "Generalitat de Catalunya",
+        "operator:wikidata": "Q8022"
       }
     },
     {
@@ -354,6 +427,16 @@
       }
     },
     {
+      "displayName": "Health Service Executive",
+      "id": "healthserviceexecutive-7f4a2e",
+      "locationSet": {"include": ["ie"]},
+      "tags": {
+        "office": "government",
+        "operator": "Health Service Executive",
+        "operator:wikidata": "Q5690681"
+      }
+    },
+    {
       "displayName": "Illinois Secretary of State",
       "id": "illinoissecretaryofstate-4714be",
       "locationSet": {
@@ -376,6 +459,15 @@
         "operator": "Instituto Nacional do Seguro Social",
         "operator:short": "INSS",
         "operator:wikidata": "Q10302614"
+      }
+    },
+    {
+      "displayName": "Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural - Incaper",
+      "id": "institutocapixabadepesquisaassistenciatecnicaeextensaoruralincaper-efa52e",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "office": "government",
+        "operator": "Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural - Incaper"
       }
     },
     {
@@ -425,8 +517,8 @@
     },
     {
       "displayName": "Kanton Basel-Landschaft",
-      "id": "kantonbasellandschaft-7429f2",
-      "locationSet": {"include": ["001"]},
+      "id": "kantonbasellandschaft-980a8a",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "office": "government",
         "operator": "Kanton Basel-Landschaft"
@@ -460,6 +552,15 @@
         "office": "government",
         "operator": "Landeshauptstadt Saarbrücken",
         "operator:wikidata": "Q1724"
+      }
+    },
+    {
+      "displayName": "Lesotho Government",
+      "id": "lesothogovernment-7429f2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "office": "government",
+        "operator": "Lesotho Government"
       }
     },
     {
@@ -529,6 +630,25 @@
       }
     },
     {
+      "displayName": "Ministerio de Educación",
+      "id": "ministeriodeeducacion-7429f2",
+      "locationSet": {"include": ["001"]},
+      "note": "Many LATAM countries have this operator value 'Ministry of Education', but they must have different MOE",
+      "tags": {
+        "office": "government",
+        "operator": "Ministerio de Educación"
+      }
+    },
+    {
+      "displayName": "Ministerio de Gobierno y Educación - Gobierno de la Provincia del Neuquén",
+      "id": "ministeriodegobiernoyeducaciongobiernodelaprovinciadelneuquen-7429f2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "office": "government",
+        "operator": "Ministerio de Gobierno y Educación - Gobierno de la Provincia del Neuquén"
+      }
+    },
+    {
       "displayName": "Ministerio de Interior y Justicia",
       "id": "ministeriodeinterioryjusticia-b90a8d",
       "locationSet": {"include": ["ve"]},
@@ -546,6 +666,63 @@
         "office": "government",
         "operator": "Ministerio de Salud",
         "operator:wikidata": "Q21001938"
+      }
+    },
+    {
+      "displayName": "Ministério Público do Estado do Espírito Santo",
+      "id": "ministeriopublicodoestadodoespiritosanto-efa52e",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "office": "government",
+        "operator": "Ministério Público do Estado do Espírito Santo",
+        "operator:wikidata": "Q20060323"
+      }
+    },
+    {
+      "displayName": "Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky",
+      "id": "ministerstvoinvesticiiregionalnehorozvojaainformatizacieslovenskejrepubliky-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "government": "public_works",
+        "office": "government",
+        "operator": "Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky",
+        "operator:short": "MIRRI SR",
+        "operator:wikidata": "Q97014712"
+      }
+    },
+    {
+      "displayName": "Ministerstvo práce, sociálnych vecí a rodiny Slovenskej republiky",
+      "id": "ministerstvopracesocialnychveciarodinyslovenskejrepubliky-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "government": "social_services",
+        "office": "government",
+        "operator": "Ministerstvo práce, sociálnych vecí a rodiny Slovenskej republiky",
+        "operator:short": "MPSVR SR",
+        "operator:wikidata": "Q12771751"
+      }
+    },
+    {
+      "displayName": "Ministerstvo vnútra Slovenskej republiky",
+      "id": "ministerstvovnutraslovenskejrepubliky-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "office": "government",
+        "operator": "Ministerstvo vnútra Slovenskej republiky",
+        "operator:short": "MV SR",
+        "operator:wikidata": "Q13450147"
+      }
+    },
+    {
+      "displayName": "Ministerstvo životného prostredia Slovenskej republiky",
+      "id": "ministerstvozivotnehoprostrediaslovenskejrepubliky-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "government": "environment",
+        "office": "government",
+        "operator": "Ministerstvo životného prostredia Slovenskej republiky",
+        "operator:short": "MŽP SR",
+        "operator:wikidata": "Q12771757"
       }
     },
     {
@@ -576,6 +753,15 @@
       }
     },
     {
+      "displayName": "Municipalidad de Moreno",
+      "id": "municipalidaddemoreno-cc6da1",
+      "locationSet": {"include": ["ar"]},
+      "tags": {
+        "office": "government",
+        "operator": "Municipalidad de Moreno"
+      }
+    },
+    {
       "displayName": "Municipalidad de Pergamino",
       "id": "municipalidaddepergamino-cc6da1",
       "locationSet": {"include": ["ar"]},
@@ -598,6 +784,30 @@
         "operator": "New Mexico Motor Vehicle Division",
         "operator:short": "MVD New Mexico",
         "operator:wikidata": "Q16982577"
+      }
+    },
+    {
+      "displayName": "Najvyšší kontrolný úrad Slovenskej republiky",
+      "id": "najvyssikontrolnyuradslovenskejrepubliky-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "government": "audit",
+        "office": "government",
+        "operator": "Najvyšší kontrolný úrad Slovenskej republiky",
+        "operator:short": "NKÚ SR",
+        "operator:wikidata": "Q12772297"
+      }
+    },
+    {
+      "displayName": "Národný inšpektorát práce",
+      "id": "narodnyinspektoratprace-18bdcf",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "government": "administrative",
+        "office": "government",
+        "operator": "Národný inšpektorát práce",
+        "operator:short": "NIP",
+        "operator:wikidata": "Q105160131"
       }
     },
     {
@@ -711,6 +921,17 @@
       }
     },
     {
+      "displayName": "Państwowa Straż Pożarna",
+      "id": "panstwowastrazpozarna-995fc9",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "government": "public_safety",
+        "office": "government",
+        "operator": "Państwowa Straż Pożarna",
+        "operator:wikidata": "Q11815208"
+      }
+    },
+    {
       "displayName": "SAREN",
       "id": "sarenministeriodeinterioryjusticia-b90a8d",
       "locationSet": {"include": ["ve"]},
@@ -760,6 +981,19 @@
         "operator": "Social Security Administration",
         "operator:short": "SSA",
         "operator:wikidata": "Q2824618"
+      }
+    },
+    {
+      "displayName": "South African Revenue Service",
+      "id": "southafricanrevenueservice-efe93a",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "name": "South African Revenue Service",
+        "office": "government",
+        "operator": "South African Revenue Service",
+        "operator:short": "SARS",
+        "operator:wikidata": "Q7565786",
+        "short_name": "SARS"
       }
     },
     {
@@ -918,6 +1152,17 @@
       }
     },
     {
+      "displayName": "Агенция \"Пътна инфраструктура\"",
+      "id": "7a1d9d-8d3c9a",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["api", "ria", "апи", "опу"],
+      "tags": {
+        "office": "government",
+        "operator": "Агенция \"Пътна инфраструктура\"",
+        "operator:wikidata": "Q12271140"
+      }
+    },
+    {
       "displayName": "Агенция по вписванията",
       "id": "30f803-8d3c9a",
       "locationSet": {"include": ["bg"]},
@@ -932,11 +1177,24 @@
       "displayName": "Агенция по геодезия, картография и кадастър",
       "id": "ca337a-8d3c9a",
       "locationSet": {"include": ["bg"]},
+      "matchNames": ["агкк"],
       "tags": {
         "government": "cadastre",
         "office": "government",
         "operator": "Агенция по геодезия, картография и кадастър",
         "operator:wikidata": "Q20498487"
+      }
+    },
+    {
+      "displayName": "Агенция по заетостта",
+      "id": "ff615c-8d3c9a",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["аз"],
+      "tags": {
+        "government": "employment_agency",
+        "office": "government",
+        "operator": "Агенция по заетостта",
+        "operator:wikidata": "Q12271139"
       }
     },
     {
@@ -948,6 +1206,28 @@
         "office": "government",
         "operator": "Изпълнителна агенция \"Автомобилна администрация\"",
         "operator:wikidata": "Q112581933"
+      }
+    },
+    {
+      "displayName": "Министертво на здравеопазването",
+      "id": "c2eee5-8d3c9a",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["мз"],
+      "tags": {
+        "office": "government",
+        "operator": "Министертво на здравеопазването",
+        "operator:wikidata": "Q12286820"
+      }
+    },
+    {
+      "displayName": "Министертво на образованието и науката",
+      "id": "144fef-8d3c9a",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["мон", "монм"],
+      "tags": {
+        "office": "government",
+        "operator": "Министертво на образованието и науката",
+        "operator:wikidata": "Q3396672"
       }
     },
     {
@@ -967,6 +1247,7 @@
       "locationSet": {"include": ["bg"]},
       "matchNames": ["нап"],
       "tags": {
+        "government": "tax",
         "office": "government",
         "operator": "Национална агенция за приходите",
         "operator:wikidata": "Q12287903"
@@ -1018,9 +1299,11 @@
       "displayName": "日本年金機構",
       "id": "235863-8ff2cf",
       "locationSet": {"include": ["jp"]},
+      "matchNames": ["年金事務所", "社会保険事務所"],
       "tags": {
         "office": "government",
-        "operator": "日本年金機構"
+        "operator": "日本年金機構",
+        "operator:wikidata": "Q11508070"
       }
     }
   ]

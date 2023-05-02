@@ -66,6 +66,18 @@
       }
     },
     {
+      "displayName": "Kennards Storage",
+      "id": "kennardsstorage-e49450",
+      "locationSet": {"include": ["au", "nz"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Kennards Storage",
+        "brand:wikidata": "Q115565997",
+        "name": "Kennards Storage",
+        "shop": "storage_rental"
+      }
+    },
+    {
       "displayName": "Life Storage",
       "id": "lifestorage-7879a0",
       "locationSet": {"include": ["us"]},
@@ -84,6 +96,32 @@
         "brand": "Lok'nStore",
         "brand:wikidata": "Q6668484",
         "name": "Lok'nStore",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "Metro Self Storage",
+      "id": "metroselfstorage-5b962b",
+      "locationSet": {
+        "include": [
+          "us-al.geojson",
+          "us-ct.geojson",
+          "us-fl.geojson",
+          "us-ga.geojson",
+          "us-il.geojson",
+          "us-mn.geojson",
+          "us-nj.geojson",
+          "us-ny.geojson",
+          "us-pa.geojson",
+          "us-tn.geojson",
+          "us-tx.geojson",
+          "us-wi.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Metro Self Storage",
+        "brand:wikidata": "Q114515454",
+        "name": "Metro Self Storage",
         "shop": "storage_rental"
       }
     },
@@ -109,6 +147,28 @@
         "brand": "MyPlace-SelfStorage",
         "brand:wikidata": "Q109659129",
         "name": "MyPlace-SelfStorage",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "National Mini Storage",
+      "id": "nationalministorage-8edc81",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "brand": "National Mini Storage",
+        "brand:wikidata": "Q114353224",
+        "name": "National Mini Storage",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "National Storage",
+      "id": "nationalstorage-e49450",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "National Storage",
+        "brand:wikidata": "Q21178908",
+        "name": "National Storage",
         "shop": "storage_rental"
       }
     },
@@ -154,6 +214,30 @@
       }
     },
     {
+      "displayName": "Shurgard Self-Storage",
+      "id": "shurgardselfstorage-9d6bb9",
+      "locationSet": {
+        "include": ["be", "de", "fr", "nl"]
+      },
+      "tags": {
+        "brand": "Shurgard Storage Centers",
+        "brand:wikidata": "Q3482670",
+        "name": "Shurgard Self-Storage",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "Storage King",
+      "id": "storageking-e49450",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "Storage King",
+        "brand:wikidata": "Q114353097",
+        "name": "Storage King",
+        "shop": "storage_rental"
+      }
+    },
+    {
       "displayName": "StorageMart",
       "id": "storagemart-3ec4f5",
       "locationSet": {
@@ -163,6 +247,26 @@
         "brand": "StorageMart",
         "brand:wikidata": "Q16226585",
         "name": "StorageMart",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "Storebox",
+      "id": "storebox-3e45ed",
+      "locationSet": {
+        "include": [
+          "at",
+          "be",
+          "ch",
+          "de",
+          "lu",
+          "nl"
+        ]
+      },
+      "tags": {
+        "brand": "Storebox",
+        "brand:wikidata": "Q117430004",
+        "name": "Storebox",
         "shop": "storage_rental"
       }
     },
@@ -235,6 +339,23 @@
         "name": "U-SPACE",
         "name:en": "U-SPACE",
         "name:ja": "ユースペース",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "U-Stor-It",
+      "id": "ustorit-a1f08e",
+      "locationSet": {
+        "include": [
+          "us-ca.geojson",
+          "us-il.geojson",
+          "us-in.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "U-Stor-It",
+        "brand:wikidata": "Q116225856",
+        "name": "U-Stor-It",
         "shop": "storage_rental"
       }
     },

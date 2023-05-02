@@ -4,13 +4,13 @@
     "exclude": {
       "generic": [
         "^(alte )?apotheke( am markt)?$",
-        "^(apotek(a|et)|apteka?)$",
+        "^(apotek(a)|apteka?)$",
         "^(centro naturista|eczane|botica|gyógyszertár|lékárna|ljekarna|parafarmacia)$",
         "^droguer[ií]a$",
         "^farm[aàá]ci[aàáe]?$",
         "^pharmac(ie|y)$",
         "^φαρμακε[ιί]ο$",
-        "^аптека",
+        "^аптека$",
         "^аптечный (пункт|склад)$",
         "^داروخانه( شبانه روزی)?$",
         "^صيدلية$",
@@ -59,6 +59,19 @@
       }
     },
     {
+      "displayName": "3і",
+      "id": "1ae626-996e17",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["3i", "зі"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "3і",
+        "brand:wikidata": "Q117705687",
+        "healthcare": "pharmacy",
+        "name": "3і"
+      }
+    },
+    {
       "displayName": "ADEL",
       "id": "adel-c16414",
       "locationSet": {"include": ["by"]},
@@ -98,10 +111,13 @@
       "displayName": "Allied Pharmacies",
       "id": "alliedpharmacies-c9f407",
       "locationSet": {"include": ["gb-eng"]},
+      "preserveTags": ["^name"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Allied Pharmacies",
-        "healthcare": "pharmacy"
+        "brand:wikidata": "Q116272370",
+        "healthcare": "pharmacy",
+        "name": "Allied Pharmacies"
       }
     },
     {
@@ -114,6 +130,32 @@
         "brand:wikidata": "Q105626221",
         "healthcare": "pharmacy",
         "name": "Alma Gyógyszertár"
+      }
+    },
+    {
+      "displayName": "Alpha Pharm",
+      "id": "alphapharm-091dbc",
+      "locationSet": {"include": ["za"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Alpha Pharm",
+        "brand:wikidata": "Q116487265",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "displayName": "Alphega Pharmacy",
+      "id": "alphegapharmacy-4d3705",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Alphega Pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Alphega Pharmacy"
       }
     },
     {
@@ -191,6 +233,18 @@
       }
     },
     {
+      "displayName": "Apoteket",
+      "id": "apoteket-bc5266",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apoteket",
+        "brand:wikidata": "Q1785637",
+        "healthcare": "pharmacy",
+        "name": "Apoteket"
+      }
+    },
+    {
       "displayName": "Apoteksgruppen",
       "id": "apoteksgruppen-bc5266",
       "locationSet": {"include": ["se"]},
@@ -204,8 +258,10 @@
     },
     {
       "displayName": "Apotheka",
-      "id": "apotheka-f5140f",
-      "locationSet": {"include": ["001"]},
+      "id": "apotheka-ab5e8f",
+      "locationSet": {
+        "include": ["ee", "lt", "lv"]
+      },
       "tags": {
         "amenity": "pharmacy",
         "brand": "Apotheka",
@@ -307,6 +363,18 @@
       }
     },
     {
+      "displayName": "Be",
+      "id": "be-b1ecfe",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Be",
+        "brand:wikidata": "Q110739667",
+        "healthcare": "pharmacy",
+        "name": "Be"
+      }
+    },
+    {
       "displayName": "Benavides",
       "id": "benavides-7a195a",
       "locationSet": {"include": ["mx"]},
@@ -340,6 +408,7 @@
         ]
       },
       "matchNames": [
+        "benu apotheek",
         "benu aptieka",
         "benu vaistinė"
       ],
@@ -440,6 +509,17 @@
       }
     },
     {
+      "displayName": "Can Eczanesi",
+      "id": "caneczanesi-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Can Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Can Eczanesi"
+      }
+    },
+    {
       "displayName": "Catena",
       "id": "catena-8861f5",
       "locationSet": {"include": ["ro"]},
@@ -460,6 +540,20 @@
         "brand": "Cef@Rm 36,6",
         "healthcare": "pharmacy",
         "name": "Cef@Rm 36,6"
+      }
+    },
+    {
+      "displayName": "Ceiba",
+      "id": "ceiba-768624",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["сейба", "цейба"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Ceiba",
+        "healthcare": "pharmacy",
+        "name": "Ceiba",
+        "operator": "Софарма Трейдинг",
+        "operator:wikidata": "Q117303338"
       }
     },
     {
@@ -592,8 +686,8 @@
     },
     {
       "displayName": "Cruz Verde",
-      "id": "cruzverde-af67e0",
-      "locationSet": {"include": ["cl"]},
+      "id": "cruzverde-e06365",
+      "locationSet": {"include": ["cl", "co"]},
       "matchNames": ["farmacias cruz verde"],
       "tags": {
         "amenity": "pharmacy",
@@ -623,6 +717,7 @@
       "tags": {
         "amenity": "pharmacy",
         "brand": "D.S.",
+        "brand:wikidata": "Q117706829",
         "healthcare": "pharmacy",
         "name": "D.S."
       }
@@ -668,6 +763,39 @@
       }
     },
     {
+      "displayName": "Deniz Eczanesi",
+      "id": "denizeczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Deniz Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Deniz Eczanesi"
+      }
+    },
+    {
+      "displayName": "Derman Eczanesi",
+      "id": "dermaneczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Derman Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Derman Eczanesi"
+      }
+    },
+    {
+      "displayName": "Deva Eczanesi",
+      "id": "devaeczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Deva Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Deva Eczanesi"
+      }
+    },
+    {
       "displayName": "Discount Drug Mart",
       "id": "discountdrugmart-5a530e",
       "locationSet": {
@@ -704,17 +832,6 @@
         "brand": "Dom Leków",
         "healthcare": "pharmacy",
         "name": "Dom Leków"
-      }
-    },
-    {
-      "displayName": "Dona",
-      "id": "dona-8861f5",
-      "locationSet": {"include": ["ro"]},
-      "tags": {
-        "amenity": "pharmacy",
-        "brand": "Dona",
-        "healthcare": "pharmacy",
-        "name": "Dona"
       }
     },
     {
@@ -766,6 +883,7 @@
       "displayName": "Drogaria Araujo",
       "id": "drogariaaraujo-295f06",
       "locationSet": {"include": ["br"]},
+      "matchNames": ["drogarias araujo"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Drogaria Araujo",
@@ -778,6 +896,7 @@
       "displayName": "Drogaria Globo",
       "id": "drogariaglobo-295f06",
       "locationSet": {"include": ["br"]},
+      "matchNames": ["drogarias globo"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Drogaria Globo",
@@ -790,6 +909,7 @@
       "displayName": "Drogaria São Paulo",
       "id": "drogariasaopaulo-295f06",
       "locationSet": {"include": ["br"]},
+      "matchNames": ["drogarias globo"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Drogaria São Paulo",
@@ -837,14 +957,47 @@
       }
     },
     {
+      "displayName": "Elif Eczanesi",
+      "id": "elifeczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Elif Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Elif Eczanesi"
+      }
+    },
+    {
+      "displayName": "Elody",
+      "id": "elody-52cb11",
+      "locationSet": {"include": ["md"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Elody",
+        "healthcare": "pharmacy",
+        "name": "Elody"
+      }
+    },
+    {
       "displayName": "Eskulap",
-      "id": "eskulap-f5140f",
-      "locationSet": {"include": ["001"]},
+      "id": "eskulap-cf61fb",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Eskulap",
         "healthcare": "pharmacy",
         "name": "Eskulap"
+      }
+    },
+    {
+      "displayName": "Euroapteek",
+      "id": "euroapteek-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Euroapteek",
+        "healthcare": "pharmacy",
+        "name": "Euroapteek"
       }
     },
     {
@@ -879,6 +1032,18 @@
         "brand:wikidata": "Q267205",
         "healthcare": "pharmacy",
         "name": "Eurovaistinė"
+      }
+    },
+    {
+      "displayName": "EvoFarm",
+      "id": "evofarm-8861f5",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "EvoFarm",
+        "brand:wikidata": "Q114647927",
+        "healthcare": "pharmacy",
+        "name": "EvoFarm"
       }
     },
     {
@@ -990,6 +1155,7 @@
       "displayName": "Farmacia Dona",
       "id": "farmaciadona-8861f5",
       "locationSet": {"include": ["ro"]},
+      "matchNames": ["dona"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Farmacia Dona",
@@ -1035,6 +1201,17 @@
       }
     },
     {
+      "displayName": "Farmacia ni Dok",
+      "id": "farmacianidok-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Farmacia ni Dok",
+        "healthcare": "pharmacy",
+        "name": "Farmacia ni Dok"
+      }
+    },
+    {
       "displayName": "Farmácia Popular",
       "id": "farmaciapopular-295f06",
       "locationSet": {"include": ["br"]},
@@ -1047,8 +1224,8 @@
     },
     {
       "displayName": "Farmácia Preço Popular",
-      "id": "farmaciaprecopopular-f5140f",
-      "locationSet": {"include": ["001"]},
+      "id": "farmaciaprecopopular-295f06",
+      "locationSet": {"include": ["br"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Farmácia Preço Popular",
@@ -1338,6 +1515,19 @@
       }
     },
     {
+      "displayName": "GOOD PHARM",
+      "id": "goodpharm-b1ecfe",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "GOOD PHARM",
+        "brand:wikidata": "Q110739707",
+        "healthcare": "pharmacy",
+        "name": "GOOD PHARM",
+        "name:he": "גוד פארם"
+      }
+    },
+    {
       "displayName": "Gordons Chemists",
       "id": "gordonschemists-3e1c81",
       "locationSet": {
@@ -1422,6 +1612,17 @@
         "healthcare": "pharmacy",
         "name": "H-E-B Pharmacy",
         "short_name": "H-E-B"
+      }
+    },
+    {
+      "displayName": "Hayat Eczanesi",
+      "id": "hayateczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Hayat Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Hayat Eczanesi"
       }
     },
     {
@@ -1584,6 +1785,17 @@
       }
     },
     {
+      "displayName": "La Rebaja",
+      "id": "larebaja-e95dde",
+      "locationSet": {"include": ["co"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "La Rebaja",
+        "healthcare": "pharmacy",
+        "name": "La Rebaja"
+      }
+    },
+    {
       "displayName": "Lafayette",
       "id": "lafayette-4ed69f",
       "locationSet": {"include": ["fr"]},
@@ -1731,6 +1943,18 @@
       }
     },
     {
+      "displayName": "MediRite",
+      "id": "medirite-091dbc",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "MediRite",
+        "brand:wikidata": "Q115696233",
+        "healthcare": "pharmacy",
+        "name": "MediRite"
+      }
+    },
+    {
       "displayName": "MedPlus",
       "id": "medplus-95192b",
       "locationSet": {"include": ["in"]},
@@ -1764,6 +1988,17 @@
         "brand:wikidata": "Q6818610",
         "healthcare": "pharmacy",
         "name": "Mercury Drug"
+      }
+    },
+    {
+      "displayName": "Merkez Eczanesi",
+      "id": "merkezeczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Merkez Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Merkez Eczanesi"
       }
     },
     {
@@ -1825,10 +2060,35 @@
       }
     },
     {
+      "displayName": "Nowa",
+      "id": "nowa-cf61fb",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Nowa",
+        "healthcare": "pharmacy",
+        "name": "Nowa"
+      }
+    },
+    {
+      "displayName": "Pacheco",
+      "id": "pacheco-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Pacheco",
+        "healthcare": "pharmacy",
+        "name": "Pacheco"
+      }
+    },
+    {
       "displayName": "Pague Menos",
       "id": "paguemenos-295f06",
       "locationSet": {"include": ["br"]},
-      "matchNames": ["farmácia pague menos"],
+      "matchNames": [
+        "farmácia pague menos",
+        "farmácias pague menos"
+      ],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Pague Menos",
@@ -1916,6 +2176,18 @@
         "brand:wikidata": "Q1547749",
         "healthcare": "pharmacy",
         "name": "Pharmacie Principale"
+      }
+    },
+    {
+      "displayName": "Pharmacity",
+      "id": "pharmacity-59b438",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Pharmacity",
+        "brand:wikidata": "Q115324413",
+        "healthcare": "pharmacy",
+        "name": "Pharmacity"
       }
     },
     {
@@ -2039,9 +2311,20 @@
       }
     },
     {
+      "displayName": "Przyjazna",
+      "id": "przyjazna-cf61fb",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Przyjazna",
+        "healthcare": "pharmacy",
+        "name": "Przyjazna"
+      }
+    },
+    {
       "displayName": "Publix",
-      "id": "publix-c42a5a",
-      "locationSet": {"include": ["br", "us"]},
+      "id": "publix-3ab288",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Publix",
@@ -2172,6 +2455,17 @@
       }
     },
     {
+      "displayName": "Sağlık Eczanesi",
+      "id": "saglikeczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Sağlık Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Sağlık Eczanesi"
+      }
+    },
+    {
       "displayName": "SalcoBrand",
       "id": "salcobrand-af67e0",
       "locationSet": {"include": ["cl"]},
@@ -2271,19 +2565,24 @@
       "displayName": "SOpharmacy",
       "id": "sopharmacy-768624",
       "locationSet": {"include": ["bg"]},
-      "matchNames": [
-        "ceiba",
-        "sanita",
-        "санита",
-        "сейба",
-        "цейба"
-      ],
       "tags": {
         "amenity": "pharmacy",
         "brand": "SOpharmacy",
         "brand:wikidata": "Q108852081",
         "healthcare": "pharmacy",
         "name": "SOpharmacy"
+      }
+    },
+    {
+      "displayName": "Soul Pattinson Chemist",
+      "id": "soulpattinsonchemist-a4bb5f",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Soul Pattinson Chemist",
+        "brand:wikidata": "Q117225301",
+        "healthcare": "pharmacy",
+        "name": "Soul Pattinson Chemist"
       }
     },
     {
@@ -2299,6 +2598,30 @@
       }
     },
     {
+      "displayName": "Südameapteek",
+      "id": "sudameapteek-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Südameapteek",
+        "healthcare": "pharmacy",
+        "name": "Südameapteek"
+      }
+    },
+    {
+      "displayName": "Sun Store",
+      "id": "sunstore-7092c5",
+      "locationSet": {"include": ["ch"]},
+      "matchNames": ["sun store sa"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Sun Store",
+        "brand:wikidata": "Q2365840",
+        "healthcare": "pharmacy",
+        "name": "Sun Store"
+      }
+    },
+    {
       "displayName": "Super-Pharm",
       "id": "superpharm-8f2066",
       "locationSet": {
@@ -2309,7 +2632,8 @@
         "brand": "Super-Pharm",
         "brand:wikidata": "Q13220217",
         "healthcare": "pharmacy",
-        "name": "Super-Pharm"
+        "name": "Super-Pharm",
+        "name:he": "סופר-פארם"
       }
     },
     {
@@ -2544,6 +2868,17 @@
       }
     },
     {
+      "displayName": "Yaşam Eczanesi",
+      "id": "yasameczanesi-ba5564",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Yaşam Eczanesi",
+        "healthcare": "pharmacy",
+        "name": "Yaşam Eczanesi"
+      }
+    },
+    {
       "displayName": "Zdrowie",
       "id": "zdrowie-cf61fb",
       "locationSet": {"include": ["pl"]},
@@ -2604,41 +2939,78 @@
     },
     {
       "displayName": "Альфа Аптека",
-      "id": "a8ad63-f5140f",
-      "locationSet": {"include": ["001"]},
+      "id": "alphaapteka-c16414",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Альфа Аптека",
+        "brand:be": "Альфа Аптека",
+        "brand:en": "Alpha Apteka",
         "healthcare": "pharmacy",
-        "name": "Альфа Аптека"
+        "name": "Альфа Аптека",
+        "name:be": "Альфа Аптека",
+        "name:en": "Alpha Apteka"
       }
     },
     {
       "displayName": "АНЦ",
       "id": "6d99c6-996e17",
       "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "аптека низких цен",
+        "аптека низьких цін"
+      ],
       "tags": {
         "amenity": "pharmacy",
         "brand": "АНЦ",
+        "brand:wikidata": "Q100148965",
         "healthcare": "pharmacy",
         "name": "АНЦ"
       }
     },
     {
       "displayName": "Апрель",
-      "id": "d13b83-571ebe",
-      "locationSet": {"include": ["ru", "ua"]},
+      "id": "d13b83-288c27",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Апрель",
+        "brand:wikidata": "Q114060847",
         "healthcare": "pharmacy",
         "name": "Апрель"
+      }
+    },
+    {
+      "displayName": "Аптека 911",
+      "id": "121e69-996e17",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Аптека 911",
+        "brand:wikidata": "Q117705836",
+        "healthcare": "pharmacy",
+        "name": "Аптека 911"
+      }
+    },
+    {
+      "displayName": "Аптека №1",
+      "id": "3b7e06-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Аптека №1",
+        "healthcare": "pharmacy",
+        "name": "Аптека №1"
       }
     },
     {
       "displayName": "Аптека доброго дня",
       "id": "pharmacygoodday-996e17",
       "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "доброго дня",
+        "доброго дня аптека"
+      ],
       "tags": {
         "amenity": "pharmacy",
         "brand": "Аптека доброго дня",
@@ -2651,6 +3023,29 @@
         "name:en": "Pharmacy Good Day",
         "name:ru": "Аптека доброго дня",
         "name:uk": "Аптека доброго дня"
+      }
+    },
+    {
+      "displayName": "Аптека оптових цін",
+      "id": "88426c-996e17",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Аптека оптових цін",
+        "brand:wikidata": "Q117617038",
+        "healthcare": "pharmacy",
+        "name": "Аптека оптових цін"
+      }
+    },
+    {
+      "displayName": "Аптека от склада",
+      "id": "1ba1b8-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Аптека от склада",
+        "healthcare": "pharmacy",
+        "name": "Аптека от склада"
       }
     },
     {
@@ -2675,12 +3070,24 @@
       }
     },
     {
+      "displayName": "Аптэка",
+      "id": "d87cc2-c16414",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Аптэка",
+        "healthcare": "pharmacy",
+        "name": "Аптэка"
+      }
+    },
+    {
       "displayName": "Бажаємо здоров'я",
       "id": "5de2ba-996e17",
       "locationSet": {"include": ["ua"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Бажаємо здоров'я",
+        "brand:wikidata": "Q117404902",
         "healthcare": "pharmacy",
         "name": "Бажаємо здоров'я"
       }
@@ -2763,6 +3170,17 @@
         "brand": "Вита-Плюс",
         "healthcare": "pharmacy",
         "name": "Вита-Плюс"
+      }
+    },
+    {
+      "displayName": "Востраў здароўя",
+      "id": "d153ac-c16414",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Востраў здароўя",
+        "healthcare": "pharmacy",
+        "name": "Востраў здароўя"
       }
     },
     {
@@ -2870,6 +3288,17 @@
       }
     },
     {
+      "displayName": "Добрыя лекі",
+      "id": "8aaa94-c16414",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Добрыя лекі",
+        "healthcare": "pharmacy",
+        "name": "Добрыя лекі"
+      }
+    },
+    {
       "displayName": "Доктор Столетов",
       "id": "c0ed6e-288c27",
       "locationSet": {"include": ["ru"]},
@@ -2883,8 +3312,8 @@
     },
     {
       "displayName": "Дорухона",
-      "id": "fab026-f5140f",
-      "locationSet": {"include": ["001"]},
+      "id": "fab026-d55f65",
+      "locationSet": {"include": ["tj"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Дорухона",
@@ -2912,6 +3341,40 @@
         "brand": "Забота",
         "healthcare": "pharmacy",
         "name": "Забота"
+      }
+    },
+    {
+      "displayName": "Здесь аптека",
+      "id": "6cc117-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Здесь аптека",
+        "healthcare": "pharmacy",
+        "name": "Здесь аптека"
+      }
+    },
+    {
+      "displayName": "Здоров.ру",
+      "id": "c10ff1-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Здоров.ру",
+        "healthcare": "pharmacy",
+        "name": "Здоров.ру"
+      }
+    },
+    {
+      "displayName": "Здорова родина",
+      "id": "780176-996e17",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Здорова родина",
+        "brand:wikidata": "Q117706848",
+        "healthcare": "pharmacy",
+        "name": "Здорова родина"
       }
     },
     {
@@ -3058,6 +3521,7 @@
       "tags": {
         "amenity": "pharmacy",
         "brand": "Мед-сервіс",
+        "brand:wikidata": "Q117706878",
         "healthcare": "pharmacy",
         "name": "Мед-сервіс"
       }
@@ -3290,6 +3754,7 @@
       "tags": {
         "amenity": "pharmacy",
         "brand": "Подорожник",
+        "brand:wikidata": "Q117706903",
         "healthcare": "pharmacy",
         "name": "Подорожник"
       }
@@ -3344,6 +3809,20 @@
       }
     },
     {
+      "displayName": "Санита",
+      "id": "sanita-768624",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Санита",
+        "healthcare": "pharmacy",
+        "name": "Санита",
+        "name:en": "Sanita",
+        "operator": "Софарма Трейдинг",
+        "operator:wikidata": "Q117303338"
+      }
+    },
+    {
       "displayName": "Сбер Еаптека",
       "id": "ffbae9-288c27",
       "locationSet": {"include": ["ru"]},
@@ -3379,6 +3858,17 @@
       }
     },
     {
+      "displayName": "Социалочка",
+      "id": "3972be-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Социалочка",
+        "healthcare": "pharmacy",
+        "name": "Социалочка"
+      }
+    },
+    {
       "displayName": "Социальная аптека",
       "id": "a104a8-571ebe",
       "locationSet": {"include": ["ru", "ua"]},
@@ -3399,6 +3889,28 @@
         "brand:wikidata": "Q109717665",
         "healthcare": "pharmacy",
         "name": "Столички"
+      }
+    },
+    {
+      "displayName": "ТвояАптека.рф",
+      "id": "d2c207-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "ТвояАптека.рф",
+        "healthcare": "pharmacy",
+        "name": "ТвояАптека.рф"
+      }
+    },
+    {
+      "displayName": "Фармакон",
+      "id": "1dc086-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Фармакон",
+        "healthcare": "pharmacy",
+        "name": "Фармакон"
       }
     },
     {
@@ -3523,17 +4035,99 @@
       }
     },
     {
-      "displayName": "סופר-פארם",
-      "id": "bcdacd-b1ecfe",
+      "displayName": "ავერსი",
+      "id": "aversi-6b8b1e",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "ავერსი",
+        "brand:en": "Aversi",
+        "brand:ka": "ავერსი",
+        "brand:wikidata": "Q55653978",
+        "healthcare": "pharmacy",
+        "name": "ავერსი",
+        "name:en": "Aversi",
+        "name:ka": "ავერსი",
+        "name:ru": "Аверси"
+      }
+    },
+    {
+      "displayName": "პსპ",
+      "id": "psp-6b8b1e",
+      "locationSet": {"include": ["ge"]},
+      "matchNames": [
+        "psp pharmacy",
+        "პსპ აფთიაქი"
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "პსპ",
+        "brand:en": "PSP",
+        "brand:ka": "პსპ",
+        "brand:wikidata": "Q115970964",
+        "healthcare": "pharmacy",
+        "name": "პსპ",
+        "name:en": "PSP",
+        "name:ka": "პსპ"
+      }
+    },
+    {
+      "displayName": "ფარმადეპი",
+      "id": "38699f-6b8b1e",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "ფარმადეპი",
+        "healthcare": "pharmacy",
+        "name": "ფარმადეპი"
+      }
+    },
+    {
+      "displayName": "בית מרקחת כללית",
+      "id": "clalitpharmacy-b1ecfe",
       "locationSet": {"include": ["il"]},
       "tags": {
         "amenity": "pharmacy",
-        "brand": "סופר-פארם",
-        "brand:he": "סופר-פארם",
-        "brand:wikidata": "Q13220217",
+        "brand": "כללית",
+        "brand:en": "Clalit",
+        "brand:he": "כללית",
+        "brand:wikidata": "Q2028422",
         "healthcare": "pharmacy",
-        "name": "סופר-פארם",
-        "name:he": "סופר-פארם"
+        "name": "בית מרקחת כללית",
+        "name:en": "Clalit Pharmacy",
+        "name:he": "בית מרקחת כללית"
+      }
+    },
+    {
+      "displayName": "מאוחדת פארם",
+      "id": "meuhedetpharm-b1ecfe",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "מאוחדת פארם",
+        "brand:en": "Meuhedet Pharm",
+        "brand:he": "מאוחדת פארם",
+        "brand:wikidata": "Q117470179",
+        "healthcare": "pharmacy",
+        "name": "מאוחדת פארם",
+        "name:en": "Meuhedet Pharm",
+        "name:he": "מאוחדת פארם"
+      }
+    },
+    {
+      "displayName": "מכבי פארם",
+      "id": "macabipharm-b1ecfe",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "מכבי פארם",
+        "brand:en": "Macabi Pharm",
+        "brand:he": "מכבי פארם",
+        "brand:wikidata": "Q110739725",
+        "healthcare": "pharmacy",
+        "name": "מכבי פארם",
+        "name:en": "Macabi Pharm",
+        "name:he": "מכבי פארם"
       }
     },
     {
@@ -3554,33 +4148,34 @@
     },
     {
       "displayName": "アイン薬局",
-      "id": "ainpharmaciez-650eee",
+      "id": "ainpharmacy-650eee",
       "locationSet": {"include": ["jp"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "アイン薬局",
+        "brand:en": "Ain Pharmacy",
         "brand:ja": "アイン薬局",
         "brand:wikidata": "Q11282518",
         "healthcare": "pharmacy",
         "name": "アイン薬局",
-        "name:en": "Ain Pharmaciez",
+        "name:en": "Ain Pharmacy",
         "name:ja": "アイン薬局"
       }
     },
     {
       "displayName": "ウエルシア薬局",
-      "id": "welciayakkyoku-650eee",
+      "id": "welcia-650eee",
       "locationSet": {"include": ["jp"]},
-      "matchNames": ["ウエルシア", "ハックドラッグ"],
+      "matchNames": ["ウェルシア", "ウエルシア", "ハックドラッグ"],
       "tags": {
         "amenity": "pharmacy",
-        "brand": "ウエルシア薬局",
-        "brand:en": "Welcia Yakkyoku",
+        "brand": "welcia",
+        "brand:en": "welcia",
         "brand:ja": "ウエルシア薬局",
         "brand:wikidata": "Q11288687",
         "healthcare": "pharmacy",
         "name": "ウエルシア薬局",
-        "name:en": "Welcia Yakkyoku",
+        "name:en": "Welcia",
         "name:ja": "ウエルシア薬局"
       }
     },
@@ -3591,6 +4186,7 @@
       "tags": {
         "amenity": "pharmacy",
         "brand": "ウェルパーク",
+        "brand:en": "Welpark",
         "brand:ja": "ウェルパーク",
         "brand:wikidata": "Q11288610",
         "healthcare": "pharmacy",
@@ -3652,6 +4248,7 @@
       "displayName": "クオール",
       "id": "qol-650eee",
       "locationSet": {"include": ["jp"]},
+      "matchNames": ["クオール薬局"],
       "tags": {
         "amenity": "pharmacy",
         "brand": "クオール",
@@ -3697,35 +4294,38 @@
       }
     },
     {
-      "displayName": "クリエイト",
-      "id": "create-650eee",
-      "locationSet": {"include": ["jp"]},
-      "tags": {
-        "amenity": "pharmacy",
-        "brand": "クリエイト",
-        "brand:en": "Create",
-        "brand:ja": "クリエイト",
-        "brand:wikidata": "Q17215731",
-        "healthcare": "pharmacy",
-        "name": "クリエイト",
-        "name:en": "Create",
-        "name:ja": "クリエイト"
-      }
-    },
-    {
       "displayName": "クリエイトSD",
       "id": "createsd-650eee",
       "locationSet": {"include": ["jp"]},
+      "matchNames": ["クリエイト"],
       "tags": {
+        "alt_name": "薬CREATE",
+        "alt_name:ja": "薬クリエイト",
         "amenity": "pharmacy",
         "brand": "クリエイトSD",
-        "brand:en": "CreateSD",
+        "brand:en": "Create SD",
         "brand:ja": "クリエイトSD",
         "brand:wikidata": "Q11299163",
         "healthcare": "pharmacy",
         "name": "クリエイトSD",
-        "name:en": "CreateSD",
+        "name:en": "Create SD",
         "name:ja": "クリエイトSD"
+      }
+    },
+    {
+      "displayName": "クリエイト薬局",
+      "id": "createpharmacy-650eee",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "クリエイト薬局",
+        "brand:en": "Create Pharmacy",
+        "brand:ja": "クリエイト薬局",
+        "brand:wikidata": "Q115682176",
+        "healthcare": "pharmacy",
+        "name": "クリエイト薬局",
+        "name:en": "Create Pharmacy",
+        "name:ja": "クリエイト薬局"
       }
     },
     {
@@ -3770,6 +4370,7 @@
       "tags": {
         "amenity": "pharmacy",
         "brand": "さくら薬局",
+        "brand:en": "Sakura Pharmacy",
         "brand:ja": "さくら薬局",
         "brand:wikidata": "Q11299021",
         "healthcare": "pharmacy",
@@ -3780,19 +4381,20 @@
     },
     {
       "displayName": "サツドラ",
-      "id": "sapporodrugstore-650eee",
+      "id": "satudora-650eee",
       "locationSet": {"include": ["jp"]},
-      "matchNames": ["サッポロドラッグストアー"],
       "tags": {
-        "alt_name:en": "Satsudora",
+        "alt_name": "サッポロドラッグストアー",
+        "alt_name:en": "Sapporo Drug Store",
+        "alt_name:ja": "サッポロドラッグストアー",
         "amenity": "pharmacy",
         "brand": "サツドラ",
-        "brand:en": "Sapporo Drug Store",
+        "brand:en": "SATUDORA",
         "brand:ja": "サツドラ",
         "brand:wikidata": "Q11304804",
         "healthcare": "pharmacy",
         "name": "サツドラ",
-        "name:en": "Sapporo Drug Store",
+        "name:en": "Satudora",
         "name:ja": "サツドラ"
       }
     },
@@ -3940,14 +4542,17 @@
     },
     {
       "displayName": "なの花薬局",
-      "id": "b3e0b7-650eee",
+      "id": "nanohanapharmacy-650eee",
       "locationSet": {"include": ["jp"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "なの花薬局",
+        "brand:en": "Nanohana Pharmacy",
         "brand:ja": "なの花薬局",
+        "brand:wikidata": "Q115857179",
         "healthcare": "pharmacy",
         "name": "なの花薬局",
+        "name:en": "Nanohana Pharmacy",
         "name:ja": "なの花薬局"
       }
     },
@@ -3969,26 +4574,28 @@
     },
     {
       "displayName": "マツモトキヨシ",
-      "id": "matsukiyo-650eee",
+      "id": "matsumotokiyoshi-650eee",
       "locationSet": {"include": ["jp"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "マツモトキヨシ",
-        "brand:en": "Matsukiyo",
+        "brand:en": "Matsumoto Kiyoshi",
         "brand:ja": "マツモトキヨシ",
         "brand:wikidata": "Q8014776",
         "healthcare": "pharmacy",
         "name": "マツモトキヨシ",
-        "name:en": "Matsukiyo",
-        "name:ja": "マツモトキヨシ"
+        "name:en": "Matsumoto Kiyoshi",
+        "name:ja": "マツモトキヨシ",
+        "short_name": "マツキヨ",
+        "short_name:en": "Matsukiyo",
+        "short_name:ja": "マツキヨ"
       }
     },
     {
       "displayName": "丁丁藥局",
-      "id": "tintindrugstore-53e0d8",
-      "locationSet": {
-        "include": ["cn", "hk", "tw"]
-      },
+      "id": "tintindrugstore-9d8b4e",
+      "locationSet": {"include": ["tw"]},
+      "matchNames": ["丁丁連鎖藥妝"],
       "matchTags": ["shop/chemist"],
       "tags": {
         "amenity": "pharmacy",
@@ -4075,6 +4682,22 @@
       }
     },
     {
+      "displayName": "日本調剤",
+      "id": "nihonchouzai-650eee",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "日本調剤",
+        "brand:en": "Nihon Chouzai",
+        "brand:ja": "日本調剤",
+        "brand:wikidata": "Q11509159",
+        "healthcare": "pharmacy",
+        "name": "日本調剤",
+        "name:en": "Nihon Chouzai",
+        "name:ja": "日本調剤"
+      }
+    },
+    {
       "displayName": "杏林堂",
       "id": "kyorindo-650eee",
       "locationSet": {"include": ["jp"]},
@@ -4149,7 +4772,25 @@
         "brand:ja": "薬王堂",
         "brand:wikidata": "Q11622485",
         "healthcare": "pharmacy",
-        "name": "薬王堂"
+        "name": "薬王堂",
+        "name:en": "Yakuodo",
+        "name:ja": "薬王堂"
+      }
+    },
+    {
+      "displayName": "調剤薬局ツルハドラッグ",
+      "id": "pharmacytsuruha-650eee",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "ツルハドラッグ",
+        "brand:en": "Tsuruha",
+        "brand:ja": "ツルハドラッグ",
+        "brand:wikidata": "Q114891238",
+        "healthcare": "pharmacy",
+        "name": "調剤薬局ツルハドラッグ",
+        "name:en": "Pharmacy Tsuruha",
+        "name:ja": "調剤薬局ツルハドラッグ"
       }
     },
     {

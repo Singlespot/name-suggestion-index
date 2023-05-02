@@ -6,12 +6,70 @@
   },
   "items": [
     {
+      "displayName": "Brookfield Properties",
+      "id": "brookfieldproperties-58b77a",
+      "locationSet": {"include": ["001"]},
+      "matchNames": ["general growth properties"],
+      "tags": {
+        "operator": "Brookfield Properties",
+        "operator:wikidata": "Q4974584",
+        "shop": "mall"
+      }
+    },
+    {
+      "displayName": "CBL Properties",
+      "id": "cblproperties-da138d",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "operator": "CBL Properties",
+        "operator:wikidata": "Q5009135",
+        "shop": "mall"
+      }
+    },
+    {
+      "displayName": "Macerich",
+      "id": "macerich-da138d",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "operator": "Macerich",
+        "operator:wikidata": "Q6723256",
+        "shop": "mall"
+      }
+    },
+    {
       "displayName": "Simon Property Group",
       "id": "simonpropertygroup-58b77a",
       "locationSet": {"include": ["001"]},
       "tags": {
         "operator": "Simon Property Group",
         "operator:wikidata": "Q2287759",
+        "shop": "mall"
+      }
+    },
+    {
+      "displayName": "Unibail-Rodamco-Westfield",
+      "id": "unibailrodamcowestfield-1448a2",
+      "locationSet": {
+        "include": [
+          "at",
+          "be",
+          "cz",
+          "de",
+          "dk",
+          "es",
+          "fr",
+          "gb",
+          "it",
+          "nl",
+          "pl",
+          "se",
+          "sk",
+          "us"
+        ]
+      },
+      "tags": {
+        "operator": "Unibail-Rodamco-Westfield",
+        "operator:wikidata": "Q608518",
         "shop": "mall"
       }
     }

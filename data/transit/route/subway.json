@@ -44,7 +44,7 @@
       "tags": {
         "network": "BART",
         "network:wikidata": "Q610120",
-        "operator": "Bay Area Rapid Transit District",
+        "operator": "San Francisco Bay Area Rapid Transit District",
         "operator:wikidata": "Q4873922",
         "route": "subway"
       }
@@ -103,8 +103,10 @@
     },
     {
       "displayName": "Hamburger Verkehrsverbund",
-      "id": "hamburgerverkehrsverbund-447f34",
-      "locationSet": {"include": ["de"]},
+      "id": "hamburgerverkehrsverbund-59fd3b",
+      "locationSet": {
+        "include": ["de-hh.geojson"]
+      },
       "tags": {
         "network": "Hamburger Verkehrsverbund",
         "network:short": "HVV",
@@ -199,7 +201,7 @@
       "matchNames": ["ratp"],
       "tags": {
         "network": "Métro d'Alger",
-        "network:wikidata": "Q50716",
+        "network:wikidata": "Q728045",
         "operator": "RATP El Djazaïr",
         "route": "subway"
       }
@@ -323,8 +325,10 @@
     },
     {
       "displayName": "Münchner Verkehrs- und Tarifverbund",
-      "id": "munchnerverkehrsundtarifverbund-447f34",
-      "locationSet": {"include": ["de"]},
+      "id": "munchnerverkehrsundtarifverbund-a279e4",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "network": "Münchner Verkehrs- und Tarifverbund",
         "network:guid": "DE-BY-MVV",
@@ -382,6 +386,19 @@
       }
     },
     {
+      "displayName": "Pražské metro",
+      "id": "prazskemetro-68f608",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "network": "Pražské metro",
+        "network:wikidata": "Q190271",
+        "operator": "Dopravní podnik hl. m. Prahy",
+        "operator:short": "DPP",
+        "operator:wikidata": "Q381100",
+        "route": "subway"
+      }
+    },
+    {
       "displayName": "Rail Rotterdam",
       "id": "railrotterdam-a19aa3",
       "locationSet": {"include": ["nl"]},
@@ -390,6 +407,15 @@
         "network:wikidata": "Q108718112",
         "operator": "RET",
         "operator:wikidata": "Q839557",
+        "route": "subway"
+      }
+    },
+    {
+      "displayName": "Red Metropolitana de Movilidad",
+      "id": "redmetropolitanademovilidad-907487",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Red Metropolitana de Movilidad",
         "route": "subway"
       }
     },
@@ -564,18 +590,36 @@
       }
     },
     {
+      "displayName": "Translink (Canada)",
+      "id": "translink-a950af",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "network": "Translink",
+        "network:wikidata": "Q1142140",
+        "route": "subway"
+      }
+    },
+    {
       "displayName": "U-Bahn Wien",
-      "id": "ubahnwien-907487",
-      "locationSet": {"include": ["001"]},
+      "id": "ubahnwien-f59a21",
+      "locationSet": {"include": ["at"]},
       "tags": {
         "network": "U-Bahn Wien",
+        "network:wikidata": "Q209400",
+        "operator": "Wiener Linien",
+        "operator:wikidata": "Q668849",
         "route": "subway"
       }
     },
     {
       "displayName": "Verkehrsverbund Berlin-Brandenburg",
-      "id": "verkehrsverbundberlinbrandenburg-447f34",
-      "locationSet": {"include": ["de"]},
+      "id": "verkehrsverbundberlinbrandenburg-43cfaf",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-be.geojson"
+        ]
+      },
       "tags": {
         "network": "Verkehrsverbund Berlin-Brandenburg",
         "network:short": "VBB",
@@ -588,8 +632,10 @@
     },
     {
       "displayName": "Verkehrsverbund Großraum Nürnberg",
-      "id": "verkehrsverbundgrossraumnurnberg-447f34",
-      "locationSet": {"include": ["de"]},
+      "id": "verkehrsverbundgrossraumnurnberg-a279e4",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "network": "Verkehrsverbund Großraum Nürnberg",
         "network:short": "VGN",
@@ -602,8 +648,10 @@
     },
     {
       "displayName": "Verkehrsverbund Rhein-Ruhr",
-      "id": "verkehrsverbundrheinruhr-447f34",
-      "locationSet": {"include": ["de"]},
+      "id": "verkehrsverbundrheinruhr-921492",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "network": "Verkehrsverbund Rhein-Ruhr",
         "network:short": "VRR",
@@ -623,6 +671,15 @@
         "operator": "Washington Metropolitan Area Transit Authority",
         "operator:short": "WMATA",
         "operator:wikidata": "Q7972051",
+        "route": "subway"
+      }
+    },
+    {
+      "displayName": "Московский метрополитен",
+      "id": "87dd13-907487",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Московский метрополитен",
         "route": "subway"
       }
     },
@@ -689,6 +746,7 @@
       "displayName": "东莞轨道交通",
       "id": "dongguanrailtransit-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["东莞地铁"],
       "tags": {
         "network": "东莞轨道交通",
         "network:en": "Dongguan Rail Transit",
@@ -725,6 +783,7 @@
       "displayName": "兰州轨道交通",
       "id": "lanzhoumetro-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["兰州地铁"],
       "tags": {
         "network": "兰州轨道交通",
         "network:en": "Lanzhou Metro",
@@ -761,6 +820,7 @@
       "displayName": "南宁轨道交通",
       "id": "nanningrailtransit-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["南宁地铁"],
       "tags": {
         "network": "南宁轨道交通",
         "network:en": "Nanning Rail Transit",
@@ -797,6 +857,7 @@
       "displayName": "合肥轨道交通",
       "id": "hefeimetro-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["合肥地铁"],
       "tags": {
         "network": "合肥轨道交通",
         "network:en": "Hefei Metro",
@@ -881,6 +942,7 @@
       "displayName": "太原轨道交通",
       "id": "taiyuanmetro-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["太原地铁"],
       "tags": {
         "network": "太原轨道交通",
         "network:en": "TAIYUAN METRO",
@@ -893,6 +955,7 @@
       "displayName": "宁波轨道交通",
       "id": "ningborailtransit-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["宁波地铁"],
       "tags": {
         "network": "宁波轨道交通",
         "network:en": "Ningbo Rail Transit",
@@ -999,6 +1062,31 @@
       }
     },
     {
+      "displayName": "桃園捷運",
+      "id": "taoyuanmetro-f540f4",
+      "locationSet": {"include": ["tw"]},
+      "matchNames": ["桃捷"],
+      "tags": {
+        "network": "桃園捷運",
+        "network:en": "Taoyuan Metro",
+        "network:nan": "Thô-hn̂g Chia̍t-ūn",
+        "network:nan-HJ": "桃園捷運",
+        "network:nan-POJ": "Thô-hn̂g Chia̍t-ūn",
+        "network:nan-TL": "Thô-hn̂g Tsia̍t-ūn",
+        "network:wikidata": "Q7684358",
+        "network:zh": "桃園捷運",
+        "operator": "桃園大眾捷運股份有限公司",
+        "operator:en": "Taoyuan Metro Corporation",
+        "operator:nan": "Thô-hn̂g Tāi-chiòng Chia̍t-ūn Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-HJ": "桃園大眾捷運股份有限公司",
+        "operator:nan-POJ": "Thô-hn̂g Tāi-chiòng Chia̍t-ūn Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-TL": "Thô-hn̂g Tāi-tsiòng Tsia̍t-ūn Kóo-hūn Iú-hān Kong-si",
+        "operator:wikidata": "Q11111997",
+        "operator:zh": "桃園大眾捷運股份有限公司",
+        "route": "subway"
+      }
+    },
+    {
       "displayName": "武汉地铁",
       "id": "wuhanmetro-7a104d",
       "locationSet": {"include": ["cn"]},
@@ -1026,6 +1114,7 @@
       "displayName": "洛阳轨道交通",
       "id": "luoyangsubway-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["洛阳地铁"],
       "tags": {
         "network": "洛阳轨道交通",
         "network:en": "Luoyang Subway",
@@ -1062,6 +1151,7 @@
       "displayName": "温州轨道交通",
       "id": "wenzhoumetro-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["温州地铁"],
       "tags": {
         "network": "温州轨道交通",
         "network:en": "Wenzhou Metro",
@@ -1139,13 +1229,26 @@
       "displayName": "臺中捷運",
       "id": "taichungmassrapidtransit-f540f4",
       "locationSet": {"include": ["tw"]},
+      "matchNames": ["中捷", "台中捷運"],
       "tags": {
         "network": "臺中捷運",
         "network:en": "Taichung Mass Rapid Transit",
+        "network:nan": "Tâi-tiong Chia̍t-ūn",
+        "network:nan-HJ": "臺中捷運",
+        "network:nan-POJ": "Tâi-tiong Chia̍t-ūn",
+        "network:nan-TL": "Tâi-tiong Tsia̍t-ūn",
         "network:wikidata": "Q5972247",
         "network:zh": "臺中捷運",
         "network:zh-Hans": "台中捷运",
         "network:zh-Hant": "臺中捷運",
+        "operator": "臺中捷運公司",
+        "operator:en": "Taichung Metro Corporation",
+        "operator:nan": "Tâi-tiong Chia̍t-ūn Kong-si",
+        "operator:nan-HJ": "臺中捷運公司",
+        "operator:nan-POJ": "Tâi-tiong Chia̍t-ūn Kong-si",
+        "operator:nan-TL": "Tâi-tiong Tsia̍t-ūn Kong-si",
+        "operator:wikidata": "Q17370558",
+        "operator:zh": "臺中捷運公司",
         "route": "subway"
       }
     },
@@ -1153,11 +1256,24 @@
       "displayName": "臺北捷運",
       "id": "taipeimetro-f540f4",
       "locationSet": {"include": ["tw"]},
+      "matchNames": ["北捷", "台北捷運"],
       "tags": {
         "network": "臺北捷運",
         "network:en": "Taipei Metro",
+        "network:nan": "Tâi-pak Chia̍t-ūn",
+        "network:nan-HJ": "臺北捷運",
+        "network:nan-POJ": "Tâi-pak Chia̍t-ūn",
+        "network:nan-TL": "Tâi-pak Tsia̍t-ūn",
         "network:wikidata": "Q714810",
         "network:zh": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "operator:en": "Taipei Rapid Transit Corporation",
+        "operator:nan": "Tâi-pak Tāi-chiòng Chia̍t-ūn Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-HJ": "臺北大眾捷運股份有限公司",
+        "operator:nan-POJ": "Tâi-pak Tāi-chiòng Chia̍t-ūn Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-TL": "Tâi-pak Tāi-tsiòng Tsia̍t-ūn Kóo-hūn Iú-hān Kong-si",
+        "operator:wikidata": "Q11411921",
+        "operator:zh": "臺北大眾捷運股份有限公司",
         "route": "subway"
       }
     },
@@ -1165,6 +1281,7 @@
       "displayName": "苏州轨道交通",
       "id": "suzhourailtransit-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["苏州地铁"],
       "tags": {
         "network": "苏州轨道交通",
         "network:en": "Suzhou Rail Transit",
@@ -1189,6 +1306,7 @@
       "displayName": "贵阳轨道交通",
       "id": "guiyangmetro-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["贵阳地铁"],
       "tags": {
         "network": "贵阳轨道交通",
         "network:en": "Guiyang Metro",
@@ -1229,6 +1347,7 @@
       "displayName": "重庆轨道交通",
       "id": "chongqingrailtransit-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["重庆地铁"],
       "tags": {
         "network": "重庆轨道交通",
         "network:en": "Chongqing Rail Transit",
@@ -1241,6 +1360,7 @@
       "displayName": "长春轨道交通",
       "id": "changchunrailtransit-7a104d",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["长春地铁"],
       "tags": {
         "network": "长春轨道交通",
         "network:en": "Changchun Rail Transit",
@@ -1270,6 +1390,31 @@
         "network:en": "Qingdao Metro",
         "network:wikidata": "Q2620251",
         "network:zh": "青岛地铁",
+        "route": "subway"
+      }
+    },
+    {
+      "displayName": "高雄捷運",
+      "id": "kaohsiungmetro-f540f4",
+      "locationSet": {"include": ["tw"]},
+      "matchNames": ["高捷"],
+      "tags": {
+        "network": "高雄捷運",
+        "network:en": "Kaohsiung Metro",
+        "network:nan": "Ko-hiông Chia̍t-ūn",
+        "network:nan-HJ": "高雄捷運",
+        "network:nan-POJ": "Ko-hiông Chia̍t-ūn",
+        "network:nan-TL": "Ko-hiông Tsia̍t-ūn",
+        "network:wikidata": "Q700041",
+        "network:zh": "高雄捷運",
+        "operator": "高雄捷運股份有限公司",
+        "operator:en": "Kaohsiung Rapid Transit Corporation",
+        "operator:nan": "Ko-hiông Chia̍t-ūn Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-HJ": "高雄捷運股份有限公司",
+        "operator:nan-POJ": "Ko-hiông Chia̍t-ūn Kó͘-hūn Iú-hān Kong-si",
+        "operator:nan-TL": "Ko-hiông Tsia̍t-ūn Kóo-hūn Iú-hān Kong-si",
+        "operator:wikidata": "Q6366134",
+        "operator:zh": "高雄捷運股份有限公司",
         "route": "subway"
       }
     }

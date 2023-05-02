@@ -95,7 +95,7 @@
       "tags": {
         "network": "BART",
         "network:wikidata": "Q610120",
-        "operator": "Bay Area Rapid Transit District",
+        "operator": "San Francisco Bay Area Rapid Transit District",
         "operator:wikidata": "Q4873922",
         "route": "light_rail"
       }
@@ -200,6 +200,21 @@
       }
     },
     {
+      "displayName": "MBTA (Massachusetts)",
+      "id": "mbta-f871d7",
+      "locationSet": {
+        "include": [[-71, 42, 100]]
+      },
+      "matchNames": [
+        "massachusetts bay transportation authority"
+      ],
+      "tags": {
+        "network": "MBTA",
+        "network:wikidata": "Q171985",
+        "route": "light_rail"
+      }
+    },
+    {
       "displayName": "Metro de Palma",
       "id": "metrodepalma-7240fe",
       "locationSet": {"include": ["es"]},
@@ -265,6 +280,15 @@
         "network:wikidata": "Q1632001",
         "operator": "Metro Transit",
         "operator:wikidata": "Q4902339",
+        "route": "light_rail"
+      }
+    },
+    {
+      "displayName": "MHD Košice",
+      "id": "mhdkosice-e4081b",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "network": "MHD Košice",
         "route": "light_rail"
       }
     },
@@ -425,6 +449,30 @@
       }
     },
     {
+      "displayName": "Trambahía",
+      "id": "consorciometropolitanodetransportesdelabahiadecadiz-1fbc35",
+      "locationSet": {
+        "include": [[-6, 36.5, 60]]
+      },
+      "matchNames": [
+        "cádiz",
+        "cercanias cadiz",
+        "tranvia bahia",
+        "tren tranvía de la bahía de cádiz"
+      ],
+      "matchTags": ["route/train", "route/tram"],
+      "tags": {
+        "network": "Consorcio Metropolitano de Transportes de la Bahía de Cádiz",
+        "network:metro": "Trambahía",
+        "network:metro:wikidata": "Q6151804",
+        "network:short": "CMTBC",
+        "network:wikidata": "Q5784325",
+        "operator": "Renfe",
+        "operator:wikidata": "Q2476154",
+        "route": "light_rail"
+      }
+    },
+    {
       "displayName": "Verkehrs- und Tarifverbund Stuttgart",
       "id": "verkehrsundtarifverbundstuttgart-453eb8",
       "locationSet": {
@@ -435,6 +483,22 @@
         "network:guid": "DE-BW-VVS",
         "network:short": "VVS",
         "network:wikidata": "Q2516108",
+        "route": "light_rail"
+      }
+    },
+    {
+      "displayName": "Verkehrsverbund Berlin-Brandenburg",
+      "id": "verkehrsverbundberlinbrandenburg-2e0870",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-be.geojson"
+        ]
+      },
+      "tags": {
+        "network": "Verkehrsverbund Berlin-Brandenburg",
+        "network:short": "VBB",
+        "network:wikidata": "Q315451",
         "route": "light_rail"
       }
     },

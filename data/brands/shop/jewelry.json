@@ -20,6 +20,16 @@
       }
     },
     {
+      "displayName": "585 Золотой",
+      "id": "79c341-a038d2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "585 Золотой",
+        "name": "585 Золотой",
+        "shop": "jewelry"
+      }
+    },
+    {
       "displayName": "7 карат",
       "id": "a6c984-007daa",
       "locationSet": {"include": ["by"]},
@@ -63,6 +73,19 @@
       }
     },
     {
+      "displayName": "American Swiss",
+      "id": "americanswiss-45575e",
+      "locationSet": {
+        "include": ["bw", "ls", "na", "za", "zm"]
+      },
+      "tags": {
+        "brand": "American Swiss",
+        "brand:wikidata": "Q116430764",
+        "name": "American Swiss",
+        "shop": "jewelry"
+      }
+    },
+    {
       "displayName": "Angus and Coote",
       "id": "angusandcoote-0359a8",
       "locationSet": {"include": ["au"]},
@@ -81,6 +104,17 @@
         "brand": "Apart",
         "brand:wikidata": "Q11686561",
         "name": "Apart",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Aristocrazy",
+      "id": "aristocrazy-a038d2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Aristocrazy",
+        "brand:wikidata": "Q117802848",
+        "name": "Aristocrazy",
         "shop": "jewelry"
       }
     },
@@ -137,6 +171,17 @@
         "brand": "Ben Bridge",
         "brand:wikidata": "Q20708050",
         "name": "Ben Bridge",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Bevilles Jewellers",
+      "id": "bevillesjewellers-0359a8",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Bevilles Jewellers",
+        "brand:wikidata": "Q117837188",
+        "name": "Bevilles Jewellers",
         "shop": "jewelry"
       }
     },
@@ -306,6 +351,21 @@
       }
     },
     {
+      "displayName": "DR钻戒",
+      "id": "darryring-cb063c",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "brand": "DR钻戒",
+        "brand:en": "Darry Ring",
+        "brand:wikidata": "Q48919886",
+        "brand:zh": "DR钻戒",
+        "name": "DR钻戒",
+        "name:en": "Darry Ring",
+        "name:zh": "DR钻戒",
+        "shop": "jewelry"
+      }
+    },
+    {
       "displayName": "Ernest Jones",
       "id": "ernestjones-f07ca3",
       "locationSet": {"include": ["gb"]},
@@ -359,6 +419,17 @@
         "brand": "Goldsmiths",
         "brand:wikidata": "Q16993095",
         "name": "Goldsmiths",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Gorjana",
+      "id": "gorjana-70f101",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Gorjana",
+        "brand:wikidata": "Q115200885",
+        "name": "Gorjana",
         "shop": "jewelry"
       }
     },
@@ -793,12 +864,45 @@
       }
     },
     {
+      "displayName": "SOFIA",
+      "id": "sofia-584c2c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "SOFIA",
+        "brand:wikidata": "Q116885611",
+        "name": "SOFIA",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Sterns",
+      "id": "sterns-d5d8d2",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Sterns",
+        "brand:wikidata": "Q116430300",
+        "name": "Sterns",
+        "shop": "jewelry"
+      }
+    },
+    {
       "displayName": "Stroili Oro",
       "id": "stroilioro-60a080",
       "locationSet": {"include": ["it"]},
       "tags": {
         "brand": "Stroili Oro",
+        "brand:wikidata": "Q106611306",
         "name": "Stroili Oro",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Sunlight",
+      "id": "sunlight-a038d2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Sunlight",
+        "name": "Sunlight",
         "shop": "jewelry"
       }
     },
@@ -819,8 +923,10 @@
       "locationSet": {"include": ["in"]},
       "tags": {
         "brand": "Tanishq",
+        "brand:en": "Tanishq",
         "brand:wikidata": "Q13117711",
         "name": "Tanishq",
+        "name:en": "Tanishq",
         "shop": "jewelry"
       }
     },
@@ -856,6 +962,27 @@
         "brand": "Tous",
         "brand:wikidata": "Q3815128",
         "name": "Tous",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Valmano",
+      "id": "valmano-634c4f",
+      "locationSet": {
+        "include": [
+          "at",
+          "be",
+          "dk",
+          "fr",
+          "it",
+          "nl",
+          "se"
+        ]
+      },
+      "tags": {
+        "brand": "Valmano",
+        "brand:wikidata": "Q116151710",
+        "name": "Valmano",
         "shop": "jewelry"
       }
     },
@@ -968,6 +1095,7 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "brand": "Золотий вік",
+        "brand:wikidata": "Q113335928",
         "name": "Золотий вік",
         "shop": "jewelry"
       }
@@ -1037,29 +1165,29 @@
       },
       "tags": {
         "brand": "六福珠宝",
-        "brand:en": "LukFook Jewellery",
+        "brand:en": "Lukfook Jewellery",
         "brand:wikidata": "Q10893397",
         "brand:zh": "六福珠宝",
         "name": "六福珠宝",
-        "name:en": "LukFook Jewellery",
+        "name:en": "Lukfook Jewellery",
         "name:zh": "六福珠宝",
         "shop": "jewelry"
       }
     },
     {
-      "displayName": "六福珠寶 LukFook Jewellery",
+      "displayName": "六福珠寶 Lukfook Jewellery",
       "id": "lukfookjewellery-2f2ea0",
       "locationSet": {"include": ["hk", "mo"]},
       "matchNames": ["六福"],
       "tags": {
-        "brand": "六福珠寶 LukFook Jewellery",
-        "brand:en": "LukFook Jewellery",
+        "brand": "六福珠寶 Lukfook Jewellery",
+        "brand:en": "Lukfook Jewellery",
         "brand:wikidata": "Q10893397",
         "brand:zh": "六福珠寶",
         "brand:zh-Hans": "六福珠宝",
         "brand:zh-Hant": "六福珠寶",
-        "name": "六福珠寶 LukFook Jewellery",
-        "name:en": "LukFook Jewellery",
+        "name": "六福珠寶 Lukfook Jewellery",
+        "name:en": "Lukfook Jewellery",
         "name:zh": "六福珠寶",
         "name:zh-Hans": "六福珠宝",
         "name:zh-Hant": "六福珠寶",

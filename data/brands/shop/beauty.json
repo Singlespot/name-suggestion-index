@@ -31,6 +31,17 @@
       }
     },
     {
+      "displayName": "American Nails",
+      "id": "americannails-0c474f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "beauty": "nails",
+        "brand": "American Nails",
+        "name": "American Nails",
+        "shop": "beauty"
+      }
+    },
+    {
       "displayName": "Anthony Vincé Nail Spa",
       "id": "anthonyvincenailspa-cc0daa",
       "locationSet": {"include": ["us"]},
@@ -59,6 +70,16 @@
       }
     },
     {
+      "displayName": "Beauty Lounge",
+      "id": "beautylounge-0c474f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Beauty Lounge",
+        "name": "Beauty Lounge",
+        "shop": "beauty"
+      }
+    },
+    {
       "displayName": "Benefit Brow Bar",
       "id": "benefitbrowbar-cc0daa",
       "locationSet": {"include": ["us"]},
@@ -80,6 +101,18 @@
         "brand": "Body Minute",
         "brand:wikidata": "Q104972220",
         "name": "Body Minute",
+        "shop": "beauty"
+      }
+    },
+    {
+      "displayName": "Brow Art 23",
+      "id": "browart23-cc0daa",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "beauty": "skin_care;eyebrow;eyelash",
+        "brand": "Brow Art 23",
+        "brand:wikidata": "Q115675881",
+        "name": "Brow Art 23",
         "shop": "beauty"
       }
     },
@@ -132,10 +165,23 @@
       }
     },
     {
+      "displayName": "Depyl Action",
+      "id": "depylaction-69a669",
+      "locationSet": {"include": ["br", "ve"]},
+      "tags": {
+        "beauty": "hair_removal",
+        "brand": "Depyl Action",
+        "brand:wikidata": "Q115728327",
+        "name": "Depyl Action",
+        "shop": "beauty"
+      }
+    },
+    {
       "displayName": "Diamond Nails",
       "id": "diamondnails-0c474f",
       "locationSet": {"include": ["001"]},
       "tags": {
+        "beauty": "nails",
         "brand": "Diamond Nails",
         "name": "Diamond Nails",
         "shop": "beauty"
@@ -188,6 +234,26 @@
       }
     },
     {
+      "displayName": "Glamour",
+      "id": "glamour-0c474f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Glamour",
+        "name": "Glamour",
+        "shop": "beauty"
+      }
+    },
+    {
+      "displayName": "Guinot",
+      "id": "guinot-0c474f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Guinot",
+        "name": "Guinot",
+        "shop": "beauty"
+      }
+    },
+    {
       "displayName": "Indigo Sun",
       "id": "indigosun-b1b019",
       "locationSet": {"include": ["gb"]},
@@ -220,6 +286,7 @@
       "id": "magicnails-0c474f",
       "locationSet": {"include": ["001"]},
       "tags": {
+        "beauty": "nails",
         "brand": "Magic Nails",
         "name": "Magic Nails",
         "shop": "beauty"
@@ -458,6 +525,26 @@
       }
     },
     {
+      "displayName": "Персона",
+      "id": "a378c7-0c474f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Персона",
+        "name": "Персона",
+        "shop": "beauty"
+      }
+    },
+    {
+      "displayName": "Сахар",
+      "id": "580dc8-0c474f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Сахар",
+        "name": "Сахар",
+        "shop": "beauty"
+      }
+    },
+    {
       "displayName": "伊夫黎雪",
       "id": "yvesrocher-a8af93",
       "locationSet": {"include": ["cn"]},
@@ -475,8 +562,8 @@
     },
     {
       "displayName": "葉露芝",
-      "id": "yvesrocher-9f1489",
-      "locationSet": {"include": ["hk", "tw"]},
+      "id": "yvesrocher-502b93",
+      "locationSet": {"include": ["tw"]},
       "tags": {
         "beauty": "cosmetics",
         "brand": "葉露芝",
@@ -484,6 +571,22 @@
         "brand:wikidata": "Q28496595",
         "brand:zh": "葉露芝",
         "name": "葉露芝",
+        "name:en": "Yves Rocher",
+        "name:zh": "葉露芝",
+        "shop": "beauty"
+      }
+    },
+    {
+      "displayName": "葉露芝 Yves Rocher",
+      "id": "yvesrocher-1744e8",
+      "locationSet": {"include": ["hk"]},
+      "tags": {
+        "beauty": "cosmetics",
+        "brand": "葉露芝 Yves Rocher",
+        "brand:en": "Yves Rocher",
+        "brand:wikidata": "Q28496595",
+        "brand:zh": "葉露芝",
+        "name": "葉露芝 Yves Rocher",
         "name:en": "Yves Rocher",
         "name:zh": "葉露芝",
         "shop": "beauty"

@@ -39,6 +39,17 @@
       }
     },
     {
+      "displayName": "Dufoux Chocolats",
+      "id": "dufouxchocolats-c71a51",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Dufoux Chocolats",
+        "brand:wikidata": "Q115796729",
+        "name": "Dufoux Chocolats",
+        "shop": "chocolate"
+      }
+    },
+    {
       "displayName": "Fannie May",
       "id": "fanniemay-0e6ae0",
       "locationSet": {"include": ["us"]},
@@ -129,8 +140,19 @@
       }
     },
     {
+      "displayName": "Le Chocolat Alain Ducasse",
+      "id": "lechocolatalainducasse-b9aa99",
+      "locationSet": {"include": ["fr", "gb"]},
+      "tags": {
+        "brand": "Le Chocolat Alain Ducasse",
+        "brand:wikidata": "Q114374063",
+        "name": "Le Chocolat Alain Ducasse",
+        "shop": "chocolate"
+      }
+    },
+    {
       "displayName": "Leonidas",
-      "id": "leonidas-0e7f90",
+      "id": "leonidas-92a9fe",
       "locationSet": {
         "include": [
           "be",
@@ -138,7 +160,8 @@
           "fr",
           "gb",
           "gr",
-          "nl"
+          "nl",
+          "pt"
         ]
       },
       "tags": {
@@ -156,6 +179,17 @@
         "brand": "Lindt",
         "brand:wikidata": "Q152822",
         "name": "Lindt",
+        "shop": "chocolate"
+      }
+    },
+    {
+      "displayName": "Neuhaus",
+      "id": "neuhaus-109252",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "brand": "Neuhaus",
+        "brand:wikidata": "Q1813801",
+        "name": "Neuhaus",
         "shop": "chocolate"
       }
     },

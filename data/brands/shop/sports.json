@@ -94,6 +94,33 @@
       }
     },
     {
+      "displayName": "Arei Outdoor Gear",
+      "id": "areioutdoorgear-f9c896",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "brand": "Arei Outdoor Gear",
+        "brand:wikidata": "Q114343299",
+        "name": "Arei Outdoor Gear",
+        "shop": "sports"
+      }
+    },
+    {
+      "displayName": "Athletics",
+      "id": "athletics-d7f1c6",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "sportmaster",
+        "атлетікс",
+        "спортмастер"
+      ],
+      "tags": {
+        "brand": "Athletics",
+        "brand:wikidata": "Q116939413",
+        "name": "Athletics",
+        "shop": "sports"
+      }
+    },
+    {
       "displayName": "Big 5 Sporting Goods",
       "id": "big5sportinggoods-89ce6f",
       "locationSet": {"include": ["us"]},
@@ -144,10 +171,10 @@
     },
     {
       "displayName": "Decathlon",
-      "id": "decathlon-fd5f39",
+      "id": "decathlon-330f9d",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["hk"]
+        "exclude": ["bg", "hk", "ru", "ua"]
       },
       "tags": {
         "brand": "Decathlon",
@@ -360,7 +387,7 @@
     },
     {
       "displayName": "JD Sports",
-      "id": "jdsports-4957ee",
+      "id": "jdsports-b01dfc",
       "locationSet": {
         "include": [
           "au",
@@ -369,7 +396,8 @@
           "fr",
           "gb",
           "ie",
-          "nl"
+          "nl",
+          "pt"
         ]
       },
       "matchNames": ["jd"],
@@ -582,6 +610,7 @@
         "brand": "Runners Need",
         "brand:wikidata": "Q110549513",
         "name": "Runners Need",
+        "recycling:shoes": "yes",
         "shop": "sports",
         "sport": "running"
       }
@@ -618,6 +647,33 @@
         "brand": "Sport Chek",
         "brand:wikidata": "Q3494037",
         "name": "Sport Chek",
+        "shop": "sports"
+      }
+    },
+    {
+      "displayName": "Sport Vision",
+      "id": "sportvision-daf837",
+      "locationSet": {
+        "include": [
+          "al",
+          "ba",
+          "bg",
+          "cz",
+          "gr",
+          "hr",
+          "hu",
+          "me",
+          "mk",
+          "ro",
+          "rs",
+          "si",
+          "sk"
+        ]
+      },
+      "tags": {
+        "brand": "Sport Vision",
+        "brand:wikidata": "Q116729857",
+        "name": "Sport Vision",
         "shop": "sports"
       }
     },
@@ -668,8 +724,17 @@
     },
     {
       "displayName": "Sportisimo",
-      "id": "sportisimo-aa748e",
-      "locationSet": {"include": ["cz", "sk"]},
+      "id": "sportisimo-8183b2",
+      "locationSet": {
+        "include": [
+          "bg",
+          "cz",
+          "hr",
+          "hu",
+          "ro",
+          "sk"
+        ]
+      },
       "tags": {
         "brand": "Sportisimo",
         "brand:wikidata": "Q54974273",
@@ -719,6 +784,16 @@
         "brand": "SportScheck",
         "brand:wikidata": "Q3494037",
         "name": "SportScheck",
+        "shop": "sports"
+      }
+    },
+    {
+      "displayName": "SportXX",
+      "id": "sportxx-a8f48a",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "SportXX",
+        "name": "SportXX",
         "shop": "sports"
       }
     },
@@ -792,9 +867,9 @@
     },
     {
       "displayName": "Спортмастер",
-      "id": "sportmaster-6702cd",
+      "id": "sportmaster-1e138a",
       "locationSet": {
-        "include": ["by", "kz", "ru", "ua"]
+        "include": ["by", "kz", "ru"]
       },
       "matchNames": ["спортмастер гипер"],
       "tags": {

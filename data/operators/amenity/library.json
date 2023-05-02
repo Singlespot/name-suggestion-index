@@ -120,7 +120,9 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "amenity": "library",
-        "operator": "Biblionet Groningen"
+        "operator": "Biblionet Groningen",
+        "operator:type": "public",
+        "operator:wikidata": "Q59940713"
       }
     },
     {
@@ -129,7 +131,9 @@
       "locationSet": {"include": ["it"]},
       "tags": {
         "amenity": "library",
-        "operator": "Biblioteca Comunale di Trento"
+        "operator": "Biblioteca Comunale di Trento",
+        "operator:type": "public",
+        "operator:wikidata:": "Q59940713"
       }
     },
     {
@@ -183,7 +187,18 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "amenity": "library",
-        "operator": "Bibliotheek Den Haag"
+        "operator": "Bibliotheek Den Haag",
+        "operator:type": "public",
+        "operator:wikidata": "Q1861853"
+      }
+    },
+    {
+      "displayName": "Bibliotheek Rijn en Venen",
+      "id": "bibliotheekrijnenvenen-08efeb",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Bibliotheek Rijn en Venen"
       }
     },
     {
@@ -308,6 +323,17 @@
       }
     },
     {
+      "displayName": "Büchereien Wien",
+      "id": "buchereienwien-3f5de0",
+      "locationSet": {"include": ["at"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Büchereien Wien",
+        "operator:type": "government",
+        "operator:wikidata": "Q1020347"
+      }
+    },
+    {
       "displayName": "Calgary Public Library",
       "id": "calgarypubliclibrary-9e3799",
       "locationSet": {
@@ -319,6 +345,18 @@
         "operator:short": "CPL",
         "operator:type": "public",
         "operator:wikidata": "Q5019701"
+      }
+    },
+    {
+      "displayName": "Cardiff Council",
+      "id": "cardiffcouncil-e31f47",
+      "locationSet": {"include": ["gb-wls"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Cardiff Council",
+        "operator:cy": "Cyngor Caerdydd",
+        "operator:en": "Cardiff Council",
+        "operator:wikidata": "Q5038400"
       }
     },
     {
@@ -379,11 +417,16 @@
     },
     {
       "displayName": "City of Cape Town",
-      "id": "cityofcapetown-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofcapetown-80b0ad",
+      "locationSet": {"include": ["za"]},
       "tags": {
         "amenity": "library",
-        "operator": "City of Cape Town"
+        "operator": "City of Cape Town",
+        "operator:af": "Stad Kaapstad",
+        "operator:en": "City of Cape Town",
+        "operator:type": "government",
+        "operator:wikidata": "Q1185115",
+        "operator:xh": "IsiXeko saseKapa"
       }
     },
     {
@@ -475,7 +518,8 @@
       "locationSet": {"include": ["it"]},
       "tags": {
         "amenity": "library",
-        "operator": "Comune di Milano"
+        "operator": "Comune di Milano",
+        "operator:wikidata": "Q103903096"
       }
     },
     {
@@ -660,6 +704,19 @@
       }
     },
     {
+      "displayName": "Free Library of Philadelphia",
+      "id": "freelibraryofphiladelphia-5c5b2b",
+      "locationSet": {
+        "include": ["us-pa.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Free Library of Philadelphia",
+        "operator:type": "public",
+        "operator:wikidata": "Q3087288"
+      }
+    },
+    {
       "displayName": "Freie Universität Berlin",
       "id": "freieuniversitatberlin-8a11d2",
       "locationSet": {
@@ -667,7 +724,9 @@
       },
       "tags": {
         "amenity": "library",
-        "operator": "Freie Universität Berlin"
+        "operator": "Freie Universität Berlin",
+        "operator:type": "university",
+        "operator:wikidata": "Q2496344"
       }
     },
     {
@@ -710,6 +769,19 @@
       }
     },
     {
+      "displayName": "Harford County Public Library",
+      "id": "harfordcountypubliclibrary-1170f4",
+      "locationSet": {
+        "include": ["us-md.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Harford County Public Library",
+        "operator:type": "public",
+        "operator:wikidata": "Q69478565"
+      }
+    },
+    {
       "displayName": "Hawaii State Public Library System",
       "id": "hawaiistatepubliclibrarysystem-2f64e5",
       "locationSet": {"include": ["us-hi"]},
@@ -717,6 +789,7 @@
         "amenity": "library",
         "operator": "Hawaii State Public Library System",
         "operator:short": "HSPLS",
+        "operator:type": "public",
         "operator:wikidata": "Q5684409"
       }
     },
@@ -746,6 +819,20 @@
       }
     },
     {
+      "displayName": "Houston Public Library",
+      "id": "houstonpubliclibrary-24a277",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Houston Public Library",
+        "operator:short": "HPL",
+        "operator:type": "public",
+        "operator:wikidata": "Q69491594"
+      }
+    },
+    {
       "displayName": "Huron County Library",
       "id": "huroncountylibrary-b0fd6b",
       "locationSet": {
@@ -756,6 +843,16 @@
         "operator": "Huron County Library",
         "operator:type": "public",
         "operator:wikidata": "Q53677986"
+      }
+    },
+    {
+      "displayName": "İstanbul Büyükşehir Belediyesi",
+      "id": "istanbulbuyuksehirbelediyesi-80cd01",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "İstanbul Büyükşehir Belediyesi",
+        "operator:wikidata": "Q6085390"
       }
     },
     {
@@ -812,6 +909,19 @@
       }
     },
     {
+      "displayName": "Kent State University",
+      "id": "kentstateuniversity-db82b9",
+      "locationSet": {
+        "include": ["it", "us-oh.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Kent State University",
+        "operator:type": "university",
+        "operator:wikidata": "Q58241896"
+      }
+    },
+    {
       "displayName": "King County Library System",
       "id": "kingcountylibrarysystem-48ecdd",
       "locationSet": {
@@ -845,7 +955,10 @@
       "locationSet": {"include": ["sk"]},
       "tags": {
         "amenity": "library",
-        "operator": "Knižnica pre mládež mesta Košice"
+        "operator": "Knižnica pre mládež mesta Košice",
+        "operator:short": "KMK",
+        "operator:type": "public",
+        "operator:wikidata": "Q50737432"
       }
     },
     {
@@ -1023,7 +1136,8 @@
       "locationSet": {"include": ["si"]},
       "tags": {
         "amenity": "library",
-        "operator": "Mestna knjižnica Ljubljana"
+        "operator": "Mestna knjižnica Ljubljana",
+        "operator:wikidata": "Q12796386"
       }
     },
     {
@@ -1158,8 +1272,8 @@
     },
     {
       "displayName": "Municipalidad de Neuquén",
-      "id": "municipalidaddeneuquen-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "municipalidaddeneuquen-281b8f",
+      "locationSet": {"include": ["ar"]},
       "tags": {
         "amenity": "library",
         "operator": "Municipalidad de Neuquén"
@@ -1340,7 +1454,8 @@
       "locationSet": {"include": ["ch"]},
       "tags": {
         "amenity": "library",
-        "operator": "PBZ Pestalozzi-Bibliothek Zürich"
+        "operator": "PBZ Pestalozzi-Bibliothek Zürich",
+        "operator:wikidata": "Q2073008"
       }
     },
     {
@@ -1406,7 +1521,8 @@
       "tags": {
         "amenity": "library",
         "operator": "Purdue University",
-        "operator:type": "university"
+        "operator:type": "university",
+        "operator:wikidata": "Q58182521"
       }
     },
     {
@@ -1549,15 +1665,23 @@
       }
     },
     {
-      "displayName": "Somerset County Council",
-      "id": "somersetcountycouncil-0ac97c",
+      "displayName": "Somerset Council",
+      "id": "somersetcouncil-0ac97c",
       "locationSet": {
         "include": ["gb-som.geojson"]
       },
+      "matchNames": [
+        "mendip district council",
+        "sedgemoor district council",
+        "somerset county council",
+        "somerset west and taunton council",
+        "south somerset district council"
+      ],
       "tags": {
         "amenity": "library",
-        "operator": "Somerset County Council",
-        "operator:wikidata": "Q6386270"
+        "operator": "Somerset Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q110682463"
       }
     },
     {
@@ -1589,6 +1713,19 @@
       }
     },
     {
+      "displayName": "Stiftung Kornhausbibliotheken",
+      "id": "stiftungkornhausbibliotheken-4042dc",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Stiftung Kornhausbibliotheken",
+        "operator:short": "KOB",
+        "operator:type": "public",
+        "operator:wikidata": "Q1784554",
+        "ref:isil": "CH-002073-3"
+      }
+    },
+    {
       "displayName": "Toronto Public Library",
       "id": "torontopubliclibrary-b0fd6b",
       "locationSet": {
@@ -1604,8 +1741,8 @@
     },
     {
       "displayName": "Tulare County Library",
-      "id": "tularecountylibrary-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "tularecountylibrary-895178",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "amenity": "library",
         "operator": "Tulare County Library"
@@ -1909,8 +2046,8 @@
     },
     {
       "displayName": "МБУ межпоселенческая \"Центральная библиотека Приморского района\"",
-      "id": "cfe7c6-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "cfe7c6-5ddbe5",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "library",
         "operator": "МБУ межпоселенческая \"Центральная библиотека Приморского района\""
@@ -1918,8 +2055,8 @@
     },
     {
       "displayName": "МБУК \"Библиотеки Тольятти\"",
-      "id": "b7690e-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "b7690e-5ddbe5",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "library",
         "operator": "МБУК \"Библиотеки Тольятти\""
@@ -1927,17 +2064,26 @@
     },
     {
       "displayName": "МБУК \"Объединение детских библиотек\"",
-      "id": "d92d43-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "d92d43-5ddbe5",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "library",
         "operator": "МБУК \"Объединение детских библиотек\""
       }
     },
     {
+      "displayName": "МУК \"ЦБ Богородского ГО\"",
+      "id": "35eab1-5ddbe5",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "МУК \"ЦБ Богородского ГО\""
+      }
+    },
+    {
       "displayName": "МУК \"Централизованная библиотечная система\"",
-      "id": "b338ab-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "b338ab-5ddbe5",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "library",
         "operator": "МУК \"Централизованная библиотечная система\""
@@ -1950,6 +2096,15 @@
       "tags": {
         "amenity": "library",
         "operator": "СПб ГБУ «Невская ЦБС»"
+      }
+    },
+    {
+      "displayName": "Централизованная  библиотечная система  Красногвардейского района",
+      "id": "79a74c-5ddbe5",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Централизованная  библиотечная система  Красногвардейского района"
       }
     },
     {
@@ -1968,6 +2123,15 @@
       "tags": {
         "amenity": "library",
         "operator": "Централизованная библиотечная система Выборгского района"
+      }
+    },
+    {
+      "displayName": "Централизованная библиотечная система Фрунзенского района Санкт-Петербурга",
+      "id": "b8308f-5ddbe5",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Централизованная библиотечная система Фрунзенского района Санкт-Петербурга"
       }
     },
     {

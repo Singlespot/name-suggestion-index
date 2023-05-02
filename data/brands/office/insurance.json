@@ -55,8 +55,90 @@
     },
     {
       "displayName": "Allianz",
-      "id": "allianz-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "allianz-332499",
+      "locationSet": {
+        "include": [
+          "ae",
+          "ar",
+          "at",
+          "au",
+          "be",
+          "bg",
+          "bh",
+          "bm",
+          "bn",
+          "br",
+          "ca",
+          "cg",
+          "ch",
+          "ci",
+          "cm",
+          "cn",
+          "co",
+          "cy",
+          "cz",
+          "de",
+          "dk",
+          "ee",
+          "eg",
+          "es",
+          "fi",
+          "fr",
+          "gb",
+          "gf",
+          "gg",
+          "gh",
+          "gp",
+          "gr",
+          "hk",
+          "hr",
+          "hu",
+          "id",
+          "ie",
+          "in",
+          "is",
+          "it",
+          "ja",
+          "ke",
+          "kr",
+          "kw",
+          "la",
+          "li",
+          "lk",
+          "lt",
+          "lu",
+          "lv",
+          "ma",
+          "mg",
+          "mx",
+          "my",
+          "ng",
+          "nl",
+          "no",
+          "nz",
+          "om",
+          "ph",
+          "pk",
+          "pl",
+          "pt",
+          "qa",
+          "ro",
+          "ru",
+          "sa",
+          "se",
+          "sg",
+          "si",
+          "sk",
+          "sn",
+          "th",
+          "tr",
+          "tw",
+          "ua",
+          "us",
+          "za"
+        ]
+      },
+      "matchNames": ["allianz versicherung"],
       "tags": {
         "brand": "Allianz",
         "brand:wikidata": "Q487292",
@@ -156,8 +238,68 @@
     },
     {
       "displayName": "AXA",
-      "id": "axa-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "axa-2e7672",
+      "locationSet": {
+        "include": [
+          "ae",
+          "ar",
+          "au",
+          "be",
+          "bh",
+          "bm",
+          "br",
+          "ca",
+          "ch",
+          "ci",
+          "cl",
+          "cm",
+          "cn",
+          "co",
+          "cz",
+          "de",
+          "dk",
+          "dz",
+          "eg",
+          "es",
+          "fi",
+          "fr",
+          "ga",
+          "gb",
+          "gr",
+          "hk",
+          "id",
+          "ie",
+          "in",
+          "it",
+          "jp",
+          "kr",
+          "lb",
+          "lu",
+          "ma",
+          "mu",
+          "mx",
+          "my",
+          "ng",
+          "nl",
+          "no",
+          "om",
+          "pa",
+          "pe",
+          "ph",
+          "pl",
+          "pt",
+          "qa",
+          "sa",
+          "se",
+          "sg",
+          "sk",
+          "sn",
+          "th",
+          "tr",
+          "tw",
+          "us"
+        ]
+      },
       "tags": {
         "brand": "AXA",
         "brand:wikidata": "Q160054",
@@ -386,6 +528,21 @@
       }
     },
     {
+      "displayName": "Dôvera",
+      "id": "dovera-780b74",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": [
+        "dôvera zdravotná poisťovňa"
+      ],
+      "tags": {
+        "brand": "Dôvera",
+        "brand:wikidata": "Q77877753",
+        "insurance": "health",
+        "name": "Dôvera",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "ENSA",
       "id": "ensa-3c8773",
       "locationSet": {"include": ["ao"]},
@@ -398,8 +555,35 @@
     },
     {
       "displayName": "Ergo",
-      "id": "ergo-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "ergo-38191f",
+      "locationSet": {
+        "include": [
+          "at",
+          "be",
+          "ch",
+          "cn",
+          "cz",
+          "de",
+          "dk",
+          "ee",
+          "es",
+          "fr",
+          "gb",
+          "gr",
+          "hu",
+          "in",
+          "it",
+          "kr",
+          "lt",
+          "lu",
+          "lv",
+          "nl",
+          "pl",
+          "se",
+          "sg",
+          "th"
+        ]
+      },
       "matchNames": [
         "ergo direkt",
         "ergo direktversicherung",
@@ -514,8 +698,39 @@
     },
     {
       "displayName": "Generali",
-      "id": "generali-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "generali-cb13d1",
+      "locationSet": {
+        "include": [
+          "ar",
+          "at",
+          "bg",
+          "br",
+          "ch",
+          "cl",
+          "cn",
+          "cz",
+          "de",
+          "es",
+          "fr",
+          "gr",
+          "hr",
+          "hu",
+          "id",
+          "in",
+          "it",
+          "me",
+          "my",
+          "ph",
+          "pl",
+          "pt",
+          "ro",
+          "rs",
+          "si",
+          "sk",
+          "tr",
+          "vn"
+        ]
+      },
       "tags": {
         "brand": "Generali",
         "brand:wikidata": "Q670482",
@@ -569,8 +784,19 @@
     },
     {
       "displayName": "Groupama",
-      "id": "groupama-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "groupama-924bc9",
+      "locationSet": {
+        "include": [
+          "bg",
+          "cn",
+          "gr",
+          "hu",
+          "it",
+          "ro",
+          "sk",
+          "tr"
+        ]
+      },
       "matchTags": ["amenity/bank|groupama"],
       "tags": {
         "brand": "Groupama",
@@ -697,6 +923,17 @@
         "brand:wikidata": "Q1313465",
         "insurance": "health",
         "name": "Knappschaft",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "KOMUNÁLNA poisťovňa",
+      "id": "komunalnapoistovna-780b74",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "KOMUNÁLNA poisťovňa",
+        "brand:wikidata": "Q96129040",
+        "name": "KOMUNÁLNA poisťovňa",
         "office": "insurance"
       }
     },
@@ -904,6 +1141,18 @@
       }
     },
     {
+      "displayName": "NN",
+      "id": "nn-336e34",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "brand": "NN",
+        "brand:wikidata": "Q1834291",
+        "name": "NN",
+        "office": "insurance",
+        "official_name": "Nationale-Nederlanden"
+      }
+    },
+    {
       "displayName": "Nürnberger Versicherung",
       "id": "nurnberger-422e71",
       "locationSet": {"include": ["de"]},
@@ -1074,6 +1323,29 @@
       }
     },
     {
+      "displayName": "Sociálna poisťovňa",
+      "id": "socialnapoistovna-780b74",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Sociálna poisťovňa",
+        "brand:wikidata": "Q99976267",
+        "name": "Sociálna poisťovňa",
+        "office": "insurance",
+        "short_name": "SP"
+      }
+    },
+    {
+      "displayName": "STABILITA",
+      "id": "stabilita-780b74",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "STABILITA",
+        "brand:wikidata": "Q77877587",
+        "name": "STABILITA",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "State Farm",
       "id": "statefarm-6b1e37",
       "locationSet": {"include": ["us"]},
@@ -1109,8 +1381,18 @@
     },
     {
       "displayName": "Swiss Life",
-      "id": "swisslife-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "swisslife-aab9d2",
+      "locationSet": {
+        "include": [
+          "at",
+          "ch",
+          "cz",
+          "de",
+          "fr",
+          "gb",
+          "sk"
+        ]
+      },
       "tags": {
         "brand": "Swiss Life",
         "brand:wikidata": "Q667350",
@@ -1202,19 +1484,56 @@
       }
     },
     {
+      "displayName": "Union",
+      "id": "union-780b74",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": [
+        "union poisťovňa",
+        "union zdravotná poisťovňa"
+      ],
+      "tags": {
+        "brand": "Union",
+        "brand:wikidata": "Q42712112",
+        "name": "Union",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "UnipolSai",
-      "id": "unipolsai-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "unipolsai-7d926c",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "brand": "UnipolSai",
+        "brand:wikidata": "Q15734697",
         "name": "UnipolSai",
         "office": "insurance"
       }
     },
     {
       "displayName": "Uniqa",
-      "id": "uniqa-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "uniqa-dc7360",
+      "locationSet": {
+        "include": [
+          "al",
+          "at",
+          "ba",
+          "bg",
+          "ch",
+          "cz",
+          "hr",
+          "hu",
+          "li",
+          "me",
+          "mk",
+          "pl",
+          "ro",
+          "rs",
+          "ru",
+          "sk",
+          "ua",
+          "xk"
+        ]
+      },
       "tags": {
         "brand": "Uniqa",
         "brand:wikidata": "Q1022419",
@@ -1244,6 +1563,21 @@
       }
     },
     {
+      "displayName": "USG",
+      "id": "usg-43aba6",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "українська страхова група",
+        "усг"
+      ],
+      "tags": {
+        "brand": "USG",
+        "brand:wikidata": "Q56367294",
+        "name": "USG",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "VGH",
       "id": "vgh-422e71",
       "locationSet": {"include": ["de"]},
@@ -1264,6 +1598,19 @@
         "brand:wikidata": "Q11705079",
         "name": "VidaCaixa",
         "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Všeobecná zdravotná poisťovňa",
+      "id": "vseobecnazdravotnapoistovna-780b74",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Všeobecná zdravotná poisťovňa",
+        "brand:wikidata": "Q12779145",
+        "insurance": "health",
+        "name": "Všeobecná zdravotná poisťovňa",
+        "office": "insurance",
+        "short_name": "VšZP"
       }
     },
     {
@@ -1303,8 +1650,50 @@
     },
     {
       "displayName": "Zurich",
-      "id": "zurich-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "zurich-2d6c95",
+      "locationSet": {
+        "include": [
+          "ae",
+          "at",
+          "au",
+          "be",
+          "bh",
+          "br",
+          "ca",
+          "ch",
+          "cl",
+          "cn",
+          "co",
+          "de",
+          "ec",
+          "es",
+          "fi",
+          "fr",
+          "gb",
+          "hk",
+          "id",
+          "ie",
+          "it",
+          "ja",
+          "kw",
+          "lb",
+          "li",
+          "lu",
+          "mx",
+          "my",
+          "nl",
+          "no",
+          "nz",
+          "om",
+          "pt",
+          "qa",
+          "se",
+          "sg",
+          "sk",
+          "tr",
+          "us"
+        ]
+      },
       "tags": {
         "brand": "Zurich",
         "brand:wikidata": "Q230426",
@@ -1370,6 +1759,17 @@
       }
     },
     {
+      "displayName": "ДЗИ",
+      "id": "be0548-ef0911",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "ДЗИ",
+        "brand:wikidata": "Q5206996",
+        "name": "ДЗИ",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Ингосстрах",
       "id": "ingosstrakh-1dd572",
       "locationSet": {"include": ["ru"]},
@@ -1385,13 +1785,46 @@
       }
     },
     {
+      "displayName": "Капитал Life",
+      "id": "35e0a9-1dd572",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Капитал Life",
+        "brand:wikidata": "Q55659257",
+        "name": "Капитал Life",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Капитал Медицинское Страхование",
-      "id": "352df3-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "352df3-1dd572",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Капитал Медицинское Страхование",
         "brand:wikidata": "Q60967352",
         "name": "Капитал Медицинское Страхование",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Княжа",
+      "id": "7df9f6-43aba6",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "brand": "Княжа",
+        "brand:wikidata": "Q56367281",
+        "name": "Княжа",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "ОЗК",
+      "id": "1fa45d-ef0911",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "ОЗК",
+        "brand:wikidata": "Q115656899",
+        "name": "ОЗК",
         "office": "insurance"
       }
     },
@@ -1498,8 +1931,11 @@
     },
     {
       "displayName": "中国人寿保险",
-      "id": "chinalifeinsurance-07bd2d",
-      "locationSet": {"include": ["cn"]},
+      "id": "chinalifeinsurance-a9e4d2",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk"]
+      },
       "tags": {
         "alt_name": "中国人寿保险股份有限公司",
         "brand": "中国人寿保险",
@@ -1577,6 +2013,28 @@
         "name:zh": "中國人壽",
         "name:zh-Hans": "中国人寿",
         "name:zh-Hant": "中國人壽",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "中國人壽（海外） China Life Insurance (Overseas)",
+      "id": "chinalifeinsuranceoverseas-6b61cd",
+      "locationSet": {"include": ["hk"]},
+      "tags": {
+        "alt_name": "中國人壽保險（海外） China Life Insurance (Overseas)",
+        "alt_name:en": "China Life Insurance (Overseas)",
+        "alt_name:zh": "中國人壽保險（海外）",
+        "brand": "中國人壽（海外） China Life Insurance (Overseas)",
+        "brand:en": "China Life Insurance (Overseas)",
+        "brand:wikidata": "Q1073306",
+        "brand:zh": "中國人壽（海外）",
+        "brand:zh-Hans": "中国人寿（海外）",
+        "brand:zh-Hant": "中國人壽（海外）",
+        "name": "中國人壽（海外） China Life Insurance (Overseas)",
+        "name:en": "China Life Insurance (Overseas)",
+        "name:zh": "中國人壽（海外）",
+        "name:zh-Hans": "中国人寿（海外）",
+        "name:zh-Hant": "中國人壽（海外）",
         "office": "insurance"
       }
     },

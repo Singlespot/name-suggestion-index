@@ -38,6 +38,17 @@
       }
     },
     {
+      "displayName": "Baby City",
+      "id": "babycity-27991d",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Baby City",
+        "brand:wikidata": "Q116732888",
+        "name": "Baby City",
+        "shop": "baby_goods"
+      }
+    },
+    {
       "displayName": "baby-walz",
       "id": "babywalz-162756",
       "locationSet": {"include": ["de"]},
@@ -67,6 +78,17 @@
         "brand": "Buy Buy Baby",
         "brand:wikidata": "Q5003352",
         "name": "Buy Buy Baby",
+        "shop": "baby_goods"
+      }
+    },
+    {
+      "displayName": "Chicco",
+      "id": "chicco-0b3f29",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Chicco",
+        "brand:wikidata": "Q27897515",
+        "name": "Chicco",
         "shop": "baby_goods"
       }
     },
@@ -113,6 +135,26 @@
         "brand": "Natalys",
         "brand:wikidata": "Q3336439",
         "name": "Natalys",
+        "shop": "baby_goods"
+      }
+    },
+    {
+      "displayName": "Prénatal",
+      "id": "prenatal-5eb52b",
+      "locationSet": {
+        "include": [
+          "es",
+          "fr",
+          "gr",
+          "it",
+          "nl",
+          "pt"
+        ]
+      },
+      "tags": {
+        "brand": "Prénatal",
+        "brand:wikidata": "Q105961413",
+        "name": "Prénatal",
         "shop": "baby_goods"
       }
     },
@@ -178,33 +220,34 @@
       }
     },
     {
-      "displayName": "西松屋",
-      "id": "nishimatsuyachain-60a866",
+      "displayName": "アカチャンホンポ",
+      "id": "akachanhonpo-60a866",
       "locationSet": {"include": ["jp"]},
-      "matchTags": ["shop/clothes"],
       "tags": {
-        "brand": "西松屋",
-        "brand:en": "Nishimatsuya Chain",
-        "brand:ja": "西松屋",
-        "brand:wikidata": "Q11628761",
-        "name": "西松屋",
-        "name:en": "Nishimatsuya Chain",
-        "name:ja": "西松屋",
+        "alt_name": "赤ちゃん本舗",
+        "brand": "アカチャンホンポ",
+        "brand:en": "Akachan Honpo",
+        "brand:ja": "アカチャンホンポ",
+        "brand:wikidata": "Q11257015",
+        "name": "アカチャンホンポ",
+        "name:en": "Akachan Honpo",
+        "name:ja": "アカチャンホンポ",
         "shop": "baby_goods"
       }
     },
     {
-      "displayName": "赤ちゃん本舗",
-      "id": "akachanhonpo-60a866",
+      "displayName": "西松屋",
+      "id": "nishimatsuya-60a866",
       "locationSet": {"include": ["jp"]},
+      "matchTags": ["shop/clothes"],
       "tags": {
-        "brand": "赤ちゃん本舗",
-        "brand:en": "Akachan Honpo",
-        "brand:ja": "赤ちゃん本舗",
-        "brand:wikidata": "Q11257015",
-        "name": "赤ちゃん本舗",
-        "name:en": "Akachan Honpo",
-        "name:ja": "赤ちゃん本舗",
+        "brand": "西松屋",
+        "brand:en": "Nishimatsuya",
+        "brand:ja": "西松屋",
+        "brand:wikidata": "Q11628761",
+        "name": "西松屋",
+        "name:en": "Nishimatsuya",
+        "name:ja": "西松屋",
         "shop": "baby_goods"
       }
     }

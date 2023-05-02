@@ -1,6 +1,7 @@
 {
   "properties": {
     "path": "brands/amenity/parcel_locker",
+    "preserveTags": ["^name"],
     "exclude": {"generic": ["^parcel locker$"]}
   },
   "items": [
@@ -32,18 +33,16 @@
     },
     {
       "displayName": "Amazon Hub Locker",
-      "id": "amazonhublocker-f85b1f",
+      "id": "amazonhub-f85b1f",
       "locationSet": {
         "include": ["001"],
         "exclude": ["cn", "jp"]
       },
-      "matchNames": ["amazon", "amazon locker"],
-      "preserveTags": ["^name"],
+      "matchNames": ["amazon"],
       "tags": {
         "amenity": "parcel_locker",
         "brand": "Amazon Hub",
-        "brand:wikidata": "Q16974764",
-        "name": "Amazon Hub Locker"
+        "brand:wikidata": "Q100274430"
       }
     },
     {
@@ -60,10 +59,23 @@
         "brand": "Amazon Hub ロッカー",
         "brand:en": "Amazon Hub Locker",
         "brand:ja": "Amazon Hub ロッカー",
-        "brand:wikidata": "Q16974764",
+        "brand:wikidata": "Q100274430",
         "name": "Amazon Hub ロッカー",
         "name:en": "Amazon Hub Locker",
         "name:ja": "Amazon Hub ロッカー"
+      }
+    },
+    {
+      "displayName": "Amazon Locker",
+      "id": "amazonlocker-f85b1f",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "jp"]
+      },
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Amazon Locker",
+        "brand:wikidata": "Q16974764"
       }
     },
     {
@@ -75,6 +87,17 @@
         "brand": "Australia Post",
         "brand:wikidata": "Q1142936",
         "name": "Australia Post Parcel Locker"
+      }
+    },
+    {
+      "displayName": "automat przesyłkowy AliExpress",
+      "id": "aliexpress-ce4e28",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "AliExpress",
+        "brand:wikidata": "Q29904317",
+        "parcel_pickup": "yes"
       }
     },
     {
@@ -101,6 +124,36 @@
         "operator": "Česká pošta",
         "operator:wikidata": "Q341090",
         "parcel_mail_in": "yes"
+      }
+    },
+    {
+      "displayName": "BoxNow (Bulgaria)",
+      "id": "boxnow-8234c4",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "BoxNow",
+        "brand:wikidata": "Q117195372"
+      }
+    },
+    {
+      "displayName": "BoxNow (Croatia)",
+      "id": "boxnow-30ebd7",
+      "locationSet": {"include": ["hr"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "BoxNow",
+        "brand:wikidata": "Q117195375"
+      }
+    },
+    {
+      "displayName": "BoxNow (Greece)",
+      "id": "boxnow-510af3",
+      "locationSet": {"include": ["gr"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "BoxNow",
+        "brand:wikidata": "Q117195376"
       }
     },
     {
@@ -143,14 +196,30 @@
       }
     },
     {
+      "displayName": "DPD Pickup Station",
+      "id": "dpdpickupstation-ce4e28",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "DPD Pickup Station",
+        "brand:wikidata": "Q114273730",
+        "operator": "DPD",
+        "operator:wikidata": "Q541030",
+        "parcel_pickup": "yes"
+      }
+    },
+    {
       "displayName": "easybox",
-      "id": "easybox-ba4d23",
-      "locationSet": {"include": ["ro"]},
+      "id": "easybox-cd92a3",
+      "locationSet": {
+        "include": ["bg", "hu", "ro"]
+      },
       "tags": {
         "amenity": "parcel_locker",
         "brand": "easybox",
-        "operator": "eMag",
-        "operator:wikidata": "Q23827008"
+        "brand:wikidata": "Q114496224",
+        "operator": "Sameday",
+        "operator:wikidata": "Q114417096"
       }
     },
     {
@@ -160,7 +229,19 @@
       "matchNames": ["hermes", "hermes locker"],
       "tags": {
         "amenity": "parcel_locker",
-        "brand": "Evri"
+        "brand": "Evri",
+        "brand:wikidata": "Q115200168"
+      }
+    },
+    {
+      "displayName": "FANbox",
+      "id": "fanbox-ba4d23",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "FANbox",
+        "brand:wikidata": "Q115351090",
+        "name": "FANbox"
       }
     },
     {
@@ -198,6 +279,45 @@
       }
     },
     {
+      "displayName": "InPost",
+      "id": "inpost-6b37ec",
+      "locationSet": {
+        "include": [
+          "be",
+          "es",
+          "fr",
+          "it",
+          "lu",
+          "nl",
+          "pt",
+          "uk"
+        ]
+      },
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "InPost",
+        "brand:wikidata": "Q3182097",
+        "parcel_mail_in": "yes",
+        "parcel_pickup": "yes"
+      }
+    },
+    {
+      "displayName": "Instabox",
+      "id": "instabox-f97fed",
+      "locationSet": {
+        "include": ["de", "dk", "nl", "no", "se"]
+      },
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Instabox",
+        "brand:wikidata": "Q109923726",
+        "name": "Instabox",
+        "parcel_mail_in": "no",
+        "parcel_pickup": "yes"
+      }
+    },
+    {
       "displayName": "i郵箱",
       "id": "ibox-89f0e2",
       "locationSet": {"include": ["tw"]},
@@ -228,14 +348,44 @@
     },
     {
       "displayName": "Locker InPost",
-      "id": "lockerinpost-5fab02",
-      "locationSet": {"include": ["it", "uk"]},
+      "id": "lockerinpost-6a219a",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "amenity": "parcel_locker",
         "brand": "Locker InPost",
-        "brand:wikidata": "Q3182097",
-        "operator": "InPost",
-        "parcel_mail_in": "yes"
+        "name": "Locker InPost"
+      }
+    },
+    {
+      "displayName": "LockerPost",
+      "id": "lockerpost-6a219a",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "LockerPost",
+        "name": "LockerPost"
+      }
+    },
+    {
+      "displayName": "Magyar Posta Logisztika (MPL)",
+      "id": "magyarpostalogisztikampl-68603c",
+      "locationSet": {"include": ["hu"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Magyar Posta Logisztika (MPL)",
+        "name": "Magyar Posta Logisztika (MPL)"
+      }
+    },
+    {
+      "displayName": "Meest",
+      "id": "meest-7c151e",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["міст"],
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Meest",
+        "brand:wikidata": "Q25432124",
+        "name": "Meest"
       }
     },
     {
@@ -269,6 +419,30 @@
       }
     },
     {
+      "displayName": "Myflexbox",
+      "id": "myflexbox-4d2310",
+      "locationSet": {"include": ["at", "de"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Myflexbox",
+        "brand:wikidata": "Q117313525",
+        "parcel_mail_in": "yes",
+        "parcel_pickup": "yes"
+      }
+    },
+    {
+      "displayName": "Omniva",
+      "id": "omniva-49b665",
+      "locationSet": {"include": ["ee"]},
+      "matchNames": ["eesti post"],
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Omniva",
+        "brand:wikidata": "Q282457",
+        "name": "Omniva"
+      }
+    },
+    {
       "displayName": "Orlen Paczka",
       "id": "orlenpaczka-ce4e28",
       "locationSet": {"include": ["pl"]},
@@ -277,7 +451,8 @@
         "amenity": "parcel_locker",
         "brand": "Orlen Paczka",
         "brand:wikidata": "Q110457879",
-        "operator": "ORLEN S.A",
+        "operator": "Orlen",
+        "operator:wikidata": "Q110457879",
         "parcel_mail_in": "yes",
         "parcel_pickup": "yes"
       }
@@ -351,6 +526,16 @@
       }
     },
     {
+      "displayName": "Parcel shop - DExpress",
+      "id": "parcelshopdexpress-6a219a",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Parcel shop - DExpress",
+        "name": "Parcel shop - DExpress"
+      }
+    },
+    {
       "displayName": "PickPoint",
       "id": "pickpoint-c00268",
       "locationSet": {"include": ["ru"]},
@@ -414,6 +599,20 @@
         "operator": "Pošta Slovenije",
         "operator:wikidata": "Q6522631",
         "parcel_mail_in": "yes"
+      }
+    },
+    {
+      "displayName": "pudo",
+      "id": "pudo-6115c3",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "pudo",
+        "brand:wikidata": "Q116753323",
+        "operator": "The Courier Guy",
+        "operator:wikidata": "Q116753262",
+        "parcel_mail_in": "yes",
+        "parcel_pickup": "yes"
       }
     },
     {
@@ -491,6 +690,31 @@
       }
     },
     {
+      "displayName": "Казпочта",
+      "id": "c12bb7-a244bc",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Казпочта",
+        "brand:wikidata": "Q746263"
+      }
+    },
+    {
+      "displayName": "Нова Пошта",
+      "id": "novaposhta-7c151e",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Нова Пошта",
+        "brand:en": "Nova Poshta",
+        "brand:uk": "Нова Пошта",
+        "brand:wikidata": "Q12133863",
+        "name": "Нова Пошта",
+        "name:en": "Nova Poshta",
+        "name:uk": "Нова Пошта"
+      }
+    },
+    {
       "displayName": "ОмниСДЭК",
       "id": "omnicdek-c00268",
       "locationSet": {"include": ["ru"]},
@@ -503,6 +727,21 @@
         "name": "ОмниСДЭК",
         "name:en": "OmniCDEK",
         "name:ru": "ОмниСДЭК"
+      }
+    },
+    {
+      "displayName": "Почта России",
+      "id": "russianpost-c00268",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Почта России",
+        "brand:en": "Russian Post",
+        "brand:ru": "Почта России",
+        "brand:wikidata": "Q1502763",
+        "name": "Почта России",
+        "name:en": "Russian Post",
+        "name:ru": "Почта России"
       }
     },
     {
@@ -523,11 +762,11 @@
       "tags": {
         "amenity": "parcel_locker",
         "brand": "はこぽす",
-        "brand:en": "Hakopost",
+        "brand:en": "HAKO POST",
         "brand:ja": "はこぽす",
-        "brand:wikidata": "Q11509261",
+        "brand:wikidata": "Q117428085",
         "name": "はこぽす",
-        "name:en": "Hakopost",
+        "name:en": "Hako Post",
         "name:ja": "はこぽす"
       }
     },

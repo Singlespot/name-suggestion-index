@@ -7,7 +7,9 @@
         "^freiwillige feuerwehr$",
         "^straż pożarna$"
       ],
-      "named": ["^km psp|^zosp rp$"]
+      "named": [
+        "^km psp|ochotnicza straż pożarna|^zosp rp$"
+      ]
     }
   },
   "items": [
@@ -31,8 +33,8 @@
     },
     {
       "displayName": "Associação de Bombeiros Voluntários de Santa Catarina",
-      "id": "associacaodebombeirosvoluntariosdesantacatarina-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "associacaodebombeirosvoluntariosdesantacatarina-27cd4c",
+      "locationSet": {"include": ["br"]},
       "tags": {
         "amenity": "fire_station",
         "operator": "Associação de Bombeiros Voluntários de Santa Catarina"
@@ -83,6 +85,15 @@
       }
     },
     {
+      "displayName": "BCFD",
+      "id": "bcfd-92f26a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "BCFD"
+      }
+    },
+    {
       "displayName": "Bedfordshire Fire and Rescue Service",
       "id": "bedfordshirefireandrescueservice-61f16b",
       "locationSet": {
@@ -122,6 +133,16 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "Brandweer Twente"
+      }
+    },
+    {
+      "displayName": "Brandweerzone Centrum",
+      "id": "brandweerzonecentrum-17028f",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Brandweerzone Centrum",
+        "operator:wikidata": "Q16684024"
       }
     },
     {
@@ -363,11 +384,13 @@
     },
     {
       "displayName": "Corpo de Bombeiros Militar de Santa Catarina",
-      "id": "corpodebombeirosmilitardesantacatarina-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "corpodebombeirosmilitardesantacatarina-27cd4c",
+      "locationSet": {"include": ["br"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "Corpo de Bombeiros Militar de Santa Catarina"
+        "operator": "Corpo de Bombeiros Militar de Santa Catarina",
+        "operator:short": "CBMSC",
+        "operator:wikidata": "Q768967"
       }
     },
     {
@@ -473,9 +496,12 @@
     },
     {
       "displayName": "Devon and Somerset Fire and Rescue Service",
-      "id": "devonandsomersetfireandrescueservice-ab1fb5",
+      "id": "devonandsomersetfireandrescueservice-52c78e",
       "locationSet": {
-        "include": ["gb-south-west.geojson"]
+        "include": [
+          "gb-dev.geojson",
+          "gb-som.geojson"
+        ]
       },
       "tags": {
         "amenity": "fire_station",
@@ -484,10 +510,34 @@
       }
     },
     {
+      "displayName": "Dobrovoľná požiarna ochrana Slovenskej republiky",
+      "id": "dobrovolnapoziarnaochranaslovenskejrepubliky-e10424",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Dobrovoľná požiarna ochrana Slovenskej republiky",
+        "operator:short": "DPO SR",
+        "operator:wikidata": "Q116951678"
+      }
+    },
+    {
+      "displayName": "Donegal Fire Service",
+      "id": "donegalfireservice-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Donegal Fire Service"
+      }
+    },
+    {
       "displayName": "Dorset & Wiltshire Fire and Rescue Service",
-      "id": "dorsetandwiltshirefireandrescueservice-ab1fb5",
+      "id": "dorsetandwiltshirefireandrescueservice-1f1daa",
       "locationSet": {
-        "include": ["gb-south-west.geojson"]
+        "include": [
+          "gb-dor.geojson",
+          "gb-swd.geojson",
+          "gb-wil.geojson"
+        ]
       },
       "tags": {
         "amenity": "fire_station",
@@ -563,6 +613,21 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "Feuerwehr Kreisstadt Euskirchen"
+      }
+    },
+    {
+      "displayName": "Feuerwehr Saarbrücken",
+      "id": "feuerwehrsaarbrucken-3e15eb",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
+      "matchNames": [
+        "landeshauptstadt saarbrücken"
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Feuerwehr Saarbrücken",
+        "operator:wikidata": "Q1409909"
       }
     },
     {
@@ -674,6 +739,15 @@
       }
     },
     {
+      "displayName": "Gary Fire Department",
+      "id": "garyfiredepartment-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Gary Fire Department"
+      }
+    },
+    {
       "displayName": "Gemeinde Gnarrenburg",
       "id": "gemeindegnarrenburg-204ac7",
       "locationSet": {
@@ -747,6 +821,17 @@
         "amenity": "fire_station",
         "operator": "Hampshire & Isle of Wight Fire and Rescue Service",
         "operator:wikidata": "Q106317911"
+      }
+    },
+    {
+      "displayName": "Hasičský a záchranný zbor",
+      "id": "hasicskyazachrannyzbor-e10424",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Hasičský a záchranný zbor",
+        "operator:short": "HaZZ",
+        "operator:wikidata": "Q13417976"
       }
     },
     {
@@ -908,6 +993,17 @@
       }
     },
     {
+      "displayName": "Lafayette County Fire Department",
+      "id": "lafayettecountyfiredepartment-c14f55",
+      "locationSet": {
+        "include": ["us-ms.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Lafayette County Fire Department"
+      }
+    },
+    {
       "displayName": "Lancashire Fire and Rescue Service",
       "id": "lancashirefireandrescueservice-5355cf",
       "locationSet": {
@@ -929,6 +1025,17 @@
         "amenity": "fire_station",
         "operator": "Leicestershire Fire and Rescue Service",
         "operator:wikidata": "Q6427578"
+      }
+    },
+    {
+      "displayName": "Leon County Fire",
+      "id": "leoncountyfire-528b2f",
+      "locationSet": {
+        "include": ["us-fl.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Leon County Fire"
       }
     },
     {
@@ -1000,6 +1107,15 @@
       }
     },
     {
+      "displayName": "Mayo County Fire Service",
+      "id": "mayocountyfireservice-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Mayo County Fire Service"
+      }
+    },
+    {
       "displayName": "Merseyside Fire and Rescue Service",
       "id": "merseysidefireandrescueservice-5355cf",
       "locationSet": {
@@ -1056,6 +1172,7 @@
       "displayName": "Ministerstvo vnútra Slovenskej republiky",
       "id": "ministerstvovnutraslovenskejrepubliky-e10424",
       "locationSet": {"include": ["sk"]},
+      "matchNames": ["ministerstvo vnútra sr"],
       "tags": {
         "amenity": "fire_station",
         "operator": "Ministerstvo vnútra Slovenskej republiky"
@@ -2137,6 +2254,15 @@
       }
     },
     {
+      "displayName": "SDIS 46",
+      "id": "sdis46-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 46"
+      }
+    },
+    {
       "displayName": "SDIS 47",
       "id": "sdis47-b36844",
       "locationSet": {"include": ["fx"]},
@@ -2152,6 +2278,15 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "SDIS 48"
+      }
+    },
+    {
+      "displayName": "SDIS 49",
+      "id": "sdis49-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 49"
       }
     },
     {
@@ -2434,6 +2569,15 @@
       }
     },
     {
+      "displayName": "SDIS 84",
+      "id": "sdis84-b36844",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 84"
+      }
+    },
+    {
       "displayName": "SDIS 85",
       "id": "sdis85-b36844",
       "locationSet": {"include": ["fx"]},
@@ -2599,6 +2743,19 @@
       }
     },
     {
+      "displayName": "South Metro Fire Rescue",
+      "id": "southmetrofirerescue-631c9b",
+      "locationSet": {
+        "include": ["us-co.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "South Metro Fire Rescue",
+        "operator:short": "SMFR",
+        "operator:wikidata": "Q96406078"
+      }
+    },
+    {
       "displayName": "South Wales Fire and Rescue Service",
       "id": "southwalesfireandrescueservice-6e80d5",
       "locationSet": {"include": ["gb-wls"]},
@@ -2623,9 +2780,34 @@
       }
     },
     {
-      "displayName": "Springfield Fire Department",
-      "id": "springfieldfiredepartment-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Springfield Fire Department (Illinois)",
+      "id": "springfieldfiredepartment-67e5e3",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Springfield Fire Department"
+      }
+    },
+    {
+      "displayName": "Springfield Fire Department (Massachusetts)",
+      "id": "springfieldfiredepartment-905134",
+      "locationSet": {
+        "include": ["us-ma.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Springfield Fire Department",
+        "operator:wikidata": "Q20050605"
+      }
+    },
+    {
+      "displayName": "Springfield Fire Department (Missouri)",
+      "id": "springfieldfiredepartment-66adb9",
+      "locationSet": {
+        "include": ["us-mo.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Springfield Fire Department"
@@ -2652,6 +2834,15 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "Stadt Bremervörde"
+      }
+    },
+    {
+      "displayName": "Stadt Goslar",
+      "id": "stadtgoslar-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Stadt Goslar"
       }
     },
     {
@@ -2697,6 +2888,15 @@
         "amenity": "fire_station",
         "operator": "Stadt Jena",
         "operator:wikidata": "Q102218183"
+      }
+    },
+    {
+      "displayName": "Stadt Langelsheim",
+      "id": "stadtlangelsheim-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Stadt Langelsheim"
       }
     },
     {
@@ -2842,15 +3042,15 @@
       }
     },
     {
-      "displayName": "Tualatin Valley Fire and Rescue",
+      "displayName": "Tualatin Valley Fire & Rescue",
       "id": "tualatinvalleyfireandrescue-b9064d",
       "locationSet": {
         "include": ["us-or.geojson"]
       },
       "tags": {
         "amenity": "fire_station",
-        "operator": "Tualatin Valley Fire and Rescue",
-        "operator:short": "TVFR",
+        "operator": "Tualatin Valley Fire & Rescue",
+        "operator:short": "TVF&R",
         "operator:wikidata": "Q16902012"
       }
     },
@@ -2911,6 +3111,16 @@
         "amenity": "fire_station",
         "operator": "Vancouver Fire Department",
         "operator:wikidata": "Q17514285"
+      }
+    },
+    {
+      "displayName": "Veiligheidsregio Gelderland-Zuid",
+      "id": "veiligheidsregiogelderlandzuid-0004ee",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Veiligheidsregio Gelderland-Zuid",
+        "operator:wikidata": "Q3468248"
       }
     },
     {
@@ -3310,6 +3520,17 @@
       }
     },
     {
+      "displayName": "Verbandsgemeinde Vordereifel",
+      "id": "verbandsgemeindevordereifel-83d42d",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Verbandsgemeinde Vordereifel"
+      }
+    },
+    {
       "displayName": "Verbandsgemeinde Wittlich-Land",
       "id": "verbandsgemeindewittlichland-83d42d",
       "locationSet": {
@@ -3418,6 +3639,15 @@
       }
     },
     {
+      "displayName": "Πυροσβεστική Υπηρεσία",
+      "id": "c73a6c-67b14d",
+      "locationSet": {"include": ["cy"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Πυροσβεστική Υπηρεσία"
+      }
+    },
+    {
       "displayName": "ГКУ ПО \"Управление ОД в ЧС\"",
       "id": "ede306-ea0501",
       "locationSet": {"include": ["ru"]},
@@ -3439,6 +3669,7 @@
       "displayName": "Министерство на вътрешните работи",
       "id": "8bb510-1d8548",
       "locationSet": {"include": ["bg"]},
+      "matchNames": ["мвр"],
       "tags": {
         "amenity": "fire_station",
         "operator": "Министерство на вътрешните работи",
@@ -3729,6 +3960,21 @@
         "operator": "東京消防庁第八消防方面本部",
         "operator:en": "Tokyo Fire Department",
         "operator:wikidata": "Q1162928"
+      }
+    },
+    {
+      "displayName": "澳門消防局 Corpo de Bombeiros de Macau",
+      "id": "macaofireservicesbureau-2187d2",
+      "locationSet": {"include": ["mo"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "澳門消防局 Corpo de Bombeiros de Macau",
+        "operator:en": "Macao Fire Services Bureau",
+        "operator:pt": "Corpo de Bombeiros de Macau",
+        "operator:short:en": "FSM",
+        "operator:short:pt": "CB",
+        "operator:wikidata": "Q3133076",
+        "operator:zh": "澳門消防局"
       }
     },
     {

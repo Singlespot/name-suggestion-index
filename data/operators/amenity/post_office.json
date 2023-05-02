@@ -20,7 +20,7 @@
       ],
       "named": [
         "^(co-?op( food)?|(the )?co-?operative( food)?)$",
-        "^(costcutter|londis|mccoll'?s|one stop|premier( stores)?|spar|whsmith)$"
+        "^(costcutter|londis|mccoll'?s|one stop|premier( stores)?|royal mail|spar|whsmith)$"
       ]
     }
   },
@@ -203,21 +203,6 @@
       }
     },
     {
-      "displayName": "Correios",
-      "id": "correios-e82118",
-      "locationSet": {"include": ["br"]},
-      "matchNames": [
-        "ebct",
-        "ect",
-        "empresa brasileira de correios e telégrafos"
-      ],
-      "tags": {
-        "amenity": "post_office",
-        "operator": "Correios",
-        "operator:wikidata": "Q3375004"
-      }
-    },
-    {
       "displayName": "Correo Argentino",
       "id": "correoargentino-debce4",
       "locationSet": {"include": ["ar"]},
@@ -386,6 +371,15 @@
         "amenity": "post_office",
         "operator": "Emirates Post",
         "operator:wikidata": "Q5372577"
+      }
+    },
+    {
+      "displayName": "Envía",
+      "id": "envia-91a3cc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "post_office",
+        "operator": "Envía"
       }
     },
     {
@@ -657,22 +651,15 @@
       "displayName": "Meest",
       "id": "meest-970b0c",
       "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "meest express",
+        "міст експрес"
+      ],
       "tags": {
         "amenity": "post_office",
         "operator": "Meest",
         "operator:en": "Meest",
-        "operator:uk": "Міст"
-      }
-    },
-    {
-      "displayName": "Meest Express",
-      "id": "meestexpress-970b0c",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "amenity": "post_office",
-        "operator": "Meest Express",
-        "operator:en": "Meest Express",
-        "operator:uk": "Міст Експрес",
+        "operator:uk": "Міст",
         "operator:wikidata": "Q25432124"
       }
     },
@@ -749,15 +736,6 @@
         "operator": "Organización Coordinadora Argentina",
         "operator:wikidata": "Q5172887",
         "short_name": "OCA"
-      }
-    },
-    {
-      "displayName": "Orlen",
-      "id": "orlen-91a3cc",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "post_office",
-        "operator": "Orlen"
       }
     },
     {
@@ -1179,9 +1157,14 @@
       "displayName": "Vietnam Post",
       "id": "vietnampost-c0dded",
       "locationSet": {"include": ["vn"]},
+      "matchNames": [
+        "vietnam post corporation",
+        "vnpost"
+      ],
       "tags": {
         "amenity": "post_office",
-        "operator": "Vietnam Post"
+        "operator": "Vietnam Post",
+        "operator:wikidata": "Q112150791"
       }
     },
     {
@@ -1192,6 +1175,15 @@
         "amenity": "post_office",
         "operator": "Volg",
         "operator:wikidata": "Q2530746"
+      }
+    },
+    {
+      "displayName": "WH Smith",
+      "id": "whsmith-91a3cc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "post_office",
+        "operator": "WH Smith"
       }
     },
     {
@@ -1297,11 +1289,13 @@
     },
     {
       "displayName": "Делівері",
-      "id": "223604-970b0c",
+      "id": "delivery-970b0c",
       "locationSet": {"include": ["ua"]},
       "tags": {
         "amenity": "post_office",
-        "operator": "Делівері"
+        "operator": "Делівері",
+        "operator:en": "Delivery",
+        "operator:wikidata": "Q104092221"
       }
     },
     {
@@ -1334,16 +1328,6 @@
       "tags": {
         "amenity": "post_office",
         "operator": "Интернет-магазин Евроопт"
-      }
-    },
-    {
-      "displayName": "Ін-Тайм",
-      "id": "ba4b41-970b0c",
-      "locationSet": {"include": ["ua"]},
-      "tags": {
-        "amenity": "post_office",
-        "operator": "Ін-Тайм",
-        "operator:wikidata": "Q12074387"
       }
     },
     {
@@ -1535,7 +1519,9 @@
         "operator:en": "Japan Post",
         "operator:ja": "日本郵便",
         "operator:wikidata": "Q11509260",
-        "short_name:en": "JP"
+        "short_name": "郵便局",
+        "short_name:en": "JP",
+        "short_name:ja": "郵便局"
       }
     },
     {

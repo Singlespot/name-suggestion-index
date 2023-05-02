@@ -189,6 +189,19 @@
       }
     },
     {
+      "displayName": "Assyrian",
+      "id": "assyrian-e5dc93",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "flag:name": "Assyrian",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q1073859",
+        "man_made": "flagpole",
+        "subject": "Assyrian Nation",
+        "subject:wikidata": "Q746054"
+      }
+    },
+    {
       "displayName": "AT - Austria",
       "id": "austria-e5dc93",
       "locationSet": {"include": ["001"]},
@@ -218,10 +231,9 @@
     },
     {
       "displayName": "AU - Australian Aboriginal",
-      "id": "australianaboriginal-e5dc93",
-      "locationSet": {"include": ["001"]},
+      "id": "australianaboriginal-aec753",
+      "locationSet": {"include": ["au"]},
       "tags": {
-        "country": "AU",
         "flag:name": "Australian Aboriginal",
         "flag:type": "indigenous",
         "flag:wikidata": "Q1285625",
@@ -310,10 +322,9 @@
     },
     {
       "displayName": "AU - Torres Strait Islander",
-      "id": "torresstraitislander-e5dc93",
-      "locationSet": {"include": ["001"]},
+      "id": "torresstraitislander-aec753",
+      "locationSet": {"include": ["au"]},
       "tags": {
-        "country": "AU",
         "flag:name": "Torres Strait Islander",
         "flag:type": "indigenous",
         "flag:wikidata": "Q462621",
@@ -669,6 +680,20 @@
         "man_made": "flagpole",
         "subject": "Canada",
         "subject:wikidata": "Q16"
+      }
+    },
+    {
+      "displayName": "CA - International Association of Fire Fighters",
+      "id": "internationalassociationoffirefighters-64efac",
+      "locationSet": {"include": ["ca", "us"]},
+      "matchNames": ["iaff"],
+      "tags": {
+        "flag:name": "International Association of Fire Fighters",
+        "flag:type": "organisation",
+        "flag:wikidata": "Q116986686",
+        "man_made": "flagpole",
+        "subject": "International Association of Fire Fighters",
+        "subject:wikidata": "Q15220388"
       }
     },
     {
@@ -1738,7 +1763,7 @@
       "tags": {
         "flag:name": "Auvergne-Rhône-Alpes",
         "flag:type": "regional",
-        "flag:wikidata": "Q104816530",
+        "flag:wikidata": "Q60845891",
         "man_made": "flagpole",
         "subject": "Auvergne-Rhône-Alpes",
         "subject:wikidata": "Q18338206"
@@ -3490,7 +3515,21 @@
         "flag:type": "indigenous",
         "flag:wikidata": "Q98609686",
         "man_made": "flagpole",
+        "subject": "Tino Rangatiratanga",
         "subject:wikidata": "Q7808426"
+      }
+    },
+    {
+      "displayName": "NZ - United Tribes of New Zealand",
+      "id": "unitedtribesofnewzealand-f1c036",
+      "locationSet": {"include": ["nz"]},
+      "tags": {
+        "flag:name": "United Tribes of New Zealand",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q114243922",
+        "man_made": "flagpole",
+        "subject": "United Tribes of New Zealand",
+        "subject:wikidata": "Q7893618"
       }
     },
     {
@@ -3571,6 +3610,19 @@
         "man_made": "flagpole",
         "subject": "Papua New Guinea",
         "subject:wikidata": "Q691"
+      }
+    },
+    {
+      "displayName": "PH - Bangsamoro",
+      "id": "bangsamoro-54d211",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "flag:name": "Bangsamoro",
+        "flag:type": "regional",
+        "flag:wikidata": "Q74484535",
+        "man_made": "flagpole",
+        "subject": "Bangsamoro",
+        "subject:wikidata": "Q24869612"
       }
     },
     {
@@ -4506,6 +4558,50 @@
       }
     },
     {
+      "displayName": "US - Cherokee Nation",
+      "id": "cherokeenation-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "flag:colour": "orange",
+        "flag:name": "Cherokee Nation",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q5456858",
+        "man_made": "flagpole",
+        "subject": "Cherokee Nation",
+        "subject:wikidata": "Q14708404"
+      }
+    },
+    {
+      "displayName": "US - Chickasaw Nation",
+      "id": "chickasawnation-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["chicasaw"],
+      "tags": {
+        "flag:colour": "indigo",
+        "flag:name": "Chickasaw Nation",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q114643306",
+        "man_made": "flagpole",
+        "subject": "Chickasaw Nation",
+        "subject:wikidata": "Q3336808"
+      }
+    },
+    {
+      "displayName": "US - Choctaw Nation of Oklahoma",
+      "id": "choctawnationofoklahoma-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["choctaw", "choctaw nation"],
+      "tags": {
+        "flag:colour": "purple",
+        "flag:name": "Choctaw Nation of Oklahoma",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q114642869",
+        "man_made": "flagpole",
+        "subject": "Choctaw Nation of Oklahoma",
+        "subject:wikidata": "Q5103726"
+      }
+    },
+    {
       "displayName": "US - Colorado",
       "id": "colorado-85bb3f",
       "locationSet": {"include": ["us"]},
@@ -4811,6 +4907,25 @@
       }
     },
     {
+      "displayName": "US - Muscogee (Creek) Nation",
+      "id": "muscogeenation-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "creek",
+        "creek nation",
+        "muscogee"
+      ],
+      "tags": {
+        "flag:colour": "white",
+        "flag:name": "Muscogee Nation",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q114554335",
+        "man_made": "flagpole",
+        "subject": "Muscogee Nation",
+        "subject:wikidata": "Q6940348"
+      }
+    },
+    {
       "displayName": "US - Nebraska",
       "id": "nebraska-85bb3f",
       "locationSet": {"include": ["us"]},
@@ -4963,6 +5078,21 @@
       }
     },
     {
+      "displayName": "US - Pawnee Nation of Oklahoma",
+      "id": "pawneenationofoklahoma-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["pawnee", "pawnee nation"],
+      "tags": {
+        "flag:colour": "blue",
+        "flag:name": "Pawnee Nation of Oklahoma",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q114643616",
+        "man_made": "flagpole",
+        "subject": "Pawnee Nation of Oklahoma",
+        "subject:wikidata": "Q750947"
+      }
+    },
+    {
       "displayName": "US - Pennsylvania",
       "id": "pennsylvania-85bb3f",
       "locationSet": {"include": ["us"]},
@@ -4988,6 +5118,33 @@
         "man_made": "flagpole",
         "subject": "Rhode Island",
         "subject:wikidata": "Q1387"
+      }
+    },
+    {
+      "displayName": "US - Seminole Nation of Oklahoma",
+      "id": "seminolenationofoklahoma-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "flag:colour": "white",
+        "flag:name": "Seminole Nation of Oklahoma",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q114642332",
+        "man_made": "flagpole",
+        "subject": "Seminole Nation of Oklahoma",
+        "subject:wikidata": "Q7449528"
+      }
+    },
+    {
+      "displayName": "US - Seminole Tribe of Florda",
+      "id": "seminoletribeofflorida-85bb3f",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "flag:name": "Seminole Tribe of Florida",
+        "flag:type": "indigenous",
+        "flag:wikidata": "Q108837351",
+        "man_made": "flagpole",
+        "subject": "Seminole Tribe of Florida",
+        "subject:wikidata": "Q7449545"
       }
     },
     {
@@ -5476,7 +5633,7 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "flag:name": "Wiphala",
-        "flag:type": "cultural",
+        "flag:type": "indigenous",
         "flag:wikidata": "Q1193967",
         "man_made": "flagpole"
       }

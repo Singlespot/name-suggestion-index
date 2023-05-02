@@ -5,6 +5,17 @@
   },
   "items": [
     {
+      "displayName": "BANCO CASINO",
+      "id": "bancocasino-efca36",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "amenity": "casino",
+        "brand": "BANCO CASINO",
+        "brand:wikidata": "Q58555038",
+        "name": "BANCO CASINO"
+      }
+    },
+    {
       "displayName": "Codere",
       "id": "codere-3dfd07",
       "locationSet": {
@@ -34,6 +45,18 @@
         "brand": "Crown Resorts",
         "brand:wikidata": "Q1029724",
         "name": "Crown Resorts"
+      }
+    },
+    {
+      "displayName": "efbet",
+      "id": "efbet-cfc6fe",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "casino",
+        "brand": "efbet",
+        "brand:wikidata": "Q25484853",
+        "name": "efbet",
+        "name:bg": "ефбет"
       }
     },
     {
@@ -72,6 +95,17 @@
       }
     },
     {
+      "displayName": "inbet",
+      "id": "inbet-cfc6fe",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "casino",
+        "brand": "inbet",
+        "brand:wikidata": "Q114053810",
+        "name": "inbet"
+      }
+    },
+    {
       "displayName": "Jack's Casino",
       "id": "jackscasino-cf45c0",
       "locationSet": {"include": ["nl"]},
@@ -98,6 +132,37 @@
       }
     },
     {
+      "displayName": "Olympic Casino",
+      "id": "olympiccasino-7eadd8",
+      "locationSet": {
+        "include": [
+          "ee",
+          "it",
+          "lt",
+          "lv",
+          "mt",
+          "sk"
+        ]
+      },
+      "tags": {
+        "amenity": "casino",
+        "brand": "Olympic Casino",
+        "brand:wikidata": "Q11150186",
+        "name": "Olympic Casino"
+      }
+    },
+    {
+      "displayName": "Palms Bet",
+      "id": "palmsbet-cfc6fe",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "casino",
+        "brand": "Palms Bet",
+        "brand:wikidata": "Q114053870",
+        "name": "Palms Bet"
+      }
+    },
+    {
       "displayName": "Topsport",
       "id": "topsport-c593f4",
       "locationSet": {"include": ["lt"]},
@@ -106,6 +171,17 @@
         "brand": "Topsport",
         "brand:wikidata": "Q105343094",
         "name": "Topsport"
+      }
+    },
+    {
+      "displayName": "WinBet",
+      "id": "winbet-cfc6fe",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "casino",
+        "brand": "WinBet",
+        "brand:wikidata": "Q61140282",
+        "name": "WinBet"
       }
     }
   ]

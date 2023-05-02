@@ -27,6 +27,17 @@
       }
     },
     {
+      "displayName": "Audilab",
+      "id": "audilab-400e82",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Audilab",
+        "brand:wikidata": "Q117352010",
+        "name": "Audilab",
+        "shop": "hearing_aids"
+      }
+    },
+    {
       "displayName": "Audition Conseil",
       "id": "auditionconseil-28a4ee",
       "locationSet": {"include": ["fr"]},
@@ -34,6 +45,17 @@
         "brand": "Audition Conseil",
         "brand:wikidata": "Q104904635",
         "name": "Audition Conseil",
+        "shop": "hearing_aids"
+      }
+    },
+    {
+      "displayName": "Benoit Audition",
+      "id": "benoitaudition-28a4ee",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Benoit Audition",
+        "brand:wikidata": "Q114810641",
+        "name": "Benoit Audition",
         "shop": "hearing_aids"
       }
     },
@@ -166,6 +188,39 @@
         "brand": "Schoonenberg",
         "brand:wikidata": "Q109186345",
         "name": "Schoonenberg",
+        "shop": "hearing_aids"
+      }
+    },
+    {
+      "displayName": "Sonance Audition",
+      "id": "sonanceaudition-28a4ee",
+      "locationSet": {"include": ["fr"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Sonance Audition",
+        "brand:wikidata": "Q114932560",
+        "name": "Sonance Audition",
+        "shop": "hearing_aids"
+      }
+    },
+    {
+      "displayName": "Telex",
+      "id": "telex-ffc245",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "brand": "Telex",
+        "brand:wikidata": "Q116152360",
+        "name": "Telex",
+        "shop": "hearing_aids"
+      }
+    },
+    {
+      "displayName": "Van Boxtel hoorwinkel",
+      "id": "vanboxtelhoorwinkel-cec8b0",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "brand": "Van Boxtel hoorwinkel",
+        "name": "Van Boxtel hoorwinkel",
         "shop": "hearing_aids"
       }
     },

@@ -1,15 +1,20 @@
 {
   "_meta": {
-    "version": "6.0.20220913",
-    "generated": "2022-09-13T08:33:55.241Z",
+    "version": "6.0.20230501",
+    "generated": "2023-05-01T04:17:56.456Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/matchGroups.json",
-    "hash": "6f83b7e89ffccc4012405e86412c9e93"
+    "hash": "aeedef1c87f5305b02b32704931c8fa7"
   },
   "matchGroups": {
     "adult_gaming_centre": [
       "amenity/casino",
       "amenity/gambling",
       "leisure/adult_gaming_centre"
+    ],
+    "bar": [
+      "amenity/bar",
+      "amenity/pub",
+      "amenity/restaurant"
     ],
     "beauty": [
       "shop/beauty",
@@ -106,11 +111,9 @@
       "leisure/sports_center"
     ],
     "food": [
-      "amenity/bar",
       "amenity/cafe",
       "amenity/fast_food",
       "amenity/ice_cream",
-      "amenity/pub",
       "amenity/restaurant",
       "shop/bakery",
       "shop/candy",
@@ -222,7 +225,9 @@
       "amenity/truck_rental",
       "amenity/vehicle_rental",
       "shop/kiosk",
-      "shop/rental"
+      "shop/plant_hire",
+      "shop/rental",
+      "shop/tool_hire"
     ],
     "school": [
       "amenity/childcare",
@@ -249,6 +254,11 @@
       "shop/grocery",
       "shop/supermarket",
       "shop/wholesale"
+    ],
+    "thrift": [
+      "shop/charity",
+      "shop/clothes",
+      "shop/second_hand"
     ],
     "variety_store": [
       "shop/variety_store",

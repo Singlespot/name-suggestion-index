@@ -7,6 +7,18 @@
   },
   "items": [
     {
+      "displayName": "Asurion Tech Repair & Solutions",
+      "id": "asuriontechrepairandsolutions-592655",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Asurion Tech Repair & Solutions",
+        "brand:wikidata": "Q4811938",
+        "craft": "electronics_repair",
+        "electronics_repair": "computer;appliance;phone",
+        "name": "Asurion Tech Repair & Solutions"
+      }
+    },
+    {
       "displayName": "Cell Phone Repair",
       "id": "cellphonerepair-592655",
       "locationSet": {"include": ["us"]},
@@ -78,6 +90,21 @@
       }
     },
     {
+      "displayName": "PCexpres",
+      "id": "pcexpres-96c0e5",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": ["pc express"],
+      "tags": {
+        "brand": "PCexpres",
+        "brand:wikidata": "Q116867808",
+        "craft": "electronics_repair",
+        "electronics_repair": "computer;appliance;phone",
+        "name": "PCexpres",
+        "name:cs": "expres opravy",
+        "name:sk": "PCexpres"
+      }
+    },
+    {
       "displayName": "Repair Café",
       "id": "repaircafe-c874ce",
       "locationSet": {"include": ["001"]},
@@ -119,7 +146,7 @@
         "brand": "uBreakiFix",
         "brand:wikidata": "Q53685733",
         "craft": "electronics_repair",
-        "electronics_repair": "phone",
+        "electronics_repair": "computer;phone",
         "name": "uBreakiFix"
       }
     },

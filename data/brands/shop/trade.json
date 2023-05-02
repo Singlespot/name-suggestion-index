@@ -39,6 +39,52 @@
       }
     },
     {
+      "displayName": "American Roofing Supply",
+      "id": "americanroofingsupply-930674",
+      "locationSet": {
+        "include": [
+          "us-az.geojson",
+          "us-co.geojson",
+          "us-id.geojson",
+          "us-il.geojson",
+          "us-in.geojson",
+          "us-mn.geojson",
+          "us-nd.geojson",
+          "us-ne.geojson",
+          "us-sd.geojson",
+          "us-wi.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "American Roofing Supply",
+        "brand:wikidata": "Q114515313",
+        "name": "American Roofing Supply",
+        "shop": "trade",
+        "trade": "roofing"
+      }
+    },
+    {
+      "displayName": "Boyd CAT",
+      "id": "boydcat-d88071",
+      "locationSet": {
+        "include": [
+          "us-ky.geojson",
+          "us-oh.geojson"
+        ]
+      },
+      "matchNames": [
+        "walker machinery",
+        "whayne supply"
+      ],
+      "tags": {
+        "brand": "Boyd CAT",
+        "brand:wikidata": "Q115486292",
+        "name": "Boyd CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
       "displayName": "Bradfords Building Supplies",
       "id": "bradfordsbuildingsupplies-8a4d16",
       "locationSet": {"include": ["gb"]},
@@ -46,6 +92,32 @@
         "brand": "Bradfords Building Supplies",
         "brand:wikidata": "Q17986044",
         "name": "Bradfords Building Supplies",
+        "shop": "trade",
+        "trade": "building_supplies"
+      }
+    },
+    {
+      "displayName": "Builders FirstSource",
+      "id": "buildersfirstsource-4e950c",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Builders FirstSource",
+        "brand:wikidata": "Q27686100",
+        "name": "Builders FirstSource",
+        "shop": "trade",
+        "trade": "building_materials"
+      }
+    },
+    {
+      "displayName": "Builders Trade Depot",
+      "id": "builderstradedepot-c685bf",
+      "locationSet": {
+        "include": ["bw", "ke", "mz", "za", "zm"]
+      },
+      "tags": {
+        "brand": "Builders",
+        "brand:wikidata": "Q116819137",
+        "name": "Builders Trade Depot",
         "shop": "trade",
         "trade": "building_supplies"
       }
@@ -256,6 +328,33 @@
       }
     },
     {
+      "displayName": "Felbermayr",
+      "id": "felbermayr-26d55f",
+      "locationSet": {
+        "include": [
+          "at",
+          "ba",
+          "bg",
+          "cz",
+          "de",
+          "hr",
+          "hu",
+          "it",
+          "pl",
+          "ro",
+          "rs",
+          "sk"
+        ]
+      },
+      "tags": {
+        "brand": "Felbermayr",
+        "brand:wikidata": "Q19687619",
+        "name": "Felbermayr",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
       "displayName": "Finning CAT",
       "id": "finningcat-4e6583",
       "locationSet": {
@@ -422,6 +521,37 @@
       }
     },
     {
+      "displayName": "Louisiana CAT",
+      "id": "louisianacat-052d4d",
+      "locationSet": {
+        "include": ["us-la.geojson"]
+      },
+      "tags": {
+        "brand": "Louisiana CAT",
+        "brand:wikidata": "Q115486410",
+        "name": "Louisiana CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
+      "displayName": "MacAllister CAT",
+      "id": "macallistercat-d2d460",
+      "locationSet": {
+        "include": [
+          "us-in.geojson",
+          "us-mi.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "MacAllister CAT",
+        "brand:wikidata": "Q115486206",
+        "name": "MacAllister CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
       "displayName": "Maxbo",
       "id": "maxbo-db4f61",
       "locationSet": {"include": ["no"]},
@@ -449,6 +579,18 @@
       }
     },
     {
+      "displayName": "Middy's",
+      "id": "middys-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Middy's",
+        "brand:wikidata": "Q117157352",
+        "name": "Middy's",
+        "shop": "trade",
+        "trade": "electrical"
+      }
+    },
+    {
       "displayName": "Monter",
       "id": "monter-db4f61",
       "locationSet": {"include": ["no"]},
@@ -462,6 +604,18 @@
       }
     },
     {
+      "displayName": "Munch's Supply",
+      "id": "munchssupply-4e950c",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Munch's Supply",
+        "brand:wikidata": "Q117021522",
+        "name": "Munch's Supply",
+        "shop": "trade",
+        "trade": "hvac"
+      }
+    },
+    {
       "displayName": "Mustang CAT",
       "id": "mustangcat-f0929a",
       "locationSet": {
@@ -471,6 +625,20 @@
         "brand": "Mustang CAT",
         "brand:wikidata": "Q109619495",
         "name": "Mustang CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
+      "displayName": "N C Machinery",
+      "id": "ncmachinery-066ed1",
+      "locationSet": {
+        "include": ["us-ak", "us-wa.geojson"]
+      },
+      "tags": {
+        "brand": "N C Machinery",
+        "brand:wikidata": "Q115486535",
+        "name": "N C Machinery",
         "shop": "trade",
         "trade": "construction_equipment"
       }
@@ -516,6 +684,23 @@
         "name": "NorthEast Electrical",
         "shop": "trade",
         "trade": "building_supplies"
+      }
+    },
+    {
+      "displayName": "Ohio CAT",
+      "id": "ohiocat-d88071",
+      "locationSet": {
+        "include": [
+          "us-ky.geojson",
+          "us-oh.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Ohio CAT",
+        "brand:wikidata": "Q115486235",
+        "name": "Ohio CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
       }
     },
     {
@@ -586,6 +771,32 @@
       }
     },
     {
+      "displayName": "Plumbase",
+      "id": "plumbase-8a4d16",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Plumbase",
+        "brand:wikidata": "Q114349486",
+        "name": "Plumbase",
+        "shop": "trade",
+        "trade": "plumbing"
+      }
+    },
+    {
+      "displayName": "Puckett CAT",
+      "id": "puckettcat-868049",
+      "locationSet": {
+        "include": ["us-ms.geojson"]
+      },
+      "tags": {
+        "brand": "Puckett CAT",
+        "brand:wikidata": "Q115486402",
+        "name": "Puckett CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
       "displayName": "QED",
       "id": "qed-4e950c",
       "locationSet": {"include": ["us"]},
@@ -637,6 +848,126 @@
       }
     },
     {
+      "displayName": "Reece Actrol",
+      "id": "reeceactrol-b11955",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "Reece Actrol",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Actrol",
+        "shop": "trade",
+        "trade": "hvac"
+      }
+    },
+    {
+      "displayName": "Reece Bathroom Life",
+      "id": "reecebathroomlife-b11955",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "Reece Bathroom Life",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Bathroom Life",
+        "shop": "trade",
+        "trade": "bathroom"
+      }
+    },
+    {
+      "displayName": "Reece Civil",
+      "id": "reececivil-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Reece Civil",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Civil",
+        "shop": "trade",
+        "trade": "plumbing"
+      }
+    },
+    {
+      "displayName": "Reece Fire",
+      "id": "reecefire-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Reece Fire",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Fire",
+        "shop": "trade",
+        "trade": "fire_protection"
+      }
+    },
+    {
+      "displayName": "Reece HVAC-R",
+      "id": "reecehvacr-b11955",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "Reece HVAC-R",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece HVAC-R",
+        "shop": "trade",
+        "trade": "hvac"
+      }
+    },
+    {
+      "displayName": "Reece Irrigation & Pools",
+      "id": "reeceirrigationandpools-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Reece Irrigation & Pools",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Irrigation & Pools",
+        "shop": "trade",
+        "trade": "irrigation;swimming_pool_supplies"
+      }
+    },
+    {
+      "displayName": "Reece Onsite",
+      "id": "reeceonsite-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Reece Onsite",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Onsite",
+        "shop": "trade",
+        "trade": "plumbing"
+      }
+    },
+    {
+      "displayName": "Reece Pipeline Supplies",
+      "id": "reecepipelinesupplies-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Reece Pipeline Supplies",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Pipeline Supplies",
+        "shop": "trade",
+        "trade": "fire_protection;hvac;plumbing"
+      }
+    },
+    {
+      "displayName": "Reece Plumbing Centre",
+      "id": "reeceplumbingcentre-b11955",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "brand": "Reece Plumbing Centre",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Plumbing Centre",
+        "shop": "trade",
+        "trade": "plumbing"
+      }
+    },
+    {
+      "displayName": "Reece Viadux",
+      "id": "reeceviadux-0432d4",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Reece Viadux",
+        "brand:wikidata": "Q29025524",
+        "name": "Reece Viadux",
+        "shop": "trade",
+        "trade": "plumbing"
+      }
+    },
+    {
       "displayName": "RGB Building Supplies",
       "id": "rgbbuildingsupplies-8a4d16",
       "locationSet": {"include": ["gb"]},
@@ -671,6 +1002,26 @@
       }
     },
     {
+      "displayName": "RP Lumber",
+      "id": "rplumber-ab5d0f",
+      "locationSet": {
+        "include": [
+          "us-ia.geojson",
+          "us-il.geojson",
+          "us-mo.geojson",
+          "us-wi.geojson",
+          "us-wy.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "RP Lumber",
+        "brand:wikidata": "Q116671972",
+        "name": "RP Lumber",
+        "shop": "trade",
+        "trade": "building_supplies"
+      }
+    },
+    {
       "displayName": "Selco Builders Warehouse",
       "id": "selcobuilderswarehouse-8a4d16",
       "locationSet": {"include": ["gb"]},
@@ -701,6 +1052,52 @@
       }
     },
     {
+      "displayName": "Supa-Roof",
+      "id": "suparoof-c60415",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Supa-Roof",
+        "brand:wikidata": "Q116474839",
+        "name": "Supa-Roof",
+        "shop": "trade",
+        "trade": "roofing"
+      }
+    },
+    {
+      "displayName": "Thompson CAT (Thompson Machinery)",
+      "id": "thompsoncat-82599d",
+      "locationSet": {
+        "include": [
+          "us-mi.geojson",
+          "us-tn.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Thompson CAT",
+        "brand:wikidata": "Q115486334",
+        "name": "Thompson CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
+      "displayName": "Thompson CAT (Thompson Tractor)",
+      "id": "thompsoncat-386127",
+      "locationSet": {
+        "include": [
+          "us-al.geojson",
+          "us-fl.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Thompson CAT",
+        "brand:wikidata": "Q115486339",
+        "name": "Thompson CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
       "displayName": "Toromont CAT",
       "id": "toromontcat-321e1f",
       "locationSet": {
@@ -721,6 +1118,36 @@
         "name": "Toromont CAT",
         "shop": "trade",
         "trade": "construction_equipment"
+      }
+    },
+    {
+      "displayName": "Tractor & Equipment Co.",
+      "id": "tractorandequipmentco-10c19f",
+      "locationSet": {
+        "include": [
+          "us-mt.geojson",
+          "us-nd.geojson",
+          "us-wy.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Tractor & Equipment Co.",
+        "brand:wikidata": "Q115486509",
+        "name": "Tractor & Equipment Co.",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
+      "displayName": "TradePoint",
+      "id": "tradepoint-8a4d16",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "TradePoint",
+        "brand:wikidata": "Q115211017",
+        "name": "TradePoint",
+        "shop": "trade",
+        "trade": "building_supplies"
       }
     },
     {
@@ -856,6 +1283,20 @@
       }
     },
     {
+      "displayName": "Wyoming Equipment Company",
+      "id": "wyomingequipmentcompany-5a0680",
+      "locationSet": {
+        "include": ["us-wy.geojson"]
+      },
+      "tags": {
+        "brand": "Wyoming Equipment Company",
+        "brand:wikidata": "Q115486618",
+        "name": "Wyoming Equipment Company",
+        "shop": "trade",
+        "trade": "construction_equipment"
+      }
+    },
+    {
       "displayName": "XL-Bygg",
       "id": "xlbygg-14590b",
       "locationSet": {"include": ["no", "se"]},
@@ -866,6 +1307,18 @@
         "brand:wikidata": "Q10720798",
         "shop": "trade",
         "trade": "building_supplies"
+      }
+    },
+    {
+      "displayName": "Zeppelin CAT",
+      "id": "zeppelincat-a5bd5b",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Zeppelin CAT",
+        "brand:wikidata": "Q77876778",
+        "name": "Zeppelin CAT",
+        "shop": "trade",
+        "trade": "construction_equipment"
       }
     },
     {
